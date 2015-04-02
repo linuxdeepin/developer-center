@@ -16,7 +16,7 @@ DO NOT Delete Meta Above -->
 ### 1 获取文档仓库
 
 ````
-git clone git@github.com:Iceyer/docs.iceyer.net.git deepin-docs
+git clone git@github.com:linuxdeepin/docs.deepin.io.git deepin-docs
 ````
 
 ### 2 添加新页面
@@ -31,8 +31,8 @@ new.py 接受3个参数， 分别为文档的分类目录，文档标题，以�
 
 ````markdown
 <!--Meta
-category:文档服务
-title:编写指南
+category:桌面开发
+title:Widget Developer
 DO NOT Delete Meta Above -->
 ````
 
