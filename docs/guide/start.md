@@ -42,4 +42,15 @@ DO NOT Delete Meta Above -->
 
 ### 4 提交页面
 
-修改完毕后，请直接push到master分支即可。
+提交前，请先执行./build.py, 检查页面是否正确编写。
+
+````
+$ ./build.py 
+Genarator mkdocs.yml
+('Add:', u"    - ['index.md', '\u9996\u9875', '']")
+('Add:', u"    - ['guide/start.md', '\u6587\u6863\u670d\u52a1', '\u7f16\u5199\u6307\u5357']")
+('Add:', u"    - ['api/rest.md', 'DeepinID', '\u63a5\u53e3\u8bbe\u8ba1']")
+('Add:', u"    - ['api/oauth2.md', 'DeepinID', 'OAuth2\u63a5\u53e3']")
+````
+
+build.py执行成功后，直接push到master分支即可。docs.deepin.io会在接受到github的推送消息后更新文档。

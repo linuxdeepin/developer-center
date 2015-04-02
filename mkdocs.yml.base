@@ -3,7 +3,7 @@ site_url: https://docs.deepin.io/
 
 #theme: readthedocs
 theme_dir: theme/dmkdocs
-repo_url: https://github.com/linuxdeepin/docs.deepin.io 
+repo_url: https://github.com/linuxdeepin/docs.deepin.io/
 
 #include_search: true
 

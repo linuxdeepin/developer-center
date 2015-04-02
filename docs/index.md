@@ -10,6 +10,11 @@ DO NOT Delete Meta Above-->
 		<li><a href="guide/start">编写指南</a></li>
 	</ul>
 	</div>
+<div class="section section-api">	<h3>公共服务<h3>
+	<ul class="list-unstyled">
+		<li><a href="public-servie/deepin-bucket">Deepin Bucket</a></li>
+	</ul>
+	</div>
 <div class="section section-api">	<h3>DeepinID<h3>
 	<ul class="list-unstyled">
 		<li><a href="api/rest">接口设计</a></li>
