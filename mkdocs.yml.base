@@ -1,0 +1,12 @@
+site_name: 深度开发文档
+site_url: http://docs.deepin.io/
+
+#theme: readthedocs
+theme_dir: theme/dmkdocs
+repo_url: https://github.com/Iceyer/docs.iceyer.net/
+
+#include_search: true
+
+copyright: Copyright &copy; 2015, Deepin
+
+pages:

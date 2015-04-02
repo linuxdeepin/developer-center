@@ -1,0 +1,104 @@
+/* Breadcrumbs */
+.breadcrumb {
+  font-size: 32px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  color: rgb(93, 96, 107);
+  background: transparent;
+}
+
+.breadcrumb a {
+  color: rgb(93, 96, 107);
+}
+
+.breadcrumb a:hover {
+  color: #4fc3f7;
+}
+
+/* Index Page */
+
+.minecraft {
+  margin-top: 100px;
+}
+
+.section {
+  position: relative;
+  margin: 0 7.63159% 0 7.63129%;
+  padding-top: 21px;
+  float: left;
+  width: 18.0698%;
+  height: 306px;
+  background: #fdfefe;
+  border: 1px solid rgba(93, 96, 107, .15);
+  text-align: center;
+}
+
+.section:hover {
+  border: 1px solid #95dbfa;
+}
+
+.section .upicon {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: -28px;
+  margin-left: -28px;
+  width: 56px;
+  height: 56px;
+  background-color: #fbfefe;
+}
+
+.section:hover .upicon {
+  top: -34px;
+  margin-left: -34px;
+  width: 68px;
+  height: 68px;
+}
+
+.section h3 {
+  font-size: 24px;
+  color: rgb(93, 96, 107);
+}
+
+.section h4 {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.section ul {
+  font-size: 12px;
+  margin-top: 35px;
+}
+
+.section ul li {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.section ul a {
+  color: rgb(93, 96, 107);
+}
+
+.section ul a:hover {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+
+#go-top {
+  display: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+}
+
+#go-top:hover {
+  color: #4fc3f7;
+}
