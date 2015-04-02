@@ -1,9 +1,9 @@
 site_name: 深度开发文档
-site_url: http://docs.deepin.io/
+site_url: https://docs.deepin.io/
 
 #theme: readthedocs
 theme_dir: theme/dmkdocs
-repo_url: https://github.com/Iceyer/docs.iceyer.net/
+repo_url: https://github.com/linuxdeepin/docs.deepin.io 
 
 #include_search: true
 
