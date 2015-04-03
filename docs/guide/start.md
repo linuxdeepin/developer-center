@@ -54,3 +54,6 @@ Genarator mkdocs.yml
 ````
 
 build.py执行成功后，直接push到master分支即可。docs.deepin.io会在接受到github的推送消息后更新文档。
+
+### 5 本地测试
+可执行pip install --user mkdocs在本地安装mkdocs后执行mkdocs serve
