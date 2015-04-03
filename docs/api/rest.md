@@ -40,7 +40,7 @@ DeepinID接口安全性完全依赖于HTTPS协议，所以HTTPS协议是必须�
 
 ## 3. 权限控制
 
-DeepinID接口的权限控制主要由Access-Token控制，目前权限设计尚不完善，只有完全控制权限和无访问权限两种。在实现上，没一个针对DeepinID资源访问的HTTPS请求都必须在其Header中携带Access-Token参数。
+DeepinID接口的权限控制主要由Access-Token控制，目前权限设计尚不完善，只有完全控制权限和无访问权限两种。在实现上，每一个针对DeepinID资源访问的HTTPS请求都必须在其Header中携带Access-Token参数。
 
 ``` http
 Header:
