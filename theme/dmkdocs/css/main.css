@@ -18,15 +18,16 @@
 /* Index Page */
 
 .minecraft {
+  margin-left: 10%;
   margin-top: 100px;
 }
 
 .section {
   position: relative;
-  margin: 0 7.63159% 0 7.63129%;
+  margin: 1% 2% 1% 2%;
   padding-top: 21px;
   float: left;
-  width: 18.0698%;
+  width: 16%;
   height: 306px;
   background: #fdfefe;
   border: 1px solid rgba(93, 96, 107, .15);
@@ -37,27 +38,9 @@
   border: 1px solid #95dbfa;
 }
 
-.section .upicon {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  top: -28px;
-  margin-left: -28px;
-  width: 56px;
-  height: 56px;
-  background-color: #fbfefe;
-}
-
-.section:hover .upicon {
-  top: -34px;
-  margin-left: -34px;
-  width: 68px;
-  height: 68px;
-}
-
 .section h3 {
+  color: rgb(64, 128, 255);
   font-size: 24px;
-  color: rgb(93, 96, 107);
 }
 
 .section h4 {

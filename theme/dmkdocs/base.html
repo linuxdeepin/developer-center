@@ -50,15 +50,15 @@
 
         <div class="container">
             {% block content %}
-                {% if base_url != "." %}
+            {% if base_url == "." %}
+                {% include "content.html" %}
+            {% else %}
                 <div class="col-md-3">{% include "toc.html" %}</div>
-                {% endif %}
                 <div class="col-md-9" role="main">
-                {% if base_url != "." %}
                     {% include "toolbar.html" %}
-                {% endif %}
                     {% include "content.html" %}
                 </div>
+            {% endif %}
             {% endblock %}
         </div>
 
