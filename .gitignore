@@ -2,4 +2,6 @@
 *.swo
 mkdocs.yml
 site/
+conf/
 docs/index.md
+docs.deepin.io

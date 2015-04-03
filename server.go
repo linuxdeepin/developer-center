@@ -1,11 +1,35 @@
 package main
 
 import (
+	"crypto/hmac"
+	"crypto/sha1"
+	"encoding/hex"
+	"encoding/json"
 	"fmt"
+	"io"
+	"io/ioutil"
+	"os"
+	"os/exec"
+
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
-	"os/exec"
 )
+
+var (
+	Secret = ""
+)
+
+func init() {
+	js, err := os.Open("conf/docs.json")
+	if nil != err {
+		panic(err)
+	}
+	defer js.Close()
+	jsdata, _ := ioutil.ReadAll(js)
+	var cfg map[string]interface{}
+	json.Unmarshal(jsdata, &cfg)
+	Secret = fmt.Sprint(cfg["GitHubSecret"])
+}
 
 func updateStaticSite() error {
 	if err := exec.Command("git", "pull").Run(); nil != err {
@@ -27,6 +51,16 @@ func main() {
 	// Test Cfg
 	eng := gin.Default()
 	eng.POST("hook/github", func(c *gin.Context) {
+		sig := c.Request.Header.Get("X-Hub-Signature")
+		sig = sig[5:]
+		mac := hmac.New(sha1.New, []byte(Secret))
+		io.Copy(mac, c.Request.Body)
+		expectedMAC := mac.Sum(nil)
+		msgSig := hex.EncodeToString(expectedMAC)
+		if !hmac.Equal([]byte(msgSig), []byte(sig)) {
+			fmt.Println("Signature Error")
+			return
+		}
 		updateStaticSite()
 	})
 	eng.Use(static.Serve("/", static.LocalFile("site", false)))
