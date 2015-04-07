@@ -43,7 +43,7 @@ DO NOT Delete Meta Above -->
 
 ````
 	[Default Applications]
-	application/wps-office.xls=gedit.
+	application/wps-office.xls=gedit.desktop
 ````
 
 3. 运行update-mime。系统级别需要使用sudo运行。
