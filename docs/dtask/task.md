@@ -18,7 +18,7 @@ POST /task/
 GET /task/:task_id
 
 #### 参数
-task_id
+* task_id
 
 #### 返回数据
 如 {"error":false,"result":{"_id":"552487aaada5d824f7010000","createAt":1428457386047,"link":{"bugzilla":["123","124"]}}}
@@ -28,8 +28,8 @@ task_id
 PUT /task/:task_id/tower/todo/:todo_guid
 
 #### 参数
-task_id
-todo_guid
+* task_id
+* todo_guid
 
 #### 返回数据
 如 {"error":false,"result":true}
@@ -40,7 +40,7 @@ todo_guid
 DELETE /task/:task_id
 
 #### 参数
-task_id
+* task_id
 
 #### 返回数据
 如  {"error":false,"result":true}
@@ -53,9 +53,9 @@ PUT /task/:task_id/link/:target/:target_id
 
 #### 参数
 
-task_id
-target 如 bugzilla, gerrit
-target_id
+* task_id
+* target 如 bugzilla, gerrit
+* target_id
 
 #### 返回数据
 如 {"error":false,"result":true}
@@ -66,9 +66,9 @@ DELETE /task/:task_id/link/:target/:target_id
 
 #### 参数
 
-task_id
-target 如 bugzilla, gerrit
-target_id
+* task_id
+* target 如 bugzilla, gerrit
+* target_id
 
 #### 返回数据
 如 {"error":false,"result":true}
@@ -91,8 +91,8 @@ GET /task/:task_id/link/:target
 
 
 #### 参数
-task_id
-target 如 bugzilla, gerrit
+* task_id
+* target 如 bugzilla, gerrit
 
 #### 返回数据
 如 {"result":["123","124"],"error":false}
@@ -101,8 +101,8 @@ target 如 bugzilla, gerrit
 GET /task/link/:target/:target_id
 
 #### 参数
-target 如 bugzilla, gerrit
-target_id
+* target 如 bugzilla, gerrit
+* target_id
 
 #### 返回数据
 如 {"error":false,"result":["55249460ada5d840f7010000"]}
@@ -110,11 +110,18 @@ target_id
 ### 解除 target target_id 与所有相关联的 task 的关联 
 DELETE /task/link/:target/:target_id
 
+#### 参数
+* target
+* target_id
+
+#### 返回数据
+如  {"error":false,"result":true}
+
 ### 获取 task link 的信息
 GET /task/:task_id/link_info
 
 #### 参数
-task_id
+* task_id
 
 #### 返回数据
 如 {"result":["bugzilla 123 status CONFIRMED","failed get bugzilla 124"],"error":false}
