@@ -58,15 +58,24 @@ target 如 bugzilla, gerrit
 target_id
 
 #### 返回数据
-
+如 {"error":false,"result":true}
 
 ### 解除 task 与 target target_id 的关联
 
 DELETE /task/:task_id/link/:target/:target_id
 
+#### 参数
 
-### 获取 task link
+task_id
+target 如 bugzilla, gerrit
+target_id
+
+#### 返回数据
 如 {"error":false,"result":true}
+
+
+
+### 获取 task 的关联们
 
 GET /task/:task_id/link
 
