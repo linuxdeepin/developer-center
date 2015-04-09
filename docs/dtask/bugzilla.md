@@ -8,14 +8,15 @@ DO NOT Delete Meta Above -->
 PUT /bugzilla/:bug_id/tower/todolist/:todo_list_guid
 
 #### 功能
-将 bugzilla 的 bug  导出到 tower, 在指定的 tower todolist 下创建新的 todo，新建立的 todo 标题为 “#bugzila #bug_id + bug 标题”，内容为“from: bug_url”，并将它与 bug 关联起来。同时也设置 bugzilla 上 bug 的 url 为 todo 的 url，并增加一条评论，内容也包含 todo 的 url。
+将 bugzilla 的 bug  导出到 tower, 在指定的 tower todolist 下创建新的 todo，新建立的 todo 标题为 “#bugzila #bug_id + bug 标题”，内容为“from: bug_url”，并将它与 bug 关联起来。
+同时也设置 bugzilla 上 bug 的 url 为 todo 的 url，并增加一条评论，内容也包含 todo 的 url。
 
 #### 请求头
 Authorization: access_token
 
 #### 参数
 * bug_id
-*  todo_list_guid
+* todo_list_guid
 
 #### 返回数据
 
