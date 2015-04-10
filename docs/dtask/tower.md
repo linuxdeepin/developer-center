@@ -37,11 +37,15 @@ Tower-Token: access_token
 如
 ```
 {
-	"44d8b81df5db4aa2a4eb001c100247ba":"成员一",
-	"d9748b3d998640469f894b6b8bfb2e46":"成员二",
-	"e60eab8489484d74a0eef6213041e630":"成员三"
-	...
+	"error":false,
+	{
+		"44d8b81df5db4aa2a4eb001c100247ba":"成员一",
+		"d9748b3d998640469f894b6b8bfb2e46":"成员二",
+		"e60eab8489484d74a0eef6213041e630":"成员三"，
+		...
+	}
 }
+
 ```
 
 #### 例子
@@ -62,12 +66,18 @@ Tower-Token: access_token
 如
 ```
 {
-	"44d8b81df5db4aa2a4eb001c100247ba":"项目一",
-	"d9748b3d998640469f894b6b8bfb2e46":"项目二",
-	"e60eab8489484d74a0eef6213041e630":"项目三"
-	...
+	"error":false,
+	{
+		"44d8b81df5db4aa2a4eb001c100247ba":"项目一",
+		"d9748b3d998640469f894b6b8bfb2e46":"项目二",
+		"e60eab8489484d74a0eef6213041e630":"项目三"，
+		...
+	}
 }
+
 ```
+
+
 #### 例子
 ```
 curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://localhost:3000/tower/projects
@@ -87,12 +97,17 @@ project_guid ： 项目guid
 如
 ```
 {
-	"44d8b81df5db4aa2a4eb001c100247ba":"列表一",
-	"d9748b3d998640469f894b6b8bfb2e46":"列表二",
-	"e60eab8489484d74a0eef6213041e630":"列表三"
-	...
+	"error":false,
+	{
+		"44d8b81df5db4aa2a4eb001c100247ba":"列表一",
+		"d9748b3d998640469f894b6b8bfb2e46":"列表二",
+		"e60eab8489484d74a0eef6213041e630":"列表三"，
+		...
+	}
 }
+
 ```
+
 
 #### 例子
 ```
