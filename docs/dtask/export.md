@@ -3,12 +3,12 @@ category:DTask
 title:Export 接口
 DO NOT Delete Meta Above -->
 
-### bugzilla 到 tower
+### 导出 bugzilla 的某个bug 到 tower 中
 
 PUT /export/bugzilla/:bug_id/tower_todolist/:todo_list_guid
 
 #### 功能
-将 bugzilla 的 bug  导出到 tower, 在指定的 tower todolist 下创建新的 todo，新建立的 todo 标题为 “#bugzila #bug_id + bug 标题”，内容为“from: bug_url”，并将它与 bug 关联起来。
+导出 bugzilla 的 bug 到 tower, 在指定的 tower todolist 下创建新的 todo，新建立的 todo 标题为 “#bugzila #bug_id + bug 标题”，内容为“from: bug_url”，并将它与相应的 bug 关联起来。
 同时也设置 bugzilla 上 bug 的 url 为 todo 的 url，并增加一条评论，内容也包含 todo 的 url。
 
 #### 请求头
@@ -35,5 +35,5 @@ Tower-Token: access_token
 
 例子
 ```
-curl -H 'Tower-Token: f5d2d2ef8afde4029d74f95eb8657bb0' -X GET http://localhost:3000/tower/projects/bec56353863d4376a6ccad7ef37e77e8/todolists
+curl -H 'Tower-Token: f383170a25f8066b29eea898689da784' -X PUT http://localhost:3000/export/bugzilla/2/tower_todolist/e63716027385467bbd60a0302c488b29/
 ```
