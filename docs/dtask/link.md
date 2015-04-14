@@ -42,7 +42,7 @@ DELETE /links
 
 #### 例子
 ```
-curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12'  -X DELETE http://localhost:3000/link/bugzilla/10/gerrit/12
+curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12'  -X DELETE http://10.0.0.231:3000/links
 ```
 
 
