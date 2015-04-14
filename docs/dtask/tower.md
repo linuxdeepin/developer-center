@@ -19,7 +19,7 @@ POST /services/tower/token
 	"error":false,
 	"result":{
 		"expires_in":2592000,
-		"access_token":"a198a4f7b8b98a16086190530e2d71ea"
+		"access_token":"44d8b81df5db4aa2a4eb001c100247ba"
 	}
 }
 ```
@@ -107,7 +107,7 @@ GET /services/tower/projects/:project_guid/todolists
 Tower-Token: access_token
 
 #### URL 参数
-project_guid ： 项目guid
+* project_guid ： 项目guid
 
 #### 返回数据
 如
@@ -140,7 +140,7 @@ curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231
 ```
 
 
-### 导入 bugzilla 的某个bug 到 tower
+### 导入 bugzilla 的某个bug
 
 PUT /services/tower/import/bugzilla_bug
 
@@ -152,8 +152,8 @@ PUT /services/tower/import/bugzilla_bug
 Tower-Token: access_token
 
 #### Form 参数
-todolist_guid
-bug_id
+* todolist_guid : tower todolist guid
+* bug_id: bugzilla bug id
 
 #### 返回数据
 
