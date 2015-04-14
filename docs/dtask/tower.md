@@ -140,7 +140,7 @@ curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231
 ```
 
 
-### 导出 bugzilla 的某个bug 到 tower 中
+### 导入 bugzilla 的某个bug 到 tower
 
 PUT /services/tower/import/bugzilla_bug
 
