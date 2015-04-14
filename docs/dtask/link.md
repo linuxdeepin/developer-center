@@ -4,9 +4,9 @@ title:Link 接口
 DO NOT Delete Meta Above -->
 
 ### 关联
-PUT /link/:target_a/:a_id/:target_b/:b_id
+PUT /links
 
-#### 参数
+#### Form 参数
 * target_a
 * a_id
 * target_b
@@ -20,15 +20,15 @@ PUT /link/:target_a/:a_id/:target_b/:b_id
 
 #### 例子
 ```
-curl -X PUT http://localhost:3000/link/bugzilla/10/gerrit/12
+curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12' -X PUT http://10.0.0.231:3000/links/
 ```
 
 
 ### 解除关联
 
-DELETE /link/:target_a/:a_id/:target_b/:b_id
+DELETE /links
 
-#### 参数
+#### Form 参数
 * target_a
 * a_id
 * target_b
@@ -42,15 +42,15 @@ DELETE /link/:target_a/:a_id/:target_b/:b_id
 
 #### 例子
 ```
-curl -X DELETE http://localhost:3000/link/bugzilla/10/gerrit/12
+curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12'  -X DELETE http://localhost:3000/link/bugzilla/10/gerrit/12
 ```
 
 
 ### 获取关联
 
-GET /link/:target/:id
+GET /links
 
-#### 参数
+#### Form 参数
 * target
 * id
 
@@ -62,5 +62,5 @@ GET /link/:target/:id
 
 #### 例子
 ```
-curl -X GET http://localhost:3000/link/bugzilla/2
+curl -d 'target=bugzilla&id=10' -X GET http://10.0.0.231:3000/links
 ```
