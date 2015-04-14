@@ -21,6 +21,8 @@ PUT /links
 #### 例子
 ```
 curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12' -X PUT http://10.0.0.231:3000/links/
+
+http -f PUT http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=gerrit b_id=12
 ```
 
 
@@ -43,6 +45,8 @@ DELETE /links
 #### 例子
 ```
 curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12'  -X DELETE http://10.0.0.231:3000/links
+
+http -f DELETE http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=gerrit b_id=12
 ```
 
 
@@ -57,10 +61,19 @@ GET /links
 #### 返回数据
 如
 ```
-{"error":false,"result":{"tower_todo":["ee77f06485d54dfd93b2f3d068c30645"]}}
+{
+    "error": false, 
+    "result": {
+        "gerrit": [
+            "12"
+        ]
+    }
+}
 ```
 
 #### 例子
 ```
 curl -d 'target=bugzilla&id=10' -X GET http://10.0.0.231:3000/links
+
+http -f GET http://10.0.0.231:3000/links/ target=bugzilla id=10
 ```
