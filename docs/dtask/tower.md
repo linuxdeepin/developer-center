@@ -26,7 +26,7 @@ POST /services/tower/token
 
 #### 例子
 ```
-curl -d 'username=abcdefg&password=123456' -X POST http://10.0.0.231/services/tower/token
+curl -d 'username=abcdefg&password=123456' -X POST http://10.0.0.231:3000/services/tower/token
 ```
 
 ### 获取 tower 的团队成员们
