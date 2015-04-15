@@ -27,6 +27,8 @@ POST /services/tower/token
 #### 例子
 ```
 curl -d 'username=abcdefg&password=123456' -X POST http://10.0.0.231:3000/services/tower/token
+
+http POST http://10.0.0.231:3000/services/tower/token username=abcdefg password=123456
 ```
 
 ### 获取 tower 的团队成员们
@@ -61,6 +63,8 @@ Tower-Token: access_token
 #### 例子
 ```
 curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231:3000/services/tower/members
+
+http GET http://10.0.0.231:3000/services/tower/members Tower-Token:44d8b81df5db4aa2a4eb001c100247ba
 ```
 
 ### 获取 tower 的项目们
@@ -97,6 +101,8 @@ Tower-Token: access_token
 #### 例子
 ```
 curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231:3000/services/tower/projects
+
+http GET http://10.0.0.231:3000/services/tower/projects Tower-Token:44d8b81df5db4aa2a4eb001c100247ba
 ```
 
 ### 获取 tower 某个项目下的 todolist 们
@@ -137,6 +143,8 @@ Tower-Token: access_token
 #### 例子
 ```
 curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231:3000/services/tower/projects/d9748b3d998640469f894b6b8bfb2e46/todolists
+
+http GET http://10.0.0.231:3000/services/tower/projects/d9748b3d998640469f894b6b8bfb2e46/todolists Tower-Token:44d8b81df5db4aa2a4eb001c100247ba
 ```
 
 
@@ -173,4 +181,6 @@ Tower-Token: access_token
 例子
 ```
 curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -d 'todolist_guid=e60eab8489484d74a0eef6213041e630&bug_id=12' -X PUT http://10.0.0.231:3000/services/tower/import/bugzilla_bug
+
+http PUT http://10.0.0.231:3000/services/tower/import/bugzilla_bug  Tower-Token:44d8b81df5db4aa2a4eb001c100247ba todolist_guid=e60eab8489484d74a0eef6213041e630 bug_id=12
 ```
