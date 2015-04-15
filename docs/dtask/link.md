@@ -7,10 +7,7 @@ DO NOT Delete Meta Above -->
 PUT /links
 
 #### Form 参数
-* target_a
-* a_id
-* target_b
-* b_id
+两个参数，参数名必须为 tower_todo,gerrit,bugzilla 中的其中一个，值为对应 id
 
 #### 返回数据
 如
@@ -20,9 +17,9 @@ PUT /links
 
 #### 例子
 ```
-curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12' -X PUT http://10.0.0.231:3000/links/
+curl -d 'bugzilla=10&gerrit=12' -X PUT http://10.0.0.231:3000/links/
 
-http -f PUT http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=gerrit b_id=12
+http -f PUT http://10.0.0.231:3000/links/ bugzilla=10 gerrit=12
 ```
 
 
@@ -31,10 +28,7 @@ http -f PUT http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=ger
 DELETE /links
 
 #### Form 参数
-* target_a
-* a_id
-* target_b
-* b_id
+两个参数，参数名必须为 tower_todo,gerrit,bugzilla 中的其中一个，值为对应 id
 
 #### 返回数据
 如
@@ -44,9 +38,9 @@ DELETE /links
 
 #### 例子
 ```
-curl -d 'target_a=bugzilla&a_id=10&target_b=gerrit&b_id=12'  -X DELETE http://10.0.0.231:3000/links
+curl -d 'bugzilla=10&gerrit=12'  -X DELETE http://10.0.0.231:3000/links
 
-http -f DELETE http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=gerrit b_id=12
+http -f DELETE http://10.0.0.231:3000/links/ bugzilla=10 gerrit=12
 ```
 
 
@@ -55,8 +49,7 @@ http -f DELETE http://10.0.0.231:3000/links/ target_a=bugzilla a_id=10 target_b=
 GET /links
 
 #### Form 参数
-* target
-* id
+一个参数，参数名必须为 tower_todo,gerrit,bugzilla 中的其中一个，值为对应 id
 
 #### 返回数据
 如
@@ -73,7 +66,7 @@ GET /links
 
 #### 例子
 ```
-curl -d 'target=bugzilla&id=10' -X GET http://10.0.0.231:3000/links
+curl -d 'bugzilla=10' -X GET http://10.0.0.231:3000/links
 
-http -f GET http://10.0.0.231:3000/links/ target=bugzilla id=10
+http -f GET http://10.0.0.231:3000/links/ bugzilla=10
 ```
