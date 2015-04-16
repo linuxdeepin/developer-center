@@ -147,6 +147,29 @@ curl -H 'Tower-Token: 44d8b81df5db4aa2a4eb001c100247ba' -X GET http://10.0.0.231
 http GET http://10.0.0.231:3000/services/tower/projects/d9748b3d998640469f894b6b8bfb2e46/todolists Tower-Token:44d8b81df5db4aa2a4eb001c100247ba
 ```
 
+### 获取 todo 的信息
+GET /services/tower/todos/:todo_guid
+
+#### URL 参数
+* todo_guid
+
+#### 返回数据
+```
+{
+   "error" : false,
+   "result" : {
+        ...
+   }
+}
+
+```
+
+#### 例子
+```
+curl -H 'Tower-Token:44d8b81df5db4aa2a4eb001c100247ba ' http://10.0.0.231:3000/services/tower/todos/d6609cfc0d914888ae1cdd8a6f7f33f1
+
+http http://10.0.0.231:3000/services/tower/todos/d6609cfc0d914888ae1cdd8a6f7f33f1 Tower-Token:44d8b81df5db4aa2a4eb001c100247ba
+```
 
 ### 导入 bugzilla 的某个bug
 
