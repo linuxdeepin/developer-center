@@ -40,10 +40,11 @@ func updateStaticSite() error {
 		fmt.Println("Build index.md Failed")
 		return err
 	}
-	if err := exec.Command("mkdocs", "build").Run(); nil != err {
+	if err := exec.Command("mkdocs", "build --clean").Run(); nil != err {
 		fmt.Println("mkdocs build Failed")
 		return err
 	}
+	fmt.Println("update successfully")
 	return nil
 }
 
@@ -61,7 +62,7 @@ func main() {
 			fmt.Println("Signature Error")
 			return
 		}
-		updateStaticSite()
+		githubPushUpdate()
 	})
 	eng.Use(static.Serve("/", static.LocalFile("site", false)))
 
