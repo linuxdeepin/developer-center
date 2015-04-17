@@ -13,7 +13,7 @@
         {% if page_title %}
             <title>{{ page_title }}</title>
         {% else %}
-            <title>Home</title>
+        <title>{{ site_name }}</title>
         {% endif %}
 
         <link href="{{ base_url }}/css/bootstrap-custom.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@
 
         <div class="container">
             {% block content %}
-            {% if base_url == "." %}
+            {% if base_url == "." or "index/" in abs_url %}
                 {% include "content.html" %}
             {% else %}
                 <div class="col-md-3">{% include "toc.html" %}</div>
