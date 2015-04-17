@@ -3,5 +3,6 @@
 mkdocs.yml
 site/
 conf/
+docs/index/
 docs/index.md
 docs.deepin.io
