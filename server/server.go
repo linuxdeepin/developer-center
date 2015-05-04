@@ -45,6 +45,7 @@ func updateStaticSite() error {
 		return err
 	}
 	fmt.Println("update successfully")
+	os.Exit(1)
 	return nil
 }
 
