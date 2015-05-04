@@ -40,7 +40,7 @@ defaultremote = origin
 ```
 * 本地仓库克隆
   进入[项目列表](https://cr.deepin.io/#/admin/projects/)页面，查找需要的项目.
-  点击复制拷贝命令后在终端下拉取代码 ![](guide/git-clone.png)
+  点击复制拷贝命令后在终端下拉取代码 ![](docs/guide/git-clone.png)
 
 * 详细的使用文档请阅读[官方文档](https://cr.deepin.io/Documentation/index.html)
 
