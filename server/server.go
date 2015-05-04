@@ -40,10 +40,18 @@ func updateStaticSite() error {
 		fmt.Println("Build index.md Failed")
 		return err
 	}
-	if err := exec.Command("mkdocs", "build --clean").Run(); nil != err {
-		fmt.Println("mkdocs build Failed")
+
+	if err := os.RemoveAll("./site"); nil != err {
 		return err
 	}
+
+	if out, err := exec.Command("mkdocs", "build").CombinedOutput(); nil != err {
+		fmt.Println("mkdocs build Failed", string(out), err)
+		return err
+	} else {
+		fmt.Println(string(out))
+	}
+
 	fmt.Println("update successfully")
 	os.Exit(1)
 	return nil
