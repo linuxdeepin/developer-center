@@ -44,7 +44,5 @@ defaultremote = origin
 
 * 详细的使用文档请阅读[官方文档](https://cr.deepin.io/Documentation/index.html)
 
-
-
 git-review工具目前有bug导致非英文locale的系统无法使用。出现这类问题请使用
 LANGUAGE=en_US.UTF-8 git review 进行替换，或者手动修改/usr/bin/git-review的代码,修改方式谁来补充 :)
