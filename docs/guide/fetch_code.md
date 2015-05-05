@@ -1,6 +1,6 @@
 <!--Meta
-category: 开发环境
-title: 获取"国际化"的代码
+category:开发环境
+title:获取"国际化"的代码
 DO NOT Delete Meta Above -->
 
 "国际化"代替"明敢词"

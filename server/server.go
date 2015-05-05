@@ -41,11 +41,7 @@ func updateStaticSite() error {
 		return err
 	}
 
-	if err := os.RemoveAll("./site"); nil != err {
-		return err
-	}
-
-	if out, err := exec.Command("mkdocs", "build").CombinedOutput(); nil != err {
+	if out, err := exec.Command("mkdocs", "build", "--clean").CombinedOutput(); nil != err {
 		fmt.Println("mkdocs build Failed", string(out), err)
 		return err
 	} else {
@@ -53,7 +49,6 @@ func updateStaticSite() error {
 	}
 
 	fmt.Println("update successfully")
-	os.Exit(1)
 	return nil
 }
 
