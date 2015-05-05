@@ -24,7 +24,8 @@ An error is thrown if you pass an invalid token and you will need to log in agai
 
 #### User.login
 不需要加 Bugzilla_token
-[bugzilla webServices 的 User.login 方法](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/User.html#login)
+
+[登陆，获取新的 Bugzilla_token](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/User.html#login)
 
 #### Bug.create
 [创建 bug](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/Bug.html#create)
