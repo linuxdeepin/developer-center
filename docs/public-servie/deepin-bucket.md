@@ -5,7 +5,7 @@ DO NOT Delete Meta Above -->
 
 
 ## 1 概述
-Deepin Bucket 主要面向Deepin用户提供公共资源存储服务，任何人都拥有Create权限。由于大多数空间采用签名认证上传的方法，Public Bucket将抽象出来这些空间资源的访问，并提供一个通用的REST API接口来协助上传。
+Deepin Bucket 主要面向Deepin用户提供公共资源存储服务，任何人都拥有Create权限。由于大多数空间采用签名认证上传的方法，Bucket将抽象出来这些空间资源的访问，并提供一个通用的REST API接口来协助上传。
 
 根据服务器配置， 部分资源下载需要认证，这部分资源并不向普通用户开放下载，如错误日志等。
 
