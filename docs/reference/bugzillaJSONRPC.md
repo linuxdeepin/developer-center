@@ -17,7 +17,13 @@ DO NOT Delete Meta Above -->
 
 [Bugzilla::WebService::Server::JSONRPC](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/Server/JSONRPC.html)
 
+#### Bugzilla_token
+You can specify **Bugzilla_token** as argument to any WebService method, and you will be logged in as that user if the token is correct. This is the token returned when calling User.login mentioned above.
+
+An error is thrown if you pass an invalid token and you will need to log in again to get a new token.
+
 #### User.login
+不需要加 Bugzilla_token
 [bugzilla webServices 的 User.login 方法](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/User.html#login)
 
 #### Bug.create
