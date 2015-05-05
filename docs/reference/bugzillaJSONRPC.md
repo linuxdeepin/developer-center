@@ -5,15 +5,13 @@ DO NOT Delete Meta Above -->
 
 ## Bugzilla API Documentation
 
-https://www.bugzilla.org/docs/tip/en/html/api/index.html
+[API index](https://www.bugzilla.org/docs/tip/en/html/api/index.html)
 
 ### Bugzilla WebService
-https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService.html
+[WebService](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService.html)
 
 
-Bug
-https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/Bug.html
+[Bug](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/Bug.html)
 
-User
-https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/User.html
+[User](https://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/User.html)
 
