@@ -2,9 +2,7 @@
 category:用户反馈服务
 title:JSONRPC接口
 DO NOT Delete Meta Above -->
-
-# 用户反馈 JSONRPC 接口
-
+## 入门
 ### 调用 JSONRPC 接口
 POST https://bugzilla.deepin.io/jsonrpc.cgi
 
@@ -37,7 +35,7 @@ json 格式
 }
 ```
 
-示例
+#### 示例
 ```
 curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"params":{"ids":[1]},"method":"Bug.get","version":"2.0"}'
 
@@ -97,15 +95,17 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
       "faults" : []
    }
 }
+
 ```
 
 ## 接口
 
 ### 创建反馈
+
 #### 方法
 Deepin.Feedback.create 
 
-### 参数
+#### 参数
 * product ： 产品
 
 * version ： 版本
@@ -120,7 +120,7 @@ Deepin.Feedback.create
 
 * attachments : 附件文件的 url 列表
 
-### 传入数据示例
+#### 传入数据示例
 
 ```
 {
@@ -142,6 +142,7 @@ Deepin.Feedback.create
 ```
 
 ### 获取产品
+
 ####方法
 Deepin.Feedback.getProducts
 
