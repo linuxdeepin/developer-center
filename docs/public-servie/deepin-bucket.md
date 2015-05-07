@@ -170,3 +170,62 @@ if __name__=="__main__":
     print("File Url:", BucketHost+cre.ResourceUrl)
 
 ```
+
+### 4.2 Perl
+
+调用 uploadReportAttachment 函数上传报告附件
+
+```perl
+#!/usr/bin/env perl
+use 5.018;
+use warnings;
+use utf8;
+
+use Data::Dumper;
+use LWP::UserAgent;
+use HTTP::Request::Common;
+use JSON qw(decode_json);
+
+my $ua = LWP::UserAgent->new;
+$ua->timeout(10);
+my $deepin_api = "https://api.deepin.org";
+
+sub uploadReportAttachment
+{
+	my ($file_path) = @_;
+	my $url = "$deepin_api/bucket/report";
+	my $res = $ua->post($url);
+	if ($res->is_success)
+	{
+		my $credential = decode_json($res->content);
+		print "Credential = ", Dumper $credential;
+		my $response = $ua->request(POST $credential->{PostUrl},
+			Content_Type => 'multipart/form-data',
+			%{ $credential->{PostHeader} },
+			Content => [
+				%{ $credential->{PostBody} },
+				file => [ $file_path ]
+			]
+		);
+
+		if ($response->is_success )
+		{
+			say $response->content;
+			say "url is $deepin_api/". $credential->{ResourceUrl};
+		}
+		else
+		{
+			die $response->status_line, $response->content;
+		}
+	}
+	else
+	{
+		die $res->status_line, $res->content;
+	}
+}
+
+
+uploadReportAttachment("./testdata.tar.gz");
+
+
+```
