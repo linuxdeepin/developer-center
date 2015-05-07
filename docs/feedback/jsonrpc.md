@@ -105,10 +105,6 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 #### 方法
 Deepin.Feedback.create 
 
-
-
-
-
 ### 参数
 * product ： 产品
 
@@ -143,4 +139,29 @@ Deepin.Feedback.create
 		"type" : "problem"
 	}
 }
+```
+
+### 获取产品
+####方法
+Deepin.Feedback.getProducts
+
+#### 参数
+无
+
+#### 例子
+```
+curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"method":"Deepin.Feedback.getProducts","params":{},"version":"1.1"}'
+
+返回
+{
+   "version" : "1.1",
+   "result" : {
+      "products" : [
+         "深度截图",
+         "深度系统安装"
+      ]
+   }
+}
+
+
 ```
