@@ -28,11 +28,26 @@ Content-Type : application/json-rpc
 
 #### 返回数据
 json 格式
+
+*  正常情况
 ```
 {
 	"version" : "1.1",
 	"result" : { ... }
 }
+```
+* 错误情况
+```
+示例：
+{
+   "error" : {
+      "code" : 100302,
+      "name" : "JSONRPCError",
+      "message" : "No such a method : 'abcdefg'."
+   },
+   "version" : "1.1"
+}
+
 ```
 
 #### 示例
