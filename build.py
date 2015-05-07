@@ -95,7 +95,8 @@ DO NOT Delete Meta Above-->
         for item in v:
             if 0 == len(item[0]):
                 continue
-            cate += '\t\t<li><a href="' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
+            print item[1]
+            cate += '\t\t<li><a href="/' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
             item_count += 1
         cate += '\t</ul>\n'
         cate += '\t</div>\n'
@@ -109,7 +110,7 @@ DO NOT Delete Meta Above-->
         print("Add:", page_item)
         fpmkdocs.write(page_item+"\n")
 
-        fp = codecs.open(indexfile, mode="aw", encoding="utf-8")
+        fp = codecs.open(indexfile, mode="w", encoding="utf-8")
         fp.write(index)
         fp.close()
 
