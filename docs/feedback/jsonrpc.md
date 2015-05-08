@@ -121,9 +121,7 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 Deepin.Feedback.create 
 
 #### 参数
-* product ： 产品
-
-* version ： 版本
+* component ： 用户反馈项目下的组件
 
 * summary :  标题
 
@@ -142,8 +140,7 @@ Deepin.Feedback.create
 	"method" : "Deepin.Feedback.create",
 	"version" : "1.1",
 	"params":	 {
-		"product" : "TestProduct",
-		"version" :"1.0",
+		"component" : "深度影院",
 		"description": "asdfasdfa asdf asdf asdfas dfsd sdfas dfasdfasdf",
 		"summary" : "a new feedback",
 		"attachments": [
@@ -169,15 +166,6 @@ Deepin.Feedback.getProducts
 curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"method":"Deepin.Feedback.getProducts","params":{},"version":"1.1"}'
 
 返回
-{
-   "version" : "1.1",
-   "result" : {
-      "products" : [
-         "深度截图",
-         "深度系统安装"
-      ]
-   }
-}
 
 
 ```
