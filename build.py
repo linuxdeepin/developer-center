@@ -95,7 +95,6 @@ DO NOT Delete Meta Above-->
         for item in v:
             if 0 == len(item[0]):
                 continue
-            print item[1]
             cate += '\t\t<li><a href="/' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
             item_count += 1
         cate += '\t</ul>\n'

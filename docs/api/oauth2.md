@@ -106,3 +106,54 @@ client_id=b401162c9d061040885d0fac242ea&client_secret=ec37971eb48cfa1a97f53021&g
    "uid": 10001
 }
 ```
+
+### 3 Refresh Token接口
+
+#### 3.1 API Endpoint
+
+POST [https://api.linuxdeepin.com/oauth2/token](https://api.linuxdeepin.com/oauth2/token)
+
+#### 3.2 请求参数
+
+| 参数名称         | 必选  | 类型    | 描述       |
+|------------------|-------|--------|-------------|
+| **grant_type** | true | string | 请求的类型，填写refresh_token |
+| **client_id** | true | string | 申请应用时分配的AppKey |
+| **client_secret** | true | string | 申请应用时分配的AppSecret。 |
+| **refresh_token** | true | string | 调用token获得的refresh_token值。 |
+
+**示例：**
+
+``` html
+POST https://api.linuxdeepin.com/oauth2/token
+
+Content-Type:
+application/x-www-form-urlencoded
+
+Body:
+client_id=b401162c9d061040885d0fac242ea&client_secret=ec37971eb48cfa1a97f53021&grant_type=refresh_token&refresh_token=MDRhNzA4YmYtNjNiZC00MTViLWE2YzYtZTU1ZDNiN2JjYjMy
+```
+
+#### 3.3 返回数据
+
+| 返回值字段  | 类型 | 字段说明 |
+|-------------|------|---------|
+| **access_token** |    string | 用于调用access_token，接口获取授权后的access token。 |
+| **expires_in** |  string | access_token的生命周期，单位是秒数。 |
+| **scope** |string | 用户权限 |
+| **uid** | string | 当前授权用户的UID。 |
+
+每次使用RefreshToken申请新的Token后，该RefreshToekn会失效。RefreshToken有效期为一年。
+
+**示例：**
+
+``` json
+{
+   "access_token": "ZGUyNmUyODktM2QxZi00YmJhLWJmYmItMmQwMWYyZDliYmUz",
+   "expires_in": 3000,
+   "refresh_token": "YmU2ZmE1ZTItMTJjNS00MDZhLWIyYzItYzFiZjk3YmVhM2Nh",
+   "scope": "base,",
+   "uid": 10001
+}
+```
+
