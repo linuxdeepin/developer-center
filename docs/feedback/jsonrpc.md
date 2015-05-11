@@ -118,10 +118,10 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 ### 创建反馈
 
 #### 方法
-Deepin.Feedback.create 
+Deepin.Feedback.putFeedback
 
 #### 参数
-* component ： 用户反馈项目下的组件
+* project ： 用户反馈项目下的组件
 
 * summary :  标题
 
@@ -140,7 +140,7 @@ Deepin.Feedback.create
 	"method" : "Deepin.Feedback.create",
 	"version" : "1.1",
 	"params":	 {
-		"component" : "深度影院",
+		"project" : "深度影院",
 		"description": "asdfasdfa asdf asdf asdfas dfsd sdfas dfasdfasdf",
 		"summary" : "a new feedback",
 		"attachments": [
@@ -156,14 +156,14 @@ Deepin.Feedback.create
 ### 获取产品
 
 ####方法
-Deepin.Feedback.getProducts
+Deepin.Feedback.getProjects
 
 #### 参数
 无
 
 #### 例子
 ```
-curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"method":"Deepin.Feedback.getProducts","params":{},"version":"1.1"}'
+curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"method":"Deepin.Feedback.getProjects","params":{},"version":"1.1"}'
 
 返回
 
