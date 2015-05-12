@@ -5,6 +5,7 @@ DO NOT Delete Meta Above -->
 ## 入门
 ### 调用 JSONRPC 接口
 POST https://bugzilla.deepin.io/jsonrpc.cgi
+测试用 POST http://10.0.0.231/jsonrpc.cgi
 
 #### 请求头
 Content-Type : application/json-rpc
@@ -169,3 +170,174 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 
 
 ```
+
+
+### 获取详细
+####方法
+Deepin.Feedback.getDetail
+
+####参数
+* feedback_id : 反馈id
+* email : 查阅者 email
+
+#### 返回
+```
+{
+   "version" : "1.1",
+   "result" : {
+      "reporter" : "bugs@linuxdeepin.com",
+      "id" : 3,
+      "heat" : 0,
+      "title" : "a new bug 0.3577998327996",
+      "in_cc_list" : false,
+      "cc_count" : 2
+   }
+}
+
+```
+
+
+### 获取状态修改历史
+####方法
+Deepin.Feedback.getStates
+
+####参数
+* feedback_id : 反馈id
+* email : 查阅者 email
+
+#### 返回
+例如
+```
+{
+   "result" : [
+      {
+         "message" : "aa",
+         "status" : "RESOLVED",
+         "ts" : "2015-05-12 09:14:44",
+         "resolution" : "FIXED"
+      },
+      {
+         "ts" : "2015-05-12 09:15:45",
+         "message" : "abasdf asdf asdf",
+         "status" : "RESOLVED",
+         "resolution" : "INVALID"
+      }
+   ],
+   "version" : "1.1"
+}
+
+```
+
+
+### 获取所有讨论
+####方法
+Deepin.Feedback.getDiscuss
+
+####参数
+* feedback_id : 反馈id
+* email : 查阅者 email
+
+#### 返回
+```
+{
+   "version" : "1.1",
+   "result" : {
+      "count" : 2,
+      "comments" : [
+         {
+            "content" : "abcdeasdfasdf asdf asdfa sdfa sdf asdf asdfadsf",
+            "id" : "31",
+            "ts" : "2015-05-06 11:17:36",
+            "email" : "bugs@linuxdeepin.com"
+         },
+         {
+            "email" : "elelectricface@qq.com",
+            "ts" : "2015-05-12 09:55:32",
+            "content" : "lkjlasjdfl ajsdlf asdf",
+            "id" : "136"
+         }
+      ]
+   }
+}
+
+```
+
+### 关注/取消关注
+####方法
+Deepin.Feedback.putAttention
+
+####参数
+* feedback_id : 反馈id
+* email : 查阅者 email
+* status: true or false
+
+#### 返回
+
+```
+{
+   "result" : true or false,
+   "version" : "1.1"
+}
+
+```
+
+
+### 获取关注列表
+####方法
+Deepin.Feedback.getAttentions
+
+####参数
+* feedback_id : 反馈id
+
+
+#### 返回
+
+例如
+
+```
+{
+   "version" : "1.1",
+   "result" : {
+      "id" : "3",
+      "reporter" : "bugs@linuxdeepin.com",
+      "title" : "a new bug 0.3577998327996",
+      "cc" : [
+         "elelectricface@qq.com"
+      ]
+   }
+}
+
+
+```
+
+
+
+### 搜索框即时搜索
+####方法
+Deepin.Feedback.searchBox
+
+####参数
+* count: 限制数量
+* keyword : 用户输入的字符
+
+#### 返回
+例如
+
+```
+{
+   "version" : "1.1",
+   "result" : [
+      {
+         "title" : "测试bugzilla to tower",
+         "id" : "1"
+      },
+      {
+         "title" : "再次测试 bugzilla 到 tower 功能",
+         "id" : "2"
+      }
+   ]
+}
+
+
+```
+
