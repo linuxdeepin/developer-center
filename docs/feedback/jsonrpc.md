@@ -341,3 +341,55 @@ Deepin.Feedback.searchBox
 
 ```
 
+
+### 搜索反馈
+####方法
+Deepin.Feedback.searchFeedback
+
+####参数
+* keyword : 用户输入的字符
+
+* perPageNum : 每页几条
+
+* page : 第一页
+
+#### 返回
+* total : 搜索结果总数
+
+* pageTotal : 页面总数
+
+* feedbacks : 搜索到的反馈列表
+例如
+```
+{
+   "version" : "1.1",
+   "result" : {
+      "total" : 2,
+      "pageTotal" : 1,
+      "feedbacks" : [
+         {
+            "status" : "RESOLVED::FIXED",
+            "change_ts" : "2015-05-12 09:07:13",
+            "id" : 1,
+            "project" : "TestProduct::TestComponent",
+            "title" : "测试bugzilla to tower",
+            "repoter" : "bugs@linuxdeepin.com",
+            "heat" : 0
+         },
+         {
+            "status" : "IN_PROGRESS::",
+            "change_ts" : "2015-05-12 09:24:32",
+            "project" : "TestProduct::用户反馈",
+            "id" : 2,
+            "heat" : 8,
+            "repoter" : "bugs@linuxdeepin.com",
+            "title" : "再次测试 bugzilla 到 tower 功能"
+         }
+      ]
+   }
+}
+
+
+```
+
+
