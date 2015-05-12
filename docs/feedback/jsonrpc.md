@@ -393,3 +393,64 @@ Deepin.Feedback.searchFeedback
 ```
 
 
+
+### 获取反馈
+####方法
+Deepin.Feedback.getFeedbacks
+
+####参数
+
+* perPageNum : 每页几条
+
+* page : 第一页
+
+* project : 筛选项目，可选
+
+* status : 筛选状态，可选，一般为 RESOLVED
+
+* order: 按什么排序，类型：列表，可选
+	字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
+
+
+#### 返回
+* total : 搜索结果总数
+
+* pageTotal : 页面总数
+
+* feedbacks : 搜索到的反馈列表
+
+
+### 获取我的反馈
+####方法
+Deepin.Feedback.getMyFeedbacks
+
+####参数
+* email : 查阅者邮箱
+
+* perPageNum : 每页几条
+
+* page : 第一页
+
+* type: 类型
+	值可选 其中一个：
+	- cc 关注的
+	- comment : 评论的
+	- report: 报告的
+
+* project : 筛选项目，可选
+
+* status : 筛选状态，可选，一般为 RESOLVED
+
+* order: 按什么排序，类型：列表，可选
+	字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
+
+
+#### 返回
+* total : 搜索结果总数
+
+* pageTotal : 页面总数
+
+* feedbacks : 搜索到的反馈列表
+
