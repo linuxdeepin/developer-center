@@ -76,6 +76,7 @@ Deepin.Feedback.putFeedback
 * email : 反馈者留下的邮箱
 
 * attachments : 附件文件列表，可选
+
 包含以下字段
 	* name : 文件名
 	* url : 附件url
@@ -187,7 +188,9 @@ Deepin.Feedback.getDetail
 Deepin.Feedback.getStates
 
 ####参数
+
 * feedback_id : 反馈id
+
 * email : 查阅者 email
 
 #### 返回
