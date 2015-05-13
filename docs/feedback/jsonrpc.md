@@ -102,7 +102,7 @@ Deepin.Feedback.putFeedback
 }
 ```
 
-### 获取产品
+### 获取项目
 
 ####方法
 Deepin.Feedback.getProjects
