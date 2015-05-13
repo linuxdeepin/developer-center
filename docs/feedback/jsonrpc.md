@@ -55,63 +55,6 @@ json 格式
 ```
 curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"params":{"ids":[1]},"method":"Bug.get","version":"2.0"}'
 
-返回
-{
-   "version" : "1.1",
-   "result" : {
-      "bugs" : [
-         {
-            "cf_fixversion" : "",
-            "id" : 1,
-            "component" : "TestComponent",
-            "cf_probability" : "稳定出现",
-            "creator" : "yujingmei@linuxdeepin.com",
-            "is_open" : false,
-            "see_also" : [],
-            "platform" : "PC",
-            "is_confirmed" : true,
-            "qa_contact" : "",
-            "cf_techassessment" : "---",
-            "whiteboard" : "",
-            "product" : "TestProduct",
-            "assigned_to" : "yujingmei@linuxdeepin.com",
-            "blocks" : [],
-            "creation_time" : "2015-01-23T08:51:00Z",
-            "last_change_time" : "2015-03-23T07:13:30Z",
-            "is_creator_accessible" : true,
-            "alias" : null,
-            "dupe_of" : null,
-            "cf_secondselect" : "---",
-            "priority" : "Lowest",
-            "cf_firstselect" : "---",
-            "cc" : [
-               "852533897@qq.com",
-               "bugzilla@linuxdeepin.com",
-               "songwentai@linuxdeepin.com"
-            ],
-            "resolution" : "FIXED",
-            "summary" : "222",
-            "groups" : [],
-            "status" : "CLOSED",
-            "depends_on" : [],
-            "cf_review" : "---",
-            "flags" : [],
-            "classification" : "Unclassified",
-            "cf_contactinfo" : "",
-            "keywords" : [],
-            "cf_bugorreq" : "---",
-            "version" : "unspecified",
-            "op_sys" : "Linux",
-            "severity" : "normal",
-            "target_milestone" : "---",
-            "url" : "",
-            "is_cc_accessible" : true
-         }
-      ],
-      "faults" : []
-   }
-}
-
 ```
 
 ## 接口
@@ -165,8 +108,30 @@ Deepin.Feedback.getProjects
 #### 例子
 ```
 curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"method":"Deepin.Feedback.getProjects","params":{},"version":"1.1"}'
+```
 
-返回
+####返回
+有以下字段的列表：
+
+* name : 项目名称
+
+* icon : 项目图标
+
+```
+{
+   "result" : [
+      {
+         "name" : "深度截图",
+         "icon" : ""
+      },
+      {
+         "name" : "深度系统安装",
+         "icon" : ""
+      }
+   ],
+   "version" : "1.1"
+}
+
 
 
 ```
@@ -178,9 +143,24 @@ Deepin.Feedback.getDetail
 
 ####参数
 * feedback_id : 反馈id
+
 * email : 查阅者 email
 
 #### 返回
+
+* title: 标题
+
+* reporter: 报告者
+
+* id : 反馈id
+
+* heat : 热度
+
+* isAttention: 是否关注，布尔值
+
+* AttentionsCount : 关注数量
+
+例如
 ```
 {
    "version" : "1.1",
@@ -189,8 +169,8 @@ Deepin.Feedback.getDetail
       "id" : 3,
       "heat" : 0,
       "title" : "a new bug 0.3577998327996",
-      "in_cc_list" : false,
-      "cc_count" : 2
+      "isAttention" : false, 
+      "AttentionsCount":2
    }
 }
 
@@ -206,6 +186,17 @@ Deepin.Feedback.getStates
 * email : 查阅者 email
 
 #### 返回
+有以下字段的列表，按时间顺序排序
+
+* message : 修改状态时留下的评论
+
+* ts : 状态修改时间
+
+* status : 状态 （一级状态）
+
+* resolution : 解决方案（二级状态）
+
+
 例如
 ```
 {
@@ -238,6 +229,13 @@ Deepin.Feedback.getDiscuss
 * email : 查阅者 email
 
 #### 返回
+* count : 评论总数
+* comments : 评论列表
+	字段：
+	- id:  评论id 号，不连续的
+	- ts: 评论提交时间
+	- email: 评论者邮箱
+	- content: 评论内容
 ```
 {
    "version" : "1.1",
@@ -246,7 +244,7 @@ Deepin.Feedback.getDiscuss
       "comments" : [
          {
             "content" : "abcdeasdfasdf asdf asdfa sdfa sdf asdf asdfadsf",
-            "id" : "31",
+            "id" : 31,
             "ts" : "2015-05-06 11:17:36",
             "email" : "bugs@linuxdeepin.com"
          },
@@ -254,7 +252,7 @@ Deepin.Feedback.getDiscuss
             "email" : "elelectricface@qq.com",
             "ts" : "2015-05-12 09:55:32",
             "content" : "lkjlasjdfl ajsdlf asdf",
-            "id" : "136"
+            "id" : 136
          }
       ]
    }
@@ -269,17 +267,13 @@ Deepin.Feedback.putAttention
 ####参数
 * feedback_id : 反馈id
 * email : 查阅者 email
-* status: true or false
+* status: 是否关注，布尔值
+	- true: 关注
+	- false: 取消关注
 
 #### 返回
+关注返回 true，取消关注返回 false
 
-```
-{
-   "result" : true or false,
-   "version" : "1.1"
-}
-
-```
 
 
 ### 获取关注列表
@@ -292,21 +286,30 @@ Deepin.Feedback.getAttentions
 
 #### 返回
 
+* followers : 关注者，列表
+
+* reporter : 报告者
+
+* id : 反馈 id
+
+* title : 反馈标题
+
 例如
 
 ```
 {
-   "version" : "1.1",
    "result" : {
-      "id" : "3",
+      "id" : 2,
       "reporter" : "bugs@linuxdeepin.com",
-      "title" : "a new bug 0.3577998327996",
-      "cc" : [
-         "elelectricface@qq.com"
+      "title" : "再次测试 bugzilla 到 tower 功能",
+      "followers" : [
+         "1624911372@qq.com",
+         "elelectricface@qq.com",
+         "weixin@qq.com"
       ]
-   }
+   },
+   "version" : "1.1"
 }
-
 
 ```
 
@@ -321,23 +324,27 @@ Deepin.Feedback.searchBox
 * keyword : 用户输入的字符
 
 #### 返回
-例如
+有以下字段的列表，按id 排序
 
+* id : 反馈 id
+
+* title : 反馈标题
+
+例如
 ```
 {
    "version" : "1.1",
    "result" : [
       {
-         "title" : "测试bugzilla to tower",
-         "id" : "1"
+         "id" : 1,
+         "title" : "测试bugzilla to tower"
       },
       {
-         "title" : "再次测试 bugzilla 到 tower 功能",
-         "id" : "2"
+         "id" : 2,
+         "title" : "再次测试 bugzilla 到 tower 功能"
       }
    ]
 }
-
 
 ```
 
@@ -351,7 +358,7 @@ Deepin.Feedback.searchFeedback
 
 * perPageNum : 每页几条
 
-* page : 第一页
+* page : 第几页
 
 #### 返回
 * total : 搜索结果总数
@@ -359,36 +366,48 @@ Deepin.Feedback.searchFeedback
 * pageTotal : 页面总数
 
 * feedbacks : 搜索到的反馈列表
+	字段：
+	* id : 反馈 id
+	* title : 反馈标题
+	* project : 项目
+	* status: 状态 （一级状态）
+	* resolution: 解决方案 （二级状态）
+	* reporter: 报告者
+	* statusChangeTs: 状态最后修改时间
+	* heat : 热度
+
 例如
+
 ```
 {
-   "version" : "1.1",
    "result" : {
-      "total" : 2,
-      "pageTotal" : 1,
       "feedbacks" : [
          {
-            "status" : "RESOLVED::FIXED",
-            "change_ts" : "2015-05-12 09:07:13",
-            "id" : 1,
-            "project" : "TestProduct::TestComponent",
-            "title" : "测试bugzilla to tower",
+            "heat" : 8,
+            "project" : "TestProduct",
+            "statusChangeTs" : "2015-05-12 14:45:31",
+            "status" : "RESOLVED",
             "repoter" : "bugs@linuxdeepin.com",
-            "heat" : 0
+            "title" : "再次测试 bugzilla 到 tower 功能",
+            "id" : 2,
+            "resolution" : "FIXED"
          },
          {
-            "status" : "IN_PROGRESS::",
-            "change_ts" : "2015-05-12 09:24:32",
-            "project" : "TestProduct::用户反馈",
-            "id" : 2,
-            "heat" : 8,
+            "status" : "RESOLVED",
             "repoter" : "bugs@linuxdeepin.com",
-            "title" : "再次测试 bugzilla 到 tower 功能"
+            "title" : "测试bugzilla to tower",
+            "id" : 1,
+            "resolution" : "FIXED",
+            "heat" : 0,
+            "project" : "TestProduct",
+            "statusChangeTs" : null
          }
-      ]
-   }
+      ],
+      "total" : 2,
+      "pageTotal" : 1
+   },
+   "version" : "1.1"
 }
-
 
 ```
 
@@ -402,7 +421,7 @@ Deepin.Feedback.getFeedbacks
 
 * perPageNum : 每页几条
 
-* page : 第一页
+* page : 第几页
 
 * project : 筛选项目，可选
 
@@ -419,7 +438,7 @@ Deepin.Feedback.getFeedbacks
 * pageTotal : 页面总数
 
 * feedbacks : 搜索到的反馈列表
-
+字段参见 searchFeedback 方法
 
 ### 获取我的反馈
 ####方法
@@ -430,11 +449,11 @@ Deepin.Feedback.getMyFeedbacks
 
 * perPageNum : 每页几条
 
-* page : 第一页
+* page : 第几页
 
-* type: 类型
-	值可选 其中一个：
-	- cc 关注的
+* type: 关系类型,字符串
+	值可选其中之一：
+	- attention: 关注的
 	- comment : 评论的
 	- report: 报告的
 
@@ -453,4 +472,4 @@ Deepin.Feedback.getMyFeedbacks
 * pageTotal : 页面总数
 
 * feedbacks : 搜索到的反馈列表
-
+字段参见 searchFeedback 方法
