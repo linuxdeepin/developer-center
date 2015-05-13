@@ -71,11 +71,11 @@ Deepin.Feedback.putFeedback
 
 * description : 长描述
 
-* type : 可选 "problem" 或 "suggestion"
+* type :  可填 "problem"  或 "suggestion"
 
 * email : 反馈者留下的邮箱
 
-* attachments : 附件文件列表
+* attachments : 附件文件列表，可选
 包含以下字段
 	* name : 文件名
 	* url : 附件url
@@ -434,7 +434,8 @@ Deepin.Feedback.getFeedbacks
 * status : 筛选状态，可选，一般为 RESOLVED
 
 * order: 按什么排序，类型：列表，可选
-	字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+
+	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
 	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
 
 
@@ -468,7 +469,8 @@ Deepin.Feedback.getMyFeedbacks
 * status : 筛选状态，可选，一般为 RESOLVED
 
 * order: 按什么排序，类型：列表，可选
-	字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+
+	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
 	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
 
 
