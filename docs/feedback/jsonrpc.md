@@ -75,21 +75,26 @@ Deepin.Feedback.putFeedback
 
 * email : 反馈者留下的邮箱
 
-* attachments : 附件文件的 url 列表
+* attachments : 附件文件列表
+包含以下字段
+	* name : 文件名
+	* url : 附件url
 
 #### 传入数据示例
 
 ```
 {
-	"method" : "Deepin.Feedback.create",
+	"method" : "Deepin.Feedback.putFeedback",
 	"version" : "1.1",
 	"params":	 {
-		"project" : "深度影院",
+		"project" : "深度截图",
 		"description": "asdfasdfa asdf asdf asdfas dfsd sdfas dfasdfasdf",
 		"summary" : "a new feedback",
 		"attachments": [
-			'url1',
-			'url2'
+			{
+				"name" : "abcdef.png",
+				"url" : "https://a.com/sdfsdffasdf"
+			}
 		],
  		"email" : "abc@example.org",
 		"type" : "problem"
@@ -350,6 +355,7 @@ Deepin.Feedback.searchBox
 
 
 ### 搜索反馈
+只搜索标题
 ####方法
 Deepin.Feedback.searchFeedback
 
