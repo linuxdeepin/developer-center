@@ -415,23 +415,23 @@ Deepin.Feedback.searchFeedback
       "feedbacks" : [
          {
             "heat" : 8,
-            "project" : "TestProduct",
-            "statusChangeTs" : "2015-05-12 14:45:31",
             "status" : "RESOLVED",
-            "repoter" : "bugs@linuxdeepin.com",
             "title" : "再次测试 bugzilla 到 tower 功能",
             "id" : 2,
-            "resolution" : "FIXED"
+            "resolution" : "FIXED",
+            "statusChangeTs" : "2015-05-12T06:45:31Z",
+            "project" : "TestProduct",
+            "reporter" : "bugs@linuxdeepin.com"
          },
          {
-            "status" : "RESOLVED",
-            "repoter" : "bugs@linuxdeepin.com",
             "title" : "测试bugzilla to tower",
-            "id" : 1,
-            "resolution" : "FIXED",
+            "status" : "RESOLVED",
             "heat" : 0,
             "project" : "TestProduct",
-            "statusChangeTs" : null
+            "reporter" : "bugs@linuxdeepin.com",
+            "statusChangeTs" : null,
+            "resolution" : "FIXED",
+            "id" : 1
          }
       ],
       "total" : 2,
