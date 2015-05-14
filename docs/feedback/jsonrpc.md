@@ -19,6 +19,7 @@ Content-Type : application/json-rpc
 
 #### 传入数据
 为json格式
+
 ```
 {
 	"method" : "Bug.get",
@@ -31,15 +32,26 @@ Content-Type : application/json-rpc
 json 格式
 
 *  正常情况
+	* result: 结果数据
+	* version: JSONRPC 版本
 ```
 {
 	"version" : "1.1",
 	"result" : { ... }
 }
 ```
+
 * 错误情况
+	* error : 错误
+		* code : 错误代码
+		* name : 错误名
+		* message : 出错信息
+	* version ： JSONRPC 版本
+
+例如
+
 ```
-示例：
+
 {
    "error" : {
       "code" : 100302,
@@ -52,6 +64,7 @@ json 格式
 ```
 
 #### 示例
+用 curl 调用 Bugzilla JSONRPC 服务 Bug.get 方法获取某个 bug 的详细信息。
 ```
 curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/json-rpc  -d '{"params":{"ids":[1]},"method":"Bug.get","version":"2.0"}'
 
@@ -78,8 +91,8 @@ Deepin.Feedback.putFeedback
 * attachments : 附件文件列表，可选
 
 包含以下字段
-	* name : 文件名
-	* url : 附件url
+ * name : 文件名
+ * url : 附件url
 
 #### 传入数据示例
 
@@ -154,11 +167,17 @@ Deepin.Feedback.getDetail
 
 #### 返回
 
-* title: 标题
+* id : 反馈id
 
 * reporter: 报告者
 
-* id : 反馈id
+* title: 标题
+
+* description : 问题描述
+
+* statuschangeTs : 状态最后修改时间
+
+* creationTs : 反馈提交时间 
 
 * heat : 热度
 
@@ -166,17 +185,22 @@ Deepin.Feedback.getDetail
 
 * AttentionsCount : 关注数量
 
+
+
 例如
 ```
 {
    "version" : "1.1",
    "result" : {
-      "reporter" : "bugs@linuxdeepin.com",
-      "id" : 3,
-      "heat" : 0,
-      "title" : "a new bug 0.3577998327996",
-      "isAttention" : false, 
-      "AttentionsCount":2
+      "isAttention" : true,
+      "heat" : 3,
+      "AttentionsCount" : 1,
+      "statusChangeTs" : "2015-05-14T04:53:24Z",
+      "id" : 1070,
+      "reporter" : "abc@abc.org",
+      "description" : "a asdf asdf asdfa sdfas dfsdfadfsf",
+      "creationTs" : "2015-05-14T03:42:00Z",
+      "title" : "a new bug 0.3577998327996"
    }
 }
 
@@ -206,20 +230,15 @@ Deepin.Feedback.getStates
 
 
 例如
+
 ```
 {
    "result" : [
       {
-         "message" : "aa",
-         "status" : "RESOLVED",
-         "ts" : "2015-05-12 09:14:44",
-         "resolution" : "FIXED"
-      },
-      {
-         "ts" : "2015-05-12 09:15:45",
-         "message" : "abasdf asdf asdf",
-         "status" : "RESOLVED",
-         "resolution" : "INVALID"
+         "message" : "status change",
+         "resolution" : "",
+         "ts" : "2015-05-14T04:53:24Z",
+         "status" : "IN_PROGRESS"
       }
    ],
    "version" : "1.1"
@@ -244,6 +263,7 @@ Deepin.Feedback.getDiscuss
 	- ts: 评论提交时间
 	- email: 评论者邮箱
 	- content: 评论内容
+
 ```
 {
    "version" : "1.1",
@@ -483,4 +503,5 @@ Deepin.Feedback.getMyFeedbacks
 * pageTotal : 页面总数
 
 * feedbacks : 搜索到的反馈列表
-字段参见 searchFeedback 方法
+	字段参见 searchFeedback 方法
+
