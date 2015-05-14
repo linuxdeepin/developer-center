@@ -161,7 +161,7 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 Deepin.Feedback.getDetail
 
 ####参数
-* feedback_id : 反馈id
+* feedbackID : 反馈id
 * secretKey : 密钥
 * email : 查阅者 email
 
@@ -213,7 +213,7 @@ Deepin.Feedback.getStates
 
 ####参数
 * secretKey : 密钥
-* feedback_id : 反馈id
+* feedbackID : 反馈id
 * email : 查阅者 email
 
 #### 返回
@@ -251,7 +251,7 @@ Deepin.Feedback.getStates
 Deepin.Feedback.getDiscuss
 
 ####参数
-* feedback_id : 反馈id
+* feedbackID : 反馈id
 * email : 查阅者 email
 * secretKey : 密钥
 
@@ -293,7 +293,7 @@ Deepin.Feedback.getDiscuss
 Deepin.Feedback.putAttention
 
 ####参数
-* feedback_id : 反馈id
+* feedbackID : 反馈id
 * email : 查阅者 email
 * secretKey : 密钥
 * status: 是否关注，布尔值
@@ -310,7 +310,7 @@ Deepin.Feedback.putAttention
 Deepin.Feedback.getAttentions
 
 ####参数
-* feedback_id : 反馈id
+* feedbackID : 反馈id
 * secretKey : 密钥
 
 
