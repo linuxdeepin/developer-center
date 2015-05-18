@@ -491,14 +491,14 @@ Deepin.Feedback.getFeedbacks
 * feedbacks : 搜索到的反馈列表
 字段参见 searchFeedback 方法
 
-### 获取我的反馈
+### 获取用户的反馈
 ####方法
-Deepin.Feedback.getMyFeedbacks
+Deepin.Feedback.getUserFeedbacks
 
 ####参数
 * secretKey : 密钥
 
-* email : 查阅者邮箱
+* userID : 用户id
 
 * perPageNum : 每页几条
 
