@@ -163,13 +163,15 @@ Deepin.Feedback.getDetail
 ####参数
 * feedbackID : 反馈id
 * secretKey : 密钥
-* email : 查阅者 email
+* email : 查阅者邮箱
 
 #### 返回
 
 * id : 反馈id
 
 * reporter: 报告者
+	- id 报告者 id
+	- email 报告者邮箱
 
 * title: 标题
 
@@ -190,20 +192,22 @@ Deepin.Feedback.getDetail
 例如
 ```
 {
-   "version" : "1.1",
    "result" : {
-      "isAttention" : true,
-      "heat" : 3,
+      "description" : "测试bugzilla to tower",
       "AttentionsCount" : 1,
-      "statusChangeTs" : "2015-05-14T04:53:24Z",
-      "id" : 1070,
-      "reporter" : "abc@abc.org",
-      "description" : "a asdf asdf asdfa sdfas dfsdfadfsf",
-      "creationTs" : "2015-05-14T03:42:00Z",
-      "title" : "a new bug 0.3577998327996"
-   }
+      "reporter" : {
+         "email" : "bugs@linuxdeepin.com",
+         "id" : 1
+      },
+      "creationTs" : "2015-04-08T07:36:00Z",
+      "isAttention" : false,
+      "statusChangeTs" : null,
+      "id" : 1,
+      "heat" : 0,
+      "title" : "测试bugzilla to tower"
+   },
+   "version" : "1.1"
 }
-
 ```
 
 
@@ -214,7 +218,7 @@ Deepin.Feedback.getStates
 ####参数
 * secretKey : 密钥
 * feedbackID : 反馈id
-* email : 查阅者 email
+* email : 查阅者邮箱
 
 #### 返回
 有以下字段的列表，按时间顺序排序
@@ -261,9 +265,12 @@ Deepin.Feedback.getDiscuss
 	字段：
 	- id:  评论id 号，不连续的
 	- ts: 评论提交时间
-	- email: 评论者邮箱
+	- author : 评论者
+		* email: 评论者邮箱
+		* id : 评论者id
 	- content: 评论内容
 
+例如
 ```
 {
    "version" : "1.1",
@@ -271,21 +278,26 @@ Deepin.Feedback.getDiscuss
       "count" : 2,
       "comments" : [
          {
-            "content" : "abcdeasdfasdf asdf asdfa sdfa sdf asdf asdfadsf",
-            "id" : 31,
-            "ts" : "2015-05-06 11:17:36",
-            "email" : "bugs@linuxdeepin.com"
+            "content" : "abcdef",
+            "id" : 1205,
+            "author" : {
+               "email" : "abc@abc.org",
+               "id" : 11
+            },
+            "ts" : "2015-05-14 12:51:34"
          },
          {
-            "email" : "elelectricface@qq.com",
-            "ts" : "2015-05-12 09:55:32",
-            "content" : "lkjlasjdfl ajsdlf asdf",
-            "id" : 136
+            "content" : "status change",
+            "author" : {
+               "id" : 2,
+               "email" : "elelectricface@qq.com"
+            },
+            "id" : 1206,
+            "ts" : "2015-05-14 12:53:24"
          }
       ]
    }
 }
-
 ```
 
 ### 关注/取消关注
@@ -301,8 +313,7 @@ Deepin.Feedback.putAttention
 	- false: 取消关注
 
 #### 返回
-关注返回 true，取消关注返回 false
-
+关注人数
 
 
 ### 获取关注列表
@@ -354,7 +365,7 @@ Deepin.Feedback.searchBox
 * keyword : 用户输入的字符
 
 #### 返回
-有以下字段的列表，按id 排序
+有以下字段的列表，按id 降序排序
 
 * id : 反馈 id
 
@@ -404,6 +415,8 @@ Deepin.Feedback.searchFeedback
 	* status: 状态 （一级状态）
 	* resolution: 解决方案 （二级状态）
 	* reporter: 报告者
+		- id : 报告者id
+		- email : 报告者邮箱
 	* statusChangeTs: 状态最后修改时间
 	* heat : 热度
 
@@ -411,33 +424,39 @@ Deepin.Feedback.searchFeedback
 
 ```
 {
+   "version" : "1.1",
    "result" : {
+      "total" : 2,
+      "pageTotal" : 1,
       "feedbacks" : [
          {
-            "heat" : 8,
-            "status" : "RESOLVED",
-            "title" : "再次测试 bugzilla 到 tower 功能",
-            "id" : 2,
-            "resolution" : "FIXED",
             "statusChangeTs" : "2015-05-12T06:45:31Z",
+            "heat" : 8,
+            "title" : "再次测试 bugzilla 到 tower 功能",
+            "status" : "RESOLVED",
+            "resolution" : "FIXED",
             "project" : "TestProduct",
-            "reporter" : "bugs@linuxdeepin.com"
+            "id" : 2,
+            "reporter" : {
+               "id" : 1,
+               "email" : "bugs@linuxdeepin.com"
+            }
          },
          {
-            "title" : "测试bugzilla to tower",
-            "status" : "RESOLVED",
-            "heat" : 0,
-            "project" : "TestProduct",
-            "reporter" : "bugs@linuxdeepin.com",
-            "statusChangeTs" : null,
             "resolution" : "FIXED",
-            "id" : 1
+            "project" : "TestProduct",
+            "reporter" : {
+               "email" : "bugs@linuxdeepin.com",
+               "id" : 1
+            },
+            "id" : 1,
+            "statusChangeTs" : null,
+            "title" : "测试bugzilla to tower",
+            "heat" : 0,
+            "status" : "RESOLVED"
          }
-      ],
-      "total" : 2,
-      "pageTotal" : 1
-   },
-   "version" : "1.1"
+      ]
+   }
 }
 
 ```
