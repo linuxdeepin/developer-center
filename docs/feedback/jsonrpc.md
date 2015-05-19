@@ -72,7 +72,7 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 
 ## 接口
 
-### 创建反馈
+### 提交反馈
 
 #### 方法
 Deepin.Feedback.putFeedback
@@ -88,11 +88,10 @@ Deepin.Feedback.putFeedback
 
 * email : 反馈者留下的邮箱
 
-* attachments : 附件文件列表，可选
-
-包含以下字段
- * name : 文件名
- * url : 附件url
+* attachments : 附件列表，类型列表，可选
+	- url : 附件url
+	- name : 文件名
+	- type : 文件类型
 
 #### 传入数据示例
 
@@ -163,7 +162,7 @@ Deepin.Feedback.getDetail
 ####参数
 * feedbackID : 反馈id
 * secretKey : 密钥
-* email : 查阅者邮箱
+* email : 查阅者邮箱,可选
 
 #### 返回
 
@@ -177,6 +176,12 @@ Deepin.Feedback.getDetail
 
 * description : 问题描述
 
+* attachments : 附件列表，类型列表
+	有以下字段的列表
+	- url : 附件url
+	- name : 文件名
+	- type : 文件类型
+
 * statuschangeTs : 状态最后修改时间
 
 * creationTs : 反馈提交时间 
@@ -185,29 +190,37 @@ Deepin.Feedback.getDetail
 
 * isAttention: 是否关注，布尔值
 
-* AttentionsCount : 关注数量
+* attentionsCount : 关注数量
 
 
 
 例如
 ```
 {
+   "version" : "1.1",
    "result" : {
-      "description" : "测试bugzilla to tower",
-      "AttentionsCount" : 1,
+      "id" : 1073,
+      "description" : "test add attachments",
+      "statusChangeTs" : "2015-05-18T07:17:11Z",
+      "heat" : 3,
+      "attentionsCount" : 0,
+      "title" : "add_attachment test",
+      "creationTs" : "2015-05-18T06:21:00Z",
       "reporter" : {
-         "email" : "bugs@linuxdeepin.com",
-         "id" : 1
+         "email" : "electricface@qq.com",
+         "id" : 18
       },
-      "creationTs" : "2015-04-08T07:36:00Z",
       "isAttention" : false,
-      "statusChangeTs" : null,
-      "id" : 1,
-      "heat" : 0,
-      "title" : "测试bugzilla to tower"
-   },
-   "version" : "1.1"
+      "attachments" : [
+         {
+            "name" : "abc",
+            "url" : "url1",
+            "type" : "gif"
+         }
+      ]
+   }
 }
+
 ```
 
 
@@ -218,7 +231,7 @@ Deepin.Feedback.getStates
 ####参数
 * secretKey : 密钥
 * feedbackID : 反馈id
-* email : 查阅者邮箱
+* email : 查阅者邮箱，可选
 
 #### 返回
 有以下字段的列表，按时间顺序排序
@@ -236,15 +249,21 @@ Deepin.Feedback.getStates
 
 ```
 {
+   "version" : "1.1",
    "result" : [
       {
-         "message" : "status change",
+         "ts" : "2015-05-18T07:17:11Z",
+         "message" : null,
          "resolution" : "",
-         "ts" : "2015-05-14T04:53:24Z",
-         "status" : "IN_PROGRESS"
+         "status" : "UNCONFIRMED"
+      },
+      {
+         "status" : "CONFIRMED",
+         "resolution" : "",
+         "message" : "abcde 中文 的",
+         "ts" : "2015-05-18T07:18:12Z"
       }
-   ],
-   "version" : "1.1"
+   ]
 }
 
 ```
@@ -256,7 +275,7 @@ Deepin.Feedback.getDiscuss
 
 ####参数
 * feedbackID : 反馈id
-* email : 查阅者 email
+* email : 查阅者 email，可选
 * secretKey : 密钥
 
 #### 返回
@@ -269,36 +288,66 @@ Deepin.Feedback.getDiscuss
 		* email: 评论者邮箱
 		* id : 评论者id
 	- content: 评论内容
+	- attachments : 附件列表，类型列表
+		* url : 附件url
+		* name : 文件名
+		* type : 文件类型
 
 例如
 ```
 {
-   "version" : "1.1",
    "result" : {
       "count" : 2,
       "comments" : [
          {
-            "content" : "abcdef",
-            "id" : 1205,
+            "attachments" : [
+               {
+                  "url" : "http://abcdef.com/adfasdf",
+                  "name" : "abcdef.png",
+                  "type" : "image/jpeg"
+               }
+            ],
+            "content" : "ab  def game",
+            "id" : 1233,
+            "ts" : "2015-05-18T06:36:56Z",
             "author" : {
-               "email" : "abc@abc.org",
-               "id" : 11
-            },
-            "ts" : "2015-05-14 12:51:34"
+               "id" : 3,
+               "email" : "user1@linuxdeepin.com"
+            }
          },
          {
-            "content" : "status change",
+            "attachments" : null,
+            "ts" : "2015-05-18T06:38:34Z",
+            "id" : 1234,
+            "content" : "ab adf aasdf __===",
             "author" : {
-               "id" : 2,
-               "email" : "elelectricface@qq.com"
-            },
-            "id" : 1206,
-            "ts" : "2015-05-14 12:53:24"
+               "email" : "user2@linuxdeepin.com",
+               "id" : 4
+            }
          }
       ]
-   }
+   },
+   "version" : "1.1"
 }
+
 ```
+
+### 提交评论
+#### 方法
+Deepin.Feedback.putDiscuss
+
+#### 参数
+* feedbackID : 反馈id
+* email : 提交者邮箱
+* secretKey : 密钥
+* attachments : 附件列表
+	有以下字段的列表
+	- url : 附件url
+	- name : 文件名
+	- type : 文件类型
+
+#### 返回
+* id : 评论 id
 
 ### 关注/取消关注
 ####方法
@@ -313,7 +362,7 @@ Deepin.Feedback.putAttention
 	- false: 取消关注
 
 #### 返回
-关注人数
+* attentionsCount : 关注人数
 
 
 ### 获取关注列表
@@ -491,6 +540,44 @@ Deepin.Feedback.getFeedbacks
 * feedbacks : 搜索到的反馈列表
 字段参见 searchFeedback 方法
 
+### 获取我的反馈
+#### 方法
+Deepin.Feedback.getMyFeedbacks
+
+#### 参数
+* secretKey : 密钥
+
+* email : 查阅者邮箱
+
+* perPageNum : 每页几条
+
+* page : 第几页
+
+* type: 关系类型,字符串
+	值可选其中之一：
+	- "report" : 报告的
+	- "attention": 关注的
+	- "comment" : 评论的
+
+* project : 筛选项目，可选
+
+* status : 筛选状态，可选，一般为 RESOLVED
+
+* order: 按什么排序，类型：列表，可选
+
+	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
+
+
+#### 返回
+* total : 搜索结果总数
+
+* pageTotal : 页面总数
+
+* feedbacks : 搜索到的反馈列表
+	字段参见 searchFeedback 方法
+	注意：当 type 为 "comment" 时，获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
+
 ### 获取用户的反馈
 ####方法
 Deepin.Feedback.getUserFeedbacks
@@ -500,15 +587,17 @@ Deepin.Feedback.getUserFeedbacks
 
 * userID : 用户id
 
+* email : 查阅者邮箱
+
 * perPageNum : 每页几条
 
 * page : 第几页
 
 * type: 关系类型,字符串
 	值可选其中之一：
-	- attention: 关注的
-	- comment : 评论的
-	- report: 报告的
+	- "report" : 报告的
+	- "attention" : 关注的
+
 
 * project : 筛选项目，可选
 
