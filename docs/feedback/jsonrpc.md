@@ -544,15 +544,10 @@ Deepin.Feedback.getUserFeedbacks
 
 ####参数
 * secretKey : 密钥
-
 * userID : 用户id
-
-* email : 查阅者邮箱
-
+* email : 查阅者邮箱,可选
 * perPageNum : 每页几条
-
 * page : 第几页
-
 * type: 关系类型,字符串
 	值可选其中之一：
 	- "report" : 报告的
@@ -560,9 +555,7 @@ Deepin.Feedback.getUserFeedbacks
 
 
 * project : 筛选项目，可选
-
 * status : 筛选状态，可选，一般为 RESOLVED
-
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -571,9 +564,7 @@ Deepin.Feedback.getUserFeedbacks
 
 #### 返回
 * total : 搜索结果总数
-
 * pageTotal : 页面总数
-
 * feedbacks : 搜索到的反馈列表
 
 	字段参见 searchFeedback 方法
