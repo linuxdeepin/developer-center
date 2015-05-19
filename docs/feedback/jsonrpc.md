@@ -12,9 +12,7 @@ Content-Type : application/json-rpc
 
 #### 字段介绍
 * method ： 要调用的方法
-
 * version : JSONRPC 协议版本，填 1.1
-
 * params  : 方法需要的参数
 
 #### 传入数据
@@ -79,15 +77,10 @@ Deepin.Feedback.putFeedback
 
 #### 参数
 * project ： 用户反馈项目下的组件
-
 * summary :  标题
-
 * description : 长描述
-
-* type :  可填 "problem"  或 "suggestion"
-
+* type :  只可填 "problem"  或 "suggestion"
 * email : 反馈者留下的邮箱
-
 * attachments : 附件列表，类型列表，可选
 	- url : 附件url
 	- name : 文件名
@@ -132,7 +125,6 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 有以下字段的列表：
 
 * name : 项目名称
-
 * icon : 项目图标
 
 ```
@@ -149,9 +141,6 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
    ],
    "version" : "1.1"
 }
-
-
-
 ```
 
 
@@ -167,15 +156,12 @@ Deepin.Feedback.getDetail
 #### 返回
 
 * id : 反馈id
-
 * reporter: 报告者
 	- id 报告者 id
 	- email 报告者邮箱
 
 * title: 标题
-
 * description : 问题描述
-
 * attachments : 附件列表，类型列表
 	有以下字段的列表
 	- url : 附件url
@@ -183,13 +169,9 @@ Deepin.Feedback.getDetail
 	- type : 文件类型
 
 * statuschangeTs : 状态最后修改时间
-
-* creationTs : 反馈提交时间 
-
+* creationTs : 反馈提交时间
 * heat : 热度
-
 * isAttention: 是否关注，布尔值
-
 * attentionsCount : 关注数量
 
 
@@ -237,11 +219,8 @@ Deepin.Feedback.getStates
 有以下字段的列表，按时间顺序排序
 
 * message : 修改状态时留下的评论
-
 * ts : 状态修改时间
-
 * status : 状态 （一级状态）
-
 * resolution : 解决方案（二级状态）
 
 
@@ -377,11 +356,8 @@ Deepin.Feedback.getAttentions
 #### 返回
 
 * followers : 关注者，列表
-
 * reporter : 报告者
-
 * id : 反馈 id
-
 * title : 反馈标题
 
 例如
@@ -417,7 +393,6 @@ Deepin.Feedback.searchBox
 有以下字段的列表，按id 降序排序
 
 * id : 反馈 id
-
 * title : 反馈标题
 
 例如
@@ -446,16 +421,12 @@ Deepin.Feedback.searchFeedback
 
 ####参数
 * keyword : 用户输入的字符
-
 * perPageNum : 每页几条
-
 * page : 第几页
 
 #### 返回
 * total : 搜索结果总数
-
 * pageTotal : 页面总数
-
 * feedbacks : 搜索到的反馈列表
 	字段：
 	* id : 反馈 id
@@ -519,13 +490,9 @@ Deepin.Feedback.getFeedbacks
 ####参数
 
 * perPageNum : 每页几条
-
 * page : 第几页
-
 * project : 筛选项目，可选
-
 * status : 筛选状态，可选，一般为 RESOLVED
-
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -534,9 +501,7 @@ Deepin.Feedback.getFeedbacks
 
 #### 返回
 * total : 搜索结果总数
-
 * pageTotal : 页面总数
-
 * feedbacks : 搜索到的反馈列表
 字段参见 searchFeedback 方法
 
@@ -546,11 +511,8 @@ Deepin.Feedback.getMyFeedbacks
 
 #### 参数
 * secretKey : 密钥
-
 * email : 查阅者邮箱
-
 * perPageNum : 每页几条
-
 * page : 第几页
 
 * type: 关系类型,字符串
@@ -560,9 +522,7 @@ Deepin.Feedback.getMyFeedbacks
 	- "comment" : 评论的
 
 * project : 筛选项目，可选
-
 * status : 筛选状态，可选，一般为 RESOLVED
-
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -571,12 +531,12 @@ Deepin.Feedback.getMyFeedbacks
 
 #### 返回
 * total : 搜索结果总数
-
 * pageTotal : 页面总数
-
 * feedbacks : 搜索到的反馈列表
-	字段参见 searchFeedback 方法
-	注意：当 type 为 "comment" 时，获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
+
+    字段参见 searchFeedback 方法
+
+    注意：当 type 为 "comment" 时，获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
 
 ### 获取用户的反馈
 ####方法
@@ -615,5 +575,6 @@ Deepin.Feedback.getUserFeedbacks
 * pageTotal : 页面总数
 
 * feedbacks : 搜索到的反馈列表
+
 	字段参见 searchFeedback 方法
 
