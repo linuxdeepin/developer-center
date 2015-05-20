@@ -45,7 +45,8 @@ POST https://api.linuxdeepin.com/bucket/:type/
 
 | ParamName                  | Required      | Description                    |
 | -------------------------- |---------------|------------------------------- |
-| **:type**               | true          | 资源类型，目前只支持report类型，限制为大小5M以下，格式必须为gz格式。                          |
+| **:type**               | true          | 资源类型，目前只支持report类型，限制为大小1k~15M以下。|
+|**file-type** |false| 上传文件格式， 默认为gz格式。支持gz,jpeg,png,bmp  |
 
 
 #### 3.1.3 返回结果
@@ -69,8 +70,8 @@ POST https://api.linuxdeepin.com/bucket/report
 {
   "ID": "13338595ef862927186b2e485167606385ee30f1",
   "ResourceUrl": "bucket/report/13338595ef862927186b2e485167606385ee30f1",
-
   "PostUrl": "http://v0.api.upyun.com/theme-store",
+  "FileExt": "jpeg",
   "PostHeader": {},
   "PostBody": {
     "policy": "eyJhbGxvdy1maWxlLXR5cGUiOiJneiIsImJ1Y2tldCI6InRoZW1lLXN0b3JlIiwiY29udGVudC1sZW5ndGgtcmFuZ2UiOiIxMDI0LDkwNDg1NzYiLCJleHBpcmF0aW9uIjoxNDI3NDQyNzUzLCJzYXZlLWtleSI6Ii9wdWJsaWMvcmVwb3J0LzIwMTUvMDMvMjcvMTUtMzctMzMtNjkxNzIxZWEuZ3oifQ==",
