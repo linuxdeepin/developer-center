@@ -131,12 +131,12 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 {
    "result" : [
       {
-         "name" : "深度截图",
-         "icon" : ""
+         "icon" : null,
+         "name" : "深度截图"
       },
       {
          "name" : "深度系统安装",
-         "icon" : ""
+         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/products/%E6%B7%B1%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85.png"
       }
    ],
    "version" : "1.1"
@@ -222,27 +222,35 @@ Deepin.Feedback.getStates
 * ts : 状态修改时间
 * status : 状态 （一级状态）
 * resolution : 解决方案（二级状态）
-
+* who : 状态修改操作者的邮箱
 
 例如
-
 ```
 {
-   "version" : "1.1",
    "result" : [
       {
-         "ts" : "2015-05-18T07:17:11Z",
-         "message" : null,
          "resolution" : "",
-         "status" : "UNCONFIRMED"
+         "who" : "bugs@linuxdeepin.com",
+         "ts" : "2015-04-09T05:12:00Z",
+         "status" : "UNCONFIRMED",
+         "message" : null
       },
       {
-         "status" : "CONFIRMED",
-         "resolution" : "",
-         "message" : "abcde 中文 的",
-         "ts" : "2015-05-18T07:18:12Z"
+         "status" : "IN_PROGRESS",
+         "message" : "zxcvz asdfas",
+         "ts" : "2015-05-12T01:24:32Z",
+         "who" : "elelectricface@qq.com",
+         "resolution" : ""
+      },
+      {
+         "ts" : "2015-05-12T06:45:31Z",
+         "who" : "elelectricface@qq.com",
+         "status" : "RESOLVED",
+         "message" : "aaa",
+         "resolution" : "FIXED"
       }
-   ]
+   ],
+   "version" : "1.1"
 }
 
 ```
@@ -319,7 +327,7 @@ Deepin.Feedback.putDiscuss
 * feedbackID : 反馈id
 * email : 提交者邮箱
 * secretKey : 密钥
-* attachments : 附件列表
+* attachments : 附件列表，类型：列表，可选
 	有以下字段的列表
 	- url : 附件url
 	- name : 文件名
@@ -423,6 +431,13 @@ Deepin.Feedback.searchFeedback
 * keyword : 用户输入的字符
 * perPageNum : 每页几条
 * page : 第几页
+* project : 筛选项目，可选
+* status : 筛选状态，可选，一般为 RESOLVED
+* order: 按什么排序，类型：列表，可选
+
+	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
+	降序： 字段名在后面加 一个空格 + "DESC"，如 “id DESC”，以 id 降序排序
+
 
 #### 返回
 * total : 搜索结果总数
