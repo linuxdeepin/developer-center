@@ -173,36 +173,38 @@ Deepin.Feedback.getDetail
 * heat : 热度
 * isAttention: 是否关注，布尔值
 * attentionsCount : 关注数量
-
+* status : 状态 （一级状态）
+* resolution : 解决方案 （二级状态）
 
 
 例如
 ```
 {
-   "version" : "1.1",
    "result" : {
-      "id" : 1073,
-      "description" : "test add attachments",
-      "statusChangeTs" : "2015-05-18T07:17:11Z",
-      "heat" : 3,
-      "attentionsCount" : 0,
-      "title" : "add_attachment test",
-      "creationTs" : "2015-05-18T06:21:00Z",
-      "reporter" : {
-         "email" : "electricface@qq.com",
-         "id" : 18
-      },
+      "statusChangeTs" : "2015-05-18T06:21:00Z",
       "isAttention" : false,
+      "status" : "UNCONFIRMED",
+      "resolution" : "",
+      "title" : "add_attachment test",
       "attachments" : [
          {
             "name" : "abc",
             "url" : "url1",
             "type" : "gif"
          }
-      ]
-   }
+      ],
+      "heat" : 5,
+      "creationTs" : "2015-05-18T06:21:00Z",
+      "attentionsCount" : 1,
+      "id" : 1073,
+      "reporter" : {
+         "id" : 18,
+         "email" : "electricface@qq.com"
+      },
+      "description" : "test add attachments"
+   },
+   "version" : "1.1"
 }
-
 ```
 
 
@@ -452,6 +454,7 @@ Deepin.Feedback.searchFeedback
 	* reporter: 报告者
 		- id : 报告者id
 		- email : 报告者邮箱
+	* creationTs : 反馈提交时间
 	* statusChangeTs: 状态最后修改时间
 	* heat : 热度
 
@@ -549,9 +552,7 @@ Deepin.Feedback.getMyFeedbacks
 * pageTotal : 页面总数
 * feedbacks : 搜索到的反馈列表
 
-    字段参见 searchFeedback 方法
-
-    注意：当 type 为 "comment" 时，获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
+    字段参见 searchFeedback 方法,但获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
 
 ### 获取用户的反馈
 ####方法
@@ -560,7 +561,6 @@ Deepin.Feedback.getUserFeedbacks
 ####参数
 * secretKey : 密钥
 * userID : 用户id
-* email : 查阅者邮箱,可选
 * perPageNum : 每页几条
 * page : 第几页
 * type: 关系类型,字符串
