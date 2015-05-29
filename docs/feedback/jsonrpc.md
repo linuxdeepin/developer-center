@@ -126,21 +126,25 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 
 * name : 项目名称
 * icon : 项目图标
+* category : 项目分类
 
 ```
 {
    "result" : [
       {
-         "icon" : null,
-         "name" : "深度截图"
+         "category" : "application",
+         "name" : "深度截图",
+         "icon" : null
       },
       {
          "name" : "深度系统安装",
-         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/products/%E6%B7%B1%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85.png"
+         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/products/%E6%B7%B1%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85.png",
+         "category" : "system"
       }
    ],
    "version" : "1.1"
 }
+
 ```
 
 
