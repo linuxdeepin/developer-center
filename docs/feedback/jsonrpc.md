@@ -179,36 +179,39 @@ Deepin.Feedback.getDetail
 * attentionsCount : 关注数量
 * status : 状态 （一级状态）
 * resolution : 解决方案 （二级状态）
+* project : 项目
 
 
 例如
 ```
 {
    "result" : {
-      "statusChangeTs" : "2015-05-18T06:21:00Z",
+      "project" : "深度系统安装",
       "isAttention" : false,
-      "status" : "UNCONFIRMED",
-      "resolution" : "",
+      "description" : "test add attachments",
       "title" : "add_attachment test",
       "attachments" : [
          {
             "name" : "abc",
-            "url" : "url1",
-            "type" : "gif"
+            "type" : "gif",
+            "url" : "url1"
          }
       ],
-      "heat" : 5,
-      "creationTs" : "2015-05-18T06:21:00Z",
-      "attentionsCount" : 1,
-      "id" : 1073,
       "reporter" : {
-         "id" : 18,
-         "email" : "electricface@qq.com"
+         "email" : "electricface@qq.com",
+         "id" : 18
       },
-      "description" : "test add attachments"
+      "statusChangeTs" : "2015-05-18T06:21:00Z",
+      "attentionsCount" : 1,
+      "creationTs" : "2015-05-18T06:21:00Z",
+      "resolution" : "",
+      "heat" : 5,
+      "status" : "UNCONFIRMED",
+      "id" : 1073
    },
    "version" : "1.1"
 }
+
 ```
 
 
