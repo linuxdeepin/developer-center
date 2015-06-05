@@ -177,8 +177,7 @@ Deepin.Feedback.getDetail
 * heat : 热度
 * isAttention: 是否关注，布尔值
 * attentionsCount : 关注数量
-* status : 状态 （一级状态）
-* resolution : 解决方案 （二级状态）
+* status : 状态
 * project : 项目
 
 
@@ -186,28 +185,27 @@ Deepin.Feedback.getDetail
 ```
 {
    "result" : {
-      "project" : "深度系统安装",
-      "isAttention" : false,
+      "statusChangeTs" : "2015-05-18T06:21:00Z",
+      "attentionsCount" : 1,
       "description" : "test add attachments",
-      "title" : "add_attachment test",
-      "attachments" : [
-         {
-            "name" : "abc",
-            "type" : "gif",
-            "url" : "url1"
-         }
-      ],
+      "heat" : 5,
       "reporter" : {
          "email" : "electricface@qq.com",
          "id" : 18
       },
-      "statusChangeTs" : "2015-05-18T06:21:00Z",
-      "attentionsCount" : 1,
-      "creationTs" : "2015-05-18T06:21:00Z",
-      "resolution" : "",
-      "heat" : 5,
+      "isAttention" : false,
       "status" : "UNCONFIRMED",
-      "id" : 1073
+      "attachments" : [
+         {
+            "type" : "gif",
+            "url" : "url1",
+            "name" : "abc"
+         }
+      ],
+      "id" : 1073,
+      "project" : "深度系统安装",
+      "title" : "add_attachment test",
+      "creationTs" : "2015-05-18T06:21:00Z"
    },
    "version" : "1.1"
 }
@@ -229,8 +227,7 @@ Deepin.Feedback.getStates
 
 * message : 修改状态时留下的评论
 * ts : 状态修改时间
-* status : 状态 （一级状态）
-* resolution : 解决方案（二级状态）
+* status : 状态
 * who : 状态修改操作者的邮箱
 
 例如
@@ -238,30 +235,20 @@ Deepin.Feedback.getStates
 {
    "result" : [
       {
-         "resolution" : "",
-         "who" : "bugs@linuxdeepin.com",
-         "ts" : "2015-04-09T05:12:00Z",
+         "message" : "",
          "status" : "UNCONFIRMED",
-         "message" : null
+         "ts" : "2015-05-06T03:22:00Z",
+         "who" : "bugs@linuxdeepin.com"
       },
       {
-         "status" : "IN_PROGRESS",
-         "message" : "zxcvz asdfas",
-         "ts" : "2015-05-12T01:24:32Z",
-         "who" : "elelectricface@qq.com",
-         "resolution" : ""
-      },
-      {
-         "ts" : "2015-05-12T06:45:31Z",
-         "who" : "elelectricface@qq.com",
-         "status" : "RESOLVED",
-         "message" : "aaa",
-         "resolution" : "FIXED"
+         "message" : "",
+         "status" : "PUBLISHED",
+         "ts" : "2015-05-12T09:32:22Z",
+         "who" : "elelectricface@qq.com"
       }
    ],
    "version" : "1.1"
 }
-
 ```
 
 
@@ -441,7 +428,7 @@ Deepin.Feedback.searchFeedback
 * perPageNum : 每页几条
 * page : 第几页
 * project : 筛选项目，可选
-* status : 筛选状态，可选，一般为 RESOLVED
+* status : 筛选状态，可选，一般为 PUBLISHED
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -456,8 +443,7 @@ Deepin.Feedback.searchFeedback
 	* id : 反馈 id
 	* title : 反馈标题
 	* project : 项目
-	* status: 状态 （一级状态）
-	* resolution: 解决方案 （二级状态）
+	* status: 状态
 	* reporter: 报告者
 		- id : 报告者id
 		- email : 报告者邮箱
@@ -471,38 +457,39 @@ Deepin.Feedback.searchFeedback
 {
    "version" : "1.1",
    "result" : {
-      "total" : 2,
-      "pageTotal" : 1,
+      "total" : 7,
       "feedbacks" : [
          {
-            "statusChangeTs" : "2015-05-12T06:45:31Z",
-            "heat" : 8,
-            "title" : "再次测试 bugzilla 到 tower 功能",
-            "status" : "RESOLVED",
-            "resolution" : "FIXED",
+            "id" : 40,
             "project" : "TestProduct",
-            "id" : 2,
+            "creationTs" : "2015-05-06T09:08:21Z",
+            "statusChangeTs" : "2015-05-20T01:45:54Z",
             "reporter" : {
-               "id" : 1,
-               "email" : "bugs@linuxdeepin.com"
-            }
+               "id" : 8,
+               "email" : "electricface@qq.com.email"
+            },
+            "heat" : 4,
+            "title" : "a new bug 0.384907598697708",
+            "status" : "PUBLISHED"
          },
          {
-            "resolution" : "FIXED",
             "project" : "TestProduct",
+            "creationTs" : "2015-04-08T07:36:25Z",
             "reporter" : {
                "email" : "bugs@linuxdeepin.com",
                "id" : 1
             },
-            "id" : 1,
-            "statusChangeTs" : null,
+            "statusChangeTs" : "2015-05-19T08:41:05Z",
+            "status" : "PUBLISHED",
+            "heat" : 4,
             "title" : "测试bugzilla to tower",
-            "heat" : 0,
-            "status" : "RESOLVED"
+            "id" : 1
          }
-      ]
+      ],
+      "pageTotal" : 4
    }
 }
+
 
 ```
 
@@ -517,7 +504,7 @@ Deepin.Feedback.getFeedbacks
 * perPageNum : 每页几条
 * page : 第几页
 * project : 筛选项目，可选
-* status : 筛选状态，可选，一般为 RESOLVED
+* status : 筛选状态，可选，一般为 PUBLISHED
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -547,7 +534,7 @@ Deepin.Feedback.getMyFeedbacks
 	- "comment" : 评论的
 
 * project : 筛选项目，可选
-* status : 筛选状态，可选，一般为 RESOLVED
+* status : 筛选状态，可选，一般为 PUBLISHED
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
@@ -577,7 +564,7 @@ Deepin.Feedback.getUserFeedbacks
 
 
 * project : 筛选项目，可选
-* status : 筛选状态，可选，一般为 RESOLVED
+* status : 筛选状态，可选，一般为 PUBLISHED
 * order: 按什么排序，类型：列表，可选
 
 	排序字段可选 "id", "statusChangeTime", "heat"，默认升序排列。
