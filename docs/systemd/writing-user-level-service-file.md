@@ -46,10 +46,10 @@ loginctl disable-linger $USER
 ```
 
 ### 例子
-gerrit event watcher 的例子
+dtask server 的例子
 ```
 [Unit]
-Description = gerrit event watcher
+Description = Dtask Server
 After= networking.service
 
 [Service]
