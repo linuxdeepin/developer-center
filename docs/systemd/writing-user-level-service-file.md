@@ -3,34 +3,35 @@ category:systemd
 title:用户级别 service 文件编写
 DO NOT Delete Meta Above -->
 
-# 编写 systemd service 文件
+##用户级别 systemd service 文件编写
 标签： systemd
 ---
 
 ### 参考文档
 [openSUSE:How to write a systemd service](https://zh.opensuse.org/index.php?title=openSUSE:How_to_write_a_systemd_service&variant=zh-sg)
-[arch wiki Systemd Writing_unit_files](https://wiki.archlinux.org/index.php/Systemd_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29#Writing_unit_files)
+
+[Arch Linux Wiki Systemd Writing_unit_files](https://wiki.archlinux.org/index.php/Systemd_%28%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%29#Writing_unit_files)
 
 ### 文件位置
-系统管理员编写的服务配置文件放在
-/etc/systemd/system
 
-软件打包的服务配置文件放在
-/usr/lib/systemd
+系统管理员编写的服务配置文件放在 /etc/systemd/system
 
-用户级别的放在
-$HOME/.config/systemd/user
+软件打包的服务配置文件放在 /usr/lib/systemd
 
-sytemd.unit
-[Unit] 段参考
+用户级别的放在 $HOME/.config/systemd/user
+
+sytemd.unit [Unit] 段参考
+
 http://www.freedesktop.org/software/systemd/man/systemd.unit.html
 
-systemd.service 
-[Service] 段参考
+systemd.service [Service] 段参考
+
 http://www.freedesktop.org/software/systemd/man/systemd.service.html
 
+### 服务开机自启动
 
 要让用户级别的服务脚本在用户未登陆的情况下自启动，并且用户注销登录后服务依旧运行，需要设置 用户 Linger 属性为 "Yes" 。
+
 [更详细](https://wiki.archlinux.org/index.php/Systemd/User#Automatic_start-up_of_systemd_user_instances)
 
 ```
@@ -67,19 +68,29 @@ WantedBy = default.target
 接入用户级别的 systemctl 都要在命令 systemctl 后加 --user
 
 重新载入变动的 service 文件
-systemctl daemon-reload
+```
+systemctl --user daemon-reload
+```
 
-### 启用服务
-将会自动启动
-systemctl enable foo.service
-将会创建
+### 启用服务自启动
 
-### 禁用服务
-systemctl disable foo.service
+```
+systemctl --user enable foo.service
+```
+将会创建符号链接
+
+### 禁用服务自启动
+```
+systemctl --user disable foo.service
+```
 
 ### 查看服务状态
-systemctl status foo.service
+```
+systemctl --user status foo.service
+```
 
 ### 查看日志
 遇到服务不起来的情况先检查相关的日志
-journalctl
+```
+journalctl --user
+```
