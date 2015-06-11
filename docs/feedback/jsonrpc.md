@@ -425,6 +425,7 @@ Deepin.Feedback.searchFeedback
 
 ####参数
 * keyword : 用户输入的字符
+* descLen : 描述长度限制
 * perPageNum : 每页几条
 * page : 第几页
 * project : 筛选项目，可选
@@ -442,6 +443,7 @@ Deepin.Feedback.searchFeedback
 	字段：
 	* id : 反馈 id
 	* title : 反馈标题
+	* description : 描述
 	* project : 项目
 	* status: 状态
 	* reporter: 报告者
@@ -457,39 +459,40 @@ Deepin.Feedback.searchFeedback
 {
    "version" : "1.1",
    "result" : {
-      "total" : 7,
+      "total" : 493,
+      "pageTotal" : 247,
       "feedbacks" : [
          {
-            "id" : 40,
-            "project" : "TestProduct",
-            "creationTs" : "2015-05-06T09:08:21Z",
-            "statusChangeTs" : "2015-05-20T01:45:54Z",
+            "heat" : 1,
+            "creationTs" : "2015-06-09T06:45:31Z",
+            "statusChangeTs" : "2015-06-09T06:45:31Z",
+            "project" : "我不清楚",
+            "description" : "【测试环境】\ndee",
+            "status" : "UNCONFIRMED",
             "reporter" : {
-               "id" : 8,
-               "email" : "electricface@qq.com.email"
+               "id" : 51,
+               "email" : "liuwen@linuxdeepin.com"
             },
-            "heat" : 4,
-            "title" : "a new bug 0.384907598697708",
-            "status" : "PUBLISHED"
+            "id" : 554,
+            "title" : "深度启动盘制作工具制作完成后，“立即重启”按钮无效"
          },
          {
-            "project" : "TestProduct",
-            "creationTs" : "2015-04-08T07:36:25Z",
+            "description" : "【测试环境】\ndeb",
+            "status" : "MERGED",
             "reporter" : {
-               "email" : "bugs@linuxdeepin.com",
-               "id" : 1
+               "id" : 11,
+               "email" : "niexiangtao@linuxdeepin.com"
             },
-            "statusChangeTs" : "2015-05-19T08:41:05Z",
-            "status" : "PUBLISHED",
-            "heat" : 4,
-            "title" : "测试bugzilla to tower",
-            "id" : 1
+            "title" : "申请密码时取消申请回到初始界面后，‘申请’图标前的空格没了",
+            "id" : 547,
+            "heat" : 3,
+            "creationTs" : "2015-06-02T06:29:56Z",
+            "statusChangeTs" : "2015-06-09T02:07:04Z",
+            "project" : "远程协作"
          }
-      ],
-      "pageTotal" : 4
+      ]
    }
 }
-
 
 ```
 
@@ -515,7 +518,17 @@ Deepin.Feedback.getFeedbacks
 * total : 搜索结果总数
 * pageTotal : 页面总数
 * feedbacks : 搜索到的反馈列表
-字段参见 searchFeedback 方法
+	字段：
+	* id : 反馈 id
+	* title : 反馈标题
+	* project : 项目
+	* status: 状态
+	* reporter: 报告者
+		- id : 报告者id
+		- email : 报告者邮箱
+	* creationTs : 反馈提交时间
+	* statusChangeTs: 状态最后修改时间
+	* heat : 热度
 
 ### 获取我的反馈
 #### 方法
@@ -546,7 +559,7 @@ Deepin.Feedback.getMyFeedbacks
 * pageTotal : 页面总数
 * feedbacks : 搜索到的反馈列表
 
-    字段参见 searchFeedback 方法,但获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
+    字段参见 getFeedbacks 方法,但获取的 feedback 附加了一个额外字段 "visible",布尔值，表示用户是否可见此反馈。
 
 ### 获取用户的反馈
 ####方法
@@ -576,5 +589,5 @@ Deepin.Feedback.getUserFeedbacks
 * pageTotal : 页面总数
 * feedbacks : 搜索到的反馈列表
 
-	字段参见 searchFeedback 方法
+	字段参见 getFeedbacks 方法
 
