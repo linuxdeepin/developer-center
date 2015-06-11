@@ -444,6 +444,7 @@ Deepin.Feedback.searchFeedback
 	* id : 反馈 id
 	* title : 反馈标题
 	* description : 描述
+	* isDescTruncated : 描述是否被截断，布尔值
 	* project : 项目
 	* status: 状态
 	* reporter: 报告者
@@ -457,41 +458,43 @@ Deepin.Feedback.searchFeedback
 
 ```
 {
-   "version" : "1.1",
    "result" : {
-      "total" : 493,
       "pageTotal" : 247,
+      "total" : 493,
       "feedbacks" : [
          {
-            "heat" : 1,
-            "creationTs" : "2015-06-09T06:45:31Z",
-            "statusChangeTs" : "2015-06-09T06:45:31Z",
-            "project" : "我不清楚",
-            "description" : "【测试环境】\ndee",
-            "status" : "UNCONFIRMED",
             "reporter" : {
-               "id" : 51,
-               "email" : "liuwen@linuxdeepin.com"
+               "email" : "wangyanli@linuxdeepin.com",
+               "id" : 34
             },
-            "id" : 554,
-            "title" : "深度启动盘制作工具制作完成后，“立即重启”按钮无效"
+            "description" : "【版本】：deep",
+            "project" : "窗口管理器",
+            "creationTs" : "2015-05-28T03:02:00Z",
+            "title" : "热区间有冲突",
+            "heat" : 2,
+            "isDescTruncated" : true,
+            "id" : 537,
+            "status" : "NEEDFIX",
+            "statusChangeTs" : "2015-05-28T03:02:50Z"
          },
          {
-            "description" : "【测试环境】\ndeb",
-            "status" : "MERGED",
             "reporter" : {
-               "id" : 11,
-               "email" : "niexiangtao@linuxdeepin.com"
+               "email" : "wangyanli@linuxdeepin.com",
+               "id" : 34
             },
-            "title" : "申请密码时取消申请回到初始界面后，‘申请’图标前的空格没了",
-            "id" : 547,
-            "heat" : 3,
-            "creationTs" : "2015-06-02T06:29:56Z",
-            "statusChangeTs" : "2015-06-09T02:07:04Z",
-            "project" : "远程协作"
+            "description" : "【版本】：deep",
+            "project" : "窗口管理器",
+            "creationTs" : "2015-05-28T02:42:05Z",
+            "heat" : 2,
+            "title" : "在窗口上按 Alt + Space 的功能失效， 不方便键盘使用者",
+            "isDescTruncated" : true,
+            "id" : 536,
+            "status" : "NEEDFIX",
+            "statusChangeTs" : "2015-05-28T02:43:27Z"
          }
       ]
-   }
+   },
+   "version" : "1.1"
 }
 
 ```
