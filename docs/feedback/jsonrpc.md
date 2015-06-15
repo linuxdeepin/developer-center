@@ -84,7 +84,7 @@ Deepin.Feedback.putFeedback
 * attachments : 附件列表，类型列表，可选
 	- url : 附件url
 	- name : 文件名
-	- type : 文件类型
+	- type : 文件 MIME 类型
 
 #### 传入数据示例
 
@@ -100,6 +100,7 @@ Deepin.Feedback.putFeedback
 			{
 				"name" : "abcdef.png",
 				"url" : "https://a.com/sdfsdffasdf"
+                "type" : "image/png"
 			}
 		],
  		"email" : "abc@example.org",
@@ -124,7 +125,8 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 ####返回
 有以下字段的列表：
 
-* name : 项目名称
+* project : 项目标示名,用于 putFeedback 中的 project 参数
+* name : 项目英文名,用于国际化
 * icon : 项目图标
 * category : 项目分类
 
@@ -132,15 +134,17 @@ curl -X POST https://bugzilla.deepin.io/jsonrpc.cgi -H Content-Type:application/
 {
    "result" : [
       {
-         "category" : "application",
-         "name" : "深度截图",
-         "icon" : null
+         "name" : "I don't know",
+         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/project/icons/png/24x24/%E6%88%91%E4%B8%8D%E6%B8%85%E6%A5%9A.png",
+         "category" : "others",
+         "project" : "我不清楚"
       },
       {
-         "name" : "深度系统安装",
-         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/products/%E6%B7%B1%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85.png",
-         "category" : "system"
-      }
+         "project" : "深度影院",
+         "name" : "Deepin Movie",
+         "icon" : "http://test_bugzilla.deepin.io/extensions/DeepinFeedback/web/project/icons/png/24x24/%E6%B7%B1%E5%BA%A6%E5%BD%B1%E9%99%A2.png",
+         "category" : "application"
+      },
    ],
    "version" : "1.1"
 }
