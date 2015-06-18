@@ -39,7 +39,7 @@ GET /bucket/repoert/1001 将获得下载地址。
 
 #### 3.1.1 API EndPoint
 
-POST https://api.linuxdeepin.com/bucket/:type/
+POST https://api.deepin.org/bucket/:type/
 
 #### 3.1.2 参数
 
@@ -63,7 +63,7 @@ POST https://api.linuxdeepin.com/bucket/:type/
 
 ##### Request
 ```http
-POST https://api.linuxdeepin.com/bucket/report
+POST https://api.deepin.org/bucket/report
 ```
 ##### Respone
 ```` json
@@ -84,7 +84,7 @@ POST https://api.linuxdeepin.com/bucket/report
 
 #### 3.2.1 API Endpoint
 
-GET https://api.linuxdeepin.com/bucket/:type/:id
+GET https://api.deepin.org/bucket/:type/:id
 
 #### 3.2.2 参数
 | ParamName                  | Required      | Description                    |
@@ -108,7 +108,7 @@ GET https://api.linuxdeepin.com/bucket/:type/:id
 ```curl
 > GET /bucket/report/c35d6cd78101da4ff586132e02090f8e3a5daf95 HTTP/1.1
 > User-Agent: curl/7.35.0
-> Host: api.linuxdeepin.com
+> Host: api.deepin.org
 > Accept: */*
 >
 < HTTP/1.1 301 Moved Permanently
@@ -119,7 +119,7 @@ GET https://api.linuxdeepin.com/bucket/:type/:id
 < Connection: keep-alive
 < Location: http://theme-store.b0.upaiyun.com/public/report/2015/03/27/15-52-39-fff3f103.gz
 < Content-Length: 0
-< * Connection #0 to host api.linuxdeepin.com left intact
+< * Connection #0 to host api.deepin.org left intact
 ```
 
 
@@ -129,7 +129,7 @@ GET https://api.linuxdeepin.com/bucket/:type/:id
 
 #### 3.2.1 API Endpoint
 
-DELETE https://api.linuxdeepin.com/bucket/:type/:id
+DELETE https://api.deepin.org/bucket/:type/:id
 
 #### 3.2.2 参数
 
@@ -159,7 +159,7 @@ HTTP/1.1 200 OK
 Request:
 DELETE /bucket/report/c35d6cd78101da4ff586132e02090f8e3a5daf95 HTTP/1.1
 User-Agent: curl/7.35.0
-Host: api.linuxdeepin.com
+Host: api.deepin.org
 Accept: */*
 
 Respone:
@@ -184,8 +184,8 @@ import json
 import requests
 from collections import namedtuple
 
-BucketHost = "https://api.linuxdeepin.com/"
-BucketApi = "https://api.linuxdeepin.com/bucket/"
+BucketHost = "https://api.deepin.org/"
+BucketApi = "https://api.deepin.org/bucket/"
 
 '''
 Credential
