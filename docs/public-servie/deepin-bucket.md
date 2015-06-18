@@ -91,7 +91,10 @@ GET https://api.linuxdeepin.com/bucket/:type/:id
 | -------------------------- |---------------|------------------------------- |
 | **:type**               | true          | 资源类型，目前只支持report类型    |
 | **:id**               | true          | 资源ID    |
-| **Access-Token**     | true          | header参数， 如果资源需要认证，则必须填写该参数    |
+
+| Header ParamName        | Required      | Description                    |
+| -------------------------- |---------------|------------------------------- |
+| **Access-Token**     | true          | header参数， 必须填写该参数    |
 
 #### 3.2.3 返回值
 
@@ -118,6 +121,57 @@ GET https://api.linuxdeepin.com/bucket/:type/:id
 < Content-Length: 0
 < * Connection #0 to host api.linuxdeepin.com left intact
 ```
+
+
+### 3.3 删除资源
+
+调用资源删除接口后，资源会被标记为删除并且不可访问，一定时间后真正删除文件。
+
+#### 3.2.1 API Endpoint
+
+DELETE https://api.linuxdeepin.com/bucket/:type/:id
+
+#### 3.2.2 参数
+
+| URI ParamName        | Required      | Description                    |
+| -------------------------- |---------------|------------------------------- |
+| **:type**               | true          | 资源类型，目前只支持report类型    |
+| **:id**               | true          | 资源ID    |
+
+
+| Header ParamName        | Required      | Description                    |
+| -------------------------- |---------------|------------------------------- |
+| **Access-Token**     | true          | header参数， 必须填写该参数    |
+
+#### 3.2.3 返回值
+
+```http
+HTTP/1.1 200 OK
+```
+
+| ParamName      | Description         |
+|--------------- |---------------------|
+| **location**   | 被删除资源的实际地址 |
+
+**Example:**
+
+```curl
+Request:
+DELETE /bucket/report/c35d6cd78101da4ff586132e02090f8e3a5daf95 HTTP/1.1
+User-Agent: curl/7.35.0
+Host: api.linuxdeepin.com
+Accept: */*
+
+Respone:
+HTTP/1.1 200 OK
+Date: Fri, 27 Mar 2015 07:55:18 GMT
+{
+	"location": http://theme-store.b0.upaiyun.com/public/report/2015/03/27/15-52-39-fff3f103.gz
+}
+
+```
+
+
 
 ## 4 SDK
 
