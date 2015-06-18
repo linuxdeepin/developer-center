@@ -33,7 +33,7 @@ GET [https://api.deepin.org/v1/users/:indentify]()
 | **:indentify** | 用户标识，可以是用户名，UID，用户邮箱  |
 
 
-** Example：**
+**Example：**
 
 ```http
 GET https://api.deepin.org/v1/users/iceyer
@@ -86,10 +86,22 @@ GET [https://api.deepin.org/v1/users]()
 | **username** | 用户名  |
 | **email** | 邮箱  |
 
-建议同时只能通过一种参数查询，因为各个参数之间是”与“关系。
+相同名称参数是或的关系,在服务器端解析query string时，认为如下形式表示array:
+
+```html
+id=1&id=2&id=3
+```
+等价于：
+```json
+{
+	"id": [1,2,3]
+}
+```
+
+建议同时只能通过一种参数查询，因为各个不同名称参数之间是”与“关系。
 
 
-** Example：**
+**Example：**
 
 ```http
 GET https://api.deepin.org/v1/users?id=17898&id=7045
@@ -157,7 +169,7 @@ user:read
 | **Access-Token** | 用户通过oauth授权获得的token |
 
 
-** Example：**
+**Example：**
 
 ````
 curl -v -H Access-Token:OWNjN2QyMTMt https://api.deepin.org/v1/user
