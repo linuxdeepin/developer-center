@@ -4,8 +4,8 @@ title:JSONRPC接口
 DO NOT Delete Meta Above -->
 ## 入门
 ### 调用 JSONRPC 接口
-POST https://bugzilla.deepin.io/jsonrpc.cgi
-测试用 POST http://10.0.0.231/jsonrpc.cgi
+POST https://bugzilla.deepin.io/jsonrpc.psgi
+测试用 POST http://10.0.0.231/jsonrpc.psgi
 
 #### 请求头
 Content-Type : application/json-rpc
