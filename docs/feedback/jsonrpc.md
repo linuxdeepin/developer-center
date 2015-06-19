@@ -5,6 +5,7 @@ DO NOT Delete Meta Above -->
 ## 入门
 ### 调用 JSONRPC 接口
 POST https://bugzilla.deepin.io/jsonrpc.psgi
+
 测试用 POST http://10.0.0.231/jsonrpc.psgi
 
 #### 请求头
@@ -350,7 +351,7 @@ Deepin.Feedback.putAttention
 
 #### 返回
 * attentionsCount : 关注人数
-
+* heat : 热度
 
 ### 获取关注列表
 ####方法
