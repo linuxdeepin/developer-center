@@ -5,7 +5,9 @@ DO NOT Delete Meta Above -->
 
 ## 源列表说明
 文档所述`软件源`和`软件仓库`并无实质区别，具体表现都是通过`deb ${url} ${dist} ${sections}`体现
+
 软件源文件存放于 `/etc/apt/sources.list` 及 `/etc/apt/sources.list.d/`下
+
 #### 2015 默认源列表
 ```
 deb http://cache.mirrors.deepin.org unstable main contrib non-free
@@ -19,8 +21,7 @@ deb http://cache.mirrors.deepin.org unstable main contrib non-free
 
 * 软件源` deb http://packages.corp.linuxdeepin.com/deepin-2015 stable main contrib non-free ` 目前无软件，故无需测试
 
-TO ALL:
-现在2015使用源列表
+#####目前2015使用源列表
 ```
 deb http://cache.mirrors.deepin.org unstable main contrib non-free
 deb http://cache.mirrors.deepin.org experimental main contrib non-free
@@ -46,8 +47,8 @@ deb http://cdn.packages.linuxdeepin.com/packages-debian experimental main contri
 ```
 
 ## 各个仓库同步关系
-`pools.corp.linuxdeepin.com/*`软件仓库简称为`pools`仓库
- `packages.corp.linuxdeepin.com/*`软件仓库简称为`release`仓库
+* `pools.corp.linuxdeepin.com/*`软件仓库简称为`pools`仓库
+* `packages.corp.linuxdeepin.com/*`软件仓库简称为`release`仓库
 
 ####具体同步过程
 1. 系统组维护多个`pools.corp.linuxdeepin.com/*`软件仓库，该仓库是原始仓库，性质类似与ubuntu中的ppa
@@ -58,7 +59,7 @@ deb http://cdn.packages.linuxdeepin.com/packages-debian experimental main contri
 通过上述流程描述:
 各个仓库软件更新时间及版本存在一定差异，这是由于各个仓库职能范围及机制所限制
 
-TO 开发/测试组:
+####开发/测试组注意:
 1. `pools`仓库软件最快得到更新，针对某个软件测试大部分情况使用特定`pools`仓库
 2. `release`仓库本身为完整仓库，针对系统完整性或者仓库完整性测试使用`release`仓库
 3. 外网测试使用`packages.linuxdeepin.com`软件源
