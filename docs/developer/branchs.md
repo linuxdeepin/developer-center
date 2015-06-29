@@ -74,7 +74,29 @@ branchs.json 为json格式文件
 builder.conf 为ini格式文件,如需修改请通知系统开发人员
 文档会在编译服务中说明
 
+### 源列表说明
+
+1. 2015 默认源列表
+```
+deb http://cache.mirrors.deepin.org unstable main contrib non-free
+```
+debian ci merge 测试项目请添加  ``` deb http://pools.corp.linuxdeepin.com/deepin experimental main contrib non-free ``` 进行测试
+debian tag 测试请添加  ``` deb http://pools.corp.linuxdeepin.com/deepin unstable main contrib non-free ```进行测试
+请注意，这两个源不要一起使用，因为 experimental 软件版本会比 unstable 更新，导致使用的是 experimental 仓库软件包
+
+2. 2014.3 默认源列表
+```
+deb http://packages.corp.linuxdeepin.com/ubuntu trusty main universe multiverse restricted
+deb http://packages.corp.linuxdeepin.com/deepin trusty main universe non-free
+```
+2014.3 ci merge 测试项目请添加  ``` deb http://pools.corp.linuxdeepin.com/testing/2014 trusty main ``` 进行测试
+
+请注意，通过/etc/hosts将packages.linuxdeepin.com指向10.0.0.6的效果和使用packages.corp.linuxdeepin.com效果一致
+
 ### 修订历史
 * 第一次提交 @ 2015年06月08日14:44:45 leaeasy:
  - branchs.json 文件示例
  - builder.conf 文件示例
+
+* 第二次提交 @ 2015年06月28日10:44:30 leaeasy:
+ - 软件源说明
