@@ -57,12 +57,13 @@ deb http://cdn.packages.linuxdeepin.com/packages-debian experimental main contri
 
 通过上述流程描述:
 各个仓库软件更新时间及版本存在一定差异，这是由于各个仓库职能范围及机制所限制
-> TO 开发/测试组:
-> 1. `pools`仓库软件最快得到更新，针对某个软件测试大部分情况使用特定`pools`仓库
-> 2. `release`仓库本身为完整仓库，针对系统完整性或者仓库完整性测试使用`release`仓库
-> 3. 外网测试使用`packages.linuxdeepin.com`软件源
-> 4. `cdn`软件源为360维护，除非特定测试`cdn`任务，一般来说测试无需使用`cdn`仓库
-> 5. 各个软件仓库请尽量不要混用，尤其是`pools`仓库
+
+TO 开发/测试组:
+1. `pools`仓库软件最快得到更新，针对某个软件测试大部分情况使用特定`pools`仓库
+2. `release`仓库本身为完整仓库，针对系统完整性或者仓库完整性测试使用`release`仓库
+3. 外网测试使用`packages.linuxdeepin.com`软件源
+4. `cdn`软件源为360维护，除非特定测试`cdn`任务，一般来说测试无需使用`cdn`仓库
+5. 各个软件仓库请尽量不要混用，尤其是`pools`仓库
 
 ## 软件branch推送说明
 
