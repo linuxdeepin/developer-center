@@ -19,6 +19,14 @@ deb http://cache.mirrors.deepin.org unstable main contrib non-free
 
 * 软件源` deb http://packages.corp.linuxdeepin.com/deepin-2015 stable main contrib non-free ` 目前无软件，故无需测试
 
+TO ALL:
+现在2015使用源列表
+```
+deb http://cache.mirrors.deepin.org unstable main contrib non-free
+deb http://cache.mirrors.deepin.org experimental main contrib non-free
+```
+ 
+
 **请注意，除测试或者追新等特定需求外，这两个源不要一起使用，因为`experimental`软件版本会比`unstable`更新，导致使用的是`experimental`仓库软件包**
 
 #### 2014.3 默认源列表
