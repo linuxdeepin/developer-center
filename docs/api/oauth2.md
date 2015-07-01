@@ -39,6 +39,14 @@ GET [https://api.linuxdeepin.com/oauth2/authorize](https://api.linuxdeepin.com/o
 | **redirect_uri** | true | string | 授权回调地址，需与应用设置的回调地址一致 |
 | **scope** | false | string | 申请scope权限所需参数，可一次申请多个scope权限，用逗号分隔。如果没有，则为默认权限。|
 | **state** | false |  string | 用于保持请求和回调的状态，在回调时，会在Query Parameter中回传该参数。 开发者可以用这个参数验证请求有效性， 也可以记录用户请求授权页前的位置。 这个参数可用于防止跨站请求伪造（CSRF）攻击 |
+| **display** | false |  string | 用于授权页面展示类型，如普通授权页面/手机授权页面/桌面客户端授权页面，display可选参数如下表： |
+
+| 参数名称         | 必选  | 类型    | 描述       |
+|------------------|-------|--------|-------------|
+| **default** | true | string | 默认PC浏览器风格登录界面 |
+| **client** | true | string | 桌面客户端/iframe嵌入风格登录页面 |
+| **mobile** | true | string | 小屏幕手机风格登录界面 |
+
 
 **示例：**
 
