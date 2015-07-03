@@ -48,12 +48,13 @@ deb http://cdn.packages.linuxdeepin.com/packages-debian experimental main contri
 #### 2014.3 默认源列表
 
 ```
-deb http://packages.corp.linuxdeepin.com/ubuntu trusty main universe multiverse restricted
-deb http://packages.corp.linuxdeepin.com/deepin trusty main universe non-free
+deb http://mirrors.corp.linuxdeepin.com/ubuntu trusty main universe multiverse restricted
+deb http://mirrors.corp.linuxdeepin.com/deepin trusty main universe non-free
 ```
 2014.3 ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/testing/2014 trusty main `进行测试
 
-请注意，通过`/etc/hosts`将`packages.linuxdeepin.com`指向`10.0.0.6`的效果和使用`packages.corp.linuxdeepin.com`效果一致
+请注意，通过`/etc/hosts`将`packages.linuxdeepin.com`指向`10.0.0.6`的效果和使用`mirrors.corp.linuxdeepin.com`效果一致
+
 
 ## 各个仓库同步关系
 * `pools.corp.linuxdeepin.com/*`软件仓库简称为`pools`仓库
