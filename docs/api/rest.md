@@ -16,23 +16,23 @@ DeepinID服务器提供对DeepinID用户数据的基本访问接口，采用REST
 
 例如，对于用户数据，其对于URI为：
 
-** [https://api.linuxdeepin.com/admin/user/id]()**
+** [https://api.deepin.org/admin/user/id]()**
 
 添加用户：
 
-** POST [https://api.linuxdeepin.com/admin/user/id]()**
+** POST [https://api.deepin.org/admin/user/id]()**
 
 修改用户信息：
 
-** PUT [https://api.linuxdeepin.com/admin/user/id/:id]()**
+** PUT [https://api.deepin.org/admin/user/id/:id]()**
 
 查询用户信息：
 
-** GET [https://api.linuxdeepin.com/admin/user/id/:id]()**
+** GET [https://api.deepin.org/admin/user/id/:id]()**
 
 删除用户：
 
-** DELETE [https://api.linuxdeepin.com/admin/user/id/:id]()**
+** DELETE [https://api.deepin.org/admin/user/id/:id]()**
 
 ## 2. 安全
 

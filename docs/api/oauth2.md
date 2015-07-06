@@ -28,7 +28,7 @@ access_token=MDRjZGJlYTctMDFjMy00YzM0LWEyNjctMGQ0N2U5YTBlZTBh
 
 #### 1.1 API Endpoint
 
-GET [https://api.linuxdeepin.com/oauth2/authorize](https://api.linuxdeepin.com/oauth2/authorize)
+GET [https://api.deepin.org/oauth2/authorize](https://api.deepin.org/oauth2/authorize)
 
 #### 1.2 请求参数
 
@@ -51,7 +51,7 @@ GET [https://api.linuxdeepin.com/oauth2/authorize](https://api.linuxdeepin.com/o
 **示例：**
 
 ``` html
-https://api.linuxdeepin.com/oauth2/authorize?client_id=b401162c9d061040885d0fac242ea&redirect_uri=https://ci.deepin.io/securityRealm/finishLogin&response_type=code&state=1425660329-uLzQ6rjWU4-mjviAH4MA6WgJCsO9MoUdXjd4k8vMOuk
+https://api.deepin.org/oauth2/authorize?client_id=b401162c9d061040885d0fac242ea&redirect_uri=https://ci.deepin.io/securityRealm/finishLogin&response_type=code&state=1425660329-uLzQ6rjWU4-mjviAH4MA6WgJCsO9MoUdXjd4k8vMOuk
 ```
 #### 1.2 返回数据
 
@@ -70,7 +70,7 @@ https://ci.deepin.io/securityRealm/finishLogin?code=NWMzMzlmOGMtM2I0Ny00NzM0LWFk
 
 #### 2.1 API Endpoint
 
-POST [https://api.linuxdeepin.com/oauth2/token](https://api.linuxdeepin.com/oauth2/token)
+POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
 
 #### 2.2 请求参数
 
@@ -85,7 +85,7 @@ POST [https://api.linuxdeepin.com/oauth2/token](https://api.linuxdeepin.com/oaut
 **示例：**
 
 ``` html
-POST https://api.linuxdeepin.com/oauth2/token
+POST https://api.deepin.org/oauth2/token
 
 Content-Type:
 application/x-www-form-urlencoded
@@ -119,7 +119,7 @@ client_id=b401162c9d061040885d0fac242ea&client_secret=ec37971eb48cfa1a97f53021&g
 
 #### 3.1 API Endpoint
 
-POST [https://api.linuxdeepin.com/oauth2/token](https://api.linuxdeepin.com/oauth2/token)
+POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
 
 #### 3.2 请求参数
 
@@ -133,7 +133,7 @@ POST [https://api.linuxdeepin.com/oauth2/token](https://api.linuxdeepin.com/oaut
 **示例：**
 
 ``` html
-POST https://api.linuxdeepin.com/oauth2/token
+POST https://api.deepin.org/oauth2/token
 
 Content-Type:
 application/x-www-form-urlencoded
