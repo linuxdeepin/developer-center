@@ -5,6 +5,9 @@ DO NOT Delete Meta Above -->
 
 
 ## needle助手使用教程
+
+(本教程建立在《Worker服务器使用》教程之上)
+
 ### 1、准备好安装好系统的虚拟机硬盘
 在跑完一次测试完成后，硬盘文件的路径为
 ```shell
@@ -25,28 +28,37 @@ cp /var/lib/openqa/pool/10/raid/1 /home/deepin/OpenQA/share/HDD/20150706
 # 如果你在服务器使用的worker的ID是10
 mkdir -p /var/lib/openqa/pool/10/raid  # -p 表示连同父目录一起创建
 sudo ln -sfn your-vDisk-path /var/lib/openqa/pool/10/raid/l1  # your-vDisk-path 你的硬盘文件路径
+
+# 当然，如果你觉得麻烦的话，可以直接使用服务器的~/OpenQA/share目录的LinkHDD工具
+# (LinkHDD 工具是对上面两行代码的包装)
+./LinkHDD 10 20150706   # 10 为worker-ID, 20150706 为硬盘名字
 ```
 
 ### 3、启动测试
 ####（1）下载文件 openqa-needlemaker
-* [openqa-needlemaker下载](/OpenQA/openqa-needlemaker.zip)  下载解压后可能需要手动添加可执行权限
 
-添加可执行权限：
+[openqa-needlemaker下载](/OpenQA/openqa-needlemaker.zip)
+
+(注：openqa-needlemaker 和 下面的Needle助手都是运行在你的系统上的)
+
+#### 参数
+* name-spell  你名字的拼写
+* needle-port 用于助手连接的端口号（文档末尾附有端口号分配）
+
+
+#### 例子
 ```shell
-chmod a+x openqa-needlemaker
-```
-把它放在你的/usr/bin/目录下，方便下次启动
+# 可以把它放在你的/usr/bin/目录下，方便下次启动
+sudo cp openqa-needlemaker /usr/bin/
 
-####（2）启动
-如：我在worker服务器的目录名字是tangcaijun，我使用的端口是7010（参考文档后面端口分配）
-
-```shell
+# 直接执行
 openqa-needlemaker tangcaijun 7010
 ```
 
+
 ### 4、在openqa任务启动完成后，启动needle助手 NeedleAssistant
 
-* [Needle助手下载](/OpenQA/NeedleAssistant.zip)  下载后解压，可能需要手动添加可执行权限
+[Needle助手下载](/OpenQA/NeedleAssistant.zip)
 
 NeedleAssistant 启动时接受一个或两个参数
 
@@ -61,6 +73,10 @@ NeedleAssistant 启动时接受一个或两个参数
 
 #### 例子
 ```shell
+# 可以把它放在你的/usr/bin/目录下，方便下次启动
+sudo cp NeedleAssistant /usr/bin/
+
+# 启动
 NeedleAssistant 7010
 ```
 
@@ -72,18 +88,18 @@ NeedleAssistant 7010
 * 输入框可输入perl脚本，execute执行脚本
 * screenshot 保存截图
 
-#### 注意：退出助手表示主动结束测试
+** 注意：退出助手表示主动结束测试 **
 
 
-    
+
 ### 附端口分配：
 ```shell
 姓名        端口
 
 唐财俊      7010
-郭健        7020
-王艳丽      7030
+郭健        7015
+王艳丽      7020
 ...
 
-（其余的同学以递增加10的形式自行分配，分配后请通知其他小伙伴）
+（其余的同学以递增加10的形式自行分配，分配后请告知其他小伙伴）
 ```

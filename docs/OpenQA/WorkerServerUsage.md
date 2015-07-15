@@ -38,7 +38,7 @@ ls /home/deepin/OpenQA/share/tangcaijun/deepin  # 记得替换tangcaijun
 
 #### （1）获取本地key和secret
 
-在 ***你的PC*** 上启动openqa-webui
+在 ***你的系统*** 上启动openqa-webui （注意，是你的系统）
 ```shell
 sudo openqa-webui
 ```
@@ -60,7 +60,7 @@ key = MYKEYXXXXXXXXXX
 secret = MYSECRETXXXXXXX
 ```
 
-在/etc/openqa/worker.ini中添加:
+在/etc/openqa/workers.ini中添加:
 ```ini
 [10]
 HOST=http://10.0.1.62
