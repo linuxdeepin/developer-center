@@ -3,6 +3,7 @@
 
 import sys
 import os
+import locale
 
 meta = '''Title:   My Document
 Summary: A brief description of my document.
@@ -11,7 +12,7 @@ Authors: Waylan Limberg
 '''
 
 def usage():
-    help = '''Use new.py like:
+    help = u'''Use new.py like:
 new.py category title path-to-file
 
 example:
@@ -31,9 +32,10 @@ if __name__=="__main__":
         usage()
         sys.exit(1)
 
+    encoding = locale.getdefaultlocale()[1]
     meta = {}
-    category = sys.argv[1]
-    title = sys.argv[2]
+    category = sys.argv[1].decode(encoding, 'ignore')
+    title = sys.argv[2].decode(encoding, 'ignore')
     file = sys.argv[3]
 
     if not file.endswith(".md"):
@@ -41,8 +43,8 @@ if __name__=="__main__":
         usage()
         sys.exit(2)
 
-    meta["category"]=sys.argv[1]
-    meta["title"]=sys.argv[2]
+    meta["category"]=category
+    meta["title"]=title
 
     mdmeta = "<!--Meta\n"
     for k, v in meta.items():
@@ -57,5 +59,5 @@ if __name__=="__main__":
         pass
 
     fp = open(path, "w")
-    fp.writelines(mdmeta)
+    fp.writelines(mdmeta.encode('utf8', 'ignore'))
     fp.close()
