@@ -32,7 +32,8 @@ ls /home/deepin/OpenQA/share/tangcaijun/deepin  # 记得替换tangcaijun
 能列出你的脚本则表示挂载成功
 
 
-经过这几步就已经将你的代码挂到服务器了，你可以随意的在你的pc上修改你的代码，服务器那边也会同步
+经过这几步就已经将你的代码挂到服务器了，你可以随意的在你的pc上修改你的代码，服务器那边也会同步  
+*** 注意：因为现在没用弄自动重连功能，所以你的系统关闭后需要重新挂载一遍代码 (谁会的快帮忙解决这个问题⊙﹏⊙b) ***
 
 ### 3、在服务器配置一个你的专属worker
 
@@ -60,7 +61,7 @@ key = MYKEYXXXXXXXXXX
 secret = MYSECRETXXXXXXX
 ```
 
-在/etc/openqa/workers.ini中添加:
+在服务器/etc/openqa/workers.ini中添加:
 ```ini
 [10]
 HOST=http://10.0.1.62
@@ -109,7 +110,7 @@ openqa-test CASEDIR=/home/deepin/OpenQA/share/tangcaijun/deepin
 王艳丽      20
 ...
 
-# 其他同学需要用到worker服务器时以递增加5的形式自行分配，分配后记得通知其他小伙伴，避免冲突
+# 其他同学需要用到worker服务器时以递增加5的形式自行分配，分配后记得告知其他小伙伴，避免冲突
 # 如果有特殊要求需要启动两个或多个worker的，则在你的ID到下一个人的ID之间选择一个自己觉得合适的ID去启动worker就可以了
 ```
 
