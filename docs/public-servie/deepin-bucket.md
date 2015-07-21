@@ -137,6 +137,8 @@ DELETE https://api.deepin.org/bucket/:type/:id
 | -------------------------- |---------------|------------------------------- |
 | **:type**               | true          | 资源类型，目前只支持report类型    |
 | **:id**               | true          | 资源ID    |
+| **delay**               | true          | 延时删除，单位为秒。没有delete参数时使用该参数。    |
+| **delete_at**           | true          | 到期删除，为unix时间戳。优先使用delete_at参数。  |
 
 
 | Header ParamName        | Required      | Description                    |
@@ -157,7 +159,7 @@ HTTP/1.1 200 OK
 
 ```curl
 Request:
-DELETE /bucket/report/c35d6cd78101da4ff586132e02090f8e3a5daf95 HTTP/1.1
+DELETE /bucket/report/c35d6cd78101da4ff586132e02090f8e3a5daf95?delay=3600 HTTP/1.1
 User-Agent: curl/7.35.0
 Host: api.deepin.org
 Accept: */*
@@ -166,7 +168,8 @@ Respone:
 HTTP/1.1 200 OK
 Date: Fri, 27 Mar 2015 07:55:18 GMT
 {
-	"location": http://theme-store.b0.upaiyun.com/public/report/2015/03/27/15-52-39-fff3f103.gz
+	"location": http://theme-store.b0.upaiyun.com/public/report/2015/03/27/15-52-39-fff3f103.gz,
+	"delete_at": 1437448190
 }
 
 ```
