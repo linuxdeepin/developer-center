@@ -137,8 +137,8 @@ DELETE https://api.deepin.org/bucket/:type/:id
 | -------------------------- |---------------|------------------------------- |
 | **:type**               | true          | 资源类型，目前只支持report类型    |
 | **:id**               | true          | 资源ID    |
-| **delay**               | true          | 延时删除，单位为秒。没有delete参数时使用该参数。    |
-| **delete_at**           | true          | 到期删除，为unix时间戳。优先使用delete_at参数。  |
+| **delay**               | false          | 延时删除，单位为秒。没有delete_at参数时使用该参数。    |
+| **delete_at**           | false          | 到期删除，为unix时间戳。优先使用delete_at参数。  |
 
 
 | Header ParamName        | Required      | Description                    |
