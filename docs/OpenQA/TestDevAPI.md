@@ -136,7 +136,7 @@ make_snapshot "snapshot-name";
 ```
 
 ### ** mouse_click **
-移动点击事件
+点击事件
 
 #### 参数
 * BUTTON 键位，默认为"left"，可选值："left" 、"right" 、"middle"
@@ -152,7 +152,7 @@ mouse_click "right";  # 右键
 
 
 ### ** mouse_dclick **
-移动点击事件
+点击事件
 
 #### 参数
 * BUTTON 键位，默认为"left"，可选值："left" 、"right" 、"middle"

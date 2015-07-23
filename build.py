@@ -12,6 +12,9 @@ if __name__ == "__main__":
     print("Genarator mkdocs.yml")
     shutil.copyfile("mkdocs.yml.base","mkdocs.yml")
 
+    if not os.path.exists("docs/index"):
+        os.makedirs("docs/index")
+
     fpmkdocs = codecs.open("mkdocs.yml", mode="a+", encoding="utf-8")
     directory = u"docs"
     toc = defaultdict(list)
