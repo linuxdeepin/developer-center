@@ -136,7 +136,7 @@ make_snapshot "snapshot-name";
 ```
 
 ### ** mouse_click **
-点击事件
+单击事件
 
 #### 参数
 * BUTTON 键位，默认为"left"，可选值："left" 、"right" 、"middle"
@@ -150,9 +150,8 @@ make_snapshot "snapshot-name";
 mouse_click "right";  # 右键
 ```
 
-
 ### ** mouse_dclick **
-点击事件
+双击事件
 
 #### 参数
 * BUTTON 键位，默认为"left"，可选值："left" 、"right" 、"middle"
@@ -166,10 +165,32 @@ mouse_click "right";  # 右键
 mouse_dclick;  # 左键双击
 ```
 
+### ** $bmwqemu::backend->mouse_button **
+点击事件(这个并非开放API，是从单击事件源码中抠出来的，需要加$bmwqemu::backend)
+
+#### 参数
+* BUTTON 键位，默认为"left"，可选值："left" 、"right" 、"middle"
+* state 按键状态，1 表示按下，0 表示放开
+
+#### 返回值
+无
+
+#### 例子
+```perl
+# 深度截图拖拽
+send_key "ctrl-alt-a";
+mouse_set 50, 50;
+$bmwqemu::backend->mouse_button( "left", 1 );
+mouse_set 500, 500;
+
+# 这里不用再执行下面的释放命令，mouse_set 会把鼠标释放掉
+# $bmwqemu::backend->mouse_button( "left", 0 );
+```
+
 
 ### ** mouse_hide **
 
-隐藏鼠标，将鼠标移动到右上角隐藏（用于对比匹配率要求较高的测试）
+隐藏鼠标，将鼠标移动到右上角隐藏（可用于对比匹配率要求较高的测试）
 
 #### 参数
 无
