@@ -46,3 +46,8 @@ defaultremote = origin
 
 git-review工具目前有bug导致非英文locale的系统无法使用。出现这类问题请使用
 LANGUAGE=en_US.UTF-8 git review 进行替换，或者手动修改/usr/bin/git-review的代码,修改方式谁来补充 :)
+
+
+##注意事项
+* git clone的时候 需要使用ssh协议， 目前github插件无法和https认证兼容工作 
+* 测试前，请先确认自己可以正常使用github的ssh方式进行push操作(上传了public key)
