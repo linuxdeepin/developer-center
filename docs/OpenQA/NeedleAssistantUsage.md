@@ -107,6 +107,24 @@ sudo netstat -plent
 
 ```
 
+---
+### 补充一下 Needle 环境变量说明
+** Needle 制作记得要加的：**
+
+1、** needle名字 **   
+
+2、** needle文件名 **  默认是带日期的，统一都改成都不要带日期，文件名有一定描述性。如果needle更新了，就采用覆盖的方式来变更needle，对不用的needle要进行删除。不要像opensuse的needle那样堆得太多了，同步needle需要花的时间好长好长，清理无用needle需要花的功夫好大好大...  
+
+3、** 语言环境变量 **  以后可能还会测其他语言，所以这个变量保留，用以区分不同语言环境下的needle  
+
+** 不要保留：**  
+如下经常会自动勾上的变量，记得把勾去掉，不需添加  
+ENV-DISTRI-deepin  &emsp;&emsp;&emsp;  我们就只测deepin不测其他,没必要添加发行版限定  
+ENV-FLAVOR-SID-DVD    &emsp;&nbsp;   我们现在测试只有sid版，是单版本测试，没必要限定iso类型；还有以后flavor不一定会叫这个  
+ENV-VERSION-2014.3    &emsp;&emsp;   随着iso发布，系统版本号也会发生改变，所以无须限定needle对应的系统版本  
+...
+
+** <font color=#DE5336> \*\* 其他的环境变量如果不是非得依赖的话就尽量不要添加进去(尽量保证needle整洁 ;)  )</font>**
 
 
 ### 附端口分配：
