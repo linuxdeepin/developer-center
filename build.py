@@ -54,9 +54,9 @@ DO NOT Delete Meta Above-->
     for k, v in toc.items():
         item_count = 0
         cate = u'<div class="section section-api">'
-        head = '\t<h3>' + k + '<h3>\n'
+        head = '\t<h3>' + k + '</h3>\n'
         cate += head
-        cate += '\t<ul class="list-unstyled">\n'
+        cate += '\t<ul class="list-unstyled" style="line-height: 120%;">\n'
         for item in v:
             if item_count >= 4:
                 break
@@ -94,10 +94,12 @@ title:{}
 category:index
 DO NOT Delete Meta Above-->
 
-<div>\n
+<div class="minecraft clearfix">\n
 '''
         index = index.format(k)
         cate = '<div>\n'
+        head = '\t<h2>' + k + '</h2>\n'
+        cate += head
         cate += '\t<ul class="list-unstyled" style="line-height: 200%; font-size: 150%">\n'
         for item in v:
             if 0 == len(item[0]):
