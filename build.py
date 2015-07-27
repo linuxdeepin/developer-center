@@ -58,14 +58,20 @@ DO NOT Delete Meta Above-->
         cate += head
         cate += '\t<ul class="list-unstyled">\n'
         for item in v:
+            if item_count >= 4:
+                break
             if 0 == len(item[0]):
                 continue
-            cate += '\t\t<li><a href="' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
             item_count += 1
+            cate += '\t\t<li><a href="' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
+        if item_count >= 4:
+            cate += '\t\t<li><a href="/index/'+ k +'">More>></li>'
         cate += '\t</ul>\n'
         cate += '\t</div>\n'
         if 0 == item_count:
             cate = u''
+
+
         index += cate
     index += '</div>\n'
 
@@ -88,13 +94,11 @@ title:{}
 category:index
 DO NOT Delete Meta Above-->
 
-<div class="minecraft clearfix">\n
+<div>\n
 '''
         index = index.format(k)
-        cate = '<div class="section section-api">\n'
-        head = '\t<h3>' + k + '<h3>\n'
-        cate += head
-        cate += '\t<ul class="list-unstyled">\n'
+        cate = '<div>\n'
+        cate += '\t<ul class="list-unstyled" style="line-height: 200%; font-size: 150%">\n'
         for item in v:
             if 0 == len(item[0]):
                 continue
