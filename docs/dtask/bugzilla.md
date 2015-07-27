@@ -49,5 +49,5 @@ todo_guid : tower todo 的 GUID
 
 例子
 ```
-http -f PUT https://bugzilla.deepin.io/dtask/services/bugzilla/import/tower_todo Tower-Token:12537b98400ee9cxxxf4256bdd0c66xx todo_guid=c24xxxd00e9a4e1f9e7b7008a6262c75
+http -f PUT https://api.deepin.io/dtask/services/bugzilla/import/tower_todo Tower-Token:12537b98400ee9cxxxf4256bdd0c66xx todo_guid=c24xxxd00e9a4e1f9e7b7008a6262c75
 ```
