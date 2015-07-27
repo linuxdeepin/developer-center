@@ -3,8 +3,31 @@ category:DTask
 title:Bugzilla 接口
 DO NOT Delete Meta Above -->
 
+### 获取所有 bugzilla 产品
+GET /dtask/services/bugzilla/products
+
+### Form 参数
+无
+
+### 返回数据
+如
+```
+{
+	"result":{
+		"products":[
+    		{
+        		"name" : "product name 1",
+            	...
+        	},
+            ...
+    	]
+    },
+	"error": false
+}
+```
+
 ### 从 tower 导入 todo
-PUT /services/bugzilla/import/tower_todo
+PUT /dtask/services/bugzilla/import/tower_todo
 
 #### 功能
 根据 tower todo guid 获取 todo 的一些信息，以此在 bugzilla.deepin.io 上创建一个 bug, 并且在 dtask link 关系中关联 todo_guid 与 bug id, 已经有关联时将不创建新 bug.
