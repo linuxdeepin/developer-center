@@ -3,13 +3,37 @@ category:DTask
 title:Bugzilla 接口
 DO NOT Delete Meta Above -->
 
+
+### 获取 bugzilla bug 相关信息
+
+GET /dtask/services/bugzilla/bug/:bug_id
+
+#### URL 参数:
+
+bug_id
+
+#### 返回数据
+如
+
+```
+{
+   "result" : {
+      "id" : 101,
+      "product" : "p1",
+      ...
+   },
+   "error" : false
+}
+
+```
+
 ### 获取所有 bugzilla 产品
 GET /dtask/services/bugzilla/products
 
-### Form 参数
+#### Form 参数
 无
 
-### 返回数据
+#### 返回数据
 如
 ```
 {
