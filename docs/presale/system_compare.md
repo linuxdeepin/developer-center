@@ -31,7 +31,7 @@ RedHat的试验田
 
     和Fedora与Redhat关系差不多
 
-### Mandriva<a
+### Mandriva
 
 很老的发行版
 
