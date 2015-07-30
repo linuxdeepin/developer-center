@@ -1,6 +1,6 @@
 <!--Meta
 category:售前培训
-title:系统了解
+title:Init及SysV/Upstart介绍
 DO NOT Delete Meta Above -->
 
 #Linux初始化init系统

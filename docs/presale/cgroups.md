@@ -1,6 +1,6 @@
 <!--Meta
 category:售前培训
-title:系统了解
+title:CGroups及容器介绍
 DO NOT Delete Meta Above -->
 
 #CGroups及Linux Containers(LXC/Docker)介绍

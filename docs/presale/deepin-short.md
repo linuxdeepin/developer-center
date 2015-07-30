@@ -1,6 +1,6 @@
 <!--Meta
 category:售前培训
-title:系统了解
+title:Deepin系统简介
 DO NOT Delete Meta Above -->
 
 #深度操作系统
