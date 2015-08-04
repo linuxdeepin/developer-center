@@ -21,15 +21,15 @@ DO NOT Delete Meta Above -->
 ###CL提交者
 
 * 正确的commit格式，统一使用git commit调出编辑器编写commit，会有对应commit错误警告，commit格式如下（实例参考[CL6176](https://cr.deepin.io/#/c/6176/) ）:
-
-    模块: 一行简述
-    空行
-    具体描述 (可选)
-    空行
-    bugzilla相关bug地址(若有对应bugzilla条目则必须添加)
-    空行
-    Change-Id: (配置好git review会自动添加)
-
+```
+模块: 一行简述
+空行
+具体描述 (可选)
+空行
+bugzilla相关bug地址(若有对应bugzilla条目则必须添加)
+空行
+Change-Id: (配置好git review会自动添加)
+```
 * 若有对应bugzilla任务则在commit中最后加上相关链接
 * 根据CL的特点增加对应的reviewers。（Hacking Day当天要求增加顾问团所有成员作为reviewers）
 
