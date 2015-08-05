@@ -1,3 +1,9 @@
+<!--Meta
+category:项目文档
+title:深度商店术语表(vocabulary)
+DO NOT Delete Meta Above-->
+
+
 目的
 ====
 

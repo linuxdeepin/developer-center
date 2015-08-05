@@ -1,3 +1,9 @@
+<!--Meta
+category:项目文档
+title:深度商店设计文档
+DO NOT Delete Meta Above-->
+
+
 系统设计
 ========
 

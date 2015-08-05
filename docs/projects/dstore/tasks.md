@@ -1,3 +1,9 @@
+<!--Meta
+category:项目文档
+title:深度商店开发记录
+DO NOT Delete Meta Above-->
+
+
 开发完成度记录
 ==============
 
