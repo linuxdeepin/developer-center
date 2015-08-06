@@ -50,3 +50,57 @@ Change-Id: (配置好git review会自动添加)
 ###i18n组（翻译组）
 任何参与人员如果发现问题，请及时给出负分(若无合适标签则给Verified-1)阻止CL被意外合并
 
+
+
+# hackingday时如何提交CL
+
+## 很多项目都不是在master分支上进行开发的，所以需要找到项目负责人询问修改这个bug需要使用的分支
+
+1.  TODO: tower创建的时候就应该标记此bug需要在哪个分支修复
+2.  TODO: 开发人员补充tag信息，完善文档
+
+多问对应开发人员
+
+## 切换到此分支，以此作为基础分支，比如此分支为release/2.1
+
+    git clone ssh://foo@cr.deepin.io:29418/bar
+    cd bar
+    git checkout origin/release/2.1
+
+## 在base的基础上创建一个新的分支作为提交CL时使用的分支
+
+    git checkout -b hackingday/小白/4512
+    -b 后面是这个CL的topic信息， 请使用固定的格式
+    hackingday/{队名}/{bugid}
+
+这样可以直接通访问 <https://cr.deepin.io/#/q/topic:hackingday> 
+来查看hackingday相关的CL，
+若只想查看当前活动的CL，则在搜索框上增加 *after: 2015-8-06* 这种限定时间
+
+## fix bug
+
+修改后
+
+    git add where/you/modified/codes
+    git commit
+
+## 编写commit信息
+
+    summary(第一行不要超过72个字符)
+    {此处必须空一行}
+    description (optional)
+
+## 提交CL
+
+提交CL需要注意2点
+1.  一个CL只能包含一个commit
+2.  提交时候需要知道自己要提交到那个分支上，默认是master(但这个一般都是错的)
+
+    git review release/2.1(步骤3中checkout出来的那个分支)
+
+一个CL只能有一个commit，而且一个bug原则上只允许一个CL(多项目不算)。
+若多次修改请使用git commit &#x2013;amend;
+若已经提交了，可以使用git rebase -i 的方式压缩多个commit到一个上面
+
+提交完了CL后，请在网页上逐一查看自己提交的代码是否和预期一样。
+经常会出现一些没有必要的增加空行这种修改。以及不小心提交了一些其他文件
