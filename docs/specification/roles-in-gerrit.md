@@ -73,7 +73,11 @@ Change-Id: (配置好git review会自动添加)
     -b 后面是这个CL的topic信息， 请使用固定的格式
     hackingday/{队名}/{bugid}
 
-这样可以直接通访问 <https://cr.deepin.io/#/q/topic:hackingday> 
+windows版本的git review如果无法自动生成topic则需要增加-t参数
+ 
+    git review -t hackingday/小白/4512 ${target_branch}
+
+这样可以直接通访问 <https://cr.deepin.io/#/q/topic:^hackingday.*> 
 来查看hackingday相关的CL，
 若只想查看当前活动的CL，则在搜索框上增加 *after: 2015-8-06* 这种限定时间
 
