@@ -44,33 +44,33 @@ DO NOT Delete Meta Above -->
     0x00007fa72a979cc9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
     56	../nptl/sysdeps/unix/sysv/linux/raise.c: 没有那个文件或目录.
     (gdb) bt
-    #0  0x00007fa72a979cc9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
-    #1  0x00007fa72a97d0d8 in __GI_abort () at abort.c:89
-    #2  0x00007fa72a9b6394 in __libc_message (do_abort=do_abort@entry=1, fmt=fmt@entry=0x7fa72aac4b28 "*** Error in `%s': %s: 0x%s ***\n")
+    0  0x00007fa72a979cc9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+    1  0x00007fa72a97d0d8 in __GI_abort () at abort.c:89
+    2  0x00007fa72a9b6394 in __libc_message (do_abort=do_abort@entry=1, fmt=fmt@entry=0x7fa72aac4b28 "*** Error in `%s': %s: 0x%s ***\n")
         at ../sysdeps/posix/libc_fatal.c:175
-    #3  0x00007fa72a9c10f7 in malloc_printerr (action=<optimized out>, str=0x7fa72aac0d1d "realloc(): invalid next size", ptr=<optimized out>) at malloc.c:4996
-    #4  0x00007fa72a9c4937 in _int_realloc (av=<optimized out>, oldp=0x7fa6bc00bfe0, oldsize=<optimized out>, nb=<optimized out>) at malloc.c:4234
-    #5  0x00007fa72a9c5fc9 in __GI___libc_realloc (oldmem=0x7fa6bc00bff0, bytes=64) at malloc.c:3029
-    #6  0x00007fa728e81fad in QByteArray::reallocData(unsigned int, QFlags<QArrayData::AllocationOption>) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #7  0x00007fa728e821c4 in QByteArray::resize(int) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #8  0x00007fa729104a66 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #9  0x00007fa729104da1 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #10 0x00007fa728f19b0d in QString::toLocal8Bit_helper(QChar const*, int) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #11 0x00007fa728e70d73 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #12 0x00007fa728e6ea6e in qt_message_output(QtMsgType, QMessageLogContext const&, QString const&) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #13 0x00007fa6f3c8fc89 in QDebug::~QDebug (this=0x7fa6c9a398e0, __in_chrg=<optimized out>) at /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:89
-    #14 0x00007fa6f3cd470a in QtAV::Internal::log_helper(QtMsgType, const QMessageLogger *, const char *, typedef __va_list_tag __va_list_tag *) (
+    3  0x00007fa72a9c10f7 in malloc_printerr (action=<optimized out>, str=0x7fa72aac0d1d "realloc(): invalid next size", ptr=<optimized out>) at malloc.c:4996
+    4  0x00007fa72a9c4937 in _int_realloc (av=<optimized out>, oldp=0x7fa6bc00bfe0, oldsize=<optimized out>, nb=<optimized out>) at malloc.c:4234
+    5  0x00007fa72a9c5fc9 in __GI___libc_realloc (oldmem=0x7fa6bc00bff0, bytes=64) at malloc.c:3029
+    6  0x00007fa728e81fad in QByteArray::reallocData(unsigned int, QFlags<QArrayData::AllocationOption>) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    7  0x00007fa728e821c4 in QByteArray::resize(int) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    8  0x00007fa729104a66 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    9  0x00007fa729104da1 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    10 0x00007fa728f19b0d in QString::toLocal8Bit_helper(QChar const*, int) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    11 0x00007fa728e70d73 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    12 0x00007fa728e6ea6e in qt_message_output(QtMsgType, QMessageLogContext const&, QString const&) () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    13 0x00007fa6f3c8fc89 in QDebug::~QDebug (this=0x7fa6c9a398e0, __in_chrg=<optimized out>) at /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:89
+    14 0x00007fa6f3cd470a in QtAV::Internal::log_helper(QtMsgType, const QMessageLogger *, const char *, typedef __va_list_tag __va_list_tag *) (
         msgType=QtWarningMsg, qlog=0x7fa6c9a39b20, msg=0x7fa6f3d74cfb "[AudioResamplerFF end] %d", ap=0x7fa6c9a39988)
         at /home/frank/hackday/QtAV/src/utils/Logger.cpp:58
-    #15 0x00007fa6f3cd4a9f in QtAV::Internal::Logger::warning (this=0x7fa6c9a39b20, msg=0x7fa6f3d74cfb "[AudioResamplerFF end] %d")
+    15 0x00007fa6f3cd4a9f in QtAV::Internal::Logger::warning (this=0x7fa6c9a39b20, msg=0x7fa6f3d74cfb "[AudioResamplerFF end] %d")
         at /home/frank/hackday/QtAV/src/utils/Logger.cpp:100
-    #16 0x00007fa6f3c8c416 in QtAV::AudioResamplerLibav::convert (this=0x76f2f00, data=0x7fa6bc005f08)
+    16 0x00007fa6f3c8c416 in QtAV::AudioResamplerLibav::convert (this=0x76f2f00, data=0x7fa6bc005f08)
         at /home/frank/hackday/QtAV/src/AudioResamplerTemplate.cpp:115
-    #17 0x00007fa6f3ce29ff in QtAV::AudioFrame::to (this=0x7fa6c9a39e20, fmt=...) at /home/frank/hackday/QtAV/src/AudioFrame.cpp:226
-    #18 0x00007fa6f3cd6cda in QtAV::AudioThread::run (this=0x71f5560) at /home/frank/hackday/QtAV/src/AudioThread.cpp:250
-    #19 0x00007fa728e7ea5f in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
-    #20 0x00007fa72ad10182 in start_thread (arg=0x7fa6c9a3a700) at pthread_create.c:312
-    #21 0x00007fa72aa3d47d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+    17 0x00007fa6f3ce29ff in QtAV::AudioFrame::to (this=0x7fa6c9a39e20, fmt=...) at /home/frank/hackday/QtAV/src/AudioFrame.cpp:226
+    18 0x00007fa6f3cd6cda in QtAV::AudioThread::run (this=0x71f5560) at /home/frank/hackday/QtAV/src/AudioThread.cpp:250
+    19 0x00007fa728e7ea5f in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+    20 0x00007fa72ad10182 in start_thread (arg=0x7fa6c9a3a700) at pthread_create.c:312
+    21 0x00007fa72aa3d47d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
     </pre>
 
     从堆栈看崩溃是glibc的realloc函数调用了abort终止了进程,但实际来看不可能是glibc的错误.
