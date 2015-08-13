@@ -184,11 +184,10 @@ DO NOT Delete Meta Above -->
 
     汉_WINE_刘昌辉刘昌辉15:08
     比如切换声道的时候：切换声道的时候:
-    #0 QtAV::AudioOutput::setAudioFormat (this=0x3ee2080, format=...) at
-    /home/frank/hackday/QtAV/src/output/audio/AudioOutput.cpp:445
+    QtAV::AudioOutput::setAudioFormat (this=0x3ee2080, format=...)
     这个函数怎么调用AudioResamplerFF::prepare()？
-    我对AudioResamplerFF::prepare()加断点，发现在调用QtAV::AudioOutput::setAudioFormat (this=0x3ee2080, format=...) at
-    /home/frank/hackday/QtAV/src/output/audio/AudioOutput.cpp:445之后，没有触发AduioResamplerFF::prepare函数调用。
+    我对AudioResamplerFF::prepare()加断点，发现在调用QtAV::AudioOutput::setAudioFormat (this=0x3ee2080, format=...)
+    之后，没有触发AduioResamplerFF::prepare函数调用。
 
     沪_开发_王斌王斌15:10
     这个不会调用，只有在解码后发现音频数据和音频设备支持的格式不一致的时候才会
