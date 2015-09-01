@@ -51,7 +51,10 @@ deb http://cdn.packages.linuxdeepin.com/packages-debian experimental main
 deb http://mirrors.corp.linuxdeepin.com/ubuntu trusty main universe multiverse restricted
 deb http://mirrors.corp.linuxdeepin.com/deepin trusty main universe non-free
 ```
-2014.3 ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/testing/2014 trusty main `进行测试
+
+不通过ci 测试请添加 ` deb http://packages.corp.linuxdeepin.com/deepin trusty main universe non-free`进行测试 (dra-chromium)
+
+~~2014.3 ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/testing/2014 trusty main `进行测试~~
 
 请注意，通过`/etc/hosts`将`packages.linuxdeepin.com`指向`10.0.0.6`的效果和使用`mirrors.corp.linuxdeepin.com`效果一致
 
