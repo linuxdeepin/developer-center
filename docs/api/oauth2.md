@@ -28,7 +28,7 @@ access_token=MDRjZGJlYTctMDFjMy00YzM0LWEyNjctMGQ0N2U5YTBlZTBh
 
 #### 1.1 API Endpoint
 
-GET [https://api.deepin.org/oauth2/authorize](https://api.deepin.org/oauth2/authorize)
+GET [https://login.deepin.org/oauth2/authorize](https://login.deepin.org/oauth2/authorize)
 
 #### 1.2 请求参数
 
@@ -51,7 +51,7 @@ GET [https://api.deepin.org/oauth2/authorize](https://api.deepin.org/oauth2/auth
 **示例：**
 
 ``` html
-https://api.deepin.org/oauth2/authorize?client_id=b401162c9d061040885d0fac242ea&redirect_uri=https://ci.deepin.io/securityRealm/finishLogin&response_type=code&state=1425660329-uLzQ6rjWU4-mjviAH4MA6WgJCsO9MoUdXjd4k8vMOuk
+https://login.deepin.org/oauth2/authorize?client_id=b401162c9d061040885d0fac242ea&redirect_uri=https://ci.deepin.io/securityRealm/finishLogin&response_type=code&state=1425660329-uLzQ6rjWU4-mjviAH4MA6WgJCsO9MoUdXjd4k8vMOuk
 ```
 #### 1.2 返回数据
 
@@ -70,7 +70,7 @@ https://ci.deepin.io/securityRealm/finishLogin?code=NWMzMzlmOGMtM2I0Ny00NzM0LWFk
 
 #### 2.1 API Endpoint
 
-POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
+POST [https://login.deepin.org/oauth2/token](https://login.deepin.org/oauth2/token)
 
 #### 2.2 请求参数
 
@@ -85,7 +85,7 @@ POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
 **示例：**
 
 ``` html
-POST https://api.deepin.org/oauth2/token
+POST https://login.deepin.org/oauth2/token
 
 Content-Type:
 application/x-www-form-urlencoded
@@ -119,7 +119,7 @@ client_id=b401162c9d061040885d0fac242ea&client_secret=ec37971eb48cfa1a97f53021&g
 
 #### 3.1 API Endpoint
 
-POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
+POST [https://login.deepin.org/oauth2/token](https://login.deepin.org/oauth2/token)
 
 #### 3.2 请求参数
 
@@ -133,7 +133,7 @@ POST [https://api.deepin.org/oauth2/token](https://api.deepin.org/oauth2/token)
 **示例：**
 
 ``` html
-POST https://api.deepin.org/oauth2/token
+POST https://login.deepin.org/oauth2/token
 
 Content-Type:
 application/x-www-form-urlencoded
@@ -162,6 +162,57 @@ client_id=b401162c9d061040885d0fac242ea&client_secret=ec37971eb48cfa1a97f53021&g
    "refresh_token": "YmU2ZmE1ZTItMTJjNS00MDZhLWIyYzItYzFiZjk3YmVhM2Nh",
    "scope": "base,",
    "uid": 10001
+}
+```
+
+### 4 Token Info 接口
+
+#### 4.1 API Endpoint
+
+POST [https://login.deepin.org/oauth2/info](https://login.deepin.org/oauth2/token)
+
+#### 4.2 请求参数
+
+| 参数名称         | 必选  | 类型    | 描述       |
+|------------------|-------|--------|-------------|
+| **token** | true | string | access-token/refresh-token, 请放在body中传输，编码方式必须为application/x-www-form-urlencoded |
+
+**示例：**
+
+``` html
+POST https://login.deepin.org/oauth2/token
+
+Content-Type:
+application/x-www-form-urlencoded
+
+Body:
+token=aCCZsaeW88SsazyDyasUeWKwJxrQsssasa
+```
+
+#### 4.3 返回数据
+
+| 返回值字段  | 类型 | 字段说明 |
+|-------------|------|---------|
+| **access_token** |    string | 用于调用access_token，接口获取授权后的access token。 |
+| **expires_in** |  string | access_token的生命周期，单位是秒数。 |
+| **scope** |string | 用户权限 |
+| **uid** | string | 当前授权用户的UID。 |
+| **client_id** | string | 被授权的应用ID。 |
+| **refresh_token** |    string | 刷新token。 |
+
+每次使用RefreshToken申请新的Token后，该RefreshToekn会失效。RefreshToken有效期为一年。
+
+**示例：**
+
+``` json
+{
+  "access_token": "aCCZeW88SzyDyUeWKwJxrQ",
+  "client_id": "test123",
+  "expires_in": 298785400,
+  "refresh_token": "mmoy18wYQgyIbrHgw-jMUw",
+  "scope": "base,user:read",
+  "token_type": "bearer",
+  "uid": 1
 }
 ```
 

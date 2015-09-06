@@ -30,14 +30,13 @@ GET [https://api.deepin.org/v1/users/:indentify]()
 
 | 参数名称        | 描述        |
 |----------------|-------------|
-| **:indentify** | 用户标识，可以是用户名，UID，用户邮箱  |
+| **:indentify** | 用户标识，可以是用户名，用户邮箱  |
 
 
 **Example：**
 
 ```http
 GET https://api.deepin.org/v1/users/iceyer
-GET https://api.deepin.org/v1/users/17898
 GET https://api.deepin.org/v1/users/iceyers@gmail.com
 ```
 
@@ -66,7 +65,7 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 404 Not Found
 Content-Type: application/json; charset=utf-8
 
-{"message":"Invaild User Name"}
+{"message":"user_not_exist"}
 
 ```
 
