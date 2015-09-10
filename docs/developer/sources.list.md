@@ -14,7 +14,7 @@ deb http://cache.mirrors.deepin.org unstable main contrib non-free
 ```
 `cache.mirrors.deepin.org`实现工作机制这里不作阐述，在公司内部使用与使用`packages.corp.linuxdeepin.com`并无区别，简而言之， 类似与`deb http://cache.mirrors.deepin.org unstable main`与`deb http://packages.corp.linuxdeepin.com/deepin-2015 unstable main` 结果上是一模一样的
 
-* debian ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/deepin experimental main `进行测试
+* debian ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/experimental experimental main `进行测试
 > `experimental`由于开发组未使用tag标记软件发布版本，所以需要添加这个软件源来安装deepin软件，可预见的未来这个dist作为测试使用，发布版本（release）不使用该dist
 
 * debian tag 测试请添加` deb http://packages.corp.linuxdeepin.com/deepin-2015 unstable main contrib non-free `进行测试
@@ -83,7 +83,7 @@ deb http://mirrors.corp.linuxdeepin.com/deepin trusty main universe non-free
 
 `pkg_debian`项目通过分支实现将生成二进制软件包推送至不同仓库
 
-* 分支 `debian` 推送至软件源 ` deb http://pools.corp.linuxdeepin.com/deepin experimental main `
+* 分支 `debian` 推送至软件源 ` deb http://pools.corp.linuxdeepin.com/experimental experimental main `
 * 分支 `2014` 推送至软件源 ` deb http://pools.corp.linuxdeepin.com/testing/2014 trusty main `
 
 >*TODO: `pkg_debian`项目下`branch.json`里面有`repo`值，该值未来会作为仓库地址使用*
