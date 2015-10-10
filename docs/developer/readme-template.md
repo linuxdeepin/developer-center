@@ -3,19 +3,22 @@ category:系统开发
 title:README 模板
 DO NOT Delete Meta Above -->
 
-#### CFPB Open Source Project Template Instructions
 
-1. Create a new project.
-2. Copy these files into the new project.
-3. Update the README, replacing the contents below as prescribed.
-4. Add any libraries, assets, or hard dependencies whose source code will be included
-   in the project's repository to the _Exceptions_ section in the [TERMS](TERMS.md).
-  - If no exceptions are needed, remove that section from TERMS.
-5. If working with an existing code base, answer the questions on the [open source checklist](opensource-checklist.md)
-6. Delete these instructions and everything up to the _Project Title_ from the README.
-7. Write some great software and tell people about it.
+# Introduction
 
-> Keep the README fresh! It's the first thing people see and will make the initial impression.
+This `README.md` template is based on project [open-source-project-template](https://github.com/cfpb/open-source-project-template) and is been modified to suit deepin's needs, in order to make all the projects in deepin have clean and consistent guidelines for the new comers.
+
+
+# Rules
+
+- Format in [markdown syntax](https://help.github.com/articles/github-flavored-markdown/).
+- Keep one or more space lines between sections.
+- 'deepin' is the official trademark which must be **in all lower case**, and following legacy combinations are deprecated
+    - deepin OS
+    - linux deepin
+    - deepin linux
+- You can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice.
+
 
 ----
 
@@ -33,41 +36,46 @@ Other things to include:
   - **Links to production or demo instances**
   - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
 
-
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
+**Screenshot**: If the software has visual components, place a screenshot after the description.
 
 
 ## Dependencies
 
 Describe any dependencies that must be installed for this software to work.
-This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
-If specific versions of other software are required, or known not to work, call that out.
+
+The dependencies in this section must be described in **distro independent way** (upstream project name or name in pkg-config), instead of package name in specific distro (gtk+-3.0 instead of libgtk-3-0, which is a package name in Debian).
+
+If versions of dependencies make things difference, you must also point it out. eg. gtk+-3.0 >= 3.16.0
+
+### Build Dependencies
+
+Describe any dependencies that must be installed before you build this project from source code. eg. gtk-doc is used to generate documents at build-time, but not been used at deploy-time or runtime.
+
+### Runtime Dependencies
+
+Describe any dependencies that must be installed to let this project runs properly. eg. 
 
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running.
+Detailed *instructions* on how to install, configure, and get the project running.
 This should be frequently tested to ensure reliability. Alternatively, link to
 a separate [INSTALL](INSTALL.md) document.
 
-## Configuration
+This section must be further divided into sub-sections for specific distors like, how to install build-time dependencies in Debian with apt-get, how to generate packages with debuild, how to install generated packages with dpkg/apt-get.
+
+## Configuration (Optional)
 
 If the software is configurable, describe it in detail, either here or in other documentation to which you link.
 
-## Usage
+## Usage (Optional)
 
 Show users how to use the software.
 Be specific.
 Use appropriate formatting when showing code snippets.
 
-## How to test the software
+## How to test the software (Optional)
 
 If the software includes automated tests, detail how to run those tests.
-
-## Known issues
-
-Document any known significant shortcomings with the software.
 
 ## Getting help
 
@@ -96,7 +104,7 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 
 ----
 
-## Credits and references
+## Credits and references (Optional)
 
 1. Projects that inspired you
 2. Related projects
