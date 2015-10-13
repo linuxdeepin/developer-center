@@ -10,16 +10,16 @@ This `README.md` template is based on project [open-source-project-template](htt
 
 This template is consist of three parts
 
-0. [Rules][Rules] everyone must obey
-0. [Template][Project Title] itself and writing guideline
-0. [Example][Deepin Terminal]
+0. [Rules](#rules) everyone must obey
+0. [Template](#project-title) itself and writing guideline
+0. [Example](#deepin-terminal)
 
 
 # Rules
 
 - Keep content up to date.
 - Format in [markdown syntax](https://help.github.com/articles/github-flavored-markdown/).
-- Keep one or more space lines between sections.
+- Keep one or more empty lines between sections.
 - 'deepin' (all lowercase letters) is the official trademark which must be used whenever you could, but, you can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice.
 - Following legacy combinations are deprecated and should no longer be used
     - deepin OS
@@ -150,7 +150,10 @@ Deepin terminal is based on python-vte and with many patchs for advanced feature
 
 Install prerequisites
 ```
-$ sudo apt-get install build-essential ...
+$ sudo apt-get install build-essential \
+                       python-vt \
+                       hicolor-icon-theme \
+                       ...
 ```
 
 Build
@@ -158,13 +161,14 @@ Build
 $ make
 ```
 
-Generate package files
+If you have isolated testing build environment (say a docker container), you can install it directly
 ```
-$ debuild -uc -us ...
+$ sudo make install
 ```
 
-Install deepin terminal
+Or, generate package files and install deepin terminal with it
 ```
+$ debuild -uc -us ...
 $ sudo dpkg -i ../deepin-terminal-*deb
 ```
 
@@ -217,7 +221,7 @@ Below is keymap list for deepin-terminal:
 
 Any usage issues can ask for help via
 
-* [Gitter](https://gitter.im/linuxdeepin/users)
+* [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
 * [IRC channel](https://webchat.freenode.net/?channels=deepin)
 * [Forum](https://bbs.deepin.org)
 * [WiKi](http://wiki.deepin.org/)
