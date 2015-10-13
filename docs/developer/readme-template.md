@@ -8,16 +8,27 @@ DO NOT Delete Meta Above -->
 
 This `README.md` template is based on project [open-source-project-template](https://github.com/cfpb/open-source-project-template) and is been modified to suit deepin's needs, in order to make all the projects in deepin have clean and consistent guidelines for the new comers.
 
+This template is consist of three parts
+
+0. [Rules][Rules] everyone must obey
+0. [Template][Project Title] itself and writing guideline
+0. [Example][Deepin Terminal]
+
 
 # Rules
 
+- Keep content up to date.
 - Format in [markdown syntax](https://help.github.com/articles/github-flavored-markdown/).
 - Keep one or more space lines between sections.
-- 'deepin' is the official trademark which must be **in all lower case**, and following legacy combinations are deprecated
+- 'deepin' (all lowercase letters) is the official trademark which must be used whenever you could, but, you can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice.
+- Following legacy combinations are deprecated and should no longer be used
     - deepin OS
+    - deepin 操作系统
+    - 深度系统
+    - linuxdeepin
     - linux deepin
     - deepin linux
-- You can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice.
+    - deepin linux 系统
 
 
 ----
@@ -109,3 +120,116 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 1. Projects that inspired you
 2. Related projects
 3. Books, papers, talks, or other sources that have meaningful impact or influence on this project
+
+----
+
+# Deepin Terminal
+
+This is the default terminal emulator in deepin, simple, lightweight yet beautiful.
+
+Deepin terminal is based on python-vte and with many patchs for advanced features, such as, search, adjust opacity in real-time etc.
+
+
+## Dependencies
+
+### Build Dependencies
+- python
+
+### Runtime Dependencies
+- python
+- deepin-ui >=1+git201209101328
+- deepin-gsettings
+- python-vte
+- expect
+- hicolor-icon-theme
+- xdotool
+
+## Installation
+
+### Debian 8.0 (jessie)
+
+Install prerequisites
+```
+$ sudo apt-get install build-essential ...
+```
+
+Build
+```
+$ make
+```
+
+Generate package files
+```
+$ debuild -uc -us ...
+```
+
+Install deepin terminal
+```
+$ sudo dpkg -i ../deepin-terminal-*deb
+```
+
+## Usage
+
+Run deepin terminal with the command below
+```
+$ deepin-terminal &
+```
+
+Below is keymap list for deepin-terminal:
+
+| Function                 | Keymap                |
+|--------------------------|-----------------------|
+| Copy                     | **Ctrl** + **C**      |
+| Paste                    | **Ctrl** + **V**      |
+| Select word              | Double click          |
+| Open URL                 | **Ctrl** + LeftButton |
+| Split vertically         | **Ctrl** + **H**      |
+| Split horizontally       | **Ctrl** + **h**      |
+|                                                  |
+| Close current window     | **Ctrl** + **W**      |
+| Close other windows      | **Ctrl** + **Q**      |
+| Scrol up                 | **Alt**  + **,**      |
+| Scroll down              | **Alt**  + **.**      |
+|                                                  |
+| Focus up terminal        | **Alt**  + **k**      |
+| Focus down terminal      | **Alt**  + **j**      |
+| Focus left terminal      | **Alt**  + **h**      |
+| Focus right terminal     | **Alt**  + **l**      |
+|                                                  |
+| Zoom out                 | **Ctrl** + **=**      |
+| Zoom in                  | **Ctrl** + **-**      |
+| Revert default size      | **Ctrl** + **0**      |
+|                                                  |
+| New workspace            | **Ctrl** + **/**      |
+| Close workspace          | **Ctrl** + **:**      |
+| Switch preview workspace | **Ctrl** + **,**      |
+| Switch next workspace    | **Ctrl** + **.**      |
+|                                                  |
+| Search forward           | **Ctrl** + **'**      |
+| Search backward          | **Ctrl** + **"**      |
+|                                                  |
+| Fullscreen               | **F11**               |
+| Help                     | **Ctrl** + **?**      |
+| Show remote login window | **Ctrl** + **9**      |
+| Show sub-process window  | **Ctrl** + **8**      |
+
+## Getting help
+
+Any usage issues can ask for help via
+
+* [Gitter](https://gitter.im/linuxdeepin/users)
+* [IRC channel](https://webchat.freenode.net/?channels=deepin)
+* [Forum](https://bbs.deepin.org)
+* [WiKi](http://wiki.deepin.org/)
+
+## Getting involved
+
+We encourage you to report issues and contribute changes
+
+* [Contirubtion guide for
+users](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Users)
+* [Contribution guide for developers](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Developers).
+
+## License
+
+deepin terminal is licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt).
