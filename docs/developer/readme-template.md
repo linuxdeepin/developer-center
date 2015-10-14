@@ -109,6 +109,7 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 
 ## Open source licensing info
 Most of deepin's projects are licensed under either
+
 * [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
 * [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 
@@ -237,4 +238,4 @@ users](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Users)
 
 ## License
 
-deepin terminal is licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt).
+deepin terminal is licensed under [GPLv3](LICENSE).
