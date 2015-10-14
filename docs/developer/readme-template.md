@@ -127,7 +127,7 @@ Please download a copy, name it LICENSE, put it in your project, and declare the
 
 # Deepin Terminal
 
-This is the default terminal emulator in deepin, simple, lightweight yet beautiful.
+**Description**: This is the default terminal emulator in deepin, simple, lightweight yet beautiful.
 
 Deepin terminal is based on python-vte and with many patchs for advanced features, such as, search, adjust opacity in real-time etc.
 
