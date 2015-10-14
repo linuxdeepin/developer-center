@@ -108,10 +108,11 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ----
 
 ## Open source licensing info
-1. [TERMS](TERMS.md)
-2. [LICENSE](LICENSE)
-3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
+Most of deepin's projects are licensed under either
+* [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
+* [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 
+Please download a copy, name it LICENSE, put it in your project, and declare the license in this section.
 
 ----
 
