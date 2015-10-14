@@ -20,7 +20,7 @@ This template is consist of three parts
 - Keep content up to date.
 - Format in [markdown syntax](https://help.github.com/articles/github-flavored-markdown/).
 - Keep one or more empty lines between sections.
-- 'deepin' (all lowercase letters) is the official trademark which must be used whenever you could, but, you can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice.
+- 'deepin' (all lowercase letters) is the official trademark which must be used whenever you could, but, you can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice
 - Following legacy combinations are deprecated and should no longer be used
     - deepin OS
     - deepin 操作系统
@@ -29,6 +29,14 @@ This template is consist of three parts
     - linux deepin
     - deepin linux
     - deepin linux 系统
+- The presence of project name in document must be in form that
+    - Keep the terms/abbreviations in its original case. eg. OpenGL, DBus, QML, iPad, ...
+    - Capitalize first letters of every words
+    - Reserve punctuation if that makes meaning different
+    - Examples:
+        - deepin-terminal           => Deepin Terminal
+        - deepin-2d-window-manager  => Deepin 2D Window Manager
+        - go-dbus-generator         => Go DBus Generator
 
 
 ----
@@ -129,7 +137,7 @@ Please download a copy, name it LICENSE, put it in your project, and declare the
 
 **Description**: This is the default terminal emulator in deepin, simple, lightweight yet beautiful.
 
-Deepin terminal is based on python-vte and with many patchs for advanced features, such as, search, adjust opacity in real-time etc.
+Deepin Terminal is based on python-vte and with many patchs for advanced features, such as, search, adjust opacity in real-time etc.
 
 
 ## Dependencies
@@ -168,7 +176,7 @@ If you have isolated testing build environment (say a docker container), you can
 $ sudo make install
 ```
 
-Or, generate package files and install deepin terminal with it
+Or, generate package files and install Deepin Terminal with it
 ```
 $ debuild -uc -us ...
 $ sudo dpkg -i ../deepin-terminal-*deb
@@ -176,12 +184,12 @@ $ sudo dpkg -i ../deepin-terminal-*deb
 
 ## Usage
 
-Run deepin terminal with the command below
+Run Deepin Terminal with the command below
 ```
 $ deepin-terminal &
 ```
 
-Below is keymap list for deepin-terminal:
+Shortcut keys list below:
 
 | Function                 | Keymap                |
 |--------------------------|-----------------------|
@@ -238,4 +246,4 @@ users](http://wiki.deepin.org/index.php?title=Contribution_Guidelines_for_Users)
 
 ## License
 
-deepin terminal is licensed under [GPLv3](LICENSE).
+Deepin Terminal is licensed under [GPLv3](LICENSE).
