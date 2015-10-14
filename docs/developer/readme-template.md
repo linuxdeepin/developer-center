@@ -108,10 +108,10 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ----
 
 ## Open source licensing info
-Most of deepin's projects are licensed under either
+Most of deepin's projects are licensed under either of two licenses
 
 * [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
-* [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
+* [CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode.txt)
 
 Please download a copy, name it LICENSE, put it in your project, and declare the license in this section.
 
