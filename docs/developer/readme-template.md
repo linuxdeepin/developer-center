@@ -55,6 +55,8 @@ Other things to include:
   - **Links to production or demo instances**
   - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
 
+**Tags**: Tags that describe how this package categorized.
+
 **Screenshot**: If the software has visual components, place a screenshot after the description.
 
 
@@ -138,6 +140,8 @@ Please download a copy, name it LICENSE, put it in your project, and declare the
 **Description**: This is the default terminal emulator in deepin, simple, lightweight yet beautiful.
 
 Deepin Terminal is based on python-vte and with many patchs for advanced features, such as, search, adjust opacity in real-time etc.
+
+**Tags**: terminal-emulation, application, utililty
 
 
 ## Dependencies
