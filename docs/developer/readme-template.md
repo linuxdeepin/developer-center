@@ -21,7 +21,7 @@ This template is consist of three parts
 - Format in [markdown syntax](https://help.github.com/articles/github-flavored-markdown/).
 - Keep one or more empty lines between sections.
 - 'deepin' (all lowercase letters) is the official trademark which must be used whenever you could, but, you can cap the first letter of 'deepin' as 'Deepin' **if and only if** the usage is compliant with English practice
-- Following legacy combinations are deprecated and should no longer be used
+- Following legacy combinations are obsolete and should no longer be used
     - deepin OS
     - deepin 操作系统
     - 深度系统
@@ -68,11 +68,11 @@ The dependencies in this section must be described in **distro independent way**
 
 If versions of dependencies make things difference, you must also point it out. eg. gtk+-3.0 >= 3.16.0
 
-### Build Dependencies
+### Build dependencies
 
 Describe any dependencies that must be installed before you build this project from source code. eg. gtk-doc is used to generate documents at build-time, but not been used at deploy-time or runtime.
 
-### Runtime Dependencies
+### Runtime dependencies
 
 Describe any dependencies that must be installed to let this project runs properly. eg. 
 
@@ -84,17 +84,17 @@ a separate [INSTALL](INSTALL.md) document.
 
 This section must be further divided into sub-sections for specific distors like, how to install build-time dependencies in Debian with apt-get, how to generate packages with debuild, how to install generated packages with dpkg/apt-get.
 
-## Configuration (Optional)
+## Configuration (optional)
 
 If the software is configurable, describe it in detail, either here or in other documentation to which you link.
 
-## Usage (Optional)
+## Usage (optional)
 
 Show users how to use the software.
 Be specific.
 Use appropriate formatting when showing code snippets.
 
-## How to test the software (Optional)
+## How to test the software (optional)
 
 If the software includes automated tests, detail how to run those tests.
 
@@ -127,7 +127,7 @@ Please download a copy, name it LICENSE, put it in your project, and declare the
 
 ----
 
-## Credits and references (Optional)
+## Credits and references (optional)
 
 1. Projects that inspired you
 2. Related projects
@@ -146,10 +146,10 @@ Deepin Terminal is based on python-vte and with many patchs for advanced feature
 
 ## Dependencies
 
-### Build Dependencies
+### Build dependencies
 - python
 
-### Runtime Dependencies
+### Runtime dependencies
 - python
 - deepin-ui >=1+git201209101328
 - deepin-gsettings
