@@ -10,10 +10,8 @@ DO NOT Delete Meta Above -->
 
 #### 2015 默认源列表
 ```
-deb http://cache.mirrors.deepin.org unstable main contrib non-free
+deb http://mirrors.corp.linuxdeepin.com/2015 unstable main contrib non-free
 ```
-`cache.mirrors.deepin.org`实现工作机制这里不作阐述，在公司内部使用与使用`packages.corp.linuxdeepin.com`并无区别，简而言之， 类似与`deb http://cache.mirrors.deepin.org unstable main`与`deb http://packages.corp.linuxdeepin.com/deepin-2015 unstable main` 结果上是一模一样的
-
 * debian ci merge 测试项目请添加` deb http://pools.corp.linuxdeepin.com/experimental experimental main `进行测试
 > `experimental`由于开发组未使用tag标记软件发布版本，所以需要添加这个软件源来安装deepin软件，可预见的未来这个dist作为测试使用，发布版本（release）不使用该dist
 
@@ -23,14 +21,8 @@ deb http://cache.mirrors.deepin.org unstable main contrib non-free
 
 #####目前2015使用源列表
 ```
-deb http://cache.mirrors.deepin.org unstable main contrib non-free
+deb http://mirrors.corp.linuxdeepin.com/2015 unstable main contrib non-free
 ```
-
-注意：目前下列软件列表不再默认使用
-```
-deb http://cache.mirrors.deepin.org experimental main 
-```
- 
 
 **请注意，除测试或者追新等特定需求外，这两个源不要一起使用，因为`experimental`软件版本会比`unstable`更新，导致使用的是`experimental`仓库软件包**
 
