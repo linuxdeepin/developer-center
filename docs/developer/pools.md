@@ -86,9 +86,9 @@ deb http://pools.corp.linuxdeepin.com/universe unstable main contrib non-free
 该流程主要目的为对不适合使用自动测试流程进行的任务进行人工干预。包括软件细节不一致/字体差异等问题。系统组推送外网更新特别依赖与测试提供测试报告。
 
 1. ISO自动测试成功后，**系统**根据各个维护源，按需生成[合并测试源](http://pools.corp.linuxdeepin.com/deepin)
-2. **测试** http://pools.corp.linuxdeepin.com/maintain unstable main使用[合并测试源](http://pools.corp.linuxdeepin.com/deepin)进行测试
-3. **测试**将测试结果通知**系统**,测试成功,**系统**更新内部测试源，不成功便放弃更新
-4. **测试**对内部测试源进行验证，验证成功** 系统**产生对应release存档,推送外网更新
+2. **测试** 使用[合并测试源](http://pools.corp.linuxdeepin.com/deepin)进行测试
+3. **测试** 将测试结果通知**系统**,测试成功,**系统**更新内部测试源，不成功便放弃更新
+4. **测试** 对内部测试源进行验证，验证成功** 系统**产生对应release存档,推送外网更新
 5. **系统** 就更新内容发送邮件至涉及到**开发/测试/产品/系统**等
 
 需要按顺序测试软件源
