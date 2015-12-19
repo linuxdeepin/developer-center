@@ -33,7 +33,32 @@ ls /home/deepin/OpenQA/share/tangcaijun/deepin  # 记得替换tangcaijun
 
 
 经过这几步就已经将你的代码挂到服务器了，你可以随意的在你的pc上修改你的代码，服务器那边也会同步  
-*** 注意：因为现在没用弄自动重连功能，所以你的系统关闭后需要重新挂载一遍代码 (谁会的快帮忙解决这个问题⊙﹏⊙b) ***
+*** 注意：第一次挂载完毕后需要把你的挂载位置加入到挂载脚本里面，否则pc重启后需要自己手动再去服务器挂载一遍。***
+
+#### （4）在服务器上自动挂载重连脚本位置：/home/deepin/OpenQA/share/mount.py
+```shell
+# 在此脚本中追加你想挂载的地址即可，第一次挂载需要自己手动完成
+➜  ~  cd /home/deepin/OpenQA/share/
+➜  share
+➜  share  cat mount.py 
+import os
+import sys
+import pexpect
+import time
+
+if (not os.path.ismount("tangcaijun/deepin")):
+    print "Not a mount point."
+    child1 = pexpect.spawn("sshfs choldrim@10.0.1.62:/var/lib/openqa/share/tests/deepin tangcaijun/deepin -o allow_other")
+    child1.logfile_read = sys.stdout
+    i = child1.expect(["password:", pexpect.TIMEOUT], 30)
+    time.sleep(2)
+    print i
+    if i == 0:
+        child1.sendline("deepin")
+        child1.expect(pexpect.EOF)
+else:
+    print "Already mounting."
+```
 
 ### 3、在服务器配置一个你的专属worker
 
@@ -95,6 +120,13 @@ openqa-test CASEDIR=/home/deepin/OpenQA/share/tangcaijun/deepin
 
 或者也可以在你pc上的配置文件 /etc/openqa/deepin.ini 中添加 CASEDIR 环境变量，然后直接openqa-test也可以达到同样效果
 
+
+#### （4）基于上一次成功安装ISO后添加变量启动测试，可以跳过ISO重新安装
+
+```shell
+# 在普通启动测试命令后，添加：KEEPHDDS=1 BOOTFROM=c
+openqa-test KEEPHDDS=1 BOOTFROM=c CASEDIR=******
+```
 
 ### 附录：
 
