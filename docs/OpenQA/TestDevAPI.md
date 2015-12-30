@@ -5,7 +5,8 @@ DO NOT Delete Meta Above -->
 
 ## OpenQA Test Developer API Docs
 
-（说明：perl中无True和False，为了好表达，以下将undef、空字符串、0唤为False，其他唤为True）
+（说明：perl中无True和False，为了好表达，以下将undef、空字符串、0做为False，其它做为True）
+（在脚本头需要添加：use testapi; ）
 
 ### ** assert_screen **
 对比needle  
@@ -13,43 +14,43 @@ DO NOT Delete Meta Above -->
 
 #### 参数
 * NEEDLE neelde名字
-* TIMEOUT 最长等待时间
+* TIMEOUT 最长等待时间，可以不填写，默认值是30秒
 
 #### 返回值
 True 或 False
 
 #### 例子
 ```perl
-# 预测 10 秒内出现对应needle，若不出现则标识此次对比失败
+# 预测 10 秒内出现对应needle，若不出现则标识此次对比失败，此脚本会停止运行
 assert_screen "your-needle-name", 10;
 ```
 
 ### ** assert_and_click **
-对比needle，若匹配，则点击needle匹配区域的最中间部位  
+对比needle，若匹配，则点击needle匹配区域的中间部位，默认左键单击  
 匹配结果会影响本次测试结果
 
 #### 参数
 * NEEDLE neelde名字
 * BUTTON 键位名，默认为"left"，可选值："left" 、"right" 、"middle"
-* TIMEOUT 最长等待时间
+* TIMEOUT 最长等待时间，默认值30秒
 
 #### 返回值
 无
 
 #### 例子
 ```perl
-assert_and_dclick "launcher-btn-click";  # 匹配名字为launcher-btn-click的needle，如果匹配成功，则单击needle中间部位
+assert_and_click "launcher-btn-click", "left", 20;  # 匹配名字为launcher-btn-click的needle，如果匹配成功，则左键单击needle中间部位
 ```
 
 
 ### ** assert_and_dclick **
-对比needle，若匹配，则双击needle匹配区域的最中间部位
+对比needle，若匹配，则双击needle匹配区域的中间部位
 匹配结果会影响本次测试结果
 
 #### 参数
 * NEEDLE neelde名字
 * BUTTON 键位名，默认为"left"，可选值："left" 、"right" 、"middle"
-* TIMEOUT 最长等待时间
+* TIMEOUT 最长等待时间，默认值30秒
 
 #### 返回值
 无
@@ -61,10 +62,10 @@ assert_and_dclick "launcher-btn-click";  # 匹配名字为launcher-btn-click的n
 
 
 ### ** check_screen **
-对比needle，和assert_screen区别是，对比的结果对测试无影响
+对比needle，和assert_screen区别是，对比的结果对测试结果无影响，可做为流程控制中的条件进行判断
 #### 参数
 * NEEDLE neelde名字
-* TIMEOUT 最长等待时间
+* TIMEOUT 最长等待时间，默认30秒
 
 #### 返回值
 True 或 False
@@ -88,6 +89,7 @@ if (check_screen "your-needle-name", 10){
 
 #### 返回值
 对比在开始测试前预设的变量值
+True 或 False
 
 #### 例子
 ```perl
@@ -132,8 +134,29 @@ qemu-img snapshot -l disk.img  # disk.img 是虚拟机硬盘文件
 
 #### 例子
 ```perl
-make_snapshot "snapshot-name";
+use bmwqemu;
+bmwqemu::make_snapshot("Finish-Loading-Desktop");
 ```
+
+### ** load_snapshot **
+加载快照
+生成的快照存储在虚拟机硬盘文件中，可通过以下命令列出硬盘所有快照
+```shell
+qemu-img snapshot -l disk.img  # disk.img 是虚拟机硬盘文件
+
+# 虚拟机硬盘文件存放位置为 /var/lib/openqa/pool/#work-id#/raid/1
+```
+
+#### 参数
+* NAME 快照名
+
+#### 返回值
+无
+
+#### 例子
+```perl
+use bmwqemu;
+bmwqemu::load_snapshot("Finish-Loading-Desktop");
 
 ### ** mouse_click **
 单击事件
@@ -315,6 +338,7 @@ win
 #### 例子
 ```perl
 type_string "deepin";
+type_string "deepin\n";   # \n 表示回车键
 ```
 
 
