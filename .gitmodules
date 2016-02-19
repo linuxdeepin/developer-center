@@ -1,0 +1,3 @@
+[submodule "doxygen/dtk-doc"]
+	path = doxygen/dtk-doc
+	url = https://github.com/deepin-tool-kit/dtk-doc

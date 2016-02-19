@@ -1,4 +1,4 @@
-site_name: 深度开发文档
+site_name: Articles
 site_url: https://docs.deepin.io/
 
 #theme: readthedocs
@@ -7,6 +7,6 @@ repo_url: https://github.com/linuxdeepin/docs.deepin.io/
 
 #include_search: true
 
-copyright: Copyright &copy; 2015, Deepin
+copyright: Copyright &copy; 2016, Deepin
 
 pages:

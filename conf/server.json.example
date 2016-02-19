@@ -1,0 +1,30 @@
+{
+    "ServerHost": "127.0.0.1",
+    "ServerPort": "8011",
+
+    "MysqlHost": "127.0.0.1",
+    "MysqlPort": "3306",
+    "MysqlUsername": "root",
+    "MysqlPassword": "123456",
+    "MysqlDatabase": "deepinid",
+
+    "IPLimitThreshold": 100,
+    "IPForbidenRate" : 20,
+
+    "Schema" : "https://",
+    "RootDomain": ".deepin.org",
+    "CaptchaVerify": "true",
+    "Root": ".",
+	
+    "SyncLoginSessionPath": "./data/synclogin",
+
+    "LoginDomainList": [
+        "https://login.deepin.org/login",
+        "https://login.deepin.io/login"
+    ],
+
+    "LogoutDomainList": [
+        "https://login.deepin.org/logout",
+        "https://login.deepin.io/logout"
+    ]
+}

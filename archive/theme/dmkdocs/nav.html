@@ -14,7 +14,7 @@
             {% endif %}
 
             <!-- Main title -->
-            <a class="navbar-brand" href="{{ homepage_url }}">{{ site_name }}</a>
+            <a class="navbar-brand" href="/">Deepin Document</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -23,7 +23,7 @@
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                            <a href="/#">首页</a>
+                            <a href="{{ homepage_url }}">{{ site_name }}</a>
                     </li>
 
                         {% for nav_item in nav %}

@@ -65,7 +65,7 @@ DO NOT Delete Meta Above-->
             item_count += 1
             cate += '\t\t<li><a href="' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
         if item_count >= 4:
-            cate += '\t\t<li><a href="/index/'+ k +'">More>></li>'
+            cate += '\t\t<li><a href="/article/index/'+ k +'">More>></li>'
         cate += '\t</ul>\n'
         cate += '\t</div>\n'
         if 0 == item_count:
@@ -104,7 +104,7 @@ DO NOT Delete Meta Above-->
         for item in v:
             if 0 == len(item[0]):
                 continue
-            cate += '\t\t<li><a href="/' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
+            cate += '\t\t<li><a href="/article/' + item[1][:-3]+ '">' + item[0]+ '</a></li>\n'
             item_count += 1
         cate += '\t</ul>\n'
         cate += '\t</div>\n'
