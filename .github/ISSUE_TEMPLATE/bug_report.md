@@ -29,6 +29,7 @@ Steps to reproduce the behavior:
 
 ### Related package version
 <!--e.g. dde-file-manager v1.7 (4.5.6.2-2)-->
+<!--Please try to avoid using the word "latest" without providing the actual version number.-->
 <!--If you are not sure about which package went wrong, you can provide a list of package and it's version which you thinks is probably related with your issue-->
 
 ### Additional context
