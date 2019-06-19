@@ -1,3 +1,5 @@
-# Code of conduct
+English | [中文](CODE_OF_CONDUCT(zh_CN).md)
 
-// This is a working-in-progress page, for generic rule please consider refer to [Arch Code of Conduct](https://wiki.archlinux.org/index.php/Code_of_conduct).
+## Code of conduct
+
+All Deepin projects adheres to the [Contributor Covenant 1.2](https://www.contributor-covenant.org/version/1/2/0/code-of-conduct.html). By participating, you are expected to uphold this code. Please report unacceptable behavior to support@linuxdeepin.com.
