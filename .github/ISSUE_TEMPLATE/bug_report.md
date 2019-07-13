@@ -3,6 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 
 ---
+<!--Please keep one issue focus on one bug, If you have multiple issues to report, try open multiple issues to report each of them.-->
 
 ## Describe the bug
 <!--A clear and concise description of what the bug is.-->
