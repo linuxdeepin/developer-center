@@ -7,11 +7,11 @@ DO NOT Delete Meta Above -->
 
 深度文档是基于mkdocs定制的深度开发文档服务，用于指导开发人员使用深度提供的API、服务。
 
-文档服务采用markdown文件静态页面生成html页面，相关代码均托管再github上。
+文档服务采用markdown文件静态页面生成html页面，相关代码均托管在github上。
 
 ## 二、文档编写
 
-开发人员将直接再github上编写文档，文档服务器会直接拉取github上的开发文档，并生成对应的页面。
+开发人员将直接在github上编写文档，文档服务器会直接拉取github上的开发文档，并生成对应的页面。
 
 ### 1 获取文档仓库
 
@@ -38,7 +38,7 @@ DO NOT Delete Meta Above -->
 
 ### 3 编辑页面
 
-直接修改docs/dde/widget.md文件即可。主要不要删除meta信息，如果想改变页面的标题或者分类，可以直接修改meta信息。category表示文档分类，title表示文档标题。
+直接修改docs/dde/widget.md文件即可。注意不要删除meta信息，如果想改变页面的标题或者分类，可以直接修改meta信息。category表示文档分类，title表示文档标题。
 
 ### 4 提交页面
 
