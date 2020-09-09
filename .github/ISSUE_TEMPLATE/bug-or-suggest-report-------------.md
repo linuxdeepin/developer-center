@@ -1,6 +1,7 @@
 ---
 name: Bug or suggest report 「问题 或 建议 反馈」
-about: 反馈之前请阅读此， 请去各自对应的仓库进行反馈
+about: Please read this before giving feedback, please go to the respective warehouse
+  to give feedback；[反馈之前请阅读此， 请去各自对应的仓库进行反馈]
 title: Bug report 「缺陷报告」
 labels: ''
 assignees: ''
