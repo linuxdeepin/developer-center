@@ -1,0 +1,393 @@
+/* url: http://mirror.bit.edu.cn/deepin-cd msg: Get "http://mirror.bit.edu.cn/deepin-cd": dial tcp [2001:da8:204:1205::22]:80: connect: network is unreachable */
+table:first-of-type tr:nth-child(3) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirror.bjtu.edu.cn/deepin-cd/releases/ msg: Get "https://mirror.bjtu.edu.cn/deepin-cd/releases/": dial tcp 202.112.154.58:443: i/o timeout */
+table:first-of-type tr:nth-child(4) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.yun-idc.com/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(5) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.cug.edu.cn/deepin-cd/ msg: Get "http://mirrors.cug.edu.cn/deepin-cd/": dial tcp 202.114.196.252:80: connect: connection refused */
+table:first-of-type tr:nth-child(7) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.cqupt.edu.cn/deepin-cd/ msg: 502 Bad Gateway */
+table:first-of-type tr:nth-child(9) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.redrock.team/deepin-cd/ msg: 502 Bad Gateway */
+table:first-of-type tr:nth-child(10) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.cn99.com/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(11) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(12) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.ubuntu-tw.org/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(12) td:nth-child(4) { background-color: red; }
+
+/* url: http://mirrors.hust.edu.cn/deepin-releases/ msg: Get "http://mirrors.hust.edu.cn/deepin-releases/": dial tcp 202.114.18.160:80: i/o timeout */
+table:first-of-type tr:nth-child(14) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.hit.edu.cn/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(15) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.hit4.edu.cn/deepin-cd/ msg: Get "http://mirrors.hit4.edu.cn/deepin-cd/": dial tcp: lookup mirrors.hit4.edu.cn on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(15) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirrors.hit6.edu.cn/deepin-cd/ msg: Get "http://mirrors.hit6.edu.cn/deepin-cd/": dial tcp: lookup mirrors.hit6.edu.cn on 10.20.0.10:53: server misbehaving */
+table:first-of-type tr:nth-child(15) td:nth-child(4) { background-color: red; }
+
+/* url: http://mirrors.jstvu.edu.cn/deepin-cd/ msg: Get "http://mirrors.jstvu.edu.cn/deepin-cd/": dial tcp 210.28.216.21:80: connect: no route to host */
+table:first-of-type tr:nth-child(16) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.jlu.edu.cn/deepin-cd/ msg: Get "http://mirrors.jlu.edu.cn/deepin-cd/": dial tcp 202.198.16.100:80: i/o timeout */
+table:first-of-type tr:nth-child(17) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror-hk.koddos.net/deepin-cd/ msg: Get "http://mirror-hk.koddos.net/deepin-cd/": dial tcp 103.109.101.20:80: i/o timeout */
+table:first-of-type tr:nth-child(18) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirror-hk.koddos.net/deepin-cd/ msg: Get "https://mirror-hk.koddos.net/deepin-cd/": net/http: TLS handshake timeout */
+table:first-of-type tr:nth-child(18) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirror.lzu.edu.cn/deepin-releases/ msg: Get "http://mirror.lzu.edu.cn/deepin-releases/": read tcp 10.20.52.83:39908->202.201.0.160:80: read: connection reset by peer */
+table:first-of-type tr:nth-child(19) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.lzu.edu.cn/deepin-releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(19) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://ftp.nankai.edu.cn/deepin-cd/ msg: Get "http://ftp.nankai.edu.cn/deepin-cd/": dial tcp: lookup ftp.nankai.edu.cn on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(22) td:nth-child(2) { background-color: red; }
+
+/* url: http://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/ msg: 403 Forbidden */
+table:first-of-type tr:nth-child(23) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.ncnu.edu.tw/Linux/Deepin/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(23) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirrors.opencas.cn/deepin-cd msg: Get "http://mirrors.opencas.cn/deepin-cd": dial tcp [2001:cc0:2020:4075::211]:80: connect: network is unreachable */
+table:first-of-type tr:nth-child(25) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.sjtu.edu.cn/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(26) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirrors.geekpie.org/deepin-cd/ msg: Get "https://mirrors.geekpie.org/deepin-cd/": dial tcp 47.91.170.222:443: i/o timeout */
+table:first-of-type tr:nth-child(27) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.shu.edu.cn/deepin-cd msg: Get "http://mirrors.shu.edu.cn/deepin-cd": dial tcp 202.121.199.235:80: connect: connection refused */
+table:first-of-type tr:nth-child(28) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirrors.shu.edu.cn/deepin-cd msg: Get "https://mirrors.shu.edu.cn/deepin-cd": dial tcp 202.121.199.235:443: connect: connection refused */
+table:first-of-type tr:nth-child(28) td:nth-child(3) { background-color: red; }
+
+/* url: ftp://mirrors.shu.edu.cn/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(28) td:nth-child(4) { background-color: lightgrey; }
+/* url: rsync://mirrors.shu.edu.cn/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(28) td:nth-child(5) { background-color: lightgrey; }
+/* url: https://mirrors.skyshe.cn/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(29) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.sohu.com/deepin-cd msg: Get "http://mirrors.sohu.com:8080/deepin-cd/": dial tcp 123.125.123.141:8080: connect: connection refused */
+table:first-of-type tr:nth-child(30) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.linuxstory.org/deepin-cd/ msg: Get "http://mirrors.linuxstory.org/deepin-cd/": dial tcp: lookup mirrors.linuxstory.org on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(32) td:nth-child(2) { background-color: red; }
+
+/* url: http://ftp.stust.edu.tw/pub/Linux/deepin-cd/ msg: Get "http://ftp.stust.edu.tw/pub/Linux/deepin-cd/": dial tcp 120.117.2.90:80: i/o timeout */
+table:first-of-type tr:nth-child(33) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.stust.edu.tw/pub/Linux/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(33) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(34) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirrors.cloud.tencent.com/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(35) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.zyrj.org/deepin-cdimage/ msg: Get "http://mirror.zyrj.org/deepin-cdimage/": dial tcp: lookup mirror.zyrj.org on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(36) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(38) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.ubuntu-tw.org/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(38) td:nth-child(4) { background-color: red; }
+
+/* url: https://mirrors.hustunique.com/deepin-cd/ msg: Get "https://mirrors.hustunique.com/deepin-cd/": dial tcp 127.0.0.1:443: connect: connection refused */
+table:first-of-type tr:nth-child(40) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirrors.hustunique.com/deepin-cd/ msg: Get "https://mirrors.hustunique.com/deepin-cd/": dial tcp 127.0.0.1:443: connect: connection refused */
+table:first-of-type tr:nth-child(40) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirrors.xmu.edu.cn/deepin/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(42) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirrors.xmu.edu.cn/deepin/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(42) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Get "http://ftp.yzu.edu.tw/Linux/deepin-cd/": dial tcp: lookup ftp.yzu.edu.tw on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(44) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(44) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.yzu.edu.tw/Linux/deepin-cd/ msg: Get "https://ftp.yzu.edu.tw/Linux/deepin-cd/": dial tcp: lookup ftp.yzu.edu.tw on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(44) td:nth-child(4) { background-color: red; }
+
+/* url: https://mirror.aarnet.edu.au/pub/deepin/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(47) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.datamossa.io/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(48) td:nth-child(4) { background-color: lightgrey; }
+/* url: https://www.deepin.org/en/mirrors/releases/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(48) td:nth-child(5) { background-color: red; }
+
+/* url: http://mirror.launtel.net.au/deepin/cd/ msg: Get "http://mirror.launtel.net.au/deepin/cd/": dial tcp 45.248.51.28:80: connect: no route to host */
+table:first-of-type tr:nth-child(49) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirror.launtel.net.au/deepin/cd/ msg: Get "https://mirror.launtel.net.au/deepin/cd/": dial tcp 45.248.51.28:443: connect: no route to host */
+table:first-of-type tr:nth-child(49) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirror.inode.at/data/deepin-cd/ msg: 403 Forbidden */
+table:first-of-type tr:nth-child(51) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.inode.at/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(51) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirror.inode.at/mirror/deepin-cd/ msg: Get "https://mirror.inode.at/mirror/deepin-cd/": dial tcp 84.116.34.228:443: i/o timeout */
+table:first-of-type tr:nth-child(51) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://ftp.belnet.be/mirror/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(53) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirror.ufam.edu.br/deepin-cd msg: Get "http://mirror.ufam.edu.br/deepin-cd": dial tcp 200.129.163.17:80: i/o timeout */
+table:first-of-type tr:nth-child(55) td:nth-child(2) { background-color: red; }
+
+/* url: rsync://deepin.c3sl.ufpr.br/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(56) td:nth-child(4) { background-color: lightgrey; }
+/* url: ftp://sft.if.usp.br/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(58) td:nth-child(3) { background-color: lightgrey; }
+/* url: rsync://sft.if.usp.br/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(58) td:nth-child(4) { background-color: lightgrey; }
+/* url: ftp://deepin.ipacct.com/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(60) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://deepin.ipacct.com/deepin-cd/ msg: Get "https://deepin.ipacct.com/deepin-cd/": dial tcp 195.85.215.207:443: connect: connection refused */
+table:first-of-type tr:nth-child(60) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://mirrors.netix.net/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(61) td:nth-child(4) { background-color: lightgrey; }
+/* url: https://mirror.frgl.pw/deepin-cd msg: Get "https://mirror.frgl.pw/deepin-cd": dial tcp: lookup mirror.frgl.pw on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(63) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.frgl.pw/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(63) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirror.frgl.pw/deepin-cd msg: Get "https://mirror.frgl.pw/deepin-cd": dial tcp: lookup mirror.frgl.pw on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(63) td:nth-child(4) { background-color: red; }
+
+/* url: http://mirror.edatel.net.co/deepin-cd/ msg: Get "http://mirror.edatel.net.co/deepin-cd/": dial tcp 200.35.32.3:80: i/o timeout */
+table:first-of-type tr:nth-child(68) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.dotsrc.org/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(75) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://deepin.mirror.iodc.dk/releases/ msg: Get "http://deepin.mirror.iodc.dk/releases/": dial tcp: lookup deepin.mirror.iodc.dk on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(76) td:nth-child(2) { background-color: red; }
+
+/* url: http://linuxdeepin.skarta.net/release msg: Get "https://linuxdeepin.skarta.net/release": x509: certificate is valid for docs.skarta.net, docs.skytech.dk, gitlab.skytech.dk, gl.skytech.dk, grafana.skarta.net, grafana.skytech.dk, ip.skytech.dk, jenkins.skytech.dk, kibana.skytech.dk, minio.skytech.dk, skarta.net, skytech.dk, webmail.skytech.dk, wiki.skytech.dk, not linuxdeepin.skarta.net */
+table:first-of-type tr:nth-child(77) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.cedia.org.ec/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(79) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirrors.ircam.fr/pub/deepin/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(82) td:nth-child(4) { background-color: lightgrey; }
+/* url: ftp://ftp.fau.de/deepin/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(85) td:nth-child(4) { background-color: lightgrey; }
+/* url: ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(86) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirror2.tuxinator.org/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(87) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(94) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirrors.opensource.is/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(94) td:nth-child(3) { background-color: red; }
+
+/* url: http://kartolo.sby.datautama.net.id/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(96) td:nth-child(2) { background-color: red; }
+
+/* url: https://ftp.heanet.ie/pub/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(98) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(103) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://ftp.riken.jp/Linux/deepin msg: Unsupported protocol */
+table:first-of-type tr:nth-child(104) td:nth-child(2) { background-color: lightgrey; }
+/* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
+table:first-of-type tr:nth-child(105) td:nth-child(3) { background-color: red; }
+
+/* url: http://deepin.koyanet.lv/packages/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(107) td:nth-child(2) { background-color: red; }
+
+/* url: http://deepin-cd.mirror.liteserver.nl/ msg: Get "http://deepin-cd.mirror.liteserver.nl/": dial tcp: lookup deepin-cd.mirror.liteserver.nl on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(109) td:nth-child(2) { background-color: red; }
+
+/* url: https://deepin-cd.mirror.liteserver.nl/ msg: Get "https://deepin-cd.mirror.liteserver.nl/": dial tcp: lookup deepin-cd.mirror.liteserver.nl on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(109) td:nth-child(3) { background-color: red; }
+
+/* url: http://ftp.mirror.liteserver.nl/deepin-cd msg: Get "http://ftp.mirror.liteserver.nl/deepin-cd": dial tcp: lookup ftp.mirror.liteserver.nl on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(109) td:nth-child(4) { background-color: red; }
+
+/* url: https://mirror.liteserver.nl/deepin msg: 404 Not Found */
+table:first-of-type tr:nth-child(109) td:nth-child(5) { background-color: red; }
+
+/* url: ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(110) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.nluug.nl/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(110) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(111) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(112) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirror.serverion.com/deepin-cd msg: Get "http://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:80: i/o timeout */
+table:first-of-type tr:nth-child(114) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirror.serverion.com/deepin-cd msg: Get "https://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:443: i/o timeout */
+table:first-of-type tr:nth-child(114) td:nth-child(3) { background-color: red; }
+
+/* url: ftp://mirror.serverion.com/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(114) td:nth-child(4) { background-color: lightgrey; }
+/* url: https://mirror.serverion.com/deepin-cd msg: Get "https://mirror.serverion.com/deepin-cd": dial tcp 185.28.39.100:443: i/o timeout */
+table:first-of-type tr:nth-child(114) td:nth-child(5) { background-color: red; }
+
+/* url: ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd msg: Unsupported protocol */
+table:first-of-type tr:nth-child(115) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.snt.utwente.nl/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(115) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://mirrors.dotsrc.org/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(117) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(119) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Get "https://mirror.onet.pl/pub/mirrors/deepin-cd/": dial tcp 213.180.139.200:443: i/o timeout */
+table:first-of-type tr:nth-child(119) td:nth-child(4) { background-color: red; }
+
+/* url: http://piotrkosoft.net/pub/mirrors/deepin-cd/ msg: 503 Service Unavailable */
+table:first-of-type tr:nth-child(120) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.piotrkosoft.net/pub/mirrors/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(120) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://rsync.piotrkosoft.net/mirrors/deepin/ msg: Get "https://rsync.piotrkosoft.net/mirrors/deepin/": dial tcp 77.55.211.95:443: connect: connection refused */
+table:first-of-type tr:nth-child(120) td:nth-child(4) { background-color: red; }
+
+/* url: http://ftp.vectranet.pl/deepin-releases/ msg: Get "http://ftp.vectranet.pl/deepin-releases/": dial tcp 88.156.222.90:80: connect: connection refused */
+table:first-of-type tr:nth-child(121) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.vectranet.pl/deepin-releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(121) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://ftp.vectranet.pl/deepin-cd/ msg: Get "https://ftp.vectranet.pl/deepin-cd/": dial tcp 88.156.222.90:443: i/o timeout */
+table:first-of-type tr:nth-child(121) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://mirrors.up.pt/pub/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(123) td:nth-child(4) { background-color: lightgrey; }
+/* url: ftp://mirror.truenetwork.ru/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(125) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirror.yandex.ru/mirrors/deepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(126) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://tux.rainside.sk/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(130) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://www.ftp.saix.net/linux/distributions/linux-deepin/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(132) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.saix.net/pub/linux/distributions/linux-deepin/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(132) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://ftp.wa.co.za/pub/deepin/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(133) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.harukasan.org/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(136) td:nth-child(4) { background-color: lightgrey; }
+/* url: http://matojo.unizar.es/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(140) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftpmirror1.infania.net/mirror/deepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(144) td:nth-child(4) { background-color: lightgrey; }
+/* url: https://ftpmirror1.infania.net/deepin msg: 404 Not Found */
+table:first-of-type tr:nth-child(144) td:nth-child(5) { background-color: red; }
+
+/* url: ftp://ftp.lysator.liu.se/pub/deepin/releases msg: Unsupported protocol */
+table:first-of-type tr:nth-child(145) td:nth-child(4) { background-color: lightgrey; }
+/* url: https://ftp.lysator.liu.se::deepin/releases msg: parse "https://ftp.lysator.liu.se::deepin/releases": invalid port ":deepin" after host */
+table:first-of-type tr:nth-child(145) td:nth-child(5) { background-color: red; }
+
+/* url: http://ftp.portlane.com/pub/os/linux/deepin-cd/ msg: Get "http://ftp.portlane.com/pub/os/linux/deepin-cd/": dial tcp 80.67.0.22:80: i/o timeout */
+table:first-of-type tr:nth-child(146) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.portlane.com/pub/os/linux/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(146) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirror.thaidns.co.th/deepin-cd msg: Get "http://mirror.thaidns.co.th/deepin-cd": dial tcp 202.183.192.173:80: i/o timeout */
+table:first-of-type tr:nth-child(151) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirror.thaidns.co.th/deepin-cd msg: Get "https://mirror.thaidns.co.th/deepin-cd": dial tcp 202.183.192.173:443: i/o timeout */
+table:first-of-type tr:nth-child(151) td:nth-child(3) { background-color: red; }
+
+/* url: http://deepin.thaidns.co.th/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(152) td:nth-child(2) { background-color: red; }
+
+/* url: https://deepin.thaidns.co.th/deepin-cd msg: Get "https://deepin.thaidns.co.th/deepin-cd": dial tcp 173.208.175.74:443: connect: no route to host */
+table:first-of-type tr:nth-child(152) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirror.dgn.net.tr/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(154) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.veriteknik.net.tr/deepin-cd/ msg: Get "http://mirror.veriteknik.net.tr/deepin-cd/": dial tcp 94.103.33.100:80: i/o timeout */
+table:first-of-type tr:nth-child(155) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://deepin.ip-connect.vn.ua/mirror/deepin/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(157) td:nth-child(4) { background-color: lightgrey; }
+/* url: rsync://deepin.ip-connect.vn.ua/deepin/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(157) td:nth-child(5) { background-color: lightgrey; }
+/* url: ftp://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(159) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(160) td:nth-child(3) { background-color: lightgrey; }
+/* url: ftp://mirror.man.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(161) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/ msg: Get "http://mirror.sax.uk.as61049.net/packages.linuxdeepin.com/releases/": dial tcp 185.20.53.3:80: i/o timeout */
+table:first-of-type tr:nth-child(162) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://ftp.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(163) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirrors.cicku.me/deepin-cd/ msg: Get "http://mirrors.cicku.me/deepin-cd/": dial tcp: lookup mirrors.cicku.me on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(165) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirrors.cicku.me/deepin-cd/ msg: Get "https://mirrors.cicku.me/deepin-cd/": dial tcp: lookup mirrors.cicku.me on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(165) td:nth-child(3) { background-color: red; }
+
+/* url: http://mirror.atlanta.delimiter.com/pub/deepin-cd/ msg: Get "http://mirror.atlanta.delimiter.com/pub/deepin-cd/": dial tcp 107.189.40.20:80: i/o timeout */
+table:first-of-type tr:nth-child(166) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.genesisadaptive.com/deepin-cd/ msg: Get "http://mirror.genesisadaptive.com/deepin-cd/": dial tcp 64.250.112.70:80: i/o timeout */
+table:first-of-type tr:nth-child(167) td:nth-child(2) { background-color: red; }
+
+/* url: http://www.gtlib.gatech.edu/pub/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(168) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.jmu.edu/pub/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(170) td:nth-child(2) { background-color: red; }
+
+/* url: ftp://mirror.jmu.edu/pub/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(170) td:nth-child(3) { background-color: lightgrey; }
+/* url: https://mirror.jmu.edu/deepin/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(170) td:nth-child(4) { background-color: red; }
+
+/* url: ftp://mirrors.kernel.org/deepin-cd/ msg: Unsupported protocol */
+table:first-of-type tr:nth-child(171) td:nth-child(3) { background-color: lightgrey; }
+/* url: http://mirror.metrocast.net/deepin-cd/ msg: 404 Not Found */
+table:first-of-type tr:nth-child(172) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirrors.cat.pdx.edu/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(173) td:nth-child(2) { background-color: red; }
+
+/* url: https://mirrors.cat.pdx.edu/deepin-cd msg: 404 Not Found */
+table:first-of-type tr:nth-child(173) td:nth-child(3) { background-color: red; }
+
+/* url: http://rsync//mirrors.cat.pdx.edu/deepin msg: Get "http://rsync//mirrors.cat.pdx.edu/deepin": dial tcp: lookup rsync on 127.0.0.1:53: no such host */
+table:first-of-type tr:nth-child(173) td:nth-child(4) { background-color: red; }
+
+/* url: http://mirror.sjc02.svwh.net/deepin-cd/ msg: Get "http://mirror.sjc02.svwh.net/deepin-cd/": dial tcp 72.5.72.15:80: i/o timeout */
+table:first-of-type tr:nth-child(175) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror1.sjc02.svwh.net/deepin-cd/ msg: Get "http://mirror1.sjc02.svwh.net/deepin-cd/": dial tcp 72.5.72.15:80: i/o timeout */
+table:first-of-type tr:nth-child(176) td:nth-child(2) { background-color: red; }
+
+/* url: http://mirror.freedif.org/Deepin/deepin-cd/ msg: Get "http://mirror.freedif.org/Deepin/deepin-cd/": dial tcp 113.161.52.138:80: i/o timeout */
+table:first-of-type tr:nth-child(181) td:nth-child(2) { background-color: red; }
+
