@@ -1,10 +1,16 @@
+---
+title: "ISO 仓库"
+---
+
+<link rel="stylesheet" href="releases_zh_mark.css" />
+
 - [软件仓库](packages_zh.md)
 
 - [ISO 仓库](releases_zh.md)
 
 # ISO 仓库
 
-[English](releases_en.md) | [简体中文](releases_zh.md)
+[English](releases_en.md) \| [简体中文](releases_zh.md)
 
 ## 官方 ISO 仓库
 

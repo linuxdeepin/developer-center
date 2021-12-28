@@ -1,10 +1,16 @@
+---
+title: "Packages Repository"
+---
+
+<link rel="stylesheet" href="packages_en_mark.css" />
+
 - [Packages Repository](packages_en.md)
 
 - [ISO Repository](releases_en.md)
 
 # Packages Repository
 
-[English](packages_en.md) | [简体中文](packages_zh.md)
+[English](packages_en.md) \| [简体中文](packages_zh.md)
 
 ## Official Packages Repository
 
