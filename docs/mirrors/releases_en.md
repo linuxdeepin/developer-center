@@ -1,10 +1,16 @@
+---
+title: "ISO Repository"
+---
+
+<link rel="stylesheet" href="releases_en_mark.css" />
+
 - [Packages Repository](packages_en.md)
 
 - [ISO Repository](releases_en.md)
 
 # ISO Repository
 
-[English](releases_en.md) | [简体中文](releases_zh.md)
+[English](releases_en.md) \| [简体中文](releases_zh.md)
 
 ## Official ISO Repository
 
