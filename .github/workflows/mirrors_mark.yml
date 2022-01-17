@@ -1,0 +1,42 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [github-integration]
+    paths:
+      - "docs/mirrors/**.md"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: "^1.16.1"
+      - name: install
+        run: go install github.com/myml/mirrors@v0.0.1
+      - name: package_zh
+        run: mirrors -packages_path docs/mirrors/packages_zh.md  > docs/mirrors/packages_zh_mark.css
+      - name: package_en
+        run: mirrors -packages_path docs/mirrors/packages_en.md  > docs/mirrors/packages_en_mark.css
+      - name: release_zh
+        run: mirrors -releases_path docs/mirrors/releases_zh.md  > docs/mirrors/releases_zh_mark.css
+      - name: release_en
+        run: mirrors -releases_path docs/mirrors/releases_en.md  > docs/mirrors/releases_en_mark.css
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "auto: Mirrors mark"
+          commit_user_name: myml
+          commit_user_email: wurongjie1@gmail.com
