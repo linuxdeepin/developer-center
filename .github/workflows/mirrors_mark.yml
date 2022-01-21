@@ -26,7 +26,7 @@ jobs:
         with:
           go-version: "^1.16.1"
       - name: install
-        run: go install github.com/myml/mirrors@v0.0.1
+        run: go install github.com/myml/mirrors@v0.0.2
       - name: package_zh
         run: mirrors -packages_path docs/mirrors/packages_zh.md  > docs/mirrors/packages_zh_mark.css
       - name: package_en
