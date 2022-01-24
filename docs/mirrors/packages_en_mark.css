@@ -1,180 +1,33 @@
-/* url: http://mirrors.bfsu.edu.cn/deepin/ msg: Get "https://mirrors.bfsu.edu.cn/deepin/dists/apricot/InRelease": dial tcp 39.155.141.16:443: i/o timeout */
-a[href="http://mirrors.bfsu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors6.hit.edu.cn/deepin msg: Get "http://mirrors6.hit.edu.cn/deepin/dists/apricot/InRelease": dial tcp [2001:da8:b800:253::aa0:41f]:80: connect: network is unreachable */
-a[href="http://mirrors6.hit.edu.cn/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.lzu.edu.cn/deepin/ msg: Get "ftp://mirror.lzu.edu.cn/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.lzu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.sjtu.edu.cn/deepin/ msg: Get "ftp://ftp.sjtu.edu.cn/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.sjtu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.skyshe.cn/deepin/ msg: 503 Service Unavailable */
-a[href="https://mirrors.skyshe.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.tku.edu.tw/Linux/Deepin/deepin/ msg: Get "ftp://ftp.tku.edu.tw/Linux/Deepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.tku.edu.tw/Linux/Deepin/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirrors.hustunique.com/deepin/ msg: Get "http://mirrors.hustunique.com/deepin/dists/apricot/InRelease": dial tcp 127.0.0.1:80: connect: connection refused */
-a[href="http://mirrors.hustunique.com/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirrors.hustunique.com/deepin/ msg: Get "https://mirrors.hustunique.com/deepin/dists/apricot/InRelease": dial tcp 127.0.0.1:443: connect: connection refused */
-a[href="https://mirrors.hustunique.com/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.aarnet.edu.au/pub/deepin/deepin/ msg: 404 Not Found */
-a[href="http://mirror.aarnet.edu.au/pub/deepin/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://mirror.datamossa.io/deepin msg: Get "http://mirror.datamossa.io/deepin/dists/apricot/InRelease": dial tcp 103.76.40.66:80: connect: connection refused */
-a[href="http://mirror.datamossa.io/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.datamossa.io/deepin msg: Get "https://mirror.datamossa.io/deepin/dists/apricot/InRelease": dial tcp 103.76.40.66:443: connect: connection refused */
-a[href="https://mirror.datamossa.io/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.datamossa.io/deepin msg: Get "ftp://mirror.datamossa.io/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.datamossa.io/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://www.deepin.org/en/mirrors/packages/deepin msg: 404 Not Found */
-a[href="https://www.deepin.org/en/mirrors/packages/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.belnet.be/mirror/deepin/ msg: Get "ftp://ftp.belnet.be/mirror/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.belnet.be/mirror/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://sft.if.usp.br/deepin/ msg: Get "ftp://sft.if.usp.br/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://sft.if.usp.br/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://deepin.ipacct.com/deepin/ msg: Get "ftp://deepin.ipacct.com/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://deepin.ipacct.com/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: http://mirrors.cqu.edu.cn/deepin/ msg: Get "http://mirrors.cqu.edu.cn/deepin/dists/apricot/InRelease": dial tcp 202.202.1.140:80: i/o timeout */
+a[href="http://mirrors.cqu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
 
 /* url: https://deepin.ipacct.com/deepin/ msg: Get "https://deepin.ipacct.com/deepin/dists/apricot/InRelease": dial tcp 195.85.215.207:443: connect: connection refused */
 a[href="https://deepin.ipacct.com/deepin/"] { padding: 3px; color: white; background-color: red; }
 
-/* url: ftp://mirrors.netix.net/deepin/ msg: Get "ftp://mirrors.netix.net/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirrors.netix.net/deepin/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: https://deepin.mirror.globo.tech/deepin msg: Get "https://deepin.mirror.globo.tech/deepin/dists/apricot/InRelease": x509: certificate is valid for cygwin.mirror.globo.tech, not deepin.mirror.globo.tech */
 a[href="https://deepin.mirror.globo.tech/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.dotsrc.org/deepin msg: Get "ftp://mirror.dotsrc.org/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.dotsrc.org/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.cedia.org.ec/deepin msg: Get "ftp://mirror.cedia.org.ec/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.cedia.org.ec/deepin"] { padding: 3px; color: white; background-color: red; }
 
 /* url: https://www.deepin.org/en/mirrors/packages/deepin msg: 404 Not Found */
 a[href="https://www.deepin.org/en/mirrors/packages/deepin"] { padding: 3px; color: white; background-color: red; }
 
-/* url: ftp://mirrors.ircam.fr/pub/deepin/ msg: Get "ftp://mirrors.ircam.fr/pub/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirrors.ircam.fr/pub/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.fau.de/deepin/ msg: Get "ftp://ftp.fau.de/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.fau.de/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.gwdg.de/pub/linux/linuxdeepin/deepin msg: Get "ftp://ftp.gwdg.de/pub/linux/linuxdeepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.gwdg.de/pub/linux/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror2.tuxinator.org/deepin/ msg: Get "ftp://mirror2.tuxinator.org/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror2.tuxinator.org/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://kartolo.sby.datautama.net.id/deepin/ msg: 404 Not Found */
-a[href="http://kartolo.sby.datautama.net.id/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://ftp.heanet.ie/pub/deepin/ msg: 404 Not Found */
-a[href="http://ftp.heanet.ie/pub/deepin/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: https://rsync.deepin.com/deepin msg: Get "https://rsync.deepin.com/deepin/dists/apricot/InRelease": x509: certificate is valid for *.deepin.org, deepin.org, not rsync.deepin.com */
 a[href="https://rsync.deepin.com/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin/ msg: Get "ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.riken.jp/Linux/deepin msg: Get "ftp://ftp.riken.jp/Linux/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.riken.jp/Linux/deepin"] { padding: 3px; color: white; background-color: red; }
 
 /* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
 a[href="https://ftp.tsukuba.wide.ad.jp/deepin"] { padding: 3px; color: white; background-color: red; }
 
-/* url: ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin/ msg: Get "ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: https://ftp.nluug.nl/deepin/ msg: 404 Not Found */
 a[href="https://ftp.nluug.nl/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin/ msg: Get "ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin/ msg: Get "ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.snt.utwente.nl/pub/os/linux/deepin msg: Get "ftp://ftp.snt.utwente.nl/pub/os/linux/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin"] { padding: 3px; color: white; background-color: red; }
 
 /* url: https://ftp.snt.utwente.nl/deepin msg: 404 Not Found */
 a[href="https://ftp.snt.utwente.nl/deepin"] { padding: 3px; color: white; background-color: red; }
 
-/* url: ftp://mirrors.dotsrc.org/deepin/ msg: Get "ftp://mirrors.dotsrc.org/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirrors.dotsrc.org/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.onet.pl/pub/mirrors/deepin/ msg: Get "ftp://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: https://mirror.onet.pl/pub/mirrors/deepin/ msg: Get "https://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/InRelease": dial tcp 213.180.139.200:443: i/o timeout */
 a[href="https://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.up.pt/pub/deepin/ msg: Get "ftp://mirrors.up.pt/pub/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirrors.up.pt/pub/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.truenetwork.ru/deepin/ msg: Get "ftp://mirror.truenetwork.ru/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.truenetwork.ru/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.yandex.ru/mirrors/deepin/packages/ msg: Get "ftp://mirror.yandex.ru/mirrors/deepin/packages/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.yandex.ru/mirrors/deepin/packages/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://tux.rainside.sk/deepin/ msg: Get "ftp://tux.rainside.sk/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://tux.rainside.sk/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.harukasan.org/deepin/ msg: Get "ftp://ftp.harukasan.org/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.harukasan.org/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: http://ftpmirror1.infania.net/mirror/deepin/packages/ msg: Get "http://ftpmirror1.infania.net/mirror/deepin/packages/dists/apricot/InRelease": dial tcp: lookup ftpmirror1.infania.net: Temporary failure in name resolution */
-a[href="http://ftpmirror1.infania.net/mirror/deepin/packages/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftpmirror1.infania.net/mirror/deepin/packages/ msg: Get "https://ftpmirror1.infania.net/mirror/deepin/packages/dists/apricot/InRelease": dial tcp: lookup ftpmirror1.infania.net: Temporary failure in name resolution */
-a[href="https://ftpmirror1.infania.net/mirror/deepin/packages/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftpmirror1.infania.net/mirror/deepin/packages/ msg: Get "ftp://ftpmirror1.infania.net/mirror/deepin/packages/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftpmirror1.infania.net/mirror/deepin/packages/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftpmirror1.infania.net/deepin msg: Get "https://ftpmirror1.infania.net/deepin/dists/apricot/InRelease": dial tcp: lookup ftpmirror1.infania.net: Temporary failure in name resolution */
-a[href="https://ftpmirror1.infania.net/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.lysator.liu.se/pub/deepin/packages msg: Get "ftp://ftp.lysator.liu.se/pub/deepin/packages/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.lysator.liu.se/pub/deepin/packages"] { padding: 3px; color: white; background-color: red; }
 
 /* url: https://ftp.lysator.liu.se::deepin/packages msg: parse "https://ftp.lysator.liu.se::deepin/packages/dists/apricot/InRelease": invalid port ":deepin" after host */
 a[href="https://ftp.lysator.liu.se::deepin/packages"] { padding: 3px; color: white; background-color: red; }
 
-/* url: ftp://deepin.ip-connect.vn.ua/mirror/deepin/ msg: Get "ftp://deepin.ip-connect.vn.ua/mirror/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: rsync://deepin.ip-connect.vn.ua/deepin/ msg: Get "rsync://deepin.ip-connect.vn.ua/deepin/dists/apricot/InRelease": unsupported protocol scheme "rsync" */
-a[href="rsync://deepin.ip-connect.vn.ua/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.bytemark.co.uk/linuxdeepin/deepin/ msg: Get "ftp://mirror.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/ msg: Get "ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirror.man.bytemark.co.uk/linuxdeepin/deepin msg: Get "ftp://mirror.man.bytemark.co.uk/linuxdeepin/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirror.man.bytemark.co.uk/linuxdeepin/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://ftp.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/ msg: Get "ftp://ftp.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://ftp.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/ msg: Get "https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/dists/apricot/InRelease": x509: certificate is valid for copernicus.mirrorservice.org, ftp.mirrorservice.org, kuiper.mirrorservice.org, mirrorservice.org, www.mirrorservice.org, not rsync.mirrorservice.org */
 a[href="https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: ftp://mirrors.kernel.org/deepin/ msg: Get "ftp://mirrors.kernel.org/deepin/dists/apricot/InRelease": unsupported protocol scheme "ftp" */
-a[href="ftp://mirrors.kernel.org/deepin/"] { padding: 3px; color: white; background-color: red; }
 
