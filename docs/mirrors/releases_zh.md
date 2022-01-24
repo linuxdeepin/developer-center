@@ -20,123 +20,745 @@ title: "ISO 仓库"
 
 诚挚感谢以下高校、开源社区和公司为深度操作系统提供镜像服务!
 
-|                                                                                            |                                                                              |                                                                            |                                                                            |                                                               |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231703China.jpg) 中国           |                                                                              |                                                                            |                                                                            |                                                               |
-| 淡江大学（台湾）                                                                           | [http](http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/)                        | [ftp](ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/)                        |                                                                            |                                                               |
-| Ubuntu 正体中文站（台湾）                                                                  | [http](http://ftp.ubuntu-tw.org/mirror/deepin-cd/)                           | [ftp](ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/)                           | [rsync](https://ftp.ubuntu-tw.org/deepin/)                                 |                                                               |
-| NCHC 自由软件实验室（台湾）                                                                | [http](http://ftp.ubuntu-tw.org/mirror/deepin-cd/)                           | [ftp](ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/)                           | [rsync](https://ftp.ubuntu-tw.org/deepin/)                                 |                                                               |
-| 华为云                                                                                     | [https](https://mirrors.huaweicloud.com/deepin-cd/)                          |                                                                            |                                                                            |                                                               |
-| 阿里云                                                                                     | [http](http://mirrors.aliyun.com/deepin-cd)                                  |                                                                            |                                                                            |                                                               |
-| 网易                                                                                       | [http](http://mirrors.163.com/deepin-cd/)                                    |                                                                            |                                                                            |                                                               |
-| 搜狐                                                                                       | [http](http://mirrors.sohu.com/deepin-cd/)                                   |                                                                            |                                                                            |                                                               |
-| 清华大学                                                                                   | [http](http://mirrors.tuna.tsinghua.edu.cn/deepin-cd/)                       |                                                                            |                                                                            |                                                               |
-| 浙江大学                                                                                   | [http](http://mirrors.zju.edu.cn/deepin-cd/)                                 |                                                                            |                                                                            |                                                               |
-| 重庆大学                                                                                   | [http](http://mirrors.cqu.edu.cn/deepin-cd/)                                 |                                                                            |                                                                            |                                                               |
-| 兰州大学                                                                                   | [https](https://mirror.lzu.edu.cn/deepin-releases/)                          | [ftp](ftp://mirror.lzu.edu.cn/deepin-cd/)                                  |                                                                            |                                                               |
-| 中国科学技术大学                                                                           | [http](http://mirrors.ustc.edu.cn/deepin-cd/)                                |                                                                            |                                                                            |                                                               |
-| 中国互联网络信息中心                                                                       | [https](https://mirrors.cnnic.cn/deepin-cd/)                                 |                                                                            |                                                                            |                                                               |
-| 北京外国语大学                                                                             | [http](http://mirrors.bfsu.edu.cn/deepin-cd/)                                |                                                                            |                                                                            |                                                               |
-| 上海交通大学                                                                               | [http](http://ftp.sjtu.edu.cn/deepin/)                                       | [ftp](ftp://ftp.sjtu.edu.cn/deepin-cd/)                                    |                                                                            |                                                               |
-| 电子科技大学                                                                               | [http](http://mirrors.scie.in/deepin-cd/)                                    |                                                                            |                                                                            |                                                               |
-| 西安电子科技大学                                                                           | [http](http://ftp.xdlinux.info/deepin-cd)                                    |                                                                            |                                                                            |                                                               |
-| 华中科技大学联创团队                                                                       | [http](http://mirrors.hustunique.com/deepin-cd/)                             | [https](https://mirrors.hustunique.com/deepin-cd/)                         |                                                                            |                                                               |
-| 华南农业大学                                                                               | [https](https://mirrors.scau.edu.cn/deepin-cd/)                              |                                                                            |                                                                            |                                                               |
-| 南京邮电大学                                                                               | [http](http://mirrors.njupt.edu.cn/deepin-cd/)                               | [https](https://mirrors.njupt.edu.cn/deepin-cd/)                           |                                                                            |                                                               |
-| 南京大学                                                                                   | [http](http://mirrors.nju.edu.cn/deepin-cd/)                                 | [https](https://mirrors.nju.edu.cn/deepin-cd/)                             |                                                                            |                                                               |
-| ![Australian](https://www.deepin.org/wp-content/uploads/2016/12/Australian.jpg) 澳大利亚   |                                                                              |                                                                            |                                                                            |                                                               |
-| Australian Academic and Research Network                                                   | [http](http://mirror.aarnet.edu.au/pub/deepin/deepin-cd/)                    |                                                                            |                                                                            |                                                               |
-| DataMossa                                                                                  | [http](http://mirror.datamossa.io/deepin-cd)                                 | [https](https://mirror.datamossa.io/deepin-cd)                             | [ftp](ftp://mirror.datamossa.io/deepin-cd)                                 | [rsync](https://www.deepin.org/zh/mirrors/releases/deepin-cd) |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231824Belgium.jpg) 比利时       |                                                                              |                                                                            |                                                                            |                                                               |
-| Belnet                                                                                     | [http](http://ftp.belnet.be/mirror/deepin-cd/)                               | [ftp](ftp://ftp.belnet.be/mirror/deepin-cd/)                               |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231840Brazil.jpg) 巴西          |                                                                              |                                                                            |                                                                            |                                                               |
-| Federal University of Parana (UFPR)                                                        | [http](http://deepin.c3sl.ufpr.br/deepin-cd)                                 | [https](https://deepin.c3sl.ufpr.br/deepin-cd)                             | [rsync](rsync://deepin.c3sl.ufpr.br/deepin-cd)                             |                                                               |
-| Paulista State University (UNESP)                                                          | [http](http://mirror.unesp.br/deepin-cd)                                     |                                                                            |                                                                            |                                                               |
-| University of Sao Paulo (USP)                                                              | [http](http://sft.if.usp.br/deepin-cd)                                       | [ftp](ftp://sft.if.usp.br/deepin-cd)                                       | [rsync](rsync://sft.if.usp.br/deepin-cd)                                   |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231864Bulgaria.jpg) 保加利亚    |                                                                              |                                                                            |                                                                            |                                                               |
-| IPACCT                                                                                     | [http](http://deepin.ipacct.com/deepin-cd/)                                  | [ftp](ftp://deepin.ipacct.com/deepin-cd/)                                  | [rsync](https://deepin.ipacct.com/deepin-cd/)                              |                                                               |
-| Netix Ltd                                                                                  | [http](http://mirrors.netix.net/deepin-cd/)                                  | [https](https://mirrors.netix.net/deepin-cd/)                              | [ftp](ftp://mirrors.netix.net/deepin-cd/)                                  | [rsync](https://mirrors.netix.net/deepin-cd/)                 |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231887Canada.jpg) 加拿大        |                                                                              |                                                                            |                                                                            |                                                               |
-| GloboTech Communications                                                                   | [http](http://deepin-cd.mirror.globo.tech/)                                  | [rsync](http://deepin-cd.mirror.globo.tech/)                               |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/06/chile.jpg) 智利                  |                                                                              |                                                                            |                                                                            |                                                               |
-| Universidad de La Frontera                                                                 | [http](http://mirror.ufro.cl/deepin-cd/)                                     | [https](https://mirror.ufro.cl/deepin-cd/)                                 | [rsync](https://mirror.ufro.cl/deepin/)                                    |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/06/Cuba.jpg) 古巴                   |                                                                              |                                                                            |                                                                            |                                                               |
-| FRCuba                                                                                     | None                                                                         |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/06/cz.jpg) 捷克                     |                                                                              |                                                                            |                                                                            |                                                               |
-| Czech Linux Users' Group                                                                   | [http](http://ftp.linux.cz/pub/linux/deepin-cd/)                             |                                                                            |                                                                            |                                                               |
-| Faculty of Informatics                                                                     | [http](http://ftp.fi.muni.cz/pub/linux/deepin-cd/)                           |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231953Denmark.jpg) 丹麦         |                                                                              |                                                                            |                                                                            |                                                               |
-| dotsrc.org                                                                                 | [http](http://mirror.dotsrc.org/deepin-cd)                                   | [ftp](ftp://mirror.dotsrc.org/deepin-cd)                                   |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1479187808Ecuador.jpg) 厄瓜多尔     |                                                                              |                                                                            |                                                                            |                                                               |
-| CEDIA                                                                                      | [http](http://mirror.cedia.org.ec/deepin-cd)                                 | [ftp](ftp://mirror.cedia.org.ec/deepin-cd)                                 | [rsync](https://www.deepin.org/zh/mirrors/releases/deepin)                 |                                                               |
-| CEDIA1                                                                                     | [http](http://mirror.ueb.edu.ec/deepin-cd/)                                  |                                                                            |                                                                            |                                                               |
-| ![france](https://www.deepin.org/wp-content/uploads/2016/12/france.jpg) 法国               |                                                                              |                                                                            |                                                                            |                                                               |
-| IRCAM                                                                                      | [http](http://mirrors.ircam.fr/pub/deepin-cd/)                               | [https](https://mirrors.ircam.fr/pub/deepin-cd/)                           | [ftp](ftp://mirrors.ircam.fr/pub/deepin/)                                  | [rsync](https://mirrors.ircam.fr/pub/deepin/)                 |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231998Germany.jpg) 德国         |                                                                              |                                                                            |                                                                            |                                                               |
-| Alpix                                                                                      | [http](http://mirror.alpix.eu/deepin-cd/)                                    | [https](https://mirror.alpix.eu/deepin-cd/)                                |                                                                            |                                                               |
-| FAU Erlangen-Nürnberg                                                                      | [http](http://ftp.fau.de/deepin-cd/)                                         | [https](https://ftp.fau.de/deepin-cd/)                                     | [ftp](ftp://ftp.fau.de/deepin/)                                            | [rsync](https://ftp.fau.de/deepin/)                           |
-| GWDG                                                                                       | [http](http://ftp.gwdg.de/pub/linux/linuxdeepin/releases/)                   | [ftp](ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/)                   | [rsync](https://ftp.gwdg.de/pub/linux/linuxdeepin/)                        |                                                               |
-| Tuxinator                                                                                  | [http](http://mirror2.tuxinator.org/deepin-cd/)                              | [ftp](ftp://mirror2.tuxinator.org/deepin-cd/)                              |                                                                            |                                                               |
-| University of Erlangen-Nürnberg                                                            | [http](http://ftp.uni-erlangen.de/deepin-cd/)                                |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1478571726Greece.jpg) 希腊          |                                                                              |                                                                            |                                                                            |                                                               |
-| University of Crete                                                                        | [http](http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/)                  |                                                                            |                                                                            |                                                               |
-| ![](https://www.deepin.org/wp-content/plugins/qtranslate-x/flags/hu.png) 匈牙利            |                                                                              |                                                                            |                                                                            |                                                               |
-| Quantum Mirror                                                                             | [http](http://quantum-mirror.hu/mirrors/pub/deepin-cd/)                      | [https](https://quantum-mirror.hu/mirrors/pub/deepin-cd/)                  |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1478250247Ireland.jpg) 爱尔兰       |                                                                              |                                                                            |                                                                            |                                                               |
-| HEAnet                                                                                     | [http](http://ftp.heanet.ie/pub/deepin-cd/)                                  |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232055Italy.jpg) 意大利         |                                                                              |                                                                            |                                                                            |                                                               |
-| GARR/CILEA                                                                                 | [http](http://deepin.mirror.garr.it/mirrors/deepin-cd/)                      |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232068Japan.jpg) 日本           |                                                                              |                                                                            |                                                                            |                                                               |
-| JAIST                                                                                      | [http](http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/)                          | [rsync](http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/)                       |                                                                            |                                                               |
-| KDDI R&D Laboratories Inc.                                                                 | [http](http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/)                | [ftp](ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/)              |                                                                            |                                                               |
-| RIKEN Nishina Center                                                                       | [ftp](ftp://ftp.riken.jp/Linux/deepin)                                       |                                                                            |                                                                            |                                                               |
-| Tsukuba WIDE Public Mirror service                                                         | [http](http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/)                       | [rsync](https://ftp.tsukuba.wide.ad.jp/deepin)                             |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232015Holland.jpg) 荷兰         |                                                                              |                                                                            |                                                                            |                                                               |
-| NLUUG                                                                                      | [http](http://ftp.nluug.nl/os/Linux/distr/deepin-cd/)                        | [ftp](ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/)                    | [rsync](https://ftp.nluug.nl/deepin-cd/)                                   |                                                               |
-| NLUUG1                                                                                     | [http](http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/)                       | [ftp](ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/)                   |                                                                            |                                                               |
-| NLUUG2                                                                                     | [http](http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/)                       | [ftp](ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/)                   |                                                                            |                                                               |
-| Rexum.space                                                                                | [https](https://deepin.ams-01.rexum.space/deepin-cd/)                        | [http](http://deepin.ams-01.rexum.space/deepin-cd/)                        |                                                                            |                                                               |
-| Studenten Net Twente                                                                       | [http](http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd)                     | [ftp](ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd)                     | [rsync](https://ftp.snt.utwente.nl/deepin-cd)                              |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232124Philippines.jpg) 菲利宾   |                                                                              |                                                                            |                                                                            |                                                               |
-| DOST-ASTI                                                                                  | [http](http://mirrors.dotsrc.org/deepin-cd/)                                 | [ftp](ftp://mirrors.dotsrc.org/deepin-cd/)                                 |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232140Poland.jpg) 波兰          |                                                                              |                                                                            |                                                                            |                                                               |
-| Onet                                                                                       | [http](http://mirror.onet.pl/pub/mirrors/deepin-cd/)                         | [ftp](ftp://mirror.onet.pl/pub/mirrors/deepin-cd/)                         | [rsync](https://mirror.onet.pl/pub/mirrors/deepin-cd/)                     |                                                               |
-| ![Portugal](https://www.deepin.org/wp-content/uploads/2016/12/Portugal.jpg) 葡萄牙         |                                                                              |                                                                            |                                                                            |                                                               |
-| University of Porto                                                                        | [http](http://mirrors.up.pt/pub/deepin-cd/)                                  | [https](https://mirrors.up.pt/pub/deepin-cd/)                              | [ftp](ftp://mirrors.up.pt/pub/deepin-cd/)                                  | [rsync](https://mirrors.up.pt/pub/deepin/)                    |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232154Russian.jpg) 俄罗斯       |                                                                              |                                                                            |                                                                            |                                                               |
-| Truenetwork                                                                                | [http](http://mirror.truenetwork.ru/deepin-cd/)                              | [ftp](ftp://mirror.truenetwork.ru/deepin-cd/)                              | [rsync](https://mirror.truenetwork.ru/deepin-cd/)                          |                                                               |
-| Yandex Linux mirror                                                                        | [http](http://mirror.yandex.ru/mirrors/deepin/releases/)                     | [ftp](ftp://mirror.yandex.ru/mirrors/deepin/releases/)                     |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1478502810Singapore.jpg) 新加坡     |                                                                              |                                                                            |                                                                            |                                                               |
-| 0x.sg                                                                                      | [http](http://mirror.0x.sg/deepin-cd/)                                       |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232178Slovakia.jpg) 斯洛伐克    |                                                                              |                                                                            |                                                                            |                                                               |
-| Rainside                                                                                   | [http](http://tux.rainside.sk/deepin-cd/)                                    | [ftp](ftp://tux.rainside.sk/deepin-cd/)                                    |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/10/Korea.jpg) 韩国                  |                                                                              |                                                                            |                                                                            |                                                               |
-| AniGil Linux Archive                                                                       | [https](https://mirror.anigil.com/deepin-cd/)                                | [http](http://mirror.anigil.com/deepin-cd/)                                |                                                                            |                                                               |
-| Harukasan(Pukyong National University)                                                     | [https](https://ftp.harukasan.org/deepin-cd/)                                | [http](http://ftp.harukasan.org/deepin-cd/)                                | [ftp](ftp://ftp.harukasan.org/deepin-cd/)                                  |                                                               |
-| ![Spain](https://www.deepin.org/wp-content/uploads/2016/12/Spain.jpg) 西班牙               |                                                                              |                                                                            |                                                                            |                                                               |
-| DeepinES                                                                                   | [https](https://mirror.deepines.com/deepin-cd/)                              |                                                                            |                                                                            |                                                               |
-| LibrelabUCM                                                                                | [http](http://mirror.librelabucm.org/deepin-cd/)                             | [https](https://mirror.librelabucm.org/deepin-cd/)                         | [rsync](https://mirror.librelabucm.org/deepin-cd/)                         |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473232216Sweden.jpg) 瑞典          |                                                                              |                                                                            |                                                                            |                                                               |
-| Academic Computer Club Umeå University                                                     | [http](http://ftp.acc.umu.se/mirror/linuxdeepin/releases/)                   |                                                                            |                                                                            |                                                               |
-| c0urier.net                                                                                | [http](http://mirrors.c0urier.net/linux/deepin/releases/)                    | [https](https://mirrors.c0urier.net/linux/deepin/releases/)                |                                                                            |                                                               |
-| Infania Networks                                                                           | [http](http://ftpmirror1.infania.net/mirror/deepin/releases/)                | [https](https://ftpmirror1.infania.net/mirror/deepin/releases/)            | [ftp](ftp://ftpmirror1.infania.net/mirror/deepin/releases/)                | [rsync](https://ftpmirror1.infania.net/deepin)                |
-| Lysator ACS                                                                                | [http](http://ftp.lysator.liu.se/pub/deepin/releases)                        | [https](https://ftp.lysator.liu.se/pub/deepin/releases)                    | [ftp](ftp://ftp.lysator.liu.se/pub/deepin/releases)                        | [rsync](https://ftp.lysator.liu.se::deepin/releases)          |
-| Zetup AB                                                                                   | [http](http://mirror.zetup.net/deepin-cd)                                    | [https](https://mirror.zetup.net/deepin-cd)                                |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/06/Switzerland.jpg) 瑞士            |                                                                              |                                                                            |                                                                            |                                                               |
-| Hostsuisse (ENIDAN Technologies GmbH)                                                      | [http](http://mirror.hostsuisse.com/deepin/releases)                         |                                                                            |                                                                            |                                                               |
-| ![Ukraine](https://www.deepin.org/wp-content/uploads/2018/10/Ukraine.jpg) 乌克兰           |                                                                              |                                                                            |                                                                            |                                                               |
-| IP-Connect                                                                                 | [http](http://deepin-cd.ip-connect.vn.ua/)                                   | [https](https://deepin-cd.ip-connect.vn.ua/)                               | [ftp](ftp://deepin.ip-connect.vn.ua/mirror/deepin/)                        | [rsync](rsync://deepin.ip-connect.vn.ua/deepin/)              |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231981Britain.jpg) 英国         |                                                                              |                                                                            |                                                                            |                                                               |
-| Bytemark Hosting                                                                           | [http](http://mirror.bytemark.co.uk/linuxdeepin/releases/)                   | [ftp](ftp://mirror.bytemark.co.uk/linuxdeepin/releases/)                   |                                                                            |                                                               |
-| Bytemark Hosting1                                                                          | [http](http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/)               | [ftp](ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/)               |                                                                            |                                                               |
-| Bytemark Hosting2                                                                          | [http](http://mirror.man.bytemark.co.uk/linuxdeepin/releases/)               | [ftp](ftp://mirror.man.bytemark.co.uk/linuxdeepin/releases/)               |                                                                            |                                                               |
-| University Of Kent                                                                         | [http](http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/) | [ftp](ftp://ftp.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/) | [rsync](https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/) |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/flag/1473231717America.jpg) 美国         |                                                                              |                                                                            |                                                                            |                                                               |
-| Hosting Xtreme                                                                             | [http](http://linuxdeepin.hostingxtreme.com/deepin-cd)                       |                                                                            |                                                                            |                                                               |
-| Linux Kernel Archives                                                                      | [http](http://mirrors.kernel.org/deepin-cd/)                                 | [ftp](ftp://mirrors.kernel.org/deepin-cd/)                                 | [rsync](https://mirrors.kernel.org/deepin)                                 |                                                               |
-| **Princeton University**                                                                   | [http](http://mirror.math.princeton.edu/pub/deepin-cd/)                      |                                                                            |                                                                            |                                                               |
-| ![logo](https://www.deepin.org/wp-content/uploads/2020/09/Uruguay.jpg) 乌拉圭              |                                                                              |                                                                            |                                                                            |                                                               |
-| Centro Universitario Regional del Este                                                     | [https](https://deepin.repo.cure.edu.uy/isos/)                               |                                                                            |                                                                            |                                                               |
+<table>
+  <tbody>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231703China.jpg"> 中国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>淡江大学（台湾）</td>
+      <td><a href="http://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ubuntu 正体中文站（台湾）</td>
+      <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
+      <td><a href="https://ftp.ubuntu-tw.org/deepin/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NCHC 自由软件实验室（台湾）</td>
+      <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
+      <td><a href="https://ftp.ubuntu-tw.org/deepin/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>华为云</td>
+      <td><a href="https://mirrors.huaweicloud.com/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>阿里云</td>
+      <td><a href="http://mirrors.aliyun.com/deepin-cd">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>网易</td>
+      <td><a href="http://mirrors.163.com/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>搜狐</td>
+      <td><a href="http://mirrors.sohu.com/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>清华大学</td>
+      <td><a href="http://mirrors.tuna.tsinghua.edu.cn/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>浙江大学</td>
+      <td><a href="http://mirrors.zju.edu.cn/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>重庆大学</td>
+      <td><a href="http://mirrors.cqu.edu.cn/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>兰州大学</td>
+      <td><a href="https://mirror.lzu.edu.cn/deepin-releases/">https</a></td>
+      <td><a href="ftp://mirror.lzu.edu.cn/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>中国科学技术大学</td>
+      <td><a href="http://mirrors.ustc.edu.cn/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>中国互联网络信息中心</td>
+      <td><a href="https://mirrors.cnnic.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>北京外国语大学</td>
+      <td><a href="http://mirrors.bfsu.edu.cn/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>上海交通大学</td>
+      <td><a href="http://ftp.sjtu.edu.cn/deepin/">http</a></td>
+      <td><a href="ftp://ftp.sjtu.edu.cn/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>电子科技大学</td>
+      <td><a href="http://mirrors.scie.in/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>西安电子科技大学</td>
+      <td><a href="http://ftp.xdlinux.info/deepin-cd">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>华南农业大学</td>
+      <td><a href="https://mirrors.scau.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>南京邮电大学</td>
+      <td><a href="http://mirrors.njupt.edu.cn/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.njupt.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>南京大学</td>
+      <td><a href="http://mirrors.nju.edu.cn/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.nju.edu.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231824Belgium.jpg"> 比利时</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Belnet</td>
+      <td><a href="http://ftp.belnet.be/mirror/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.belnet.be/mirror/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231840Brazil.jpg"> 巴西</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Federal University of Parana (UFPR)</td>
+      <td><a href="http://deepin.c3sl.ufpr.br/deepin-cd">http</a></td>
+      <td><a href="https://deepin.c3sl.ufpr.br/deepin-cd">https</a></td>
+      <td><a>rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Paulista State University (UNESP)</td>
+      <td><a href="http://mirror.unesp.br/deepin-cd">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>University of Sao Paulo (USP)</td>
+      <td><a href="http://sft.if.usp.br/deepin-cd">http</a></td>
+      <td><a href="ftp://sft.if.usp.br/deepin-cd">ftp</a></td>
+      <td><a>rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231864Bulgaria.jpg"> 保加利亚</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>IPACCT</td>
+      <td><a href="http://deepin.ipacct.com/deepin-cd/">http</a></td>
+      <td><a href="ftp://deepin.ipacct.com/deepin-cd/">ftp</a></td>
+      <td><a href="https://deepin.ipacct.com/deepin-cd/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Netix Ltd</td>
+      <td><a href="http://mirrors.netix.net/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.netix.net/deepin-cd/">https</a></td>
+      <td><a href="ftp://mirrors.netix.net/deepin-cd/">ftp</a></td>
+      <td><a href="https://mirrors.netix.net/deepin-cd/">rsync</a></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231887Canada.jpg"> 加拿大</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GloboTech Communications</td>
+      <td><a href="http://deepin-cd.mirror.globo.tech/">http</a></td>
+      <td><a href="http://deepin-cd.mirror.globo.tech/">rsync</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/06/chile.jpg"> 智利</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Universidad de La Frontera</td>
+      <td><a href="http://mirror.ufro.cl/deepin-cd/">http</a></td>
+      <td><a href="https://mirror.ufro.cl/deepin-cd/">https</a></td>
+      <td><a href="https://mirror.ufro.cl/deepin/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/06/cz.jpg"> 捷克</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Czech Linux Users' Group</td>
+      <td><a href="http://ftp.linux.cz/pub/linux/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Faculty of Informatics</td>
+      <td><a href="http://ftp.fi.muni.cz/pub/linux/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231953Denmark.jpg"> 丹麦</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>dotsrc.org</td>
+      <td><a href="http://mirror.dotsrc.org/deepin-cd">http</a></td>
+      <td><a href="ftp://mirror.dotsrc.org/deepin-cd">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1479187808Ecuador.jpg"> 厄瓜多尔</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CEDIA</td>
+      <td><a href="http://mirror.cedia.org.ec/deepin-cd">http</a></td>
+      <td><a href="ftp://mirror.cedia.org.ec/deepin-cd">ftp</a></td>
+      <td><a href="https://www.deepin.org/zh/mirrors/releases/deepin">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CEDIA1</td>
+      <td><a href="http://mirror.ueb.edu.ec/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="france" src="https://www.deepin.org/wp-content/uploads/2016/12/france.jpg"> 法国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>IRCAM</td>
+      <td><a href="http://mirrors.ircam.fr/pub/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.ircam.fr/pub/deepin-cd/">https</a></td>
+      <td><a href="ftp://mirrors.ircam.fr/pub/deepin/">ftp</a></td>
+      <td><a href="https://mirrors.ircam.fr/pub/deepin/">rsync</a></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231998Germany.jpg"> 德国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Alpix</td>
+      <td><a href="http://mirror.alpix.eu/deepin-cd/">http</a></td>
+      <td><a href="https://mirror.alpix.eu/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FAU Erlangen-Nürnberg</td>
+      <td><a href="http://ftp.fau.de/deepin-cd/">http</a></td>
+      <td><a href="https://ftp.fau.de/deepin-cd/">https</a></td>
+      <td><a href="ftp://ftp.fau.de/deepin/">ftp</a></td>
+      <td><a href="https://ftp.fau.de/deepin/">rsync</a></td>
+    </tr>
+    <tr>
+      <td>GWDG</td>
+      <td><a href="http://ftp.gwdg.de/pub/linux/linuxdeepin/releases/">http</a></td>
+      <td><a href="ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/">ftp</a></td>
+      <td><a href="https://ftp.gwdg.de/pub/linux/linuxdeepin/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tuxinator</td>
+      <td><a href="http://mirror2.tuxinator.org/deepin-cd/">http</a></td>
+      <td><a href="ftp://mirror2.tuxinator.org/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>University of Erlangen-Nürnberg</td>
+      <td><a href="http://ftp.uni-erlangen.de/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1478571726Greece.jpg"> 希腊</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>University of Crete</td>
+      <td><a href="http://ftp.cc.uoc.gr/mirrors/linux/deepin/releases/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="https://www.deepin.org/wp-content/plugins/qtranslate-x/flags/hu.png"> 匈牙利</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Quantum Mirror</td>
+      <td><a href="http://quantum-mirror.hu/mirrors/pub/deepin-cd/">http</a></td>
+      <td><a href="https://quantum-mirror.hu/mirrors/pub/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232055Italy.jpg"> 意大利</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GARR/CILEA</td>
+      <td><a href="http://deepin.mirror.garr.it/mirrors/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232068Japan.jpg"> 日本</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>JAIST</td>
+      <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/">http</a></td>
+      <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/">rsync</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KDDI R&amp;D Laboratories Inc.</td>
+      <td><a href="http://www.ftp.ne.jp/Linux/packages/deepin/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RIKEN Nishina Center</td>
+      <td><a href="ftp://ftp.riken.jp/Linux/deepin">ftp</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tsukuba WIDE Public Mirror service</td>
+      <td><a href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/">http</a></td>
+      <td><a href="https://ftp.tsukuba.wide.ad.jp/deepin">rsync</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232015Holland.jpg"> 荷兰</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NLUUG</td>
+      <td><a href="http://ftp.nluug.nl/os/Linux/distr/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/">ftp</a></td>
+      <td><a href="https://ftp.nluug.nl/deepin-cd/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NLUUG1</td>
+      <td><a href="http://ftp1.nluug.nl/os/Linux/distr/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NLUUG2</td>
+      <td><a href="http://ftp2.nluug.nl/os/Linux/distr/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rexum.space</td>
+      <td><a href="https://deepin.ams-01.rexum.space/deepin-cd/">https</a></td>
+      <td><a href="http://deepin.ams-01.rexum.space/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Studenten Net Twente</td>
+      <td><a href="http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">http</a></td>
+      <td><a href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">ftp</a></td>
+      <td><a href="https://ftp.snt.utwente.nl/deepin-cd">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232124Philippines.jpg"> 菲利宾</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DOST-ASTI</td>
+      <td><a href="http://mirrors.dotsrc.org/deepin-cd/">http</a></td>
+      <td><a href="ftp://mirrors.dotsrc.org/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232140Poland.jpg"> 波兰</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Onet</td>
+      <td><a href="http://mirror.onet.pl/pub/mirrors/deepin-cd/">http</a></td>
+      <td><a href="ftp://mirror.onet.pl/pub/mirrors/deepin-cd/">ftp</a></td>
+      <td><a href="https://mirror.onet.pl/pub/mirrors/deepin-cd/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="Portugal" src="https://www.deepin.org/wp-content/uploads/2016/12/Portugal.jpg"> 葡萄牙</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>University of Porto</td>
+      <td><a href="http://mirrors.up.pt/pub/deepin-cd/">http</a></td>
+      <td><a href="https://mirrors.up.pt/pub/deepin-cd/">https</a></td>
+      <td><a href="ftp://mirrors.up.pt/pub/deepin-cd/">ftp</a></td>
+      <td><a href="https://mirrors.up.pt/pub/deepin/">rsync</a></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232154Russian.jpg"> 俄罗斯</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Truenetwork</td>
+      <td><a href="http://mirror.truenetwork.ru/deepin-cd/">http</a></td>
+      <td><a href="ftp://mirror.truenetwork.ru/deepin-cd/">ftp</a></td>
+      <td><a href="https://mirror.truenetwork.ru/deepin-cd/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Yandex Linux mirror</td>
+      <td><a href="http://mirror.yandex.ru/mirrors/deepin/releases/">http</a></td>
+      <td><a href="ftp://mirror.yandex.ru/mirrors/deepin/releases/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1478502810Singapore.jpg"> 新加坡</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>0x.sg</td>
+      <td><a href="http://mirror.0x.sg/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232178Slovakia.jpg"> 斯洛伐克</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rainside</td>
+      <td><a href="http://tux.rainside.sk/deepin-cd/">http</a></td>
+      <td><a href="ftp://tux.rainside.sk/deepin-cd/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/10/Korea.jpg"> 韩国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AniGil Linux Archive</td>
+      <td><a href="https://mirror.anigil.com/deepin-cd/">https</a></td>
+      <td><a href="http://mirror.anigil.com/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Harukasan(Pukyong National University)</td>
+      <td><a href="https://ftp.harukasan.org/deepin-cd/">https</a></td>
+      <td><a href="http://ftp.harukasan.org/deepin-cd/">http</a></td>
+      <td><a href="ftp://ftp.harukasan.org/deepin-cd/">ftp</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="Spain" src="https://www.deepin.org/wp-content/uploads/2016/12/Spain.jpg"> 西班牙</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DeepinES</td>
+      <td><a href="https://mirror.deepines.com/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LibrelabUCM</td>
+      <td><a href="http://mirror.librelabucm.org/deepin-cd/">http</a></td>
+      <td><a href="https://mirror.librelabucm.org/deepin-cd/">https</a></td>
+      <td><a href="https://mirror.librelabucm.org/deepin-cd/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473232216Sweden.jpg"> 瑞典</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Academic Computer Club Umeå University</td>
+      <td><a href="http://ftp.acc.umu.se/mirror/linuxdeepin/releases/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lysator ACS</td>
+      <td><a href="http://ftp.lysator.liu.se/pub/deepin/releases">http</a></td>
+      <td><a href="https://ftp.lysator.liu.se/pub/deepin/releases">https</a></td>
+      <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/releases">ftp</a></td>
+      <td><a href="https://ftp.lysator.liu.se::deepin/releases">rsync</a></td>
+    </tr>
+    <tr>
+      <td>Zetup AB</td>
+      <td><a href="http://mirror.zetup.net/deepin-cd">http</a></td>
+      <td><a href="https://mirror.zetup.net/deepin-cd">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/06/Switzerland.jpg"> 瑞士</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hostsuisse (ENIDAN Technologies GmbH)</td>
+      <td><a href="http://mirror.hostsuisse.com/deepin/releases">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="Ukraine" src="https://www.deepin.org/wp-content/uploads/2018/10/Ukraine.jpg"> 乌克兰</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>IP-Connect</td>
+      <td><a href="http://deepin-cd.ip-connect.vn.ua/">http</a></td>
+      <td><a href="https://deepin-cd.ip-connect.vn.ua/">https</a></td>
+      <td><a href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/">ftp</a></td>
+      <td><a>rsync</a></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231981Britain.jpg"> 英国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bytemark Hosting</td>
+      <td><a href="http://mirror.bytemark.co.uk/linuxdeepin/releases/">http</a></td>
+      <td><a href="ftp://mirror.bytemark.co.uk/linuxdeepin/releases/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bytemark Hosting1</td>
+      <td><a href="http://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/">http</a></td>
+      <td><a href="ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bytemark Hosting2</td>
+      <td><a href="http://mirror.man.bytemark.co.uk/linuxdeepin/releases/">http</a></td>
+      <td><a href="ftp://mirror.man.bytemark.co.uk/linuxdeepin/releases/">ftp</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>University Of Kent</td>
+      <td><a href="http://www.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/">http</a></td>
+      <td><a href="ftp://ftp.mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/">ftp</a></td>
+      <td><a href="https://mirrorservice.org/sites/cdimage.linuxdeepin.com/releases/">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231717America.jpg"> 美国</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hosting Xtreme</td>
+      <td><a href="http://linuxdeepin.hostingxtreme.com/deepin-cd">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Linux Kernel Archives</td>
+      <td><a href="http://mirrors.kernel.org/deepin-cd/">http</a></td>
+      <td><a href="ftp://mirrors.kernel.org/deepin-cd/">ftp</a></td>
+      <td><a href="https://mirrors.kernel.org/deepin">rsync</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Princeton University</strong></td>
+      <td><a href="http://mirror.math.princeton.edu/pub/deepin-cd/">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/09/Uruguay.jpg"> 乌拉圭</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Centro Universitario Regional del Este</td>
+      <td><a href="https://deepin.repo.cure.edu.uy/isos/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 # 如何提供一个镜像源：
 
