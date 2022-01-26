@@ -47,13 +47,6 @@ Sincerely thank the following universities, open-source communities and companie
       <td></td>
     </tr>
     <tr>
-      <td>Chongqing University</td>
-      <td><a href="http://mirrors.cqu.edu.cn/deepin/">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Huawei Cloud</td>
       <td><a href="https://mirrors.huaweicloud.com/deepin/">https</a></td>
       <td></td>
@@ -192,7 +185,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>IPACCT</td>
       <td><a href="http://deepin.ipacct.com/deepin/">http</a></td>
       <td><a href="ftp://deepin.ipacct.com/deepin/">ftp</a></td>
-      <td><a href="https://deepin.ipacct.com/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -215,7 +208,7 @@ Sincerely thank the following universities, open-source communities and companie
     <tr>
       <td>GloboTech Communications</td>
       <td><a href="http://deepin.mirror.globo.tech/">http</a></td>
-      <td><a href="https://deepin.mirror.globo.tech/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -308,9 +301,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>CEDIA</td>
       <td><a href="http://mirror.cedia.org.ec/deepin">http</a></td>
       <td><a href="ftp://mirror.cedia.org.ec/deepin">ftp</a></td>
-      <td>
-        <a href="https://www.deepin.org/en/mirrors/packages/deepin">rsync</a>
-      </td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -450,7 +441,7 @@ Sincerely thank the following universities, open-source communities and companie
     <tr>
       <td>JAIST</td>
       <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin/">http</a></td>
-      <td><a href="https://rsync.deepin.com/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -468,7 +459,7 @@ Sincerely thank the following universities, open-source communities and companie
     <tr>
       <td>Tsukuba WIDE Public Mirror service</td>
       <td><a href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin/">http</a></td>
-      <td><a href="https://ftp.tsukuba.wide.ad.jp/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -486,7 +477,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>NLUUG</td>
       <td><a href="http://ftp.nluug.nl/os/Linux/distr/deepin/">http</a></td>
       <td><a href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin/">ftp</a></td>
-      <td><a href="https://ftp.nluug.nl/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -514,7 +505,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Studenten Net Twente</td>
       <td><a href="http://ftp.snt.utwente.nl/pub/os/linux/deepin">http</a></td>
       <td><a href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin">ftp</a></td>
-      <td><a href="https://ftp.snt.utwente.nl/deepin">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -548,7 +539,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Onet</td>
       <td><a href="http://mirror.onet.pl/pub/mirrors/deepin/">http</a></td>
       <td><a href="ftp://mirror.onet.pl/pub/mirrors/deepin/">ftp</a></td>
-      <td><a href="https://mirror.onet.pl/pub/mirrors/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -712,7 +703,7 @@ Sincerely thank the following universities, open-source communities and companie
         <a href="https://ftp.lysator.liu.se/pub/deepin/packages">https</a>
       </td>
       <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/packages">ftp</a></td>
-      <td><a href="https://ftp.lysator.liu.se::deepin/packages">rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Zetup AB</td>
@@ -770,7 +761,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td><a href="http://deepin.ip-connect.vn.ua/">http</a></td>
       <td><a href="https://deepin.ip-connect.vn.ua/">https</a></td>
       <td><a href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>
@@ -821,9 +812,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>
         <a href="ftp://ftp.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/">ftp</a>
       </td>
-      <td>
-        <a href="https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/">rsync</a>
-      </td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
