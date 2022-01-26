@@ -87,14 +87,6 @@ title: "软件仓库"
       <td></td>
     </tr>
     <tr>
-      <td>重庆大学</td>
-      <td><a href="http://mirrors.cqu.edu.cn/deepin/">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>兰州大学</td>
       <td><a href="https://mirror.lzu.edu.cn/deepin/">https</a></td>
       <td><a href="ftp://mirror.lzu.edu.cn/deepin/">ftp</a></td>
@@ -178,7 +170,7 @@ title: "软件仓库"
       <td>Federal University of Parana (UFPR)</td>
       <td><a href="http://deepin.c3sl.ufpr.br/deepin/">http</a></td>
       <td><a href="https://deepin.c3sl.ufpr.br/deepin/">https</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -194,7 +186,7 @@ title: "软件仓库"
       <td>University of Sao Paulo (USP)</td>
       <td><a href="http://sft.if.usp.br/deepin/">http</a></td>
       <td><a href="ftp://sft.if.usp.br/deepin/">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -210,7 +202,7 @@ title: "软件仓库"
       <td>IPACCT</td>
       <td><a href="http://deepin.ipacct.com/deepin/">http</a></td>
       <td><a href="ftp://deepin.ipacct.com/deepin/">ftp</a></td>
-      <td><a href="https://deepin.ipacct.com/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -233,7 +225,7 @@ title: "软件仓库"
     <tr>
       <td>GloboTech Communications</td>
       <td><a href="http://deepin.mirror.globo.tech/">http</a></td>
-      <td><a href="https://deepin.mirror.globo.tech/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -322,7 +314,7 @@ title: "软件仓库"
       <td>CEDIA</td>
       <td><a href="http://mirror.cedia.org.ec/deepin">http</a></td>
       <td><a href="ftp://mirror.cedia.org.ec/deepin">ftp</a></td>
-      <td><a href="https://www.deepin.org/zh/mirrors/packages/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -457,7 +449,7 @@ title: "软件仓库"
     <tr>
       <td>JAIST</td>
       <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin/">http</a></td>
-      <td><a href="https://rsync.deepin.com/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -473,7 +465,7 @@ title: "软件仓库"
     <tr>
       <td>Tsukuba WIDE Public Mirror service</td>
       <td><a href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin/">http</a></td>
-      <td><a href="https://ftp.tsukuba.wide.ad.jp/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -490,7 +482,7 @@ title: "软件仓库"
       <td>NLUUG</td>
       <td><a href="http://ftp.nluug.nl/os/Linux/distr/deepin/">http</a></td>
       <td><a href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin/">ftp</a></td>
-      <td><a href="https://ftp.nluug.nl/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -522,7 +514,7 @@ title: "软件仓库"
       <td>Studenten Net Twente</td>
       <td><a href="http://ftp.snt.utwente.nl/pub/os/linux/deepin">http</a></td>
       <td><a href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin">ftp</a></td>
-      <td><a href="https://ftp.snt.utwente.nl/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -554,7 +546,7 @@ title: "软件仓库"
       <td>Onet</td>
       <td><a href="http://mirror.onet.pl/pub/mirrors/deepin/">http</a></td>
       <td><a href="ftp://mirror.onet.pl/pub/mirrors/deepin/">ftp</a></td>
-      <td><a href="https://mirror.onet.pl/pub/mirrors/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -650,7 +642,7 @@ title: "软件仓库"
       <td>Harukasan(Pukyong National University)</td>
       <td><a href="https://ftp.harukasan.org/deepin/">https</a></td>
       <td><a href="http://ftp.harukasan.org/deepin/">http</a></td>
-      <td>ftp</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -696,7 +688,7 @@ title: "软件仓库"
     </tr>
     <tr>
       <td>c0urier.net</td>
-      <td><a href="http://mirrors.c0urier.net/linux/deepin/packages/">http</a></td>
+      <td></td>
       <td><a href="https://mirrors.c0urier.net/linux/deepin/packages/">https</a></td>
       <td></td>
       <td></td>
@@ -707,7 +699,7 @@ title: "软件仓库"
       <td><a href="http://ftp.lysator.liu.se/pub/deepin/packages">http</a></td>
       <td><a href="https://ftp.lysator.liu.se/pub/deepin/packages">https</a></td>
       <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/packages">ftp</a></td>
-      <td><a href="https://ftp.lysator.liu.se::deepin/packages">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -763,7 +755,7 @@ title: "软件仓库"
       <td><a href="http://deepin.ip-connect.vn.ua/">http</a></td>
       <td><a href="https://deepin.ip-connect.vn.ua/">https</a></td>
       <td><a href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -802,7 +794,7 @@ title: "软件仓库"
       <td>University Of Kent</td>
       <td><a href="http://www.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/">http</a></td>
       <td><a href="ftp://ftp.mirrorservice.org/sites/packages.linuxdeepin.com/deepin/">ftp</a></td>
-      <td><a href="https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
