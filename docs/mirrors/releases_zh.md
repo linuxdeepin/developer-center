@@ -40,14 +40,14 @@ title: "ISO 仓库"
       <td>Ubuntu 正体中文站（台湾）</td>
       <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.ubuntu-tw.org/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td>NCHC 自由软件实验室（台湾）</td>
       <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.ubuntu-tw.org/deepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -88,13 +88,6 @@ title: "ISO 仓库"
     <tr>
       <td>浙江大学</td>
       <td><a href="http://mirrors.zju.edu.cn/deepin-cd/">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>重庆大学</td>
-      <td><a href="http://mirrors.cqu.edu.cn/deepin-cd/">http</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -194,7 +187,7 @@ title: "ISO 仓库"
       <td>Federal University of Parana (UFPR)</td>
       <td><a href="http://deepin.c3sl.ufpr.br/deepin-cd">http</a></td>
       <td><a href="https://deepin.c3sl.ufpr.br/deepin-cd">https</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -208,7 +201,7 @@ title: "ISO 仓库"
       <td>University of Sao Paulo (USP)</td>
       <td><a href="http://sft.if.usp.br/deepin-cd">http</a></td>
       <td><a href="ftp://sft.if.usp.br/deepin-cd">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -222,7 +215,7 @@ title: "ISO 仓库"
       <td>IPACCT</td>
       <td><a href="http://deepin.ipacct.com/deepin-cd/">http</a></td>
       <td><a href="ftp://deepin.ipacct.com/deepin-cd/">ftp</a></td>
-      <td><a href="https://deepin.ipacct.com/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -445,7 +438,7 @@ title: "ISO 仓库"
     <tr>
       <td>Tsukuba WIDE Public Mirror service</td>
       <td><a href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/">http</a></td>
-      <td><a href="https://ftp.tsukuba.wide.ad.jp/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -460,7 +453,7 @@ title: "ISO 仓库"
       <td>NLUUG</td>
       <td><a href="http://ftp.nluug.nl/os/Linux/distr/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.nluug.nl/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -488,7 +481,7 @@ title: "ISO 仓库"
       <td>Studenten Net Twente</td>
       <td><a href="http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">http</a></td>
       <td><a href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">ftp</a></td>
-      <td><a href="https://ftp.snt.utwente.nl/deepin-cd">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -516,7 +509,7 @@ title: "ISO 仓库"
       <td>Onet</td>
       <td><a href="http://mirror.onet.pl/pub/mirrors/deepin-cd/">http</a></td>
       <td><a href="ftp://mirror.onet.pl/pub/mirrors/deepin-cd/">ftp</a></td>
-      <td><a href="https://mirror.onet.pl/pub/mirrors/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -643,7 +636,7 @@ title: "ISO 仓库"
       <td><a href="http://ftp.lysator.liu.se/pub/deepin/releases">http</a></td>
       <td><a href="https://ftp.lysator.liu.se/pub/deepin/releases">https</a></td>
       <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/releases">ftp</a></td>
-      <td><a href="https://ftp.lysator.liu.se::deepin/releases">rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Zetup AB</td>
@@ -678,7 +671,7 @@ title: "ISO 仓库"
       <td><a href="http://deepin-cd.ip-connect.vn.ua/">http</a></td>
       <td><a href="https://deepin-cd.ip-connect.vn.ua/">https</a></td>
       <td><a href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231981Britain.jpg"> 英国</td>

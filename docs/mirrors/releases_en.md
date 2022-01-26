@@ -43,18 +43,12 @@ Sincerely thank the following universities, open-source communities and companie
       <td></td>
       <td></td>
     </tr>
-    <tr>
-      <td>Chongqing University</td>
-      <td><a href="http://mirrors.cqu.edu.cn/deepin-cd/">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>Free Software Lab (Taiwan)</td>
       <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.ubuntu-tw.org/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -117,7 +111,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Ubuntu Taiwan (Taiwan)</td>
       <td><a href="http://ftp.ubuntu-tw.org/mirror/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.ubuntu-tw.org/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -166,7 +160,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Federal University of Parana (UFPR)</td>
       <td><a href="http://deepin.c3sl.ufpr.br/deepin-cd">http</a></td>
       <td><a href="https://deepin.c3sl.ufpr.br/deepin-cd">https</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -180,7 +174,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>University of Sao Paulo (USP)</td>
       <td><a href="http://sft.if.usp.br/deepin-cd">http</a></td>
       <td><a href="ftp://sft.if.usp.br/deepin-cd">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -194,7 +188,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>IPACCT</td>
       <td><a href="http://deepin.ipacct.com/deepin-cd/">http</a></td>
       <td><a href="ftp://deepin.ipacct.com/deepin-cd/">ftp</a></td>
-      <td><a href="https://deepin.ipacct.com/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -230,20 +224,6 @@ Sincerely thank the following universities, open-source communities and companie
       <td><a href="http://mirror.ufro.cl/deepin-cd/">http</a></td>
       <td><a href="https://mirror.ufro.cl/deepin-cd/">https</a></td>
       <td><a href="https://mirror.ufro.cl/deepin/">rsync</a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/2020/06/Cuba.jpg"> Cuba</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>FRCuba</td>
-      <td>None</td>
-      <td></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -424,7 +404,7 @@ Sincerely thank the following universities, open-source communities and companie
     <tr>
       <td>Tsukuba WIDE Public Mirror service</td>
       <td><a href="http://ftp.tsukuba.wide.ad.jp/Linux/deepin-cd/">http</a></td>
-      <td><a href="https://ftp.tsukuba.wide.ad.jp/deepin">rsync</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -439,7 +419,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>NLUUG</td>
       <td><a href="http://ftp.nluug.nl/os/Linux/distr/deepin-cd/">http</a></td>
       <td><a href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/">ftp</a></td>
-      <td><a href="https://ftp.nluug.nl/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -467,7 +447,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Studenten Net Twente</td>
       <td><a href="http://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">http</a></td>
       <td><a href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd">ftp</a></td>
-      <td><a href="https://ftp.snt.utwente.nl/deepin-cd">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -496,7 +476,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td>Onet</td>
       <td><a href="http://mirror.onet.pl/pub/mirrors/deepin-cd/">http</a></td>
       <td><a href="ftp://mirror.onet.pl/pub/mirrors/deepin-cd/">ftp</a></td>
-      <td><a href="https://mirror.onet.pl/pub/mirrors/deepin-cd/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -630,7 +610,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td><a href="http://ftp.lysator.liu.se/pub/deepin/releases">http</a></td>
       <td><a href="https://ftp.lysator.liu.se/pub/deepin/releases">https</a></td>
       <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/releases">ftp</a></td>
-      <td><a href="https://ftp.lysator.liu.se::deepin/releases">rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Zetup AB</td>
@@ -665,7 +645,7 @@ Sincerely thank the following universities, open-source communities and companie
       <td><a href="http://deepin-cd.ip-connect.vn.ua/">http</a></td>
       <td><a href="https://deepin-cd.ip-connect.vn.ua/">https</a></td>
       <td><a href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/">ftp</a></td>
-      <td><a>rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231981Britain.jpg"> United Kingdom
