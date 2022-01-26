@@ -1,33 +1,3 @@
-/* url: http://mirrors.cqu.edu.cn/deepin/ msg: Get "http://mirrors.cqu.edu.cn/deepin/dists/apricot/InRelease": dial tcp 202.202.1.140:80: i/o timeout */
-a[href="http://mirrors.cqu.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://deepin.ipacct.com/deepin/ msg: Get "https://deepin.ipacct.com/deepin/dists/apricot/InRelease": dial tcp 195.85.215.207:443: connect: connection refused */
-a[href="https://deepin.ipacct.com/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://deepin.mirror.globo.tech/deepin msg: Get "https://deepin.mirror.globo.tech/deepin/dists/apricot/InRelease": x509: certificate is valid for cygwin.mirror.globo.tech, not deepin.mirror.globo.tech */
-a[href="https://deepin.mirror.globo.tech/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://www.deepin.org/en/mirrors/packages/deepin msg: 404 Not Found */
-a[href="https://www.deepin.org/en/mirrors/packages/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://rsync.deepin.com/deepin msg: Get "https://rsync.deepin.com/deepin/dists/apricot/InRelease": x509: certificate is valid for *.deepin.org, deepin.org, not rsync.deepin.com */
-a[href="https://rsync.deepin.com/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
-a[href="https://ftp.tsukuba.wide.ad.jp/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftp.nluug.nl/deepin/ msg: 404 Not Found */
-a[href="https://ftp.nluug.nl/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftp.snt.utwente.nl/deepin msg: 404 Not Found */
-a[href="https://ftp.snt.utwente.nl/deepin"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://mirror.onet.pl/pub/mirrors/deepin/ msg: Get "https://mirror.onet.pl/pub/mirrors/deepin/dists/apricot/InRelease": dial tcp 213.180.139.200:443: i/o timeout */
-a[href="https://mirror.onet.pl/pub/mirrors/deepin/"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://ftp.lysator.liu.se::deepin/packages msg: parse "https://ftp.lysator.liu.se::deepin/packages/dists/apricot/InRelease": invalid port ":deepin" after host */
-a[href="https://ftp.lysator.liu.se::deepin/packages"] { padding: 3px; color: white; background-color: red; }
-
-/* url: https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/ msg: Get "https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/dists/apricot/InRelease": x509: certificate is valid for copernicus.mirrorservice.org, ftp.mirrorservice.org, kuiper.mirrorservice.org, mirrorservice.org, www.mirrorservice.org, not rsync.mirrorservice.org */
-a[href="https://rsync.mirrorservice.org/packages.linuxdeepin.com/deepin/"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.nju.edu.cn/deepin/ msg: Get "https://mirrors.nju.edu.cn/deepin/dists/apricot/InRelease": dial tcp 210.28.130.3:443: i/o timeout */
+a[href="https://mirrors.nju.edu.cn/deepin/"] { padding: 3px; color: white; background-color: red; }
 

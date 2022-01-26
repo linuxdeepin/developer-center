@@ -1,10 +1,7 @@
-/* url: http://mirrors.cqu.edu.cn/deepin-cd/ msg: Get "http://mirrors.cqu.edu.cn/deepin-cd/": dial tcp 202.202.1.140:80: i/o timeout */
-a[href="http://mirrors.cqu.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.ubuntu-tw.org/deepin-cd/ msg: 404 Not Found */
-a[href="https://ftp.ubuntu-tw.org/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
+/* url: https://mirrors.nju.edu.cn/deepin-cd/ msg: Get "https://mirrors.nju.edu.cn/deepin-cd/": dial tcp 210.28.130.3:443: i/o timeout */
+a[href="https://mirrors.nju.edu.cn/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
 
 /* url: ftp://ftp.sjtu.edu.cn/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
@@ -12,22 +9,12 @@ a[href="ftp://ftp.sjtu.edu.cn/deepin-cd/"] { padding: 3px; color: black; backgro
 a[href="ftp://ftp.tku.edu.tw/Linux/Deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.ubuntu-tw.org/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.ubuntu-tw.org/deepin-cd/ msg: 404 Not Found */
-a[href="https://ftp.ubuntu-tw.org/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://ftp.belnet.be/mirror/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.belnet.be/mirror/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url:  msg: Unsupported protocol */
-a[href=""] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://sft.if.usp.br/deepin-cd msg: Unsupported protocol */
 a[href="ftp://sft.if.usp.br/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url:  msg: Unsupported protocol */
-a[href=""] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://deepin.ipacct.com/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://deepin.ipacct.com/deepin-cd/ msg: Get "https://deepin.ipacct.com/deepin-cd/": dial tcp 195.85.215.207:443: connect: connection refused */
-a[href="https://deepin.ipacct.com/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://mirrors.netix.net/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://mirrors.netix.net/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://mirror.dotsrc.org/deepin-cd msg: Unsupported protocol */
@@ -44,30 +31,18 @@ a[href="ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/"] { padding: 3px; colo
 a[href="ftp://mirror2.tuxinator.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.kddilabs.jp/Linux/packages/deepin/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.tsukuba.wide.ad.jp/deepin msg: 404 Not Found */
-a[href="https://ftp.tsukuba.wide.ad.jp/deepin"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.nluug.nl/deepin-cd/ msg: 404 Not Found */
-a[href="https://ftp.nluug.nl/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp1.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://ftp2.nluug.nl/pub/os/Linux/distr/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd msg: Unsupported protocol */
 a[href="ftp://ftp.snt.utwente.nl/pub/os/linux/deepin-cd"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.snt.utwente.nl/deepin-cd msg: 404 Not Found */
-a[href="https://ftp.snt.utwente.nl/deepin-cd"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://mirrors.dotsrc.org/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://mirrors.dotsrc.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://mirror.onet.pl/pub/mirrors/deepin-cd/ msg: Get "https://mirror.onet.pl/pub/mirrors/deepin-cd/": dial tcp 213.180.139.200:443: i/o timeout */
-a[href="https://mirror.onet.pl/pub/mirrors/deepin-cd/"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://mirrors.up.pt/pub/deepin-cd/ msg: Unsupported protocol */
 a[href="ftp://mirrors.up.pt/pub/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://mirror.truenetwork.ru/deepin-cd/ msg: Unsupported protocol */
@@ -80,13 +55,8 @@ a[href="ftp://tux.rainside.sk/deepin-cd/"] { padding: 3px; color: black; backgro
 a[href="ftp://ftp.harukasan.org/deepin-cd/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://ftp.lysator.liu.se/pub/deepin/releases msg: Unsupported protocol */
 a[href="ftp://ftp.lysator.liu.se/pub/deepin/releases"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url: https://ftp.lysator.liu.se::deepin/releases msg: parse "https://ftp.lysator.liu.se::deepin/releases": invalid port ":deepin" after host */
-a[href="https://ftp.lysator.liu.se::deepin/releases"] { padding: 3px; color: white; background-color: red; }
-
 /* url: ftp://deepin.ip-connect.vn.ua/mirror/deepin/ msg: Unsupported protocol */
 a[href="ftp://deepin.ip-connect.vn.ua/mirror/deepin/"] { padding: 3px; color: black; background-color: lightgrey; }
-/* url:  msg: Unsupported protocol */
-a[href=""] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://mirror.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
 a[href="ftp://mirror.bytemark.co.uk/linuxdeepin/releases/"] { padding: 3px; color: black; background-color: lightgrey; }
 /* url: ftp://mirror.yrk.bytemark.co.uk/linuxdeepin/releases/ msg: Unsupported protocol */
