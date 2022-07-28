@@ -1,6 +1,7 @@
 This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted to the upstream.
 
- Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains, and contributions that are not merged in will be counted as well.| Name | Contributions | Repository |
+ Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains, and contributions that are not merged in will be counted as well.
+| Name | Contributions | Repository |
 | --- | --- | --- |
 | wine | 1329 | https://source.winehq.org/git/wine.git/ |
 | avocado-misc-tests | 17 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
@@ -126,7 +127,7 @@ This page records summary statistics on the number of contributions deepin has m
 | efibootmgr | 2 | https://salsa.debian.org/efi-team/efibootmgr.git |
 | gin-swagger | 2 | https://github.com/swaggo/gin-swagger.git |
 | Fcitx5-Material-Color | 96 |  |
-| kwin | 21 | https://invent.kde.org/plasma/kwin.git |
+| kwin | 21 | https://invent.kde.org/plasma/kwin |
 | fcitx5-qt | 5 |  |
 | fcitx5-configtool | 13 |  |
 | grcov | 26 | git@github.com:mozilla/grcov.git |
