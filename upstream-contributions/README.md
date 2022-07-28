@@ -132,8 +132,8 @@ This page records summary statistics on the number of contributions deepin has m
 | grcov | 26 | git@github.com:mozilla/grcov.git |
 | libime | 4 |  |
 | mesa | 8 | git@gitlab.freedesktop.org:mesa/mesa.git |
-| hwinfo | 4 | https://github.com/openSUSE/hwinfo.git |
-| libaio | 2 | https://pagure.io/fork/renyehui/libaio |
+| hwinfo | 4 | https://github.com/openSUSE/hwinfo |
+| libaio | 12 | https://pagure.io/fork/renyehui/libaio |
 | fcitx5 | 12 | https://github.com/fcitx/fcitx5 |
 | zabbix | 237 | https://github.com/zabbix/zabbix |
 | Juicy.Pixels | 8 | https://github.com/Twinside/Juicy.Pixels |
