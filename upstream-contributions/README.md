@@ -1,6 +1,6 @@
 | Repository | Contributions | Repository HomePage |
 | --- | --- | --- |
-| wine | 1329 | https://www.winehq.org |
+| wine | 1329 | https://source.winehq.org/git/wine.git/ |
 | avocado-misc-tests | 17 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | ltp | 5498 | https://github.com/linux-test-project/ltp.git |
 | dogtail | 8 | https://gitlab.com/dogtail/dogtail.git |
@@ -14,7 +14,7 @@
 | partclone | 14 | https://github.com/Thomas-Tsai/partclone.git |
 | libcork | 2381 | https://salsa.debian.org/bridges-team/libcork.git |
 | systemd | 343 | https://github.com/systemd/systemd.git |
-| drm | 8 | https://gitlab.freedesktop.org/mesa/drm.git |
+| drm | 20 | https://www.mail-archive.com/ |
 | kwayland | 15 | https://gitlab.freedesktop.org/wayland/wayland.git |
 | redshfit | 4 | https://github.com/jonls/redshift.git |
 | libinput | 195 | https://gitlab.freedesktop.org/libinput/libinput.git |
@@ -26,7 +26,7 @@
 | qttools | 186 | https://codereview.qt-project.org/qt/qttools |
 | wlroots | 81 | https://github.com/swaywm/wlroots.git |
 | NetworkManagerQt | 121 | https://invent.kde.org/frameworks/networkmanager-qt.git |
-| openssl | 230 | https://github.com/openssl/openssl.git |
+| openssl | 230 | https://github.com/openssl/openssl |
 | libqapt | 14 | https://invent.kde.org/system/libqapt.git |
 | gtkhash | 10 | https://github.com/tristanheaven/gtkhash.git |
 | pencil | 128 | https://github.com/pencil2d/pencil.git |
@@ -36,9 +36,9 @@
 | 88x2bu | 246 | https://github.com/cilynx/rtl88x2bu.git |
 | fsearch | 83 | https://github.com/cboxdoerfer/fsearch.git |
 | rtl8821ce | 165 | https://github.com/tomaspinho/rtl8821ce.git |
-| kernel | 1035 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
+| kernel | 1039 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | go-systemd | 69 | https://github.com/coreos/go-systemd.git |
-| gdi32 | 3 | https://www.winehq.org |
+| gdi32 | 3 | https://source.winehq.org/git/wine.git/ |
 | udisks | 130 | https://github.com/storaged-project/udisks.git |
 | xdotool | 3 | https://github.com/jordansissel/xdotool.git |
 | accountservice | 43 | https://gitlab.freedesktop.org/accountsservice/accountsservice.git |
@@ -47,7 +47,7 @@
 | aptly | 794 | https://github.com/aptly-dev/aptly.git |
 | ceph-deploy | 2 | https://github.com/ceph/ceph-deploy.git |
 | gerrit | 8 | https://gerrit.googlesource.com/gerrit |
-| iphlpapi | 19 | https://www.winehq.org |
+| iphlpapi | 19 | https://source.winehq.org/git/wine.git/ |
 | distcc | 2 | https://github.com/distcc/distcc.git |
 | rsync | 2 | https://salsa.debian.org/debian/rsync.git |
 | util-linux | 138 | https://github.com/util-linux/util-linux.git |
@@ -106,13 +106,13 @@
 | pure | 6 | https://github.com/sindresorhus/pure.git |
 | libfuse | 9 | https://github.com/libfuse/libfuse.git |
 | apt | 16 | https://salsa.debian.org/apt-team/apt.git |
-| dpkg | 1 | https://gitlab.com/clevon/debian/dpkg.git |
+| dpkg | 10 | https://gitlab.com/clevon/debian/dpkg |
 | soar | 15 | https://github.com/XiaoMi/soar.git |
 | quickemu | 41 | https://github.com/quickemu-project/quickemu.git |
 | yaml-cpp | 12 | https://github.com/jbeder/yaml-cpp.git |
 | nix-community | 4 | https://github.com/nix-community/NUR.git |
-| fcitx | 44 | https://github.com/fcitx/fcitx.git |
-| mscms | 18 | https://www.winehq.org |
+| fcitx | 136679 | https://github.com/fcitx/fcitx |
+| mscms | 18 | https://source.winehq.org/git/wine.git/ |
 | go-zero | 135 | https://github.com/zeromicro/go-zero.git |
 | jfx | 2 | https://github.com/openjdk/jfx.git |
 | ant | 6 | https://salsa.debian.org/java-team/ant.git |
@@ -131,11 +131,24 @@
 | libime | 4 |  |
 | mesa | 8 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | hwinfo | 4 | https://github.com/openSUSE/hwinfo.git |
-| jemalloc | 6 | https://github.com/loongarch64/jemalloc.git |
-| fcitx5 | 6 | https://github.com/fcitx/fcitx5.git |
-| ptitSeb | 129 | https://github.com/ptitSeb/box64.git |
+| fcitx5 | 12 | https://github.com/fcitx/fcitx5 |
+| zabbix | 237 | https://github.com/zabbix/zabbix |
+| Juicy.Pixels | 8 | https://github.com/Twinside/Juicy.Pixels |
+| jemalloc | 12 | https://github.com/loongarch64/jemalloc |
+| ARToolKit5 | 6 | https://github.com/loongarch64/ARToolKit5 |
+| ghc | 1344 | https://github.com/ghc/ghc |
+| GStreamer | 2 | https://github.com/loongarch64/gstreamer |
+| im-config | 2 | https://salsa.debian.org/input-method-team/im-config |
+| ptitSeb | 129 | https://github.com/ptitSeb/box64 |
+| eclipse | 86 | https://git.eclipse.org/r/admin/repos/oomph/org.eclipse.oomph,general |
+| xorg | 5 | https://gitlab.freedesktop.org/xorg/xserver |
+| kwin-wayland | 26 | https://invent.kde.org/plasma/kwin |
+| kwin-x11 | 9 | https://invent.kde.org/plasma/kwin |
+| tbox | 10 | https://github.com/tboox/tbox |
+| lightproxy | 150 | https://github.com/xcodebuild/iProxy |
+| pdf2word | 2 | https://github.com/python-fan/pdf2word |
 | video | 7 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
-| pwm | 38 | https://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux.git |
+| pwm | 38 | https://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux |
 | p7zip | 72 |  |
 | gn | 27 |  |
 | qtwebengine | 2 | https://codereview.qt-project.org/qt/qtwebengine |
