@@ -1,4 +1,6 @@
-| Repository | Contributions | Repository HomePage |
+This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted to the upstream.
+
+ Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains, and contributions that are not merged in will be counted as well.| Name | Contributions | Repository |
 | --- | --- | --- |
 | wine | 1329 | https://source.winehq.org/git/wine.git/ |
 | avocado-misc-tests | 17 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
@@ -26,7 +28,7 @@
 | qttools | 186 | https://codereview.qt-project.org/qt/qttools |
 | wlroots | 81 | https://github.com/swaywm/wlroots.git |
 | NetworkManagerQt | 121 | https://invent.kde.org/frameworks/networkmanager-qt.git |
-| openssl | 230 | https://github.com/openssl/openssl |
+| openssl | 235 | https://github.com/openssl/openssl |
 | libqapt | 14 | https://invent.kde.org/system/libqapt.git |
 | gtkhash | 10 | https://github.com/tristanheaven/gtkhash.git |
 | pencil | 128 | https://github.com/pencil2d/pencil.git |
@@ -131,6 +133,7 @@
 | libime | 4 |  |
 | mesa | 8 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | hwinfo | 4 | https://github.com/openSUSE/hwinfo.git |
+| libaio | 2 | https://pagure.io/fork/renyehui/libaio |
 | fcitx5 | 12 | https://github.com/fcitx/fcitx5 |
 | zabbix | 237 | https://github.com/zabbix/zabbix |
 | Juicy.Pixels | 8 | https://github.com/Twinside/Juicy.Pixels |
