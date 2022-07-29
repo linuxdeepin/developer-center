@@ -1,0 +1,77 @@
+---
+name: BUG Report | 缺陷报告
+description: General BUG report
+labels: []
+assignees: []
+body:
+- type: markdown
+  attributes:
+    value: |
+      **Thanks for taking a minute to file a bug report! 感谢抽出时间汇报 BUG 缺陷**
+      
+      A valid bug report should let someone other than you be able to reproduce the same issue, so please provide as much details as possible.
+      一个有效的缺陷汇报应当能够使一个你之外的人可以根据所提供的信息有效的复现问题。所以请提供尽可能详细的信息。
+
+      ⚠ Read befre creating issue 反馈之前请注意:
+      Only report BUG here, please use the [Discussion board][discussion-board] for non-bug feature request, troubleshooting or general discusion.
+      非 BUG 的反馈（如特性请求，疑难解答，行为建议，常规讨论）请转到 [Discussion 面板][discussion-board]
+      
+      [discussion-board]: https://github.com/linuxdeepin/developer-center/discussions/new
+
+- type: textarea
+  attributes:
+    label: SUMMARY | 问题概要
+    description: |
+      describe the bug you want to report
+      在这里描述你遇到的 BUG
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: STEPS TO REPRODUCE | 复现步骤
+    description: |
+      describe the steps to reproduce the specific bug
+      在这里描述复现 BUG 的操作步骤
+    placeholder: |
+      1. ...
+      2. ...
+      3. ...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: OBSERVED RESULT | 观察到的结果
+    description: |
+      describe the observed result
+      在这里描述观察到的结果
+
+- type: textarea
+  attributes:
+    label: EXPECTED RESULT | 期望的结果
+    description: |
+      describe the expected result
+      在这里描述你所期望的结果
+
+- type: textarea
+  attributes:
+    label: SOFTWARE/OS VERSIONS | 软件/系统版本信息
+    description: |
+      describe the related application/package version information
+      在这里描述与之相关的软件和系统版本信息
+    placeholder: |
+      Example:
+      Distribution: deepin v20.7
+      Package: deepin-example 5.1.4-1
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: ADDITIONAL INFORMATION | 额外补充
+    description: |
+      any additional information you may want to provide so we can offer better help
+      有什么额外需要补充的信息的话，可以写到这里
+
+...
