@@ -1,6 +1,6 @@
-This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted to the upstream.
+This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted and merged into the upstream codebase.
 
- Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains, and contributions that are not merged in will be counted as well.
+Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains.
 | Name | Contributions | Repository |
 | --- | --- | --- |
 | 88x2bu | 164 | https://github.com/cilynx/rtl88x2bu.git |
