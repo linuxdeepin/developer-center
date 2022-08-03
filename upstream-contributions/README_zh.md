@@ -1,10 +1,7 @@
-dubU:gÜ deepin ˘
-8êZ˙Ñ!.Ñpœﬂ°K˘îÑ!.GÚ–§ve0
-8„”ì-
+&#x6B64;&#x9875;&#x9762;&#x5C55;&#x793A;&#x4E86; deepin &#x5BF9;&#x4E0A;&#x6E38;&#x6E90;&#x7801;&#x505A;&#x51FA;&#x7684;&#x8D21;&#x732E;&#x7684;&#x6570;&#x91CF;&#x7EDF;&#x8BA1;&#x3002;&#x4E0E;&#x4E4B;&#x5BF9;&#x5E94;&#x7684;&#x8D21;&#x732E;&#x5747;&#x5DF2;&#x63D0;&#x4EA4;&#x5E76;&#x5408;&#x5165;&#x5230;&#x4E0A;&#x6E38;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x4E2D;&#x3002;
 
-Ë˘
-8Ñ„!.	Ô˝(Ü deepin  uniontech KﬂÑÆ±
-| yÓ | !.pœ | ”ì0@ |
+&#x6CE8;&#xFF1A;&#x5BF9;&#x4E0A;&#x6E38;&#x7684;&#x4EE3;&#x7801;&#x8D21;&#x732E;&#x6709;&#x53EF;&#x80FD;&#x4F7F;&#x7528;&#x4E86; deepin &#x6216; uniontech &#x4E4B;&#x5916;&#x57DF;&#x540D;&#x7684;&#x90AE;&#x7BB1;&#x3002;
+| &#x9879;&#x76EE; | &#x8D21;&#x732E;&#x6570;&#x91CF; | &#x4ED3;&#x5E93;&#x5730;&#x5740; |
 | --- | --- | --- |
 | 88x2bu | 164 | https://github.com/cilynx/rtl88x2bu.git |
 | ant | 6 | https://salsa.debian.org/java-team/ant.git |
