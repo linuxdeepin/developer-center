@@ -1,7 +1,7 @@
 此页面展示了 deepin 对上游源码做出的贡献的数量统计。与之对应的贡献均已提交并合入到上游代码仓库中。
 
 注：对上游的代码贡献有可能使用了 deepin 或 uniontech 之外域名的邮箱。
-| 项目 | 贡献数量 | 仓库地址 |
+| 项目 | 贡献代码量 | 仓库地址 |
 | --- | --- | --- |
 | 88x2bu | 164 | https://github.com/cilynx/rtl88x2bu.git |
 | ant | 6 | https://salsa.debian.org/java-team/ant.git |
@@ -27,7 +27,7 @@
 | fcitx5 | 6 | https://github.com/fcitx/fcitx5 |
 | fiovisualizer | 2 | https://github.com/intel/fiovisualizer.git |
 | Flatpak KDE Runtime | 2 | https://invent.kde.org/packaging/flatpak-kde-runtime.git |
-| genisoimage | 2 | 暂无 |
+| genisoimage | 2 |  |
 | geoclue-providers-hybris | 2 | https://github.com/mer-hybris/geoclue-providers-hybris.git |
 | gerrit | 8 | https://gerrit.googlesource.com/gerrit |
 | ghc | 1344 | https://github.com/ghc/ghc |
