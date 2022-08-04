@@ -27,7 +27,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | fcitx5 | 6 | https://github.com/fcitx/fcitx5 |
 | fiovisualizer | 2 | https://github.com/intel/fiovisualizer.git |
 | Flatpak KDE Runtime | 2 | https://invent.kde.org/packaging/flatpak-kde-runtime.git |
-| genisoimage | 2 | 暂无 |
+| genisoimage | 2 |  |
 | geoclue-providers-hybris | 2 | https://github.com/mer-hybris/geoclue-providers-hybris.git |
 | gerrit | 8 | https://gerrit.googlesource.com/gerrit |
 | ghc | 1344 | https://github.com/ghc/ghc |
