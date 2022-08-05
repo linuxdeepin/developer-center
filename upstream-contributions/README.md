@@ -2,7 +2,7 @@ This page records summary statistics on the number of contributions deepin has m
 
 Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains.
 | Name | Contributions | Pull Requests | Repository |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 88x2bu | 164 | 1 | https://github.com/cilynx/rtl88x2bu.git |
 | ant | 6 | 1 | https://salsa.debian.org/java-team/ant.git |
 | AppArmor | 2 | 1 | https://gitlab.com/apparmor/apparmor.git |
