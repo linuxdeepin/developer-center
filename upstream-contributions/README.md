@@ -12,7 +12,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | avocado-misc-tests | 6 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bluez | 201 | https://github.com/bluez/bluez.git |
 | ceph-deploy | 2 | https://github.com/ceph/ceph-deploy.git |
-| chromium | 146 |  |
+| chromium | 73 |  |
 | cups | 322 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | https://github.com/kubernetes/dashboard.git |
 | dbus | 39 | https://github.com/godbus/dbus.git |
