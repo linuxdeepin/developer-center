@@ -10,7 +10,7 @@
 | AppArmor | 4 | 1 | https://gitlab.com/apparmor/apparmor.git |
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
-| bluez | 37 | 5 | https://github.com/bluez/bluez.git |
+| bluez | 39 | 6 | https://github.com/bluez/bluez.git |
 | box86 | 3962 | 28 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 79 | 2 |  |
