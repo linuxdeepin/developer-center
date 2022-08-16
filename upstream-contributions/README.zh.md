@@ -114,7 +114,7 @@
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
 | qtbase | 5129 | 155 | https://codereview.qt-project.org/qt/qtbase |
-| qtdeclarative | 1133 | 19 | https://codereview.qt-project.org/qt/qtdeclarative |
+| qtdeclarative | 1490 | 20 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
 | qtgamepad | 30 | 1 | https://codereview.qt-project.org/qt/qtgamepad |
