@@ -127,7 +127,7 @@
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
 | qttranslations | 71 | 1 | https://codereview.qt-project.org/qt/qttranslations |
-| qtwayland | 101 | 7 | https://codereview.qt-project.org/qt/qtwayland |
+| qtwayland | 113 | 8 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
 | quickemu | 4 | 1 | https://github.com/quickemu-project/quickemu.git |
