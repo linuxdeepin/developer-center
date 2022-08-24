@@ -160,7 +160,7 @@
 | video | 7 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | vlc | 25 | 3 | git@code.videolan.org:videolan/vlc.git |
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
-| wine | 1345 | 65 | https://source.winehq.org/git/wine.git/ |
+| wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
 | wlroots | 88 | 5 | https://github.com/swaywm/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
