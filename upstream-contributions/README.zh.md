@@ -143,7 +143,7 @@
 | srt | 4 | 1 | git@github.com:Haivision/srt.git |
 | summernote | 105 | 4 |  |
 | system76-power | 6 | 1 | https://github.com/pop-os/system76-power.git |
-| systemd | 185 | 9 | https://github.com/systemd/systemd.git |
+| systemd | 174 | 8 | https://github.com/systemd/systemd.git |
 | systemd-zram-generator | 246 | 1 | https://salsa.debian.org/rust-team/debcargo-conf.git |
 | tarscpp | 2 | 1 | https://github.com/TarsCloud/TarsCpp.git |
 | tbox | 10 | 1 | https://github.com/tboox/tbox |
