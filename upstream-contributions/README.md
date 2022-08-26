@@ -108,6 +108,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | polkit-qt-1 | 17 | 1 | https://invent.kde.org/libraries/polkit-qt-1.git |
 | ptitSeb | 129 | 1 | https://github.com/ptitSeb/box64 |
 | pulseaudio | 89 | 6 | https://gitlab.freedesktop.org/pulseaudio/pulseaudio.git |
+| PurC | 81 | 1 | https://github.com/HVML/PurC.git |
 | pure | 6 | 1 | https://github.com/sindresorhus/pure.git |
 | pwm | 38 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux |
 | qmlbook | 37 | 3 | git@github.com:qmlbook/qt6book.git |
