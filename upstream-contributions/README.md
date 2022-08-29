@@ -106,7 +106,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | pencil | 128 | 1 | https://github.com/pencil2d/pencil.git |
 | pinyin-golang | 82 | 1 | https://github.com/Lofanmi/pinyin-golang.git |
 | polkit-qt-1 | 17 | 1 | https://invent.kde.org/libraries/polkit-qt-1.git |
-| ptitSeb | 129 | 1 | https://github.com/ptitSeb/box64 |
+| ptitSeb | 201 | 2 | https://github.com/ptitSeb/box64 |
 | pulseaudio | 89 | 6 | https://gitlab.freedesktop.org/pulseaudio/pulseaudio.git |
 | PurC | 81 | 1 | https://github.com/HVML/PurC.git |
 | pure | 6 | 1 | https://github.com/sindresorhus/pure.git |
