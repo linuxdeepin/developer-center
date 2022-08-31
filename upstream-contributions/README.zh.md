@@ -14,7 +14,7 @@
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
 | box86 | 3962 | 28 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
-| browser | 79 | 2 |  |
+| browser | 118 | 3 |  |
 | chromium | 284 | 17 |  |
 | cppdap | 2 | 1 | git@github.com:google/cppdap.git |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
