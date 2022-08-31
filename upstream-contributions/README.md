@@ -6,7 +6,6 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | 88x2bu | 82 | 1 | https://github.com/cilynx/rtl88x2bu.git |
 | abseil | 2 | 1 |  |
 | accountservice | 43 | 2 | https://gitlab.freedesktop.org/accountsservice/accountsservice.git |
-| angleproject | 5 | 1 |  |
 | AppArmor | 4 | 1 | https://gitlab.com/apparmor/apparmor.git |
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
@@ -14,7 +13,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
 | box86 | 3962 | 28 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
-| browser | 188 | 5 |  |
+| browser | 204 | 8 |  |
 | chromium | 284 | 17 |  |
 | cppdap | 2 | 1 | git@github.com:google/cppdap.git |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
@@ -50,7 +49,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | go-zero | 135 | 3 | https://github.com/zeromicro/go-zero.git |
 | goc | 167 | 1 | https://github.com/qiniu/goc |
 | godbus | 55 | 2 | https://github.com/godbus/dbus.git |
-| googlesource | 12 | 3 |  |
+| googlesource | 1 | 1 |  |
 | grcov | 26 | 2 | https://github.com/glmark2/glmark2 |
 | gtk | 2 | 1 | https://gitlab.gnome.org/GNOME/gtk.git |
 | gtkhash | 10 | 1 | https://github.com/tristanheaven/gtkhash.git |
