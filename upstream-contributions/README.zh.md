@@ -13,7 +13,7 @@
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
 | box86 | 3962 | 28 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
-| browser | 204 | 8 |  |
+| browser | 205 | 9 |  |
 | chromium | 284 | 17 |  |
 | cppdap | 2 | 1 | git@github.com:google/cppdap.git |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
@@ -49,7 +49,6 @@
 | go-zero | 135 | 3 | https://github.com/zeromicro/go-zero.git |
 | goc | 167 | 1 | https://github.com/qiniu/goc |
 | godbus | 55 | 2 | https://github.com/godbus/dbus.git |
-| googlesource | 1 | 1 |  |
 | grcov | 26 | 2 | https://github.com/glmark2/glmark2 |
 | gtk | 2 | 1 | https://gitlab.gnome.org/GNOME/gtk.git |
 | gtkhash | 10 | 1 | https://github.com/tristanheaven/gtkhash.git |
