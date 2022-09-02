@@ -29,6 +29,7 @@
 | drm | 34 | 2 | https://www.mail-archive.com/ |
 | efibootmgr | 2 | 1 | https://salsa.debian.org/efi-team/efibootmgr.git |
 | efivar | 10 | 1 | https://salsa.debian.org/efi-team/efivar.git |
+| element-plus | 19 | 1 | https://github.com/element-plus/element-plus.git |
 | fcitx | 44 | 9 | https://github.com/fcitx/fcitx |
 | fcitx5 | 8 | 3 | https://github.com/fcitx/fcitx5 |
 | fcitx5-configtool | 13 | 1 | https://github.com/fcitx/fcitx5-configtool |
