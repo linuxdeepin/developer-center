@@ -46,6 +46,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
 | go-callvis | 9 | 1 | https://github.com/ofabry/go-callvis.git |
+| go-gerrit | 58 | 1 | https://github.com/andygrunwald/go-gerrit.git |
 | go-systemd | 69 | 1 | https://github.com/coreos/go-systemd.git |
 | go-zero | 135 | 3 | https://github.com/zeromicro/go-zero.git |
 | goc | 167 | 1 | https://github.com/qiniu/goc |
