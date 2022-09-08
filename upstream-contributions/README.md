@@ -96,10 +96,11 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | nix-community | 4 | 1 | https://github.com/nix-community/NUR.git |
 | OCAT | 408 | 1 | git@github.com:ic005k/OCAuxiliaryTools.git |
 | OCAuxiliaryTools | 146 | 3 | git@github.com:ic005k/OCAuxiliaryTools.git |
-| openssl | 155 | 4 | https://github.com/openssl/openssl |
+| openssl | 195 | 5 | https://github.com/openssl/openssl |
 | ostree | 3 | 1 | https://github.com/ostreedev/ostree.git |
 | p7zip | 31 | 2 |  |
 | pages-server | 17 | 1 | https://codeberg.org/Codeberg/pages-server |
+| pam | 21 | 1 | https://github.com/linux-pam/linux-pam.git |
 | partclone | 14 | 1 | https://github.com/Thomas-Tsai/partclone.git |
 | pbuilder | 2 | 1 | https://salsa.debian.org/pbuilder-team/pbuilder.git |
 | PCL | 8 | 1 | git@github.com:PointCloudLibrary/pcl.git |
