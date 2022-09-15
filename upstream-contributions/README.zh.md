@@ -126,7 +126,7 @@
 | qtmultimedia | 6 | 2 | https://codereview.qt-project.org/qt/qtmultimedia |
 | QtOpenCoreConfig | 6 | 2 | git@github.com:ic005k/OCAuxiliaryTools.git |
 | qtremoteobject | 4 | 1 | https://dami@codereview.qt-project.org/a/qt/qtremoteobjects |
-| QtScrcpy | 8 | 1 |  |
+| QtScrcpy | 11 | 2 |  |
 | qtscxml | 2 | 1 | https://codereview.qt-project.org/qt/qtscxml |
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
