@@ -12,7 +12,7 @@ body:
       A valid bug report should let someone other than you be able to reproduce the same issue, so please provide as much details as possible.
       一个有效的缺陷汇报应当能够使一个你之外的人可以根据所提供的信息有效的复现问题。所以请提供尽可能详细的信息。
 
-      ⚠ Read befre creating issue 反馈之前请注意:
+      ⚠ Read before creating issue 反馈之前请注意:
       Only report BUG here, please use the [Discussion board][discussion-board] for non-bug feature request, troubleshooting or general discusion.
       非 BUG 的反馈（如特性请求，疑难解答，行为建议，常规讨论）请转到 [Discussion 面板][discussion-board]
       
