@@ -171,6 +171,7 @@
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
 | xfreerdp | 2 | 1 | https://github.com/FreeRDP/FreeRDP.git |
+| xGUI-Pro | 60 | 1 | https://github.com/HVML/xGUI-Pro |
 | xmake-package-debian-tbox | 690 | 1 | git@github.com:xmake-io/xmake-package-debian-tbox.git |
 | xmlgraphics-commons | 2 | 1 | git@github.com:apache/xmlgraphics-commons.git |
 | xopcodecalc | 6 | 1 | git@github.com:horsicq/XOpcodeCalc.git |
