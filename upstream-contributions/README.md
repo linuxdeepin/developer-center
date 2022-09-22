@@ -24,6 +24,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | deepdf | 47 | 1 |  |
 | displaylink-debian | 18 | 1 | git@github.com:AdnanHodzic/displaylink-debian.git |
 | distcc | 2 | 1 | https://github.com/distcc/distcc.git |
+| doctotext | 49 | 1 | git@github.com:lithiumFlower/doctotext.git |
 | dogtail | 8 | 1 | https://gitlab.com/dogtail/dogtail.git |
 | doxyqml | 7 | 1 | https://invent.kde.org/sdk/doxyqml |
 | drm | 34 | 2 | https://www.mail-archive.com/ |
