@@ -26,6 +26,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | distcc | 2 | 1 | https://github.com/distcc/distcc.git |
 | doctotext | 49 | 1 | git@github.com:lithiumFlower/doctotext.git |
 | dogtail | 8 | 1 | https://gitlab.com/dogtail/dogtail.git |
+| DOM-Ruler | 60 | 1 | https://github.com/HVML/DOM-Ruler |
 | doxyqml | 7 | 1 | https://invent.kde.org/sdk/doxyqml |
 | drm | 34 | 2 | https://www.mail-archive.com/ |
 | efibootmgr | 2 | 1 | https://salsa.debian.org/efi-team/efibootmgr.git |
