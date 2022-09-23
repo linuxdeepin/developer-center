@@ -137,7 +137,7 @@
 | qtwayland | 123 | 9 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
-| quickemu | 4 | 1 | https://github.com/quickemu-project/quickemu.git |
+| quickemu | 41 | 2 | https://github.com/quickemu-project/quickemu.git |
 | qView | 17 | 2 | git@github.com:jurplel/qView.git |
 | Remmina | 16 | 1 | https://gitlab.com/Remmina/Remmina.git |
 | rssguard | 4 | 1 | git@github.com:martinrotter/rssguard.git |
