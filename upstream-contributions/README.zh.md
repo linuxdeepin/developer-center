@@ -53,6 +53,7 @@
 | go-zero | 135 | 3 | https://github.com/zeromicro/go-zero.git |
 | goc | 167 | 1 | https://github.com/qiniu/goc |
 | godbus | 55 | 2 | https://github.com/godbus/dbus.git |
+| godis | 2 | 1 | git@github.com:HDT3213/godis.git |
 | grcov | 26 | 2 | https://github.com/glmark2/glmark2 |
 | gtk | 2 | 1 | https://gitlab.gnome.org/GNOME/gtk.git |
 | gtkhash | 10 | 1 | https://github.com/tristanheaven/gtkhash.git |
