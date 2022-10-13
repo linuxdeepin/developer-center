@@ -65,6 +65,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | kdenlive | 5 | 1 |  |
 | kernel | 2452 | 105 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | konsole | 2 | 1 |  |
+| kratos | 6 | 1 | https://github.com/go-kratos/kratos.git |
 | krdc | 2 | 1 |  |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
 | kwin | 64 | 13 | https://invent.kde.org/plasma/kwin |
