@@ -50,7 +50,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | go-callvis | 9 | 1 | https://github.com/ofabry/go-callvis.git |
 | go-gerrit | 58 | 1 | https://github.com/andygrunwald/go-gerrit.git |
 | go-systemd | 69 | 1 | https://github.com/coreos/go-systemd.git |
-| go-zero | 135 | 3 | https://github.com/zeromicro/go-zero.git |
+| go-zero | 137 | 4 | https://github.com/zeromicro/go-zero.git |
 | goc | 167 | 1 | https://github.com/qiniu/goc |
 | godbus | 55 | 2 | https://github.com/godbus/dbus.git |
 | godis | 2 | 1 | git@github.com:HDT3213/godis.git |
