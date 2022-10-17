@@ -15,6 +15,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 227 | 10 |  |
 | chromium | 284 | 17 |  |
+| cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
 | cppdap | 2 | 1 | git@github.com:google/cppdap.git |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
