@@ -39,7 +39,7 @@
 | fcitx5-configtool | 13 | 1 | https://github.com/fcitx/fcitx5-configtool |
 | Fcitx5-Material-Color | 97 | 3 | https://github.com/hosxy/Fcitx5-Material-Color |
 | fcitx5-qt | 5 | 1 | https://github.com/fcitx/fcitx5-qt |
-| FEX-Emu | 129 | 4 | https://github.com/FEX-Emu/FEX.git |
+| FEX-Emu | 144 | 5 | https://github.com/FEX-Emu/FEX.git |
 | ffmpeg | 31 | 1 | https://git.ffmpeg.org/ffmpeg.git |
 | flameshot | 8 | 1 | git@github.com:flameshot-org/flameshot.git |
 | fsearch | 83 | 3 | https://github.com/cboxdoerfer/fsearch.git |
