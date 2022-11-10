@@ -101,7 +101,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | NetworkManagerQt | 55 | 2 | https://invent.kde.org/frameworks/networkmanager-qt.git |
 | nix-community | 4 | 1 | https://github.com/nix-community/NUR.git |
 | OCAT | 408 | 1 | git@github.com:ic005k/OCAuxiliaryTools.git |
-| OCAuxiliaryTools | 146 | 3 | git@github.com:ic005k/OCAuxiliaryTools.git |
+| OCAuxiliaryTools | 216 | 4 | git@github.com:ic005k/OCAuxiliaryTools.git |
 | openssl | 195 | 5 | https://github.com/openssl/openssl |
 | ostree | 3 | 1 | https://github.com/ostreedev/ostree.git |
 | p7zip | 31 | 2 |  |
