@@ -65,7 +65,7 @@
 | iphlpapi | 19 | 1 | https://source.winehq.org/git/wine.git/ |
 | jemalloc | 6 | 1 | https://github.com/loongarch64/jemalloc |
 | kdenlive | 5 | 1 |  |
-| kernel | 2452 | 105 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
+| kernel | 2477 | 106 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | konsole | 2 | 1 |  |
 | kratos | 6 | 1 | https://github.com/go-kratos/kratos.git |
 | krdc | 2 | 1 |  |
