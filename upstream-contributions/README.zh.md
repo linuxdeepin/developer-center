@@ -132,6 +132,7 @@
 | qtkeychain | 13 | 1 | git@salsa.debian.org:owncloud-team/qtkeychain.git |
 | qtmultimedia | 6 | 2 | https://codereview.qt-project.org/qt/qtmultimedia |
 | QtOpenCoreConfig | 6 | 2 | git@github.com:ic005k/OCAuxiliaryTools.git |
+| qtpositioning | 34 | 1 | https://codereview.qt-project.org/qt/qtpositioning |
 | qtremoteobject | 4 | 1 | https://dami@codereview.qt-project.org/a/qt/qtremoteobjects |
 | QtScrcpy | 17 | 3 |  |
 | qtscxml | 2 | 1 | https://codereview.qt-project.org/qt/qtscxml |
