@@ -175,7 +175,7 @@
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
 | wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
-| wlroots | 158 | 6 | https://github.com/swaywm/wlroots.git |
+| wlroots | 171 | 7 | https://github.com/swaywm/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
 | xfreerdp | 2 | 1 | https://github.com/FreeRDP/FreeRDP.git |
