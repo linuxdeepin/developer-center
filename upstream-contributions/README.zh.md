@@ -83,6 +83,7 @@
 | libical | 15 | 1 |  |
 | libime | 4 | 1 | https://github.com/fcitx/libime |
 | libinput | 126 | 10 | https://gitlab.freedesktop.org/libinput/libinput.git |
+| libmtp | 64 | 1 |  |
 | librsvg | 6 | 1 | git@gitlab.gnome.org:GNOME/librsvg.git |
 | liburing | 16 | 1 |  |
 | lightdm | 2 | 1 | https://github.com/canonical/lightdm.git |
