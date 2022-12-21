@@ -141,7 +141,7 @@
 | qtscxml | 2 | 1 | https://codereview.qt-project.org/qt/qtscxml |
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
-| qttranslations | 71 | 1 | https://codereview.qt-project.org/qt/qttranslations |
+| qttranslations | 300 | 2 | https://codereview.qt-project.org/qt/qttranslations |
 | qtwayland | 123 | 9 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
