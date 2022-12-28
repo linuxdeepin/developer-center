@@ -97,7 +97,7 @@
 | mscms | 18 | 1 | https://source.winehq.org/git/wine.git/ |
 | NCNN | 4 | 1 | git@github.com:Tencent/ncnn.git |
 | nemo-qml-plugin-dbus | 60 | 1 | https://github.com/sailfishos/nemo-qml-plugin-dbus.git |
-| NeoChat | 21 | 4 | https://invent.kde.org/network/neochat.git |
+| NeoChat | 40 | 5 | https://invent.kde.org/network/neochat.git |
 | neovim | 180 | 2 | https://github.com/neovim/neovim.git |
 | netdata | 73 | 2 |  |
 | networkmanager | 74 | 7 | https://gitlab.freedesktop.org/NetworkManager/NetworkManager.git |
