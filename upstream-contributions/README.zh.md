@@ -89,7 +89,7 @@
 | lightdm | 2 | 1 | https://github.com/canonical/lightdm.git |
 | lightproxy | 43 | 5 | https://github.com/xcodebuild/iProxy |
 | lkml | 10 | 1 |  |
-| loggedfs | 7 | 1 | git@github.com:rflament/loggedfs.git |
+| loggedfs | 15 | 2 | git@github.com:rflament/loggedfs.git |
 | ltp | 5424 | 43 | https://github.com/linux-test-project/ltp.git |
 | luceneplusplus | 28 | 2 | git@github.com:luceneplusplus/LucenePlusPlus.git |
 | luci-app-shadowsocks | 16 | 1 | https://github.com/shadowsocks/luci-app-shadowsocks.git |
