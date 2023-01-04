@@ -13,7 +13,7 @@
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
 | box86 | 4015 | 36 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
-| browser | 383 | 14 |  |
+| browser | 390 | 15 |  |
 | chromium | 284 | 17 |  |
 | cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
 | cppdap | 2 | 1 | git@github.com:google/cppdap.git |
