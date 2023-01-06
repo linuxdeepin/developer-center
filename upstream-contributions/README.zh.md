@@ -47,7 +47,7 @@
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
 | gio | 4 | 2 |  |
-| glib | 52 | 3 | git@gitlab.gnome.org:GNOME/glib.git |
+| glib | 65 | 4 | git@gitlab.gnome.org:GNOME/glib.git |
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
 | go-callvis | 9 | 1 | https://github.com/ofabry/go-callvis.git |
