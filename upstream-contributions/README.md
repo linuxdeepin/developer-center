@@ -16,7 +16,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | browser | 390 | 15 |  |
 | chromium | 284 | 17 |  |
 | cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
-| cppdap | 2 | 1 | git@github.com:google/cppdap.git |
+| cppdap | 23 | 2 | git@github.com:google/cppdap.git |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
 | dbus | 301 | 14 | https://github.com/godbus/dbus.git |
