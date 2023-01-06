@@ -46,7 +46,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | gallium | 3 | 1 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
-| gio | 1 | 1 |  |
+| gio | 4 | 2 |  |
 | glib | 50 | 2 | git@gitlab.gnome.org:GNOME/glib.git |
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
