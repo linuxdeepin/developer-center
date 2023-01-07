@@ -13,7 +13,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
 | box86 | 4015 | 36 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
-| browser | 390 | 15 |  |
+| browser | 396 | 16 |  |
 | chromium | 284 | 17 |  |
 | cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
 | cppdap | 23 | 2 | git@github.com:google/cppdap.git |
