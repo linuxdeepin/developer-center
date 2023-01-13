@@ -157,6 +157,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | screenFetch | 34 | 1 | https://github.com/KittyKatt/screenFetch.git |
 | srt | 4 | 1 | git@github.com:Haivision/srt.git |
 | summernote | 105 | 4 |  |
+| swag | 6 | 1 | https://github.com/swaggo/swag.git |
 | system76-power | 6 | 1 | https://github.com/pop-os/system76-power.git |
 | systemd | 174 | 8 | https://github.com/systemd/systemd.git |
 | systemd-zram-generator | 246 | 1 | https://salsa.debian.org/rust-team/debcargo-conf.git |
