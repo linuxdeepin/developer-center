@@ -70,7 +70,7 @@
 | konsole | 2 | 1 |  |
 | kratos | 6 | 1 | https://github.com/go-kratos/kratos.git |
 | krdc | 2 | 1 |  |
-| kusion | 105 | 1 | https://github.com/KusionStack/kusion |
+| kusion | 210 | 2 | https://github.com/KusionStack/kusion |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
 | kwin | 64 | 13 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
