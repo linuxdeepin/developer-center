@@ -70,7 +70,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | konsole | 2 | 1 |  |
 | kratos | 6 | 1 | https://github.com/go-kratos/kratos.git |
 | krdc | 2 | 1 |  |
-| kusion | 210 | 2 | https://github.com/KusionStack/kusion |
+| kusion | 105 | 1 | https://github.com/KusionStack/kusion |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
 | kwin | 64 | 13 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
@@ -112,6 +112,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | p7zip | 31 | 2 |  |
 | pages-server | 17 | 1 | https://codeberg.org/Codeberg/pages-server |
 | pam | 21 | 1 | https://github.com/linux-pam/linux-pam.git |
+| pandoc | 40 | 1 | https://github.com/jgm/pandoc |
 | partclone | 14 | 1 | https://github.com/Thomas-Tsai/partclone.git |
 | pbuilder | 2 | 1 | https://salsa.debian.org/pbuilder-team/pbuilder.git |
 | PCL | 8 | 1 | git@github.com:PointCloudLibrary/pcl.git |
