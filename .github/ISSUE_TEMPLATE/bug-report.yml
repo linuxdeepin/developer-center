@@ -7,7 +7,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      **Thanks for taking a minute to file a bug report! 感谢抽出时间汇报 BUG 缺陷**
+      **Thanks for taking a minute to file a bug report!**
+      **感谢抽出时间汇报 BUG 缺陷！**
       
       A valid bug report should let someone other than you be able to reproduce the same issue, so please provide as much details as possible.
       一个有效的缺陷汇报应当能够使一个你之外的人可以根据所提供的信息有效的复现问题。所以请提供尽可能详细的信息。
@@ -24,8 +25,26 @@ body:
     description: |
       describe the bug you want to report
       在这里描述你遇到的 BUG
+
+- type: textarea
+  attributes:
+    label: SOFTWARE/OS VERSIONS | 软件/系统版本信息
+    description: |
+      describe the related application/package version information
+      在这里描述与之相关的软件和系统版本信息
+    placeholder: |
+      Example:
+      Distribution: deepin v20.9
+      Package: deepin-example 5.1.4-1
   validations:
     required: true
+
+- type: textarea
+  attributes:
+    label: PRE-REQUIREMENT | 预置条件
+    description: |
+      describe the setup that is required to reproduce the bug before attempt to reproduce
+      在这里描述用于复现 BUG 的预置条件
 
 - type: textarea
   attributes:
@@ -53,19 +72,6 @@ body:
     description: |
       describe the expected result
       在这里描述你所期望的结果
-
-- type: textarea
-  attributes:
-    label: SOFTWARE/OS VERSIONS | 软件/系统版本信息
-    description: |
-      describe the related application/package version information
-      在这里描述与之相关的软件和系统版本信息
-    placeholder: |
-      Example:
-      Distribution: deepin v20.7
-      Package: deepin-example 5.1.4-1
-  validations:
-    required: true
 
 - type: textarea
   attributes:
