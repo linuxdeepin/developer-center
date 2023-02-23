@@ -89,7 +89,7 @@
 | libmtp | 64 | 1 |  |
 | librsvg | 6 | 1 | git@gitlab.gnome.org:GNOME/librsvg.git |
 | liburing | 16 | 1 |  |
-| lightdm | 2 | 1 | https://github.com/canonical/lightdm.git |
+| lightdm | 4 | 2 | https://github.com/canonical/lightdm.git |
 | lightproxy | 43 | 5 | https://github.com/xcodebuild/iProxy |
 | lkml | 10 | 1 |  |
 | loggedfs | 15 | 2 | git@github.com:rflament/loggedfs.git |
