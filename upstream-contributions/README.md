@@ -104,7 +104,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | neovim | 180 | 2 | https://github.com/neovim/neovim.git |
 | netdata | 73 | 2 |  |
 | networkmanager | 74 | 7 | https://gitlab.freedesktop.org/NetworkManager/NetworkManager.git |
-| NetworkManagerQt | 55 | 2 | https://invent.kde.org/frameworks/networkmanager-qt.git |
+| NetworkManagerQt | 125 | 3 | https://invent.kde.org/frameworks/networkmanager-qt.git |
 | nix-community | 4 | 1 | https://github.com/nix-community/NUR.git |
 | OCAT | 408 | 1 | git@github.com:ic005k/OCAuxiliaryTools.git |
 | OCAuxiliaryTools | 280 | 5 | git@github.com:ic005k/OCAuxiliaryTools.git |
