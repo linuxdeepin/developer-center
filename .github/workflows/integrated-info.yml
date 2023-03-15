@@ -1,4 +1,4 @@
-name: testing workflow
+name: integrated workflow
 on:
   issues:
     types: [created,labeled,opened,closed,assigned]
