@@ -14,4 +14,4 @@ jobs:
             WECHAT_WORK_BOT_WEBHOOK: ${{secrets.WECHAT_WORK_BOT_WEBHOOK}}
           with:
             msgtype: text
-            content: "github集成提醒：https://github.com/peeweep-test/.github/issues/${{ github.event.issue.number }}"
+            content: "github集成提醒：https://github.com/linuxdeepin/developer-center/issues/${{ github.event.issue.number }}"
