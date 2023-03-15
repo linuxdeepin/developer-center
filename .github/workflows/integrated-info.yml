@@ -1,0 +1,17 @@
+name: testing workflow
+on:
+  issues:
+    types: [created,labeled,opened,closed,assigned]
+
+jobs:
+    messg:
+      runs-on: ubuntu-22.04
+      if: github.event.label.name == 'Project:integrated'
+      steps:
+        - name: github集成提醒
+          uses: chf007/action-wechat-work@master
+          env:
+            WECHAT_WORK_BOT_WEBHOOK: ${{secrets.WECHAT_WORK_BOT_WEBHOOK}}
+          with:
+            msgtype: text
+            content: "github集成提醒：https://github.com/peeweep-test/.github/issues/${{ github.event.issue.number }}"
