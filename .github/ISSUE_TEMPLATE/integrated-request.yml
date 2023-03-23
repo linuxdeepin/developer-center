@@ -1,0 +1,77 @@
+---
+name: Integrated Request | 集成请求
+description: Integrated Request 
+labels: []
+assignees: []
+body:
+- type: markdown
+  attributes:
+    value: |
+      **Thank you for submitting your integration!**
+      **感谢您提交的集成！**
+      
+      Testers need to understand the content of this integration to develop a suitable integration strategy, so please try to describe the content involved in this integration as clearly as possible.
+      测试人员需要了解本次集成的内容以制定合适的集成策略，所以请尽量描述清楚本次集成所涉及的内容。
+
+      ⚠ Note before submitting an integration 提交集成之前请注意:
+      Do not submit non-integration requests here.
+      请勿在此提交非集成请求
+
+- type: textarea
+  attributes:
+    label: package information | 软件包信息
+    description: |
+      package name and version
+      包名以及版本
+    placeholder: |
+      Example:
+      包名 | 版本
+      --  | --
+      dde-api | 1.0.0
+
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Package repository address | 软件包仓库地址
+    description: |
+      Fill in the package repository address here,usually the warehouse address of the obs project
+      在这里填写软件包仓库地址，通常是obs project的仓库地址
+
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: changelog | 更新信息
+    description: |
+      Problems or functions fixed in this integration
+      本次集成修复的问题或者功能
+
+- type: textarea
+  attributes:
+    label: test suggestion | 测试建议
+    description: |
+      Provided to testers for verification based on relevant information
+      提供给测试人员根据相关信息进行验证
+    placeholder: |
+      1. ...
+      2. ...
+      3. ...
+
+- type: textarea
+  attributes:
+    label: Sphere of influence | 影响范围
+    description: |
+      The scope of this integration
+      本次集成所涉及的范围
+
+- type: textarea
+  attributes:
+    label: ADDITIONAL INFORMATION | 额外补充
+    description: |
+      any additional information you may want to provide so we can offer better help
+      有什么额外需要补充的信息的话，可以写到这里
+
+...
