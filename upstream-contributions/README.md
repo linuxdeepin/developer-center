@@ -11,7 +11,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
 | box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
-| box86 | 5520 | 37 | https://github.com/ptitSeb/box86.git |
+| box86 | 5670 | 38 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
 | chromium | 284 | 17 |  |
