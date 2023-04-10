@@ -7,6 +7,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | abseil | 2 | 1 |  |
 | accountservice | 43 | 2 | https://gitlab.freedesktop.org/accountsservice/accountsservice.git |
 | AppArmor | 4 | 1 | https://gitlab.com/apparmor/apparmor.git |
+| AppStream | 1 | 1 | https://github.com/ximion/appstream.git |
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
