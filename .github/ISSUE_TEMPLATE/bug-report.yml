@@ -36,6 +36,7 @@ body:
       Example:
       Distribution: deepin v20.9
       Package: deepin-example 5.1.4-1
+    render: plain
   validations:
     required: true
 
