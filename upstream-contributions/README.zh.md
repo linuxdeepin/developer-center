@@ -106,6 +106,7 @@
 | netdata | 73 | 2 |  |
 | networkmanager | 74 | 7 | https://gitlab.freedesktop.org/NetworkManager/NetworkManager.git |
 | NetworkManagerQt | 125 | 3 | https://invent.kde.org/frameworks/networkmanager-qt.git |
+| nftables | 189 | 1 | https://github.com/google/nftables |
 | nix-community | 4 | 1 | https://github.com/nix-community/NUR.git |
 | OCAT | 408 | 1 | git@github.com:ic005k/OCAuxiliaryTools.git |
 | OCAuxiliaryTools | 450 | 7 | git@github.com:ic005k/OCAuxiliaryTools.git |
