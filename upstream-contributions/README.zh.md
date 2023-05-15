@@ -113,6 +113,7 @@
 | openssl | 195 | 5 | https://github.com/openssl/openssl |
 | ostree | 3 | 1 | https://github.com/ostreedev/ostree.git |
 | p7zip | 31 | 2 |  |
+| PackageKit | 9 | 1 | https://github.com/PackageKit/PackageKit.git |
 | pages-server | 17 | 1 | https://codeberg.org/Codeberg/pages-server |
 | pam | 21 | 1 | https://github.com/linux-pam/linux-pam.git |
 | pandoc | 40 | 1 | https://github.com/jgm/pandoc |
