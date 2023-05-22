@@ -1,5 +1,77 @@
-This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted and merged into the upstream codebase.
+# upstream-contributions
 
+Since its establishment, the Deepin Open Source Community has always adhered to the principles of "openness, transparency, innovation, and co-creation." It is committed to providing a free and open communication platform and the best open-source operating system for everyone through community development and collaboration.
+
+At the same time, the Deepin community has been actively contributing to upstream project source code, building a healthy open-source environment, and enhancing the open-source atmosphere. The following are the main open-source communities and projects that Deepin is involved in:
+
+## Qt Open Source Community
+
+The Qt Open Source Community is dedicated to promoting and advancing the Qt development framework. This community brings together developers from around the world who engage in communication and collaboration through forums, blogs, and social media platforms. The Qt Open Source Community provides abundant resources and learning materials, encouraging developers to contribute to open-source projects and driving innovation and application of Qt technology.
+
+## KDE Open Source Community
+
+
+The KDE Open Source Community focuses on developing and promoting the KDE software framework and applications. The KDE community brings together numerous developers and users who collaborate, communicate, and innovate together. The community provides abundant resources and platforms, including forums, mailing lists, blogs, and social media, to facilitate interaction and knowledge sharing among developers. The open-source projects and applications within the KDE community cover various domains, including desktop environments, applications, tools, and games, among others.
+
+## GNOME Open Source Community
+
+The GNOME Open Source Community is dedicated to developing and promoting the GNOME desktop environment and applications. The community brings together numerous developers and users who collaborate, communicate, and innovate together. The community provides abundant resources and platforms, including forums, mailing lists, blogs, and social media, to facilitate interaction and knowledge sharing among developers. The open-source projects and applications within the GNOME community cover various domains, including desktop environments, applications, tools, and games, among others.
+
+## Debian Open Source Community
+
+The Debian Open Source Community develops and maintains the Debian operating system. The community is composed of a dedicated group of volunteers who are committed to promoting and developing free software. The Debian operating system is renowned for its stability, security, and extensive software package support. The community provides abundant resources and tools, including mailing lists, forums, and documentation, to facilitate communication and collaboration among developers. The Debian community is praised for its open and democratic decision-making process, where community members participate in voting and discussions to determine the project's direction and important matters. 
+
+
+## Fcitx
+
+Fcitx is an open-source input method framework that enables users to input text on Linux and Unix systems. It is a powerful, flexible, and highly customizable input method framework that supports various input method engines and styles.
+The design goal of Fcitx is to provide a user-friendly input experience and flexible configuration options. It supports multi-language input, including Chinese, Japanese, Korean, and more. It offers features such as intelligent word libraries, predictive input, quick input, and custom phrases to enhance input efficiency.
+Fcitx also supports functions like shortcut key switching, word editing, skin and theme customization, allowing users to personalize their settings according to their preferences.
+As an open-source project, Fcitx has an active community where members contribute various input method engines, plugins, and themes, providing users with more choices and functionality extensions.
+
+## WINE
+
+WINE is an open-source project that enables running Windows applications on Linux and other Unix-like systems. It provides compatibility by implementing the Windows API, allowing users to directly run many common Windows applications on non-Windows operating systems.
+
+## Linux Kernel
+
+The Linux kernel is the core component of the Linux operating system. It is an open-source project that is developed and maintained by a large community of developers. The Linux kernel is renowned for its stability, security, and extensive hardware support. It is widely used in various domains, including desktops, servers, mobile devices, and embedded systems.
+
+## Chromium
+
+Chromium is an open-source web browser project and the foundation of the Google Chrome browser. It provides a stable, fast, and secure browsing environment suitable for various operating systems such as Windows, macOS, and Linux.
+The goal of Chromium is to offer a high-performance, customizable, and extensible browser framework. It supports web technologies like HTML, CSS, and JavaScript, and provides rich features and extension capabilities such as tab management, bookmark synchronization, password management, and browser plugins.
+As an open-source project, Chromium has attracted participation from a global community of developers. Community members contribute code, fix vulnerabilities, improve features, and provide testing and feedback for Chromium.
+The openness and customizability of Chromium make it the foundation for many other browser projects, while also driving the development and innovation of web browser technology.
+
+## FFmpeg
+
+FFmpeg is an open-source cross-platform multimedia processing toolset. It offers a wide range of audio and video processing capabilities, including format conversion, encoding/decoding, editing, filter application, and streaming media processing.
+FFmpeg supports multiple audio and video formats, allowing easy conversion and manipulation of media files. It provides command-line tools and library files that enable developers to perform custom multimedia processing tasks using its functionality.
+In addition to basic format conversion and encoding/decoding features, FFmpeg supports advanced functionalities such as audio and video filters, frame-level processing, and adding subtitles and watermarks. It also possesses powerful streaming media processing capabilities, enabling real-time audio and video stream processing and transmission.
+FFmpeg is a widely used multimedia processing tool employed by many applications and projects, including video editing software, streaming media servers, transcoding tools, and media players.
+
+## Mesa
+
+Mesa is an open-source graphics library that provides cross-platform graphics rendering capabilities and implementations of graphics drivers. Its primary goal is to offer high-performance, portable, and open graphics interfaces for computer graphics applications.
+Mesa supports multiple graphics APIs, including OpenGL, Vulkan, and OpenCL, enabling developers to develop graphics applications and achieve hardware-accelerated graphics rendering on different platforms.
+As an open-source project, Mesa's development and maintenance involve a global community of developers. Community members contribute code, fix bugs, and provide testing and feedback for Mesa.
+The openness and portability of Mesa make it an essential component for many operating systems and graphics drivers. It is widely used on platforms such as Linux, macOS, and Windows, providing reliable graphics rendering support for various graphics applications.
+
+## Systemd
+
+systemd is an open-source system and service manager widely used in modern Linux distributions. It rapidly and concurrently starts and manages system services, offering robust logging and troubleshooting capabilities. It has become the default initialization system in many mainstream Linux distributions. deepin has contributed 400+ lines of code to the systemd community.
+
+## Freedesktop
+
+reedesktop is an open-source initiative aimed at promoting interoperability and sharing of technology standards for desktop environments in Linux and other free operating systems. Its goal is to provide a common foundation that enables seamless collaboration among different desktop environments and applications.
+The freedesktop project encompasses multiple areas, including desktop environments, window managers, application launching, notification systems, desktop file management, and icon themes, among others. It provides some common specifications, libraries, and tools to achieve interoperability and consistency in these domains.
+Through the freedesktop project, developers can utilize shared technology standards and APIs to write applications compatible with multiple desktop environments, enabling a consistent user experience across different desktop environments. This helps reduce the workload for developers, enhance application portability, and improve user interoperability.
+The freedesktop project is driven by a community of voluntary contributors who work together to develop and improve these standards and specifications, ensuring that desktop environments in free operating systems better meet the needs of users.
+
+# Upstream Contribution Project Statistics
+
+This page records summary statistics on the number of contributions deepin has made to upstream. The corresponding contributions have been submitted and merged into the upstream codebase.
 Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains.
 | Name | Lines Changed | Pull Requests | Repository |
 | --- | --- | --- | --- |
