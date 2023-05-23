@@ -26,6 +26,7 @@
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
 | debootstrap | 2 | 1 | https://salsa.debian.org/installer-team/debootstrap.git |
 | deepdf | 47 | 1 |  |
+| desktop-file-utils | 2 | 1 | https://gitlab.freedesktop.org/xdg/desktop-file-utils.git |
 | displaylink-debian | 18 | 1 | git@github.com:AdnanHodzic/displaylink-debian.git |
 | distcc | 2 | 1 | https://github.com/distcc/distcc.git |
 | doctotext | 49 | 1 | git@github.com:lithiumFlower/doctotext.git |
