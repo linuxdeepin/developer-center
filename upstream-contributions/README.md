@@ -68,7 +68,8 @@ reedesktop is an open-source initiative aimed at promoting interoperability and 
 The freedesktop project encompasses multiple areas, including desktop environments, window managers, application launching, notification systems, desktop file management, and icon themes, among others. It provides some common specifications, libraries, and tools to achieve interoperability and consistency in these domains.
 Through the freedesktop project, developers can utilize shared technology standards and APIs to write applications compatible with multiple desktop environments, enabling a consistent user experience across different desktop environments. This helps reduce the workload for developers, enhance application portability, and improve user interoperability.
 The freedesktop project is driven by a community of voluntary contributors who work together to develop and improve these standards and specifications, ensuring that desktop environments in free operating systems better meet the needs of users.
-# Upstream Contribution Project StatisticsNote: Contributions submitted upstream do not always use the email of the deepin or uniontech domains.
+# Upstream Contribution Project Statistics
+Note: Contributions submitted upstream do not always use the email of the deepin or uniontech domains.
 | Name | Lines Changed | Pull Requests | Repository |
 | --- | --- | --- | --- |
 | 88x2bu | 82 | 1 | https://github.com/cilynx/rtl88x2bu.git |
