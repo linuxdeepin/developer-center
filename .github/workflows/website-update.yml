@@ -1,0 +1,15 @@
+name: Website Update
+on:
+  push:
+    branches: ["master"]
+
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger deepin website update
+        run: |
+          curl ${{ secrets.DEEPIN_WEBSITE_WEBHOOK }}
