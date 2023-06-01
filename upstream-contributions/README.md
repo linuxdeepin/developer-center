@@ -160,6 +160,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | libmtp | 64 | 1 |  |
 | librsvg | 6 | 1 | git@gitlab.gnome.org:GNOME/librsvg.git |
 | liburing | 16 | 1 |  |
+| libyui | 24 | 1 | https://github.com/libyui/libyui.git |
 | lightdm | 4 | 2 | https://github.com/canonical/lightdm.git |
 | lightproxy | 43 | 5 | https://github.com/xcodebuild/iProxy |
 | lkml | 10 | 1 |  |
