@@ -1,0 +1,56 @@
+---
+name: Troubleshooting | 故障排查
+description: General troubleshooting report
+labels: []
+body:
+- type: markdown
+  attributes:
+    value: |
+      In order to get other people be able to help you out, you should try to provide as much details as possible, so **someone other than you** can be able to reproduce the same issue or know about what's going on.
+      为了能让其他朋友为你提供帮助，你需要尝试尽可能多的提供相关的详细信息，以便 **你之外的人** 可以尝试根据描述来复现问题或者推测原因来解答问题。
+
+      It's also okay if you really don't know how to provide enough information a single time, but just try to provide as much information as possible. Any related information like screenshot, screen record, log data might be helpful.
+      如果你不知道如何一次性提供所有所需的信息也没关系，但请仍然尽量提供尽可能多的信息。截图、录屏、运行日志之类的信息都很可能有帮助，
+
+- type: textarea
+  attributes:
+    label: SUMMARY | 问题概要
+    description: |
+      describe the issue you want to report
+      在这里描述你遇到的问题
+
+- type: textarea
+  attributes:
+    label: SOFTWARE/OS VERSIONS | 软件/系统版本信息
+    description: |
+      describe the related application/package version information
+      在这里描述与之相关的软件和系统版本信息
+    placeholder: |
+      Example:
+      Distribution: deepin v20.9
+      Package: deepin-example 5.1.4-1
+    render: plain
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: STEPS TO REPRODUCE | 复现步骤
+    description: |
+      describe the steps to reproduce the issue
+      在这里描述复现问题的操作步骤
+    placeholder: |
+      1. ...
+      2. ...
+      3. ...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: ADDITIONAL INFORMATION | 额外补充
+    description: |
+      any additional information you may want to provide so we can offer better help
+      有什么额外需要补充的信息的话，可以写到这里
+
+...
