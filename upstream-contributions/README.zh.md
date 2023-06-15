@@ -1,4 +1,4 @@
-# Upstream Contribution Communities
+# 上游贡献
 
 深度开源社区从成立至今，一直秉持“开放、透明、革新、共创”的理念，致力通过社区开发与协作，为所有人提供自由、开放的交流平台以及最好的开源操作系统！
 同时，deepin社区也一直在参与贡献上游项目源码，共建健康的开源环境，提升开源氛围，以下是deepin主要参与的开源社区及项目：
@@ -78,6 +78,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | desktop-file-utils | 2 | 1 | https://gitlab.freedesktop.org/xdg/desktop-file-utils.git |
 | displaylink-debian | 18 | 1 | git@github.com:AdnanHodzic/displaylink-debian.git |
 | distcc | 2 | 1 | https://github.com/distcc/distcc.git |
+| distrobox | 3 | 1 | https://github.com/89luca89/distrobox.git |
 | doctotext | 49 | 1 | git@github.com:lithiumFlower/doctotext.git |
 | dogtail | 8 | 1 | https://gitlab.com/dogtail/dogtail.git |
 | DOM-Ruler | 60 | 1 | https://github.com/HVML/DOM-Ruler |
@@ -187,7 +188,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | qt-creator | 97119 | 6 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
-| qtbase | 5714 | 173 | https://codereview.qt-project.org/qt/qtbase |
+| qtbase | 5729 | 174 | https://codereview.qt-project.org/qt/qtbase |
 | qtdeclarative | 2846 | 28 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
