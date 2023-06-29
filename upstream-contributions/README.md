@@ -195,7 +195,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | pdns | 94 | 1 | git@github.com:PowerDNS/pdns.git |
 | pencil | 128 | 1 | https://github.com/pencil2d/pencil.git |
 | pinyin-golang | 82 | 1 | https://github.com/Lofanmi/pinyin-golang.git |
-| plasma-discover | 1 | 1 | https://invent.kde.org/plasma/discover.git |
+| plasma-discover | 2 | 2 | https://invent.kde.org/plasma/discover.git |
 | plasma-workspace | 4 | 1 | git@invent.kde.org:plasma/plasma-workspace.git |
 | polkit-qt-1 | 17 | 1 | https://invent.kde.org/libraries/polkit-qt-1.git |
 | ptitSeb | 129 | 1 | https://github.com/ptitSeb/box64 |
