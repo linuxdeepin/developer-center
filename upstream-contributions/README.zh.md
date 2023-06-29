@@ -175,7 +175,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | pdns | 94 | 1 | git@github.com:PowerDNS/pdns.git |
 | pencil | 128 | 1 | https://github.com/pencil2d/pencil.git |
 | pinyin-golang | 82 | 1 | https://github.com/Lofanmi/pinyin-golang.git |
-| plasma-discover | 1 | 1 | https://invent.kde.org/plasma/discover.git |
+| plasma-discover | 2 | 2 | https://invent.kde.org/plasma/discover.git |
 | plasma-workspace | 4 | 1 | git@invent.kde.org:plasma/plasma-workspace.git |
 | polkit-qt-1 | 17 | 1 | https://invent.kde.org/libraries/polkit-qt-1.git |
 | ptitSeb | 129 | 1 | https://github.com/ptitSeb/box64 |
