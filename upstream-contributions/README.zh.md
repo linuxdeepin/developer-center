@@ -188,7 +188,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | qt-creator | 97119 | 6 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
-| qtbase | 5731 | 175 | https://codereview.qt-project.org/qt/qtbase |
+| qtbase | 5733 | 176 | https://codereview.qt-project.org/qt/qtbase |
 | qtdeclarative | 2846 | 28 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
