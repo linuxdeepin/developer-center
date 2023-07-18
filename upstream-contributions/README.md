@@ -144,7 +144,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | krdc | 2 | 1 |  |
 | kusion | 105 | 1 | https://github.com/KusionStack/kusion |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
-| kwin | 64 | 13 | https://invent.kde.org/plasma/kwin |
+| kwin | 80 | 14 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
 | kwin-x11 | 1 | 1 | https://invent.kde.org/plasma/kwin |
 | laptop-mode-tools | 1454 | 3 | https://github.com/rickysarraf/laptop-mode-tools.git |
