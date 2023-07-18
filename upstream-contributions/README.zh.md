@@ -124,7 +124,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | krdc | 2 | 1 |  |
 | kusion | 105 | 1 | https://github.com/KusionStack/kusion |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
-| kwin | 64 | 13 | https://invent.kde.org/plasma/kwin |
+| kwin | 80 | 14 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
 | kwin-x11 | 1 | 1 | https://invent.kde.org/plasma/kwin |
 | laptop-mode-tools | 1454 | 3 | https://github.com/rickysarraf/laptop-mode-tools.git |
