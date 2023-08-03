@@ -260,7 +260,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
 | wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
-| wlroots | 176 | 8 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
+| wlroots | 229 | 9 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdg-spec | 2 | 1 | https://gitlab.freedesktop.org/xdg/xdg-specs.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
