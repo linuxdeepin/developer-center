@@ -80,7 +80,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
-| box64 | 72 | 1 | https://github.com/ptitSeb/box64.git |
+| box64 | 176 | 2 | https://github.com/ptitSeb/box64.git |
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
