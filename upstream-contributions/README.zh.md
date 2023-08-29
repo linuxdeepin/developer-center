@@ -56,7 +56,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | abseil | 2 | 1 |  |
 | accountservice | 43 | 2 | https://gitlab.freedesktop.org/accountsservice/accountsservice.git |
 | AppArmor | 4 | 1 | https://gitlab.com/apparmor/apparmor.git |
-| AppStream | 1 | 1 | https://github.com/ximion/appstream.git |
+| AppStream | 11 | 2 | https://github.com/ximion/appstream.git |
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
