@@ -210,7 +210,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
 | qtbase | 5733 | 176 | https://codereview.qt-project.org/qt/qtbase |
-| qtdeclarative | 3075 | 29 | https://codereview.qt-project.org/qt/qtdeclarative |
+| qtdeclarative | 3156 | 30 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
 | qtgamepad | 30 | 1 | https://codereview.qt-project.org/qt/qtgamepad |
