@@ -127,6 +127,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | kwin | 80 | 14 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
 | kwin-x11 | 1 | 1 | https://invent.kde.org/plasma/kwin |
+| l10n-scripty | 14 | 1 | https://invent.kde.org/sysadmin/l10n-scripty.git |
 | laptop-mode-tools | 1454 | 3 | https://github.com/rickysarraf/laptop-mode-tools.git |
 | lazygit | 4 | 2 | https://github.com/jesseduffield/lazygit.git |
 | LedgerSMB | 2 | 1 | https://github.com/ledgersmb/LedgerSMB.git |
