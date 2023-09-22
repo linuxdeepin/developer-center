@@ -75,7 +75,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
 | debootstrap | 2 | 1 | https://salsa.debian.org/installer-team/debootstrap.git |
 | deepdf | 47 | 1 |  |
-| desktop-file-utils | 2 | 1 | https://gitlab.freedesktop.org/xdg/desktop-file-utils.git |
+| desktop-file-utils | 3 | 2 | https://gitlab.freedesktop.org/xdg/desktop-file-utils.git |
 | displaylink-debian | 18 | 1 | git@github.com:AdnanHodzic/displaylink-debian.git |
 | distcc | 2 | 1 | https://github.com/distcc/distcc.git |
 | distrobox | 3 | 1 | https://github.com/89luca89/distrobox.git |
