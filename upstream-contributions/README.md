@@ -149,6 +149,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | kwin-x11 | 1 | 1 | https://invent.kde.org/plasma/kwin |
 | l10n-scripty | 14 | 1 | https://invent.kde.org/sysadmin/l10n-scripty.git |
 | laptop-mode-tools | 1454 | 3 | https://github.com/rickysarraf/laptop-mode-tools.git |
+| layer-shell-qt | 2 | 1 | https://invent.kde.org/plasma/layer-shell-qt |
 | lazygit | 4 | 2 | https://github.com/jesseduffield/lazygit.git |
 | LedgerSMB | 2 | 1 | https://github.com/ledgersmb/LedgerSMB.git |
 | libabigail | 193 | 8 |  |
