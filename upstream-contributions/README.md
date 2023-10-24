@@ -80,7 +80,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
-| box64 | 739 | 7 | https://github.com/ptitSeb/box64.git |
+| box64 | 746 | 10 | https://github.com/ptitSeb/box64.git |
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
@@ -91,7 +91,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
 | dbus | 301 | 14 | https://github.com/godbus/dbus.git |
-| dde-store | 7 | 1 | https://github.com/UbuntuDDE/dde-store.git |
+| dde-store | 20 | 2 | https://github.com/UbuntuDDE/dde-store.git |
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
 | debootstrap | 2 | 1 | https://salsa.debian.org/installer-team/debootstrap.git |
 | deepdf | 47 | 1 |  |
@@ -119,7 +119,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | gallium | 3 | 1 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
-| gio | 67 | 7 |  |
+| gio | 138 | 8 |  |
 | glib | 65 | 4 | git@gitlab.gnome.org:GNOME/glib.git |
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
@@ -211,7 +211,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | qt-creator | 97119 | 6 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
-| qtbase | 5733 | 176 | https://codereview.qt-project.org/qt/qtbase |
+| qtbase | 5763 | 177 | https://codereview.qt-project.org/qt/qtbase |
 | qtdeclarative | 3156 | 30 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
@@ -226,7 +226,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
 | qttranslations | 300 | 2 | https://codereview.qt-project.org/qt/qttranslations |
-| qtwayland | 150 | 10 | https://codereview.qt-project.org/qt/qtwayland |
+| qtwayland | 205 | 12 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
 | quickemu | 41 | 2 | https://github.com/quickemu-project/quickemu.git |
@@ -263,7 +263,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
 | wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
-| wlroots | 229 | 9 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
+| wlroots | 245 | 11 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdg-spec | 2 | 1 | https://gitlab.freedesktop.org/xdg/xdg-specs.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
