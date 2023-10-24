@@ -19,7 +19,7 @@ Fcitx还支持快捷键切换输入法、词语编辑、皮肤和主题定制等
 作为一个开源项目，Fcitx拥有一个活跃的社区，社区成员贡献了各种各样的输入法引擎、插件和主题，为用户提供更多的选择和功能扩展。
 
 ## WINE
-WINE是一个开源项目，允许在Linux和其他类Unix系统上运行Windows应用程序。它通过实现Windows API来提供兼容性，让用户能够直接在非Windows操作系统上运行许多常见的Windows应用程序。deepin已为Fcitx社区贡献70余个patch。
+WINE是一个开源项目，允许在Linux和其他类Unix系统上运行Windows应用程序。它通过实现Windows API来提供兼容性，让用户能够直接在非Windows操作系统上运行许多常见的Windows应用程序。
 
 ## Linux Kernel
 Linux Kernel是linux系统的核心组件，它负责管理计算机的硬件资源和提供基本的系统功能。Kernel是一个软件程序，位于操作系统的最底层，与硬件直接交互。
@@ -60,7 +60,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
-| box64 | 739 | 7 | https://github.com/ptitSeb/box64.git |
+| box64 | 746 | 10 | https://github.com/ptitSeb/box64.git |
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
@@ -71,7 +71,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
 | dbus | 301 | 14 | https://github.com/godbus/dbus.git |
-| dde-store | 7 | 1 | https://github.com/UbuntuDDE/dde-store.git |
+| dde-store | 20 | 2 | https://github.com/UbuntuDDE/dde-store.git |
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
 | debootstrap | 2 | 1 | https://salsa.debian.org/installer-team/debootstrap.git |
 | deepdf | 47 | 1 |  |
@@ -99,7 +99,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | gallium | 3 | 1 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
-| gio | 67 | 7 |  |
+| gio | 138 | 8 |  |
 | glib | 65 | 4 | git@gitlab.gnome.org:GNOME/glib.git |
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
@@ -191,7 +191,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | qt-creator | 97119 | 6 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
-| qtbase | 5733 | 176 | https://codereview.qt-project.org/qt/qtbase |
+| qtbase | 5763 | 177 | https://codereview.qt-project.org/qt/qtbase |
 | qtdeclarative | 3156 | 30 | https://codereview.qt-project.org/qt/qtdeclarative |
 | qtdoc | 2 | 1 | https://codereview.qt-project.org/qt/qtdoc |
 | qtfm | 13 | 1 | git@github.com:rodlie/qtfm.git |
@@ -206,7 +206,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
 | qttranslations | 300 | 2 | https://codereview.qt-project.org/qt/qttranslations |
-| qtwayland | 150 | 10 | https://codereview.qt-project.org/qt/qtwayland |
+| qtwayland | 205 | 12 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
 | quickemu | 41 | 2 | https://github.com/quickemu-project/quickemu.git |
@@ -243,7 +243,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
 | wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
-| wlroots | 229 | 9 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
+| wlroots | 245 | 11 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdg-spec | 2 | 1 | https://gitlab.freedesktop.org/xdg/xdg-specs.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
