@@ -208,7 +208,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | pure | 6 | 1 | https://github.com/sindresorhus/pure.git |
 | pwm | 38 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux |
 | qmlbook | 37 | 3 | git@github.com:qmlbook/qt6book.git |
-| qt-creator | 97119 | 6 | https://codereview.qt-project.org/qt-creator/qt-creator |
+| qt-creator | 97120 | 7 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
 | qt3d | 4 | 1 | https://codereview.qt-project.org/qt/qt3d |
 | qtbase | 5781 | 178 | https://codereview.qt-project.org/qt/qtbase |
