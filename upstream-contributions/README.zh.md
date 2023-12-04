@@ -221,7 +221,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | summernote | 105 | 4 |  |
 | swag | 6 | 1 | https://github.com/swaggo/swag.git |
 | system76-power | 6 | 1 | https://github.com/pop-os/system76-power.git |
-| systemd | 174 | 8 | https://github.com/systemd/systemd.git |
+| systemd | 188 | 9 | https://github.com/systemd/systemd.git |
 | systemd-zram-generator | 246 | 1 | https://salsa.debian.org/rust-team/debcargo-conf.git |
 | tarscpp | 2 | 1 | https://github.com/TarsCloud/TarsCpp.git |
 | tbox | 10 | 1 | https://github.com/tboox/tbox |
