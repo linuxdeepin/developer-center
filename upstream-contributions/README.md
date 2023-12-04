@@ -256,6 +256,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | TTKOCR | 2 | 1 | git@github.com:Greedysky/TTKOCR.git |
 | TTKWidgetTools | 2 | 1 | git@github.com:Greedysky/TTKWidgetTools.git |
 | udftools | 9 | 3 | git@github.com:pali/udftools.git |
+| udisks | 13 | 1 | https://github.com/storaged-project/udisks.git |
 | util-linux | 138 | 4 | https://github.com/util-linux/util-linux.git |
 | V8 | 3 | 1 |  |
 | video | 7 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
