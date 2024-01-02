@@ -80,7 +80,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
-| box64 | 746 | 10 | https://github.com/ptitSeb/box64.git |
+| box64 | 839 | 11 | https://github.com/ptitSeb/box64.git |
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
@@ -112,7 +112,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | fcitx5-configtool | 13 | 1 | https://github.com/fcitx/fcitx5-configtool |
 | Fcitx5-Material-Color | 97 | 3 | https://github.com/hosxy/Fcitx5-Material-Color |
 | fcitx5-qt | 5 | 1 | https://github.com/fcitx/fcitx5-qt |
-| FEX-Emu | 484 | 7 | https://github.com/FEX-Emu/FEX.git |
+| FEX-Emu | 536 | 8 | https://github.com/FEX-Emu/FEX.git |
 | ffmpeg | 31 | 1 | https://git.ffmpeg.org/ffmpeg.git |
 | flameshot | 8 | 1 | git@github.com:flameshot-org/flameshot.git |
 | fsearch | 83 | 3 | https://github.com/cboxdoerfer/fsearch.git |
