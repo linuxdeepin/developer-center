@@ -91,7 +91,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
 | dbus | 301 | 14 | https://github.com/godbus/dbus.git |
-| dde-store | 20 | 2 | https://github.com/UbuntuDDE/dde-store.git |
+| dde-store | 55 | 3 | https://github.com/UbuntuDDE/dde-store.git |
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
 | debootstrap | 2 | 1 | https://salsa.debian.org/installer-team/debootstrap.git |
 | deepdf | 47 | 1 |  |
