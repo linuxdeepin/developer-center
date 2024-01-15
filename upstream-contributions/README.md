@@ -237,6 +237,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | rtl8188eu | 163 | 1 | https://github.com/lwfinger/rtl8188eu.git |
 | rtl8812au | 144 | 1 | https://github.com/gnab/rtl8812au.git |
 | screenFetch | 34 | 1 | https://github.com/KittyKatt/screenFetch.git |
+| sirikali | 329 | 1 | git@github.com:mhogomchungu/sirikali.git |
 | srt | 4 | 1 | git@github.com:Haivision/srt.git |
 | summernote | 105 | 4 |  |
 | swag | 6 | 1 | https://github.com/swaggo/swag.git |
