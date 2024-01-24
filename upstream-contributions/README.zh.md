@@ -64,7 +64,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
 | bpftrace | 175 | 2 | https://github.com/iovisor/bpftrace.git |
 | browser | 396 | 16 |  |
-| chromium | 285 | 18 |  |
+| chromium | 286 | 19 |  |
 | cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
 | cppdap | 23 | 2 | git@github.com:google/cppdap.git |
 | crun | 30 | 3 | https://github.com/containers/crun |
