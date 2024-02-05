@@ -147,7 +147,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | lightdm | 4 | 2 | https://github.com/canonical/lightdm.git |
 | lightproxy | 43 | 5 | https://github.com/xcodebuild/iProxy |
 | linux-kernel (core) | 2525 | 113 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
-| linux-kernel (driver, misc) | 20 | 7 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
+| linux-kernel (driver, misc) | 23 | 8 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | lkml | 10 | 1 |  |
 | loggedfs | 15 | 2 | git@github.com:rflament/loggedfs.git |
 | ltp | 5424 | 43 | https://github.com/linux-test-project/ltp.git |
