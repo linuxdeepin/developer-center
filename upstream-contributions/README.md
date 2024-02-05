@@ -167,7 +167,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | lightdm | 4 | 2 | https://github.com/canonical/lightdm.git |
 | lightproxy | 43 | 5 | https://github.com/xcodebuild/iProxy |
 | linux-kernel (core) | 2525 | 113 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
-| linux-kernel (driver, misc) | 23 | 8 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
+| linux-kernel (driver, misc) | 48 | 9 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | lkml | 10 | 1 |  |
 | loggedfs | 15 | 2 | git@github.com:rflament/loggedfs.git |
 | ltp | 5424 | 43 | https://github.com/linux-test-project/ltp.git |
