@@ -110,7 +110,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | element-plus | 19 | 1 | https://github.com/element-plus/element-plus.git |
 | fcitx | 44 | 9 | https://github.com/fcitx/fcitx |
 | fcitx5 | 43 | 5 | https://github.com/fcitx/fcitx5 |
-| fcitx5-configtool | 13 | 1 | https://github.com/fcitx/fcitx5-configtool |
+| fcitx5-configtool | 25 | 2 | https://github.com/fcitx/fcitx5-configtool |
 | Fcitx5-Material-Color | 97 | 3 | https://github.com/hosxy/Fcitx5-Material-Color |
 | fcitx5-qt | 5 | 1 | https://github.com/fcitx/fcitx5-qt |
 | FEX-Emu | 536 | 8 | https://github.com/FEX-Emu/FEX.git |
