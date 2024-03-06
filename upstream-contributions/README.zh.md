@@ -66,6 +66,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | browser | 396 | 16 |  |
 | chromium | 286 | 19 |  |
 | cloudreve | 2 | 1 | https://github.com/cloudreve/Cloudreve |
+| coost | 15 | 1 | https://github.com/idealvin/coost |
 | cppdap | 23 | 2 | git@github.com:google/cppdap.git |
 | crun | 30 | 3 | https://github.com/containers/crun |
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
