@@ -79,6 +79,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | AppStream | 11 | 2 | https://github.com/ximion/appstream.git |
 | avocado-misc-tests | 11 | 2 | https://github.com/avocado-framework-tests/avocado-misc-tests.git |
 | bcc | 14 | 1 |  |
+| bindbc-freetype | 18 | 1 | https://github.com/BindBC/bindbc-freetype.git |
 | bluez | 39 | 6 | https://github.com/bluez/bluez.git |
 | box64 | 839 | 11 | https://github.com/ptitSeb/box64.git |
 | box86 | 6102 | 40 | https://github.com/ptitSeb/box86.git |
