@@ -210,6 +210,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
 | qttranslations | 300 | 2 | https://codereview.qt-project.org/qt/qttranslations |
+| qtvirtualkeyboard | 4 | 1 | https://codereview.qt-project.org/qt/qtvirtualkeyboard |
 | qtwayland | 451 | 17 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
