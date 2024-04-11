@@ -230,6 +230,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | qtsvg | 26 | 1 | https://codereview.qt-project.org/qt/qtsvg |
 | qttools | 186 | 6 | https://codereview.qt-project.org/qt/qttools |
 | qttranslations | 300 | 2 | https://codereview.qt-project.org/qt/qttranslations |
+| qtvirtualkeyboard | 4 | 1 | https://codereview.qt-project.org/qt/qtvirtualkeyboard |
 | qtwayland | 451 | 17 | https://codereview.qt-project.org/qt/qtwayland |
 | qtwebchannel | 2 | 1 | https://codereview.qt-project.org/qt/qtwebchannel |
 | qtwebengine | 2 | 1 | https://codereview.qt-project.org/qt/qtwebengine |
