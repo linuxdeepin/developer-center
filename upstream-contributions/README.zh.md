@@ -98,7 +98,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | FEX-Emu | 536 | 8 | https://github.com/FEX-Emu/FEX.git |
 | ffmpeg | 31 | 1 | https://git.ffmpeg.org/ffmpeg.git |
 | flameshot | 8 | 1 | git@github.com:flameshot-org/flameshot.git |
-| fsearch | 83 | 3 | https://github.com/cboxdoerfer/fsearch.git |
+| fsearch | 87 | 4 | https://github.com/cboxdoerfer/fsearch.git |
 | gallium | 3 | 1 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
