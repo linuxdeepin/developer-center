@@ -248,7 +248,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | video | 7 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ |
 | vlc | 25 | 3 | git@code.videolan.org:videolan/vlc.git |
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
-| wine | 1347 | 66 | https://source.winehq.org/git/wine.git/ |
+| wine | 1349 | 67 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
 | wlroots | 246 | 12 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
