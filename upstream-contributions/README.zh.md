@@ -73,6 +73,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | cups | 9 | 1 | https://github.com/OpenPrinting/cups.git |
 | dashboard | 29 | 1 | https://github.com/kubernetes/dashboard.git |
 | dbus | 301 | 14 | https://github.com/godbus/dbus.git |
+| dcd | 3 | 1 | https://github.com/dlang-community/DCD |
 | dde-store | 55 | 3 | https://github.com/UbuntuDDE/dde-store.git |
 | debian-salsa/qcoro | 9 | 1 | https://salsa.debian.org/qt-kde-team/extras/qcoro.git |
 | debmake | 6 | 1 | git@salsa.debian.org:debian/debmake.git |
