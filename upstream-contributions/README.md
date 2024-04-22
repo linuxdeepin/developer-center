@@ -108,6 +108,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | DOM-Ruler | 60 | 1 | https://github.com/HVML/DOM-Ruler |
 | doxyqml | 7 | 1 | https://invent.kde.org/sdk/doxyqml |
 | drm | 34 | 2 | https://www.mail-archive.com/ |
+| dub | 8 | 1 | https://github.com/dlang/dub |
 | efibootmgr | 2 | 1 | https://salsa.debian.org/efi-team/efibootmgr.git |
 | efivar | 10 | 1 | https://salsa.debian.org/efi-team/efivar.git |
 | element-plus | 19 | 1 | https://github.com/element-plus/element-plus.git |
