@@ -88,6 +88,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | DOM-Ruler | 60 | 1 | https://github.com/HVML/DOM-Ruler |
 | doxyqml | 7 | 1 | https://invent.kde.org/sdk/doxyqml |
 | drm | 34 | 2 | https://www.mail-archive.com/ |
+| dub | 8 | 1 | https://github.com/dlang/dub |
 | efibootmgr | 2 | 1 | https://salsa.debian.org/efi-team/efibootmgr.git |
 | efivar | 10 | 1 | https://salsa.debian.org/efi-team/efivar.git |
 | element-plus | 19 | 1 | https://github.com/element-plus/element-plus.git |
