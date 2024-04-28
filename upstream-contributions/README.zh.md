@@ -224,7 +224,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | rtl8188eu | 163 | 1 | https://github.com/lwfinger/rtl8188eu.git |
 | rtl8812au | 144 | 1 | https://github.com/gnab/rtl8812au.git |
 | screenFetch | 34 | 1 | https://github.com/KittyKatt/screenFetch.git |
-| serve-d | 26 | 2 | https://github.com/Pure-D/serve-d/ |
+| serve-d | 49 | 3 | https://github.com/Pure-D/serve-d/ |
 | sirikali | 667 | 4 | git@github.com:mhogomchungu/sirikali.git |
 | srt | 4 | 1 | git@github.com:Haivision/srt.git |
 | summernote | 105 | 4 |  |
