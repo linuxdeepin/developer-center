@@ -193,6 +193,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | PurC-Fetcher | 60 | 1 | https://github.com/HVML/PurC-Fetcher |
 | pure | 6 | 1 | https://github.com/sindresorhus/pure.git |
 | pwm | 38 | 1 | https://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux |
+| pylint | 7 | 1 | https://github.com/pylint-dev/pylint.git |
 | qmlbook | 37 | 3 | git@github.com:qmlbook/qt6book.git |
 | qt-creator | 97120 | 7 | https://codereview.qt-project.org/qt-creator/qt-creator |
 | qt-kde | 18 | 1 | git@salsa.debian.org:qt-kde-team/qt-kde-team.pages.debian.net.git |
