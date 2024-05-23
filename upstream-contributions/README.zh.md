@@ -254,7 +254,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | vstools | 3 | 2 | https://codereview.qt-project.org/qt-labs/vstools |
 | wine | 1506 | 74 | https://source.winehq.org/git/wine.git/ |
 | WizQTClient | 3 | 1 | git@github.com:WizTeam/WizQTClient.git |
-| wlroots | 248 | 13 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
+| wlroots | 249 | 14 | https://gitlab.freedesktop.org/wlroots/wlroots.git |
 | wpasupplicant | 77 | 5 | git://w1.fi/srv/git/hostap.git |
 | xdg-spec | 2 | 1 | https://gitlab.freedesktop.org/xdg/xdg-specs.git |
 | xdotool | 3 | 1 | https://github.com/jordansissel/xdotool.git |
