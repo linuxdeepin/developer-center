@@ -165,7 +165,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | neovim | 180 | 2 | https://github.com/neovim/neovim.git |
 | netdata | 73 | 2 |  |
 | networkmanager | 74 | 7 | https://gitlab.freedesktop.org/NetworkManager/NetworkManager.git |
-| NetworkManagerQt | 125 | 3 | https://invent.kde.org/frameworks/networkmanager-qt.git |
+| NetworkManagerQt | 129 | 4 | https://invent.kde.org/frameworks/networkmanager-qt.git |
 | nftables | 212 | 3 | https://github.com/google/nftables |
 | nix-community | 4 | 1 | https://github.com/nix-community/NUR.git |
 | OCAT | 408 | 1 | git@github.com:ic005k/OCAuxiliaryTools.git |
