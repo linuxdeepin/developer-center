@@ -150,7 +150,7 @@ Note: Contributions submitted upstream do not always use the email of the deepin
 | krdc | 2 | 1 |  |
 | kusion | 105 | 1 | https://github.com/KusionStack/kusion |
 | kwayland | 15 | 2 | https://gitlab.freedesktop.org/wayland/wayland |
-| kwin | 80 | 14 | https://invent.kde.org/plasma/kwin |
+| kwin | 82 | 15 | https://invent.kde.org/plasma/kwin |
 | kwin-wayland | 26 | 1 | https://invent.kde.org/plasma/kwin |
 | kwin-x11 | 1 | 1 | https://invent.kde.org/plasma/kwin |
 | l10n-scripty | 14 | 1 | https://invent.kde.org/sysadmin/l10n-scripty.git |
