@@ -105,7 +105,7 @@ freedesktop项目是由自愿参与的开发者社区推动的，他们共同努
 | gallium | 3 | 1 | git@gitlab.freedesktop.org:mesa/mesa.git |
 | gdbfrontend | 2 | 1 | git@github.com:martinribelotta/gdbfrontend.git |
 | gdi32 | 3 | 1 | https://source.winehq.org/git/wine.git/ |
-| gio | 154 | 9 |  |
+| gio | 168 | 10 |  |
 | glib | 227 | 5 | git@gitlab.gnome.org:GNOME/glib.git |
 | gmsm | 450 | 2 | https://github.com/tjfoc/gmsm.git |
 | gn | 27 | 3 |  |
