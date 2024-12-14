@@ -1,17 +1,24 @@
-Dear deepin OS User,​
-​
-deepin OS was developed in China with a global perspective. To enhance the localization experience of this Chinese Linux distribution for users around the world, we aim to make deepin OS accessible to the global community. We warmly invite more open-source enthusiasts and community organizations to join our localization efforts!​
+**Global Open-Source Enthusiasts and Community Organizations:**
 
-Currently, deepin supports 55 languages, including Simplified Chinese, Traditional Chinese, Tibetan, Uyghur, English, Spanish, Portuguese, German, French, Hungarian, Italian, Polish, Ukrainian, Albanian, Azerbaijani, Finnish, Dutch, Czech, Turkish, Catalan, Slovenian, Serbian, Arabic, Malay, Galician, Korean, Croatian, Danish, Romanian, Karelian, Klingon, Lithuanian, Indonesian, Slovak, Greek, Hindi, Kabyle, Japanese, Nepali, Persian, Estonian, Kazakh, Bulgarian, Swedish, Amharic, Vietnamese, Hebrew, Bengali, Thai, Uzbek, Filipino, and Urdu.​
+Dear all, greetings! The deepin operating system, originating from China, aims to serve users worldwide. We sincerely hope more users can personally experience this Linux distribution from China. To this end, we continuously strive to improve localization to ensure that deepin delivers the best experience to users across the globe.
 
-We are committed to expanding our language support even further. If you find any inaccuracies in existing translations, please help us correct them to improve translation accuracy. Additionally, if you'd like to translate into a language that deepin does not currently support, we welcome your participation to help us build a more comprehensive, global language support system.​
-​
-### How to participate in internationalization translation:​
+In the brand-new deepin 25 version, we have comprehensively optimized and innovated the system. New features span multiple modules, including the installer, taskbar, control center, file manager, notifications, and window compositor. However, recognizing the diversity of global users, we understand that the system still has room for improvement in supporting localized languages for international users. As an open-source community, we are dedicated to enhancing global language translations, but our current team's resources may limit the pace of progress.
 
-1. Register on the Transifex platform for translation at <https://app.transifex.com/signup/open-source/>​​​
-2. Apply to join the official deepin internationalization user group at <https://www.transifex.com/linuxdeepin/public/> . We will review applications regularly and notify applicants through Transifex.​
-3. Once approved, you can request to join specific projects and start submitting translations.​
-​
-### Join Us: ​
+Therefore, we sincerely invite all open-source enthusiasts to join our translation team!
 
-For more information, join our translation group at <https://t.me/+-OAA-A_r2nI4YmI1>.
+- If you find errors or imprecisions in the current translations, we welcome your feedback and assistance in correcting them to further improve translation quality.
+- If you are willing to contribute to translating languages not yet supported by deepin, we warmly welcome your participation to accelerate the improvement of deepin's global language support system.
+
+Every contribution you make is a solid step in helping deepin reach the world and serve users globally. Let us work together to build a stronger deepin community and allow more users to experience the unique charm of the deepin operating system!
+
+Finally, we once again sincerely invite open-source enthusiasts and community organizations worldwide to join us in localizing and translating the deepin operating system!
+
+**How to Participate:**
+
+- First, register on the Transifex translation platform at <https://app.transifex.com/signup/open-source/>.
+- Then, apply to join the official deepin internationalization group at <https://www.transifex.com/linuxdeepin/public/>. We will review applications regularly and notify you via Transifex.
+- Once approved, you can apply for the projects you want to participate in and contribute by creating or submitting translation resources.
+
+**Join Us:**
+
+You can also join our translation group via <https://t.me/+-OAA-A_r2nI4YmI1> for more information.

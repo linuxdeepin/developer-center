@@ -1,17 +1,24 @@
-Estimado usuario del sistema operativo deepin:​
+**Entusiastas del software libre y organizaciones comunitarias de todo el mundo:**
 
-El sistema operativo deepin nació en China con una visión global. Para que los usuarios de todo el mundo puedan experimentar una distribución de Linux de origen chino, queremos mejorar la experiencia de localización de deepin a nivel internacional. Esperamos que cada vez más entusiastas de código abierto y organizaciones de la comunidad participen en el proceso de traducción.​
+Estimados todos, ¡un cordial saludo! El sistema operativo **deepin**, originado en China, tiene como objetivo servir a usuarios de todo el mundo. Anhelamos sinceramente que cada vez más personas puedan experimentar este sistema operativo Linux originario de China. Para lograrlo, trabajamos constantemente en mejorar la experiencia de localización, asegurando que deepin pueda ofrecer la mejor experiencia posible a usuarios de diferentes regiones del mundo.
 
-Actualmente, soportamos 55 idiomas, incluidos: chino simplificado, chino tradicional, tibetano, uigur, inglés, español, portugués, alemán, francés, húngaro, italiano, polaco, ucraniano, albanés, azerbaiyano, finés, holandés, checo, turco, catalán, esloveno, serbio, árabe, malayo, gallego, coreano, croata, danés, rumano, kareliano, klingon, lituano, indonesio, eslovaco, griego, hindi, cabilio, japonés, nepalí, persa, estonio, kazajo, búlgaro, sueco, amárico, vietnamita, hebreo, bengalí, tailandés, uzbeko, filipino y urdu.​
+En la nueva versión **deepin 25**, hemos realizado optimizaciones e innovaciones integrales en el sistema. Las nuevas funcionalidades abarcan diversos módulos, como el instalador, la barra de tareas, el centro de control, el administrador de archivos, las notificaciones y el compositor de ventanas, entre otros. Sin embargo, reconociendo la diversidad de nuestros usuarios globales, somos conscientes de que aún queda mucho por hacer en cuanto al soporte de idiomas locales en diferentes regiones. Como comunidad de software libre, estamos comprometidos con mejorar la traducción de idiomas en todo el mundo, aunque con los recursos actuales de nuestro equipo, el avance puede ser limitado.
 
-Continuaremos expandiendo el soporte a más idiomas. Si encuentra errores o inexactitudes en las traducciones actuales, le invitamos a señalar y corregirlos para mejorar la precisión. Si desea ayudar a traducir un idioma que actualmente no está soportado por deepin, también estamos ansiosos por contar con su participación para mejorar nuestro sistema global de soporte de idiomas.​
-​
-### Cómo participar en la internacionalización:​
+Por ello, hacemos una invitación sincera a todos los amantes del software libre a unirse a nuestro equipo de traducción:
 
-- Primero, regístrese en <https://app.transifex.com/signup/open-source/> para una cuenta de traducción de Transifex.​
-- Luego, solicite unirse al grupo oficial de usuarios de internacionalización de deepin en <https://www.transifex.com/linuxdeepin/public/>. Revisamos las solicitudes regularmente y le notificaremos a través de Transifex.​
-- Una vez aprobado, puede solicitar el proyecto en el que quiere participar y enviar recursos de traducción o crear traducciones.​
-​
-### Únase a nosotros:​
+- Si encuentras errores o imprecisiones en las traducciones actuales, agradecemos tus comentarios y colaboración para corregirlos, con el objetivo de mejorar la calidad de las traducciones.
+- Si estás dispuesto a contribuir con traducciones en idiomas que deepin aún no admite, estaríamos encantados de contar con tu apoyo para acelerar el perfeccionamiento del sistema de soporte multilingüe de deepin.
 
-Puede unirse a nuestro grupo de traducción para obtener más información en <https://t.me/+-OAA-A_r2nI4YmI1>.
+Cada una de tus contribuciones será un paso firme hacia el objetivo de llevar deepin al mundo y servir a usuarios globales. Trabajemos juntos para construir una comunidad deepin más sólida, ¡y permitamos que más usuarios experimenten el atractivo único de este sistema operativo!
+
+Finalmente, reiteramos nuestra invitación sincera a los entusiastas del software libre y a las organizaciones comunitarias de todo el mundo para que se unan a nuestro esfuerzo de localización y traducción del sistema operativo deepin.
+
+**Cómo participar:**
+
+- Primero, regístrate en la plataforma de traducción Transifex a través del enlace: https://app.transifex.com/signup/open-source/.
+- Luego, solicita unirte al grupo oficial de internacionalización de deepin en https://www.transifex.com/linuxdeepin/public/. Revisaremos las solicitudes regularmente y te notificaremos directamente en Transifex.
+- Una vez aceptado, podrás solicitar un proyecto específico en el que participar y contribuir creando o enviando recursos de traducción.
+
+**Únete a nosotros:**
+
+También puedes unirte a nuestro grupo de traducción a través del enlace https://t.me/+-OAA-A_r2nI4YmI1 para obtener más información.

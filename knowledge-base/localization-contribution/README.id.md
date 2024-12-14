@@ -1,17 +1,24 @@
-Kepada pengguna sistem operasi deepin yang terhormat:​
+**Penggemar Open Source dan Organisasi Komunitas di Seluruh Dunia:**
 
-Sistem operasi deepin tumbuh dari Tiongkok dengan visi global. Agar pengguna di seluruh dunia dapat merasakan distribusi Linux dari Tiongkok, kami ingin meningkatkan pengalaman lokalisasi deepin di tingkat internasional. Kami berharap lebih banyak penggiat open source dan organisasi komunitas yang akan berpartisipasi dalam proses penerjemahan ini!​
+Hadirin sekalian yang terhormat, selamat datang! Sistem operasi deepin, yang berasal dari Tiongkok, dirancang untuk melayani pengguna di seluruh dunia. Kami berharap semakin banyak pengguna dapat merasakan langsung distribusi Linux ini yang dikembangkan di Tiongkok. Oleh karena itu, kami terus berupaya meningkatkan pengalaman lokal sehingga deepin dapat memberikan pengalaman terbaik untuk pengguna di seluruh dunia.
 
-Saat ini, kami telah mendukung 55 bahasa, termasuk: Mandarin Sederhana, Mandarin Tradisional, Tibet, Uighur, Inggris, Spanyol, Portugis, Jerman, Prancis, Hongaria, Italia, Polandia, Ukraina, Albania, Azerbaijan, Finlandia, Belanda, Ceko, Turki, Katalan, Slovenia, Serbia, Arab, Melayu, Galicia, Korea, Kroasia, Denmark, Rumania, Karelia, Klingon, Lituania, Indonesia, Slowakia, Yunani, Hindi, Kabyle, Jepang, Nepal, Persia, Estonia, Kazakh, Bulgaria, Swedia, Amharik, Vietnam, Ibrani, Bengali, Thai, Uzbek, Filipina, dan Urdu.​
+Pada versi terbaru deepin 25, kami telah melakukan optimasi dan inovasi menyeluruh. Fitur baru mencakup berbagai modul seperti installer, taskbar, control center, file manager, notifikasi, compositor window, dan masih banyak lagi. Meskipun demikian, kami menyadari bahwa sistem ini masih perlu ditingkatkan dalam hal dukungan bahasa lokal untuk pengguna internasional.
 
-Kami akan terus memperluas dukungan ke lebih banyak bahasa. Jika Anda menemukan kesalahan atau ketidakakuratan dalam terjemahan yang ada, kami menyambut Anda untuk menunjukkannya dan melakukan perbaikan demi meningkatkan akurasi. Jika Anda ingin membantu menerjemahkan bahasa yang belum didukung oleh deepin saat ini, kami sangat menantikan partisipasi Anda untuk membantu mempercepat sistem dukungan bahasa global kami.​
+Sebagai komunitas open source, kami terus berusaha menyempurnakan dukungan terjemahan global. Namun, dengan tim kami saat ini, kemajuan mungkin terasa lambat.
 
-### Cara Berpartisipasi dalam Penerjemahan Internasional:​
+Oleh karena itu, kami dengan tulus mengundang Anda yang mencintai open source untuk bergabung dengan tim penerjemah kami!
 
-1. Pertama, Anda dapat mendaftar akun penerjemahan Transifex di <https://app.transifex.com/signup/open-source/>.​
-2. Kemudian, ajukan untuk bergabung dengan grup pengguna internasional resmi deepin di <https://www.transifex.com/linuxdeepin/public/>, kami akan melakukan tinjauan secara berkala dan memberi tahu Anda melalui Transifex.​
-3. Setelah disetujui, Anda dapat mengajukan proyek yang ingin Anda ikuti dan mengirimkan sumber daya atau membuat terjemahan.​
-​
-### Bergabunglah dengan Kami:​
+- Jika Anda menemukan kesalahan atau ketidakakuratan dalam terjemahan yang ada, kami sangat menghargai masukan Anda untuk memperbaiki dan meningkatkan kualitas terjemahan.
+- Jika Anda bersedia menyumbangkan terjemahan untuk bahasa yang belum didukung oleh deepin, kami dengan antusias menyambut kontribusi Anda untuk mempercepat penyempurnaan sistem dukungan bahasa global.
 
-Anda dapat bergabung dengan grup penerjemahan kami untuk informasi lebih lanjut di <https://t.me/+-OAA-A_r2nI4YmI1>.
+Setiap kontribusi Anda merupakan langkah penting untuk membawa deepin ke seluruh dunia dan memberikan layanan terbaik bagi pengguna global. Mari kita bersama-sama membangun komunitas deepin yang lebih kuat agar lebih banyak pengguna dapat merasakan keunggulan sistem operasi ini!
+
+**Cara Berpartisipasi:**
+
+1. Daftar di platform terjemahan Transifex melalui tautan: https://app.transifex.com/signup/open-source/.
+2. Ajukan permohonan untuk bergabung dengan grup internasional resmi deepin melalui: https://www.transifex.com/linuxdeepin/public/. Kami akan secara rutin memverifikasi aplikasi dan memberi tahu Anda melalui Transifex.
+3. Setelah aplikasi Anda disetujui, Anda dapat memilih proyek yang ingin Anda ikuti, membuat terjemahan baru, atau mengirimkan sumber daya terjemahan.
+
+**Bergabunglah dengan Kami:**
+
+Anda dapat bergabung dengan grup penerjemah kami melalui tautan https://t.me/+-OAA-A_r2nI4YmI1 untuk mendapatkan informasi lebih lanjut.
