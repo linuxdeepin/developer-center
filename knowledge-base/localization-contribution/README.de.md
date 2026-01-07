@@ -16,7 +16,7 @@ Abschließend laden wir erneut alle globalen Open-Source-Enthusiasten und Commun
 **Wie man teilnimmt:**
 
 - Registrieren Sie sich zunächst auf der Transifex-Übersetzungsplattform unter https://app.transifex.com/signup/open-source/.
-- Beantragen Sie anschließend den Beitritt zur offiziellen internationalen deepin-Gruppe unter https://www.transifex.com/linuxdeepin/public/. Wir werden die Anträge regelmäßig prüfen und Sie über Transifex benachrichtigen.
+- Beantragen Sie anschließend den Beitritt zur offiziellen internationalen deepin-Gruppe unter https://explore.transifex.com/linuxdeepin/. Wir werden die Anträge regelmäßig prüfen und Sie über Transifex benachrichtigen.
 - Nach der Genehmigung können Sie ein Projekt auswählen, an dem Sie teilnehmen möchten, und entweder eine neue Sprache hinzufügen oder Übersetzungsressourcen einreichen.
 
 **Treten Sie uns bei:**

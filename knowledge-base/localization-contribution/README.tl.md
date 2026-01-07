@@ -9,7 +9,7 @@ Patuloy kaming magdaragdag ng suporta para sa mas maraming wika. Kung makakita k
 ### Paano sumali sa internasyonal na pagsasalin:​
 
 1. Una, maaari kang magparehistro sa Transifex gamit ang link na ito: [Transifex Registration](https://app.transifex.com/signup/open-source/).​​​​
-2. Pagkatapos, mag-apply sa opisyal na internasyonal na grupo ng deepin: [Deepin sa Transifex](https://www.transifex.com/linuxdeepin/public/). Kapag natanggap ang iyong aplikasyon, makakatanggap ka ng notification sa Transifex.​
+2. Pagkatapos, mag-apply sa opisyal na internasyonal na grupo ng deepin: [Deepin sa Transifex](https://explore.transifex.com/linuxdeepin/). Kapag natanggap ang iyong aplikasyon, makakatanggap ka ng notification sa Transifex.​
 3. Kapag tinanggap na, maaari ka nang mag-apply sa mga proyektong nais mong tulungan sa pagsasalin.​
 ​
 ### Sumali sa amin: ​

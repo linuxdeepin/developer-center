@@ -16,7 +16,7 @@
 **参加方法：**
 
 - まず、<https://app.transifex.com/signup/open-source/> からTransifex翻訳プラットフォームに登録してください。
-- 次に、<https://www.transifex.com/linuxdeepin/public/> でdeepin公式の国際化ユーザーグループへの参加申請を行ってください。申請は定期的に審査され、Transifexを通じて通知いたします。
+- 次に、<https://explore.transifex.com/linuxdeepin/> でdeepin公式の国際化ユーザーグループへの参加申請を行ってください。申請は定期的に審査され、Transifexを通じて通知いたします。
 - 承認後、参加したいプロジェクトを選び、翻訳言語の作成や翻訳リソースの提出を行っていただけます。
 
 **参加はこちら：**

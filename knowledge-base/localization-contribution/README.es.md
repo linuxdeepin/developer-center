@@ -16,7 +16,7 @@ Finalmente, reiteramos nuestra invitación sincera a los entusiastas del softwar
 **Cómo participar:**
 
 - Primero, regístrate en la plataforma de traducción Transifex a través del enlace: https://app.transifex.com/signup/open-source/.
-- Luego, solicita unirte al grupo oficial de internacionalización de deepin en https://www.transifex.com/linuxdeepin/public/. Revisaremos las solicitudes regularmente y te notificaremos directamente en Transifex.
+- Luego, solicita unirte al grupo oficial de internacionalización de deepin en https://explore.transifex.com/linuxdeepin/. Revisaremos las solicitudes regularmente y te notificaremos directamente en Transifex.
 - Una vez aceptado, podrás solicitar un proyecto específico en el que participar y contribuir creando o enviando recursos de traducción.
 
 **Únete a nosotros:**

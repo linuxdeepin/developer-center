@@ -16,7 +16,7 @@ Setiap kontribusi Anda merupakan langkah penting untuk membawa deepin ke seluruh
 **Cara Berpartisipasi:**
 
 1. Daftar di platform terjemahan Transifex melalui tautan: https://app.transifex.com/signup/open-source/.
-2. Ajukan permohonan untuk bergabung dengan grup internasional resmi deepin melalui: https://www.transifex.com/linuxdeepin/public/. Kami akan secara rutin memverifikasi aplikasi dan memberi tahu Anda melalui Transifex.
+2. Ajukan permohonan untuk bergabung dengan grup internasional resmi deepin melalui: https://explore.transifex.com/linuxdeepin/. Kami akan secara rutin memverifikasi aplikasi dan memberi tahu Anda melalui Transifex.
 3. Setelah aplikasi Anda disetujui, Anda dapat memilih proyek yang ingin Anda ikuti, membuat terjemahan baru, atau mengirimkan sumber daya terjemahan.
 
 **Bergabunglah dengan Kami:**

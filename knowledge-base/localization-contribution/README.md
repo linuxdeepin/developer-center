@@ -16,7 +16,7 @@ Finally, we once again sincerely invite open-source enthusiasts and community or
 **How to Participate:**
 
 - First, register on the Transifex translation platform at <https://app.transifex.com/signup/open-source/>.
-- Then, apply to join the official deepin internationalization group at <https://www.transifex.com/linuxdeepin/public/>. We will review applications regularly and notify you via Transifex.
+- Then, apply to join the official deepin internationalization group at <https://explore.transifex.com/linuxdeepin/>. We will review applications regularly and notify you via Transifex.
 - Once approved, you can apply for the projects you want to participate in and contribute by creating or submitting translation resources.
 
 **Join Us:**

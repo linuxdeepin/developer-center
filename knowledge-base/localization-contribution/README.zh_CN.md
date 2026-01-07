@@ -16,7 +16,7 @@
 **如何参与：**
 
 - 首先您可以通过 <https://app.transifex.com/signup/open-source/> 完成transifex翻译平台注册。
-- 然后申请加入深度官方国际化用户组 <https://www.transifex.com/linuxdeepin/public/> ，我们将会定期审核后直接通过transifex通知大家。
+- 然后申请加入深度官方国际化用户组 <https://explore.transifex.com/linuxdeepin/> ，我们将会定期审核后直接通过transifex通知大家。
 - 申请通过后您可以申请你要参与的项目，完成对翻译语言的创建或翻译资源提交
 
 **加入我们：**

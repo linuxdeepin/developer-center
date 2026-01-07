@@ -16,7 +16,7 @@ Finalmente, convidamos novamente com sinceridade os entusiastas de código abert
 **Como Participar:**
 
 - Primeiramente, registre-se na plataforma de tradução Transifex em <https://app.transifex.com/signup/open-source/>.
-- Em seguida, solicite a adesão ao grupo oficial de internacionalização do deepin em <https://www.transifex.com/linuxdeepin/public/>. Revisaremos as solicitações regularmente e notificaremos você diretamente pelo Transifex.
+- Em seguida, solicite a adesão ao grupo oficial de internacionalização do deepin em <https://explore.transifex.com/linuxdeepin/>. Revisaremos as solicitações regularmente e notificaremos você diretamente pelo Transifex.
 - Após a aprovação, você pode solicitar participação em projetos específicos e contribuir criando ou enviando recursos de tradução.
 
 **Junte-se a Nós:**
